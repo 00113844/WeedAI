@@ -127,7 +127,9 @@ graph TD
     Worker --> SimAgent
 
     %% Synthesis & Output
-    GeoAgent & RegAgent & SimAgent -- "Structured Data" --> Orchestrator
+    GeoAgent --> Orchestrator
+    RegAgent --> Orchestrator
+    SimAgent --> Orchestrator
     Orchestrator -- "Draft Answer" --> OutputRail{Output Guardrails}
     
     OutputRail -- "Hallucination Detected" --> Orchestrator
