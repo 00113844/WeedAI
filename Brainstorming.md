@@ -1,4 +1,4 @@
-We will implement a **"Sandwich" Guardrail pattern**:
+**Guardrail pattern**:
 
 1.  **Input Rail:** Filters user queries *before* they reach the agents (e.g., blocking political or medical questions).
 2.  **Output Rail:** Validates the agent's response *before* sending it to the user (ensuring the response stays within the agronomic domain).
@@ -101,7 +101,7 @@ graph TD
     InputRail -- "Agronomic Query" --> Orchestrator
 
     %% Orchestration Layer (LangGraph)
-    subgraph "Reactive Agent Core (LangGraph)"
+    subgraph AgentCore ["Reactive Agent Core (LangGraph)"]
         Orchestrator[Main Orchestrator Agent]
         Orchestrator -- "Plan & Delegate" --> GeoAgent[Geospatial Agent]
         Orchestrator -- "Plan & Delegate" --> RegAgent[Regulatory Agent]
@@ -122,7 +122,7 @@ graph TD
     %% Simulation Path (Legacy Wrapper)
     SimAgent -- "Async Job" --> JobQueue[Redis Queue]
     JobQueue --> Worker[Sim Worker / Wrapper]
-    Worker --> WSW[Weed Seed Wizard (Java VM)]
+    Worker --> WSW[Weed Seed Wizard Java VM]
     WSW --> Worker
     Worker --> SimAgent
 
