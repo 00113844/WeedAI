@@ -14,7 +14,7 @@ Here is the detailed development roadmap and the architectural diagram.
 *Objective: Define the "Safety Box" for the AI. If the query isn't about crops, weeds, or herbicides, the system refuses to answer.*
 
   * **Sub-Tasks:**
-      * Define **Topical Rails** (Allowed topics: Agronomy, Botany, Chemistry, Weather. Disallowed: Human Medicine, Politics, General Coding).
+      * Define **Topical Rails** (Allowed topics: Agronomy, Botany, Weed Identification, Chemistry, Weather. Disallowed: Human Medicine, Politics, General Coding).
       * Implement **Jailbreak Detection** (Preventing users from bypassing safety prompts).
       * Develop **Hallucination Detection** (Check if cited herbicide rates actually exist in the retrieved context).
       * Set up PII (Personally Identifiable Information) masking if user farm data is uploaded.
