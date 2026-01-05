@@ -1,7 +1,7 @@
 # WeedAI Project Roadmap
 
 ## 1. Project Overview
-**WeedAI** is an advanced agronomic AI system designed to assist with weed identification, herbicide management, and crop safety. It leverages a multi-agent architecture with domain-specific guardrails, a knowledge graph (GraphRAG), and a legacy simulation wrapper.
+**WeedAI** is an advanced agronomic AI system designed to assist with assist agronomist with decision making on integrated weed management (herbicide) management. It leverages a multi-agent architecture with domain-specific guardrails, a knowledge graph (GraphRAG), and a legacy simulation wrapper.
 
 ## 2. Tech Stack
 - **Language:** Python 3.11+ (Backend/AI), TypeScript (Frontend), Java (Legacy Simulation)
@@ -78,12 +78,28 @@ WeedAI/
 - [ ] **Testing:** Create unit tests for guardrail responses.
 
 ### Phase 3: Knowledge Graph & RAG
-- [ ] **Ingestion Pipeline:** Parse the `search-results.csv` export to identify unique active ingredient combinations and download representative PDF labels from `elabels.apvma.gov.au`.
-- [ ] **PDF Parsing:** Use `llama-parse` to extract text and tables from downloaded PDFs (chosen for superior table extraction).
-- [ ] **Graph Construction:**
-    - Use `langchain-neo4j` to build a Knowledge Graph.
-    - **Vector Store:** Use `Neo4jVector` to store text chunks with OpenAI embeddings.
-    - **Graph Structure:** Extract entities (Herbicide, Weed, Crop) and relationships (`CONTROLS`, `REGISTERED_FOR`) using an LLM extraction chain.
+- [x] **Ingestion Pipeline:** Parse the `search-results.csv` export to identify unique active ingredient combinations and download representative PDF labels from `elabels.apvma.gov.au`.
+- [x] **PDF Parsing:** ~~Use `llama-parse`~~ Using **PyMuPDF4LLM** for local, offline parsing with excellent table extraction.
+  - 386 herbicide labels successfully parsed to markdown
+  - YAML frontmatter with extracted metadata (product_number, active_constituent, mode_of_action_group)
+  - Tables preserved in markdown format (Directions for Use, Weed Tables, Plant-back periods)
+- [x] **Testing Module:** Unit and integration tests in `packages/ingestion/tests/` with pytest.
+  - Unit tests: Parser config, metadata persistence, mock PDF parsing
+  - Integration tests: Live parsing tests
+- [x] **Document Cleaning:** Built `cleaner.py` to remove noise from parsed markdown.
+  - Removes page headers/footers, safety directions, storage/disposal sections
+  - Processed all 388 files with 12.3% size reduction
+- [x] **Entity Extraction:** Built Gemini-based structured extraction (`extractor.py`).
+  - Uses `google-genai` SDK with Pydantic schema for structured output
+  - Extracts: product info, active constituents, MOA groups, crops, weeds, control entries
+  - 22/386 files extracted (limited by free tier API quota - 20 requests/day)
+  - Output: JSON files in `data/extracted/` ready for graph loading
+- [x] **Graph Construction:** Built `packages/graph` with Neo4j integration.
+  - **Schema (`schema.py`):** Constraints, indexes, State nodes, ModeOfAction reference data
+  - **Loader (`loader.py`):** Loads extracted JSON into Neo4j graph
+  - **Queries (`queries.py`):** Query functions for GraphRAG retrieval
+  - **Current Graph:** 21 herbicides, 91 crops, 290 weeds, 537 CONTROLS relationships
+- [ ] **Complete Extraction:** Resume extraction when API quota resets (or upgrade to paid tier)
 - [ ] **Hybrid Retrieval:** Implement a custom retriever in `packages/graph` that combines:
     - **Semantic Search:** `Neo4jVector.similarity_search()` for unstructured context.
     - **Graph Query:** `GraphCypherQAChain` for structured questions (e.g., "List all herbicides for Ryegrass").
@@ -119,6 +135,22 @@ WeedAI/
 - **Pre-commit Hooks:** Use `pre-commit` to run `ruff` and `mypy` before every commit.
 - **Testing:** Use `pytest` for backend tests. Place tests in `tests/` folder within each package/app.
 - **Documentation:** Docstrings for all public functions (Google style).
+
+### Testing Commands
+```bash
+# Run all unit tests (no API calls)
+cd packages/ingestion
+pytest tests/ -v -m "not integration"
+
+# Run integration tests (requires LLAMA_CLOUD_API_KEY in .env)
+pytest tests/ -v -m integration
+
+# Run with coverage
+pytest tests/ --cov=src/ingestion --cov-report=html
+
+# Quick interactive test
+python -m tests.test_parser
+```
 
 ## 6. Getting Started (Commands)
 

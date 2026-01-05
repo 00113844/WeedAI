@@ -26,23 +26,41 @@ Here is the detailed development roadmap and the architectural diagram.
 *Objective: Build the base knowledge layer from APVMA documents.*
 
   * **Sub-Tasks:**
-      * Develop a scraper for the APVMA PubCRIS database to download PDF labels.
-      * Implement **Multi-Modal Parsing** to convert PDF Tables into Markdown. Create a vector store or embedding with key information. Remove repetitive information such as "Safety Directions", "First Aid Instructions". The goal is to extract only agronomically relevant data. 
-      * Set up **MongoDB Atlas** for vector storage. Check whether to use Pinecone, ChromaDB or Weaviate as an alternative, .
+      * ✅ Herbicide PDF labels are available under data/labels folder (386 PDFs).
+      * ✅ Implement **Multi-Modal Parsing** to convert PDF Tables into Markdown using **PyMuPDF4LLM** (local, offline).
+        - All 386 labels parsed successfully
+        - Tables preserved (Directions for Use, Weed Tables, Plant-back periods)
+        - YAML frontmatter with metadata extraction
+      * ✅ **Document Cleaning:** `cleaner.py` removes noise (headers, safety directions, disposal info).
+        - 388 files processed, 12.3% size reduction
+      * ✅ **Structured Extraction:** `extractor.py` uses Gemini API for schema-based extraction.
+        - Pydantic models: `HerbicideLabel`, `WeedControlEntry`
+        - Extracts crops, weeds, rates, timing, states, control levels
+        - 22/386 files extracted (free tier limit: 20 req/day per model)
+      * Set up **MongoDB Atlas** for vector storage. Check whether to use Pinecone, ChromaDB or Weaviate as an alternative.
       * Implement **Contextual Chunking** (Prepend product name/active ingredient to every text chunk).
-  * **Libraries needed:** `llama-parse` (for PDF tables), `beautifulsoup4`, `pymongo`, `llama-index`.
-  * **Resources needed:** LlamaCloud API Key (or Unstructured.io key), MongoDB Atlas Instance.
+  * **Libraries needed:** ~~`llama-parse`~~ `pymupdf4llm` (for PDF tables), `google-genai` (Gemini extraction), `pydantic`, `neo4j`.
+  * **Resources needed:** ~~LlamaCloud API Key~~ Gemini API Key, Neo4j AuraDB Instance.
 
 #### **Phase 3: The Knowledge Graph (GraphRAG)**
 
 *Objective: Map the relationships between Weeds, Crops, and Chemicals to enable complex reasoning.*
 
   * **Sub-Tasks:**
-      * Design the Ontology (Schema): `(Herbicide)-[:CONTROLS]->(Weed)`, `(Herbicide)-[:REGISTERED_FOR]->(Crop)`.
-      * Run Entity Extraction on the parsed text to populate Neo4j nodes. This should include properties like `name`, `active_ingredient`, `application_rate`, `growth_stage`, `State`, etc.
+      * ✅ Design the Ontology (Schema): `(Herbicide)-[:CONTROLS]->(Weed)`, `(Herbicide)-[:REGISTERED_FOR]->(Crop)`.
+        - Additional: `(Herbicide)-[:CONTAINS]->(ActiveConstituent)`, `(Herbicide)-[:HAS_MODE_OF_ACTION]->(ModeOfAction)`, `(Herbicide)-[:REGISTERED_IN]->(State)`
+      * ✅ Built `packages/graph` package with:
+        - `schema.py`: Constraints, indexes, reference data (8 States, 19 MOA groups)
+        - `loader.py`: JSON → Neo4j loader with normalization
+        - `queries.py`: Query functions (`find_herbicides_for_weed`, `get_moa_rotation_options`, etc.)
+      * ✅ **Current Graph Stats (partial load):**
+        - 21 Herbicides, 91 Crops, 290 Weeds
+        - 537 CONTROLS relationships
+        - Top weeds: capeweed (7), annual ryegrass (6), wild radish (5)
+      * 🔄 Complete extraction and load remaining ~365 herbicides
       * Connect the RAG system to the Graph (GraphRAG) so the agent can query structure *and* text.
-  * **Libraries needed:** `neo4j-driver`, `langchain-community` (GraphCypherQAChain), `spacy` (for entity recognition).
-  * **Resources needed:** Neo4j AuraDB (Cloud) or Self-Hosted Enterprise Server.
+  * **Libraries needed:** `neo4j` (Python driver), `google-genai`, `pydantic`, `python-dotenv`.
+  * **Resources needed:** ✅ Neo4j AuraDB (Cloud) - Connected and operational.
 
 #### **Phase 4: Simulation Wrapper (The "Sidecar")**
 
@@ -69,6 +87,10 @@ Here is the detailed development roadmap and the architectural diagram.
 #### **Phase 6: Deployment & Frontend**
 
 *Objective: User interface and infrastructure.*
+
+##### Questions:
+Where will the graphRag be hosted? How will the frontend communicate with the backend?
+
 
   * **Sub-Tasks:**
       * Develop React/Next.js frontend with chat interface and map visualization.

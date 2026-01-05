@@ -8,7 +8,26 @@ dependencies = [
     "lxml",
     "tqdm",
     "llama-parse",
-    "python-dotenv"
+    "python-dotenv",
+    "markitdown>=0.1.4",
+    "pymupdf>=1.26.7",
+    "pymupdf4llm>=0.2.8",
+    "google-genai>=1.56.0",
+    "pydantic>=2.12.5",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.23.0",
+    "pytest-cov>=4.1.0",
+]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+markers = [
+    "integration: marks tests that call external APIs (deselect with '-m not integration')",
 ]
 
 [build-system]
