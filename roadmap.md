@@ -1,7 +1,7 @@
 # WeedAI Project Roadmap
 
 ## 1. Project Overview
-**WeedAI** is an advanced agronomic AI system designed to assist with assist agronomist with decision making on integrated weed management (herbicide) management. It leverages a multi-agent architecture with domain-specific guardrails, a knowledge graph (GraphRAG), and a legacy simulation wrapper.
+**WeedAI** is an agronomic AI system (reactive agents) designed to assist with assist agronomist with decision making on integrated weed management (herbicide) management. It leverages a multi-agent architecture with domain-specific guardrails, a knowledge graph (GraphRAG), and a legacy simulation weed seed ecological model. 
 
 ## 2. Tech Stack
 - **Language:** Python 3.11+ (Backend/AI), TypeScript (Frontend), Java (Legacy Simulation)
