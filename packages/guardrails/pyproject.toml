@@ -1,0 +1,51 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "guardrails"
+version = "0.1.0"
+description = "NeMo Guardrails for WeedAI - domain-specific safety and compliance"
+requires-python = ">=3.11"
+dependencies = [
+    "nemo-guardrails[langchain]==0.10.0",
+    "pydantic>=2.0,<3.0",
+    "python-dotenv>=1.0",
+    "langchain>=0.1.0",
+    "langchain-core>=0.1.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-asyncio>=0.21.0",
+    "pytest-cov>=4.0",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/guardrails"]
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+testpaths = ["tests"]
+asyncio_mode = "auto"
+markers = [
+    "unit: Unit tests (no external calls)",
+    "integration: Integration tests (requires guardrails setup)",
+]
+
+[tool.coverage.run]
+source = ["src/guardrails"]
+omit = [
+    "*/__init__.py",
+    "*/config/*",
+]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "raise AssertionError",
+    "raise NotImplementedError",
+    "if __name__ == .__main__.:",
+]
