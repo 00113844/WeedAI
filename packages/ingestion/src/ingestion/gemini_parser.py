@@ -1,120 +1,139 @@
 """
-Gemini-based structured parser for herbicide label PDFs.
+Graph-optimized Gemini parser for herbicide label PDFs.
 
-Uses Google's Gemini API with structured output to extract
-herbicide data directly from PDFs into a JSON schema optimized for GraphRAG.
+Extracts structured, graph-ready data (crops, weeds, constraints, rates) for Neo4j/GraphRAG.
 """
 
 import json
 import asyncio
 import time
+import os
 from pathlib import Path
-from typing import Optional
+from typing import Optional, Literal, List
 from datetime import datetime
+
 from pydantic import BaseModel, Field
 from dotenv import load_dotenv
-import os
+from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
 
 from google import genai
 from google.genai import types
+from google.api_core.exceptions import ResourceExhausted, ServiceUnavailable, InternalServerError
 
 
 # Load environment variables
-load_dotenv()
+load_dotenv(dotenv_path=Path(__file__).parent.parent.parent / '.env')
 
 
-# ============== PYDANTIC SCHEMA FOR HERBICIDE DATA ==============
+# ==========================================
+# 1. GRAPH-OPTIMIZED SCHEMA
+# ==========================================
 
-class WeedControlEntry(BaseModel):
-    """A single weed control entry from the Directions for Use table."""
-    crop: str = Field(description="The crop this herbicide is registered for (e.g., 'wheat', 'chickpeas', 'faba beans')")
-    application_timing: str = Field(description="Pre-emergence, post-emergence, or other timing (e.g., 'Pre-emergence', 'Post-emergence', 'Pre-plant')")
-    weed_common_name: str = Field(description="Common name of the weed controlled (e.g., 'wild radish', 'annual ryegrass')")
-    weed_scientific_name: Optional[str] = Field(default=None, description="Scientific name of the weed if provided (e.g., 'Raphanus raphanistrum')")
-    states: list[str] = Field(description="Australian states where this use is registered (e.g., ['NSW', 'VIC', 'SA'])")
-    rate_per_ha: str = Field(description="Application rate per hectare (e.g., '200mL', '1.0-1.5L')")
-    critical_comments: Optional[str] = Field(default=None, description="Important application notes or conditions")
-    control_level: Optional[str] = Field(default=None, description="Level of control: 'control', 'suppression', or 'partial control'")
+StateEnum = Literal['NSW', 'VIC', 'QLD', 'SA', 'WA', 'TAS', 'NT', 'ACT', 'All States']
+ConstraintType = Literal['Weather', 'Timing', 'Equipment', 'TankMix', 'Safety', 'Rate', 'Soil']
+
+
+class Constraint(BaseModel):
+    """Atomic restriction from critical comments."""
+    type: ConstraintType = Field(description="Constraint category")
+    description: str = Field(description="Specific restriction")
+
+
+class WeedControlEdge(BaseModel):
+    """CONTROLS relationship between crop and weed with rate/constraints."""
+
+    crop: str = Field(description="Standardized crop name")
+    weed_common_name: str = Field(description="Standardized weed common name")
+    weed_scientific_name: Optional[str] = Field(default=None, description="Scientific name if available")
+
+    states: List[StateEnum] = Field(description="States where this use is registered")
+
+    rate_value: float = Field(description="Numeric rate value (use max if range)")
+    rate_unit: str = Field(description="Rate unit (e.g., L/ha, mL/ha, g/ha)")
+    rate_full_text: str = Field(description="Original rate text")
+
+    growth_stage_weed: Optional[str] = Field(default=None, description="Max weed size/stage")
+    growth_stage_crop: Optional[str] = Field(default=None, description="Crop stage restrictions")
+    constraints: List[Constraint] = Field(default_factory=list, description="Structured constraints")
 
 
 class HerbicideLabel(BaseModel):
-    """Structured representation of an APVMA herbicide label."""
-    # Product identification
-    product_number: str = Field(description="APVMA product number (e.g., '45835')")
-    product_name: str = Field(description="Commercial product name (e.g., 'SPINNAKER')")
-    
-    # Active constituent
-    active_constituent: str = Field(description="Active ingredient with concentration (e.g., '240 g/L IMAZETHAPYR')")
-    chemical_group: str = Field(description="Chemical group name (e.g., 'Imidazolinone', 'Phenoxy')")
-    mode_of_action_group: str = Field(description="Herbicide mode of action group letter (e.g., 'B', 'I', 'M')")
-    mode_of_action_description: Optional[str] = Field(default=None, description="Description of mode of action (e.g., 'inhibition of acetolactate synthase (ALS)')")
-    
-    # Registered uses
-    registered_crops: list[str] = Field(description="List of all crops this herbicide is registered for")
-    weed_control_entries: list[WeedControlEntry] = Field(description="Detailed weed control entries from the Directions for Use table")
-    
-    # Application information
-    application_methods: list[str] = Field(default_factory=list, description="Application methods (e.g., ['ground boom spray', 'aerial application'])")
-    water_rate: Optional[str] = Field(default=None, description="Water volume for application (e.g., '50-100 L/ha')")
-    
-    # Restrictions
-    restraints: list[str] = Field(default_factory=list, description="Key restraints and restrictions")
-    withholding_period: Optional[str] = Field(default=None, description="Withholding period for grazing/harvest")
-    
-    # Compatibility
-    compatible_products: list[str] = Field(default_factory=list, description="Products compatible for tank mixing")
-    incompatible_products: list[str] = Field(default_factory=list, description="Products NOT to be tank mixed with")
+    """Root node container for graph ingestion."""
+
+    product_name: str
+    apvma_number: str
+    active_constituents: List[str]
+    moa_number: Optional[str] = Field(default=None, description="HRAC global numeric MoA code (preferred)")
+    moa_legacy_letter: Optional[str] = Field(default=None, description="Legacy MoA letter (for transition)")
+
+    identified_crops: List[str] = Field(description="Unique crops mentioned")
+    identified_weeds: List[str] = Field(description="Unique weeds mentioned")
+
+    usage_scenarios: List[WeedControlEdge] = Field(description="Edges Crop->Weed with rate/constraints")
 
 
-# ============== GEMINI CLIENT ==============
+# ==========================================
+# 2. GEMINI CLIENT & PROMPT
+# ==========================================
+
 
 def get_client() -> genai.Client:
-    """Initialize Gemini client with API key."""
     api_key = os.getenv("GEMINI_API_KEY")
     if not api_key:
         raise ValueError("GEMINI_API_KEY not found in environment variables")
-    return genai.Client(api_key=api_key.strip('"'))
+    return genai.Client(api_key=api_key.strip().strip('"'))
 
 
-EXTRACTION_PROMPT = """You are an expert agricultural scientist specializing in herbicide labels.
+GRAPH_EXTRACTION_PROMPT = """
+You are a Data Engineer converting Herbicide Labels into a Knowledge Graph.
 
-Analyze this APVMA (Australian Pesticides and Veterinary Medicines Authority) herbicide label PDF and extract all relevant information into the structured schema provided.
+Extract the entire "Directions for Use" table into structured JSON.
 
-IMPORTANT INSTRUCTIONS:
-1. Extract ALL weed control entries from the "Directions for Use" table - each crop/weed combination should be a separate entry
-2. For weeds, separate common name and scientific name (in parentheses/italics)
-3. States should be normalized to abbreviations: NSW, VIC, QLD, SA, WA, TAS, NT, ACT
-4. The product_number is usually a 5-digit number like "45835"
-5. Mode of action groups are single letters (A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, Z)
-6. If control_level is not specified, assume "control" unless words like "suppression" or "partial" are mentioned
-7. Extract application timing (pre-emergence, post-emergence) from the crop column or context
-8. Be thorough - extract every single weed and crop combination from the table
+CRITICAL RULES FOR GRAPH DATA:
+1) Row Expansion: If a crop header covers multiple weed rows, repeat the crop for every weed row.
+2) Entity Normalization: Split lists (e.g., "Wheat, Barley, Oats") into separate entries; standardize names ("Wheat (Spring)" -> "Wheat").
+3) Rate Parsing: Split "1.5 L/ha" into value=1.5 and unit="L/ha". If a range is present ("1.0 - 1.5 L/ha"), use the MAX value.
+4) Constraint Extraction: Do NOT dump critical comments. Break into atomic constraints with types: Weather, Timing, Equipment, TankMix, Safety, Rate, Soil.
+   Example: "Apply at 3-leaf stage. Do not spray if rain is likely." ->
+   Constraint(type="Timing", description="Apply at 3-leaf stage")
+   Constraint(type="Weather", description="Do not spray if rain is likely")
+5) States: Convert "All States" to the full list [NSW, VIC, QLD, SA, WA, TAS, NT, ACT].
+6) Mode of Action: Return the global HRAC numeric MoA code in `moa_number`. If the label only shows the legacy letter, put it in `moa_legacy_letter` and leave `moa_number` blank.
 
-Focus on extracting information useful for herbicide selection:
-- What weeds does this control?
-- In what crops is it registered?
-- What is the mode of action (for resistance management)?
-- What are the application rates and timing?
+Return the JSON adhering strictly to the provided schema. Temperature = 0.0 for deterministic extraction.
 """
 
 
-async def parse_pdf_with_gemini(
+# ==========================================
+# 3. RETRY LOGIC (Exponential Backoff)
+# ==========================================
+
+
+@retry(
+    stop=stop_after_attempt(5),
+    wait=wait_exponential(multiplier=2, min=4, max=60),
+    retry=retry_if_exception_type((ResourceExhausted, ServiceUnavailable, InternalServerError))
+)
+def generate_with_retry(client, model, contents, config):
+    return client.models.generate_content(
+        model=model,
+        contents=contents,
+        config=config,
+    )
+
+
+# ==========================================
+# 4. PARSING LOGIC
+# ==========================================
+
+
+async def parse_pdf_graph_ready(
     pdf_path: Path,
     client: genai.Client,
     model: str = "gemini-2.5-flash"
 ) -> dict:
-    """
-    Parse a single PDF using Gemini's vision capabilities and structured output.
-    
-    Args:
-        pdf_path: Path to the PDF file
-        client: Gemini client instance
-        model: Model to use (default: gemini-2.5-flash)
-    
-    Returns:
-        Dictionary with parsed herbicide data
-    """
-    # Upload the PDF file
+    """Upload PDF, extract graph-ready JSON, and clean up the uploaded file."""
+
     uploaded_file = client.files.upload(
         file=str(pdf_path),
         config=types.UploadFileConfig(
@@ -122,115 +141,99 @@ async def parse_pdf_with_gemini(
             mime_type='application/pdf'
         )
     )
-    
-    # Wait for file to be processed
+
     while uploaded_file.state == 'PROCESSING':
-        time.sleep(1)
+        await asyncio.sleep(1)
         uploaded_file = client.files.get(name=uploaded_file.name)
-    
+
     if uploaded_file.state != 'ACTIVE':
         raise RuntimeError(f"File upload failed with state: {uploaded_file.state}")
-    
-    # Generate structured content
-    response = client.models.generate_content(
-        model=model,
-        contents=[
-            uploaded_file,
-            EXTRACTION_PROMPT
-        ],
-        config=types.GenerateContentConfig(
-            response_mime_type='application/json',
-            response_schema=HerbicideLabel,
-            temperature=0.1,  # Low temperature for consistent extraction
-        )
-    )
-    
-    # Clean up uploaded file
+
     try:
-        client.files.delete(name=uploaded_file.name)
-    except Exception:
-        pass  # Ignore cleanup errors
-    
-    # Parse response
-    if response.parsed:
-        return response.parsed.model_dump()
-    else:
-        return json.loads(response.text)
+        response = await asyncio.to_thread(
+            generate_with_retry,
+            client,
+            model,
+            [uploaded_file, GRAPH_EXTRACTION_PROMPT],
+            types.GenerateContentConfig(
+                response_mime_type='application/json',
+                response_schema=HerbicideLabel,
+                temperature=0.0,
+            ),
+        )
+
+        if response.parsed:
+            data = response.parsed.model_dump()
+        else:
+            data = json.loads(response.text)
+
+        if not data.get('usage_scenarios'):
+            print(f"  ⚠️ No usage_scenarios extracted for {pdf_path.name}")
+
+        return data
+
+    finally:
+        try:
+            client.files.delete(name=uploaded_file.name)
+        except Exception:
+            pass
 
 
 async def parse_all_pdfs(
     input_dir: Path,
     output_dir: Path,
     model: str = "gemini-2.5-flash",
-    max_concurrent: int = 5,
-    delay_between: float = 1.0
+    max_concurrent: int = 2,
+    delay_between: float = 2.5
 ) -> dict:
-    """
-    Parse all PDFs in a directory using Gemini.
-    
-    Args:
-        input_dir: Directory containing PDF files
-        output_dir: Directory for JSON output
-        model: Gemini model to use
-        max_concurrent: Maximum concurrent requests (be mindful of rate limits)
-        delay_between: Delay between requests in seconds
-    
-    Returns:
-        Summary statistics
-    """
+    """Process all PDFs in a directory with concurrency and backoff."""
+
     input_dir = Path(input_dir)
     output_dir = Path(output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
-    
+
     pdf_files = list(input_dir.glob("*.pdf"))
-    
     client = get_client()
-    
+
     results = {
         'succeeded': [],
         'failed': [],
         'skipped': []
     }
-    
+
     semaphore = asyncio.Semaphore(max_concurrent)
-    
+
     async def process_one(pdf_path: Path) -> None:
         output_path = output_dir / f"{pdf_path.stem}.json"
-        
-        # Skip if already processed
+
         if output_path.exists():
             results['skipped'].append(pdf_path.name)
             return
-        
+
         async with semaphore:
             try:
                 print(f"Processing: {pdf_path.name}")
-                data = await parse_pdf_with_gemini(pdf_path, client, model)
-                
-                # Add metadata
-                data['_metadata'] = {
+                data = await parse_pdf_graph_ready(pdf_path, client, model)
+
+                data['_meta'] = {
                     'source_file': pdf_path.name,
                     'parsed_at': datetime.now().isoformat(),
-                    'model': model
+                    'model': model,
                 }
-                
-                # Save JSON
+
                 output_path.write_text(json.dumps(data, indent=2, ensure_ascii=False))
                 results['succeeded'].append(pdf_path.name)
                 print(f"  ✓ Saved: {output_path.name}")
-                
+
             except Exception as e:
                 print(f"  ✗ Error: {pdf_path.name} - {e}")
                 results['failed'].append({'file': pdf_path.name, 'error': str(e)})
-            
-            # Rate limiting delay
+
             await asyncio.sleep(delay_between)
-    
-    # Process all files
+
     tasks = [process_one(pdf) for pdf in pdf_files]
     await asyncio.gather(*tasks)
-    
-    # Summary
+
     summary = {
         'timestamp': datetime.now().isoformat(),
         'total_files': len(pdf_files),
@@ -238,93 +241,49 @@ async def parse_all_pdfs(
         'failed': len(results['failed']),
         'skipped': len(results['skipped']),
         'model': model,
-        'failed_files': results['failed']
+        'failed_files': results['failed'],
     }
-    
-    # Save summary
-    summary_path = output_dir / 'extraction_summary.json'
-    summary_path.write_text(json.dumps(summary, indent=2))
-    
+
+    (output_dir / 'extraction_summary.json').write_text(json.dumps(summary, indent=2))
     return summary
 
 
-def parse_single(pdf_path: str, output_path: str = None) -> dict:
-    """
-    Synchronous wrapper to parse a single PDF.
-    
-    Args:
-        pdf_path: Path to PDF file
-        output_path: Optional path for JSON output
-    
-    Returns:
-        Parsed herbicide data
-    """
+def parse_single(pdf_path: str, output_path: str = None, model: str = "gemini-2.5-flash") -> dict:
     pdf_path = Path(pdf_path)
     client = get_client()
-    
-    # Run async function
-    data = asyncio.run(parse_pdf_with_gemini(pdf_path, client))
-    
-    # Add metadata
-    data['_metadata'] = {
+    data = asyncio.run(parse_pdf_graph_ready(pdf_path, client, model))
+
+    data['_meta'] = {
         'source_file': pdf_path.name,
         'parsed_at': datetime.now().isoformat(),
-        'model': 'gemini-2.5-flash'
+        'model': model,
     }
-    
+
     if output_path:
         Path(output_path).write_text(json.dumps(data, indent=2, ensure_ascii=False))
-    
+
     return data
 
 
 def main():
-    """CLI entry point."""
     import argparse
-    
-    parser = argparse.ArgumentParser(
-        description='Parse herbicide label PDFs using Gemini API'
-    )
-    parser.add_argument(
-        'input',
-        type=Path,
-        help='Input PDF file or directory'
-    )
-    parser.add_argument(
-        '-o', '--output',
-        type=Path,
-        help='Output JSON file or directory'
-    )
-    parser.add_argument(
-        '--model',
-        default='gemini-2.5-flash',
-        help='Gemini model to use (default: gemini-2.5-flash)'
-    )
-    parser.add_argument(
-        '--max-concurrent',
-        type=int,
-        default=3,
-        help='Maximum concurrent requests (default: 3)'
-    )
-    parser.add_argument(
-        '--delay',
-        type=float,
-        default=2.0,
-        help='Delay between requests in seconds (default: 2.0)'
-    )
-    
+
+    parser = argparse.ArgumentParser(description='Parse herbicide label PDFs into graph-ready JSON using Gemini')
+    parser.add_argument('input', type=Path, help='Input PDF file or directory')
+    parser.add_argument('-o', '--output', type=Path, help='Output JSON file or directory')
+    parser.add_argument('--model', default='gemini-2.5-flash', help='Gemini model to use (default: gemini-2.5-flash)')
+    parser.add_argument('--max-concurrent', type=int, default=2, help='Maximum concurrent requests (default: 2)')
+    parser.add_argument('--delay', type=float, default=2.5, help='Delay between requests in seconds (default: 2.5)')
+
     args = parser.parse_args()
-    
+
     if args.input.is_file():
-        # Single file
         output = args.output or args.input.with_suffix('.json')
         print(f"Parsing: {args.input}")
-        data = parse_single(str(args.input), str(output))
+        data = parse_single(str(args.input), str(output), model=args.model)
         print(f"Output: {output}")
-        print(f"Extracted {len(data.get('weed_control_entries', []))} weed control entries")
-        print(f"Registered crops: {data.get('registered_crops', [])}")
+        print(f"Usage scenarios: {len(data.get('usage_scenarios', []))}")
     else:
-        # Directory
         output_dir = args.output or args.input.parent / 'extracted'
         print(f"Processing directory: {args.input}")
         summary = asyncio.run(parse_all_pdfs(
@@ -332,9 +291,9 @@ def main():
             output_dir,
             model=args.model,
             max_concurrent=args.max_concurrent,
-            delay_between=args.delay
+            delay_between=args.delay,
         ))
-        print(f"\nComplete!")
+        print("\nComplete!")
         print(f"Succeeded: {summary['succeeded']}")
         print(f"Failed: {summary['failed']}")
         print(f"Skipped: {summary['skipped']}")
