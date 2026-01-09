@@ -8,6 +8,11 @@
 ## Data Quality
 - [ ] Spot-check newly generated JSON in `data/extracted` to confirm crop/weed coverage and rate fidelity before bulk loading.
 - [ ] Update `_extraction_summary.json` after each extraction batch to track progress and remaining pending files.
+- [ ] Backfill missing `rate_per_ha` details by refining extractor prompts or post-processing heuristics.
+
+## Compatibility Matrix
+- [ ] Digitize the Apparent compatibility chart into structured compatibility/incompatibility pairs with legend color mapping.
+- [ ] Link compatibility outcomes back into herbicide JSON (e.g., `compatible_products` / `incompatible_products`).
 
 ## GraphRAG Integration
 - [ ] Ingest the expanded JSON set into Neo4j once extraction is complete, refreshing constraints and indexes as needed.

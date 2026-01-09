@@ -67,6 +67,9 @@ WeedAI/
 
 ## 4. Development Roadmap
 
+### Daily Diary
+- **2026-01-08:** Restarted Gemini markdown extraction in 50-file batches (all short-content skips) and began reverse-engineering the Apparent compatibility matrix to derive structured mix rules.
+
 ### Phase 1: Initialization & Infrastructure
 - [ ] **Initialize `uv` Workspace:** Set up root `pyproject.toml` with workspace members.
 - [ ] **Environment Setup:** Create `.env` file and `packages/core/src/config.py` using `pydantic-settings`.
