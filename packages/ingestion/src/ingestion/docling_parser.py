@@ -97,19 +97,35 @@ def build_converter() -> DocumentConverter:
     return DocumentConverter(format_options=format_options)
 
 
-def run(input_path: Path, output_dir: Optional[Path]) -> List[Path]:
+def run(
+    input_path: Path,
+    output_dir: Optional[Path],
+    *,
+    limit: Optional[int] = None,
+    skip_existing: bool = False,
+) -> List[Path]:
     pdfs = _collect_pdfs(input_path)
     if not pdfs:
         raise FileNotFoundError(f"No PDFs found under {input_path}")
+    if skip_existing and output_dir is not None:
+        pdfs = [pdf for pdf in pdfs if not (output_dir / (pdf.stem + ".docling.json")).exists()]
+    if limit is not None:
+        pdfs = pdfs[:limit]
     converter = build_converter()
     output_paths: List[Path] = []
     for pdf in pdfs:
-        payload = convert_pdf(pdf, converter)
         if output_dir is None:
+            print(f"Processing {pdf.name}")
+            payload = convert_pdf(pdf, converter)
             print(json.dumps(payload, indent=2))
             continue
         output_dir.mkdir(parents=True, exist_ok=True)
         out_path = output_dir / (pdf.stem + ".docling.json")
+        if skip_existing and out_path.exists():
+            print(f"Skipping existing output for {pdf.name}")
+            continue
+        print(f"Processing {pdf.name}")
+        payload = convert_pdf(pdf, converter)
         out_path.write_text(json.dumps(payload, indent=2))
         output_paths.append(out_path)
     return output_paths
@@ -119,8 +135,10 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Convert PDFs to structured JSON using Docling.")
     parser.add_argument("input", type=Path, help="PDF file or directory containing PDFs")
     parser.add_argument("--output", type=Path, help="Directory for JSON outputs")
+    parser.add_argument("--limit", type=int, help="Maximum number of PDFs to process")
+    parser.add_argument("--skip-existing", action="store_true", help="Skip PDFs with existing Docling outputs")
     args = parser.parse_args()
-    run(args.input, args.output)
+    run(args.input, args.output, limit=args.limit, skip_existing=args.skip_existing)
 
 
 if __name__ == "__main__":

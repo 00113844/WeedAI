@@ -33,6 +33,9 @@ CONSTRAINTS = [
     "CREATE CONSTRAINT crop_name IF NOT EXISTS FOR (c:Crop) REQUIRE c.name IS UNIQUE",
     "CREATE CONSTRAINT weed_common_name IF NOT EXISTS FOR (w:Weed) REQUIRE w.common_name IS UNIQUE",
     "CREATE CONSTRAINT state_code IF NOT EXISTS FOR (s:State) REQUIRE s.code IS UNIQUE",
+    # RAG-specific constraints
+    "CREATE CONSTRAINT document_product_number IF NOT EXISTS FOR (d:Document) REQUIRE d.product_number IS UNIQUE",
+    "CREATE CONSTRAINT chunk_id IF NOT EXISTS FOR (c:Chunk) REQUIRE c.chunk_id IS UNIQUE",
 ]
 
 INDEXES = [
@@ -40,7 +43,33 @@ INDEXES = [
     "CREATE INDEX herbicide_name IF NOT EXISTS FOR (h:Herbicide) ON (h.product_name)",
     "CREATE INDEX weed_scientific IF NOT EXISTS FOR (w:Weed) ON (w.scientific_name)",
     "CREATE INDEX active_chemical_group IF NOT EXISTS FOR (a:ActiveConstituent) ON (a.chemical_group)",
+    # RAG-specific indexes
+    "CREATE INDEX chunk_type IF NOT EXISTS FOR (c:Chunk) ON (c.chunk_type)",
+    "CREATE INDEX chunk_section IF NOT EXISTS FOR (c:Chunk) ON (c.parent_section)",
 ]
+
+# Vector index configuration for semantic search
+# Using 768 dimensions for sentence-transformers/all-mpnet-base-v2
+# Change to 1536 for OpenAI text-embedding-3-small
+VECTOR_INDEX_CONFIG = {
+    "name": "chunk_embeddings",
+    "label": "Chunk",
+    "property": "embedding",
+    "dimensions": 768,  # all-mpnet-base-v2
+    "similarity_function": "cosine",
+}
+
+VECTOR_INDEX_SQL = """
+CREATE VECTOR INDEX chunk_embeddings IF NOT EXISTS
+FOR (c:Chunk)
+ON c.embedding
+OPTIONS {
+    indexConfig: {
+        `vector.dimensions`: $dimensions,
+        `vector.similarity_function`: $similarity_function
+    }
+}
+"""
 
 # Pre-populate Australian states
 STATES = [
@@ -110,6 +139,20 @@ def init_schema(driver=None):
                     print(f"  ○ Already exists")
                 else:
                     print(f"  ✗ Error: {e}")
+        
+        print("\nCreating vector index for RAG...")
+        try:
+            session.run(
+                VECTOR_INDEX_SQL,
+                dimensions=VECTOR_INDEX_CONFIG["dimensions"],
+                similarity_function=VECTOR_INDEX_CONFIG["similarity_function"],
+            )
+            print(f"  ✓ Vector index: {VECTOR_INDEX_CONFIG['name']} ({VECTOR_INDEX_CONFIG['dimensions']}d)")
+        except Exception as e:
+            if "already exists" in str(e).lower():
+                print(f"  ○ Vector index already exists")
+            else:
+                print(f"  ✗ Vector index error: {e}")
         
         print("\nCreating State nodes...")
         for code, name in STATES:
@@ -188,12 +231,12 @@ def get_stats(driver=None):
         stats = {}
         
         # Node counts
-        for label in ['Herbicide', 'Crop', 'Weed', 'ActiveConstituent', 'ModeOfAction', 'State']:
+        for label in ['Herbicide', 'Crop', 'Weed', 'ActiveConstituent', 'ModeOfAction', 'State', 'Document', 'Chunk']:
             result = session.run(f"MATCH (n:{label}) RETURN count(n) as count")
             stats[label] = result.single()["count"]
         
         # Relationship counts
-        for rel_type in ['CONTROLS', 'REGISTERED_FOR', 'CONTAINS', 'HAS_MODE_OF_ACTION']:
+        for rel_type in ['CONTROLS', 'REGISTERED_FOR', 'CONTAINS', 'HAS_MODE_OF_ACTION', 'HAS_LABEL', 'CONTAINS_CHUNK', 'NEXT', 'MENTIONS']:
             result = session.run(f"MATCH ()-[r:{rel_type}]->() RETURN count(r) as count")
             stats[f"rel_{rel_type}"] = result.single()["count"]
         
@@ -218,10 +261,10 @@ def main():
             print("Graph Statistics:")
             print("="*40)
             print("Nodes:")
-            for label in ['Herbicide', 'Crop', 'Weed', 'ActiveConstituent', 'ModeOfAction', 'State']:
+            for label in ['Herbicide', 'Crop', 'Weed', 'ActiveConstituent', 'ModeOfAction', 'State', 'Document', 'Chunk']:
                 print(f"  {label}: {stats[label]}")
             print("\nRelationships:")
-            for rel_type in ['CONTROLS', 'REGISTERED_FOR', 'CONTAINS', 'HAS_MODE_OF_ACTION']:
+            for rel_type in ['CONTROLS', 'REGISTERED_FOR', 'CONTAINS', 'HAS_MODE_OF_ACTION', 'HAS_LABEL', 'CONTAINS_CHUNK', 'NEXT', 'MENTIONS']:
                 print(f"  {rel_type}: {stats[f'rel_{rel_type}']}")
             return
         
