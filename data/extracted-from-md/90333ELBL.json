@@ -1,0 +1,75 @@
+{
+  "product_name": "NAADCO 242 Herbicide",
+  "apvma_number": "90333/128574",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "I",
+  "identified_crops": [
+    "Barley, Canary grass, Oats, Triticale, Wheat",
+    "Barley, Triticale, Wheat",
+    "Linseed, Linola"
+  ],
+  "identified_weeds": [
+    "Apply from early tillering (when the main shoot has 4-5 leaves and 2 or more new tillers have formed) to start of jointing (first node (Z30)).",
+    "Apply when crop is 8 - 20cm high"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Barley, Canary grass, Oats, Triticale, Wheat",
+      "weed_common_name": "Apply from early tillering (when the main shoot has 4-5 leaves and 2 or more new tillers have formed) to start of jointing (first node (Z30)).",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 6.0,
+      "rate_unit": "Up to 6 leaf",
+      "rate_full_text": "Up to 6 leaf",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "1L"
+        }
+      ]
+    },
+    {
+      "crop": "Barley, Triticale, Wheat",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 4.0,
+      "rate_unit": "Apply up to 4 leaf stage",
+      "rate_full_text": "Apply up to 4 leaf stage",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "800mL"
+        }
+      ]
+    },
+    {
+      "crop": "Linseed, Linola",
+      "weed_common_name": "Apply when crop is 8 - 20cm high",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 4.0,
+      "rate_unit": "Young rosette or seedling plants up to 4 true leaves",
+      "rate_full_text": "Young rosette or seedling plants up to 4 true leaves",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "670 to 840mL"
+        }
+      ]
+    }
+  ]
+}

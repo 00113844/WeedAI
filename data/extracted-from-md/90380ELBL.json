@@ -1,0 +1,149 @@
+{
+  "product_name": "Product Name: GLOBAGRAN 480 SL HERBICIDE",
+  "apvma_number": "90380/128700",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "C",
+  "identified_crops": [
+    "Broad beans",
+    "blackberry nightshade (Solanum nigrum)",
+    "corn spurry (Spergula arvensis)",
+    "fat hen (Chenopodium album)",
+    "fumitory (Fumaria muralis)",
+    "hedge mustard (Sisymbrium officinale)",
+    "shepherd's purse (Capsella bursa-pastoris)",
+    "wild radish (Raphanus raphanistrum)",
+    "wild turnip (Brassica rapa campestris)"
+  ],
+  "identified_weeds": [
+    "Black bindweed (Polygonum convolvulus)"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Broad beans",
+      "weed_common_name": "Black bindweed (Polygonum convolvulus)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 1.0,
+      "rate_unit": "1L",
+      "rate_full_text": "1L",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "blackberry nightshade (Solanum nigrum)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "corn spurry (Spergula arvensis)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "fat hen (Chenopodium album)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "fumitory (Fumaria muralis)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "hedge mustard (Sisymbrium officinale)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "shepherd's purse (Capsella bursa-pastoris)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "wild radish (Raphanus raphanistrum)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "wild turnip (Brassica rapa campestris)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    }
+  ]
+}

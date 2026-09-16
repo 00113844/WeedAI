@@ -1,0 +1,166 @@
+{
+  "product_name": "Macspred Velmac Plus Controlled Release Herbicide",
+  "apvma_number": "84905/111725",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": null,
+  "identified_crops": [
+    "",
+    "A. Pasture sites",
+    "B. Native Woodland, heath & second rotation sites - long term control",
+    "Pinus radiata",
+    "Pre-planting Site Preparations"
+  ],
+  "identified_weeds": [
+    "ANNUALS:",
+    "Blackberry nightshade",
+    "Bracken",
+    "Common cassinia (Dogwood Vic. only) (Cassinia aculeata)",
+    "Dandelion",
+    "Fat hen.",
+    "Flatweeds",
+    "Fleabanes",
+    "HARD-TO-KILL PERENNIALS:",
+    "Hop goodenia (Goodenia ovata)",
+    "Kangaroo grass (suppression only)",
+    "Serrated tussock",
+    "Silver wattle (Acacia dealbata)",
+    "Sorrel",
+    "Sunshine acacia (Acacia botrycephala)",
+    "Varnish acacia (Acacia verniciflua)",
+    "WOODY & HARD-TO-KILL WEEDS:",
+    "Wallaby grass",
+    "Wattle (suppression)",
+    "clovers",
+    "ryegrasses"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Pinus radiata",
+      "weed_common_name": "ANNUALS:",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_value": 12.0,
+      "rate_unit": "12kg",
+      "rate_full_text": "12kg",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Best results will be obtained if the product is applied to bare ground."
+        }
+      ]
+    },
+    {
+      "crop": "Pre-planting Site Preparations",
+      "weed_common_name": "Flatweeds",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "A. Pasture sites",
+      "weed_common_name": "HARD-TO-KILL PERENNIALS:",
+      "weed_scientific_name": null,
+      "states": [
+        "QLD",
+        "NSW",
+        "ACT"
+      ],
+      "rate_value": 25.0,
+      "rate_unit": "18 to 25kg",
+      "rate_full_text": "18 to 25kg",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Reduced weed control will be obtained if the product is applied to weeds greater than 10cm in height or diameter."
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Wallaby grass",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply any time from March through to July. It is recommended to delay planting until planting lines become clearly visible, i.e. when effects of the product are evident."
+        }
+      ]
+    },
+    {
+      "crop": "B. Native Woodland, heath & second rotation sites - long term control",
+      "weed_common_name": "Kangaroo grass (suppression only)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "WOODY & HARD-TO-KILL WEEDS:",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 25.0,
+      "rate_unit": "25kg",
+      "rate_full_text": "25kg",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Machine planting is not recommended, as soil disturbance will reduce the residual activity."
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Bracken",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    }
+  ]
+}

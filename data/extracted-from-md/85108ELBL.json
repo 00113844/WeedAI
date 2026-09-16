@@ -1,0 +1,673 @@
+{
+  "product_name": "Product Name: eLabel  Genfarm Imazapyr 250 SL Herbicide",
+  "apvma_number": "85108/112298",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "B",
+  "identified_crops": [
+    "Around agricultural buildings and other farm non-crop situations, commercial, industrial, and public service areas, rights of way and waste land, away from desirable vegetation.",
+    "Barnyard grass (Echinochloa crus-galli)",
+    "Blackberry nightshade (Solanum nigrum)",
+    "Blady grass (Imperata cylindrica)",
+    "Bokhara clover (Melilotus albus)",
+    "Bracken (suppression only) (Pteridium esculentum)",
+    "Buckbush (Salsola kali)",
+    "Capeweed (Arctotheca calendula)",
+    "Couch (Cynodon dactylon)",
+    "Deadnettle (Lamium amplexicaule)",
+    "Docks (Rumex spp.)",
+    "Feathertop Rhodes grass (Chloris virgata)",
+    "Fleabane (Conyza canadensis)",
+    "Hexham scent (Melilotus indicus)",
+    "Johnson grass (Sorghum halepense)",
+    "Liverseed grass (Urochloa panicoides)",
+    "London rocket (Sisymbrium irio)",
+    "Mayne\u2019s pest (Verbena tenuisecta)",
+    "Medics (Medicago spp.)",
+    "Mintweed (Salvia reflexa)",
+    "Panics (suppression only) (Panicum spp.)",
+    "Paspalum (Paspalum dilatatum)",
+    "Paterson\u2019s curse (Echium plantagineum)",
+    "Plains grass (Stipa aristiglumis)",
+    "Prairie grass (Bromus unioloides)",
+    "Prickly lettuce (Lactuca serriola)",
+    "Purple top (Verbena bonariensis)",
+    "Queensland bluegrass (Dichanthium sericeum)",
+    "Scented top (Capillipedium spp.)",
+    "Sedges (Cyperus spp.)",
+    "Slender celery (Apium leptophyllum)",
+    "Sowthistle (Sonchus oleraceus)",
+    "St Barnaby\u2019s thistle (Centaurea solstitialis)",
+    "Stinging nettle (Urtica incisa)",
+    "Summer grasses (Digitaria spp.)",
+    "Thornapples (Datura spp.)",
+    "Turnip weed (Rapistrum rugosum)",
+    "Variegated thistle (Silybum marianum)",
+    "Vasey grass (Paspalum urvillei)",
+    "Warrego grass (Paspalidium jubiflorum)",
+    "Wild oats (Avena spp.)",
+    "Wild turnip (Brassica tournefortii)",
+    "Wireweed (Polygonum aviculare)"
+  ],
+  "identified_weeds": [
+    "6 L",
+    "Annual ryegrass (Lolium rigidum)",
+    "ha"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Around agricultural buildings and other farm non-crop situations, commercial, industrial, and public service areas, rights of way and waste land, away from desirable vegetation.",
+      "weed_common_name": "Annual ryegrass (Lolium rigidum)",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_value": 4.0,
+      "rate_unit": "L/ha",
+      "rate_full_text": "4L/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Applications can be made pre- or post-emergence."
+        }
+      ]
+    },
+    {
+      "crop": "Barnyard grass (Echinochloa crus-galli)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Blady grass (Imperata cylindrica)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Buckbush (Salsola kali)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Deadnettle (Lamium amplexicaule)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Feathertop Rhodes grass (Chloris virgata)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Fleabane (Conyza canadensis)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Hexham scent (Melilotus indicus)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Liverseed grass (Urochloa panicoides)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "London rocket (Sisymbrium irio)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Mayne\u2019s pest (Verbena tenuisecta)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Medics (Medicago spp.)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Mintweed (Salvia reflexa)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Blackberry nightshade (Solanum nigrum)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Paterson\u2019s curse (Echium plantagineum)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Plains grass (Stipa aristiglumis)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Prairie grass (Bromus unioloides)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Prickly lettuce (Lactuca serriola)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Purple top (Verbena bonariensis)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Scented top (Capillipedium spp.)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Sedges (Cyperus spp.)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Slender celery (Apium leptophyllum)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Sowthistle (Sonchus oleraceus)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "St Barnaby\u2019s thistle (Centaurea solstitialis)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Summer grasses (Digitaria spp.)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Thornapples (Datura spp.)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Turnip weed (Rapistrum rugosum)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Variegated thistle (Silybum marianum)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Vasey grass (Paspalum urvillei)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Warrego grass (Paspalidium jubiflorum)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Wild oats (Avena spp.)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Wild turnip (Brassica tournefortii)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Wireweed (Polygonum aviculare)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Bokhara clover (Melilotus albus)",
+      "weed_common_name": "6 L",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Bracken (suppression only) (Pteridium esculentum)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Capeweed (Arctotheca calendula)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Couch (Cynodon dactylon)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Docks (Rumex spp.)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Johnson grass (Sorghum halepense)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Panics (suppression only) (Panicum spp.)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Paspalum (Paspalum dilatatum)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Queensland bluegrass (Dichanthium sericeum)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Stinging nettle (Urtica incisa)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "product_name": "DECISION SELECTIVE HERBICIDE",
+  "apvma_number": null,
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "1",
+  "identified_crops": [
+    "Barley, Wheat"
+  ],
+  "identified_weeds": [
+    "Annual ryegrass (Lolium rigidum)"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Barley, Wheat",
+      "weed_common_name": "Annual ryegrass (Lolium rigidum)",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "ACT",
+        "VIC",
+        "TAS",
+        "SA",
+        "WA"
+      ],
+      "rate_value": 21.0,
+      "rate_unit": "2 leaf to one tiller (Z12 to Z14, 21)",
+      "rate_full_text": "2 leaf to one tiller (Z12 to Z14, 21)",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "1.0"
+        }
+      ]
+    }
+  ]
+}

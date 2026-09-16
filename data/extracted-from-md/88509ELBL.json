@@ -1,0 +1,74 @@
+{
+  "product_name": "REFLEX Herbicide",
+  "apvma_number": "88509/140777",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "14",
+  "identified_crops": [
+    "",
+    "Up to 1500 mL/ha",
+    "Up to 750 mL/ha"
+  ],
+  "identified_weeds": [
+    "0.5 m or lower",
+    "1.0 m or lower"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Up to 1500 mL/ha",
+      "weed_common_name": "0.5 m or lower",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "1.0 m or lower",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Up to 750 mL/ha",
+      "weed_common_name": "0.5 m or lower",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "1.0 m or lower",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    }
+  ]
+}

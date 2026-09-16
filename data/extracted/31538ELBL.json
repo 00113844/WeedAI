@@ -1,0 +1,308 @@
+{
+  "product_number": "55895",
+  "product_name": "SPINNAKER",
+  "active_constituent": "240 g/L MCPA, 240 g/L 2,4-D",
+  "chemical_group": null,
+  "mode_of_action_group": "C",
+  "registered_crops": [
+    "GOLF FAIRWAYS",
+    "PARKS",
+    "OVALS",
+    "NEWLY SOWN TURF"
+  ],
+  "registered_weeds": [
+    "Clovers",
+    "creeping oxalis",
+    "pearlwort",
+    "chickweed",
+    "mouse-eared chickweed",
+    "lambs tongue",
+    "dandelion",
+    "catsear",
+    "fat hen",
+    "mallow",
+    "staggerweeds",
+    "bindii",
+    "cobblers peg",
+    "wireweed"
+  ],
+  "weed_control_entries": [
+    {
+      "crop": "GOLF FAIRWAYS",
+      "application_timing": null,
+      "weed_common_name": "Clovers",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "4.2L in 450L water per hectare",
+      "critical_comments": "DO NOT use on buffalo grass.",
+      "control_level": "control"
+    },
+    {
+      "crop": "GOLF FAIRWAYS",
+      "application_timing": null,
+      "weed_common_name": "creeping oxalis",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "4.2L in 450L water per hectare",
+      "critical_comments": "DO NOT use on buffalo grass.",
+      "control_level": "control"
+    },
+    {
+      "crop": "GOLF FAIRWAYS",
+      "application_timing": null,
+      "weed_common_name": "pearlwort",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "4.2L in 450L water per hectare",
+      "critical_comments": "DO NOT use on buffalo grass.",
+      "control_level": "control"
+    },
+    {
+      "crop": "GOLF FAIRWAYS",
+      "application_timing": null,
+      "weed_common_name": "chickweed",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "4.2L in 450L water per hectare",
+      "critical_comments": "DO NOT use on buffalo grass.",
+      "control_level": "control"
+    },
+    {
+      "crop": "GOLF FAIRWAYS",
+      "application_timing": null,
+      "weed_common_name": "mouse-eared chickweed",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "4.2L in 450L water per hectare",
+      "critical_comments": "DO NOT use on buffalo grass.",
+      "control_level": "control"
+    },
+    {
+      "crop": "PARKS, OVALS",
+      "application_timing": null,
+      "weed_common_name": "lambs tongue",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "45mL in 20L water per 100m²",
+      "critical_comments": "Sportsground is a member of the Phenoxies group of herbicides.",
+      "control_level": "control"
+    },
+    {
+      "crop": "PARKS, OVALS",
+      "application_timing": null,
+      "weed_common_name": "dandelion",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "45mL in 20L water per 100m²",
+      "critical_comments": "Sportsground is a member of the Phenoxies group of herbicides.",
+      "control_level": "control"
+    },
+    {
+      "crop": "PARKS, OVALS",
+      "application_timing": null,
+      "weed_common_name": "catsear",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "45mL in 20L water per 100m²",
+      "critical_comments": "Sportsground is a member of the Phenoxies group of herbicides.",
+      "control_level": "control"
+    },
+    {
+      "crop": "PARKS, OVALS",
+      "application_timing": null,
+      "weed_common_name": "fat hen",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "45mL in 20L water per 100m²",
+      "critical_comments": "Sportsground is a member of the Phenoxies group of herbicides.",
+      "control_level": "control"
+    },
+    {
+      "crop": "PARKS, OVALS",
+      "application_timing": null,
+      "weed_common_name": "mallow",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "45mL in 20L water per 100m²",
+      "critical_comments": "Sportsground is a member of the Phenoxies group of herbicides.",
+      "control_level": "control"
+    },
+    {
+      "crop": "PARKS, OVALS",
+      "application_timing": null,
+      "weed_common_name": "staggerweeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "45mL in 20L water per 100m²",
+      "critical_comments": "Sportsground is a member of the Phenoxies group of herbicides.",
+      "control_level": "control"
+    },
+    {
+      "crop": "NEWLY SOWN TURF",
+      "application_timing": null,
+      "weed_common_name": "bindii",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "30mL in 20L water per hectare",
+      "critical_comments": "Do not apply until 4 weeks after first mowing.",
+      "control_level": "control"
+    },
+    {
+      "crop": "NEWLY SOWN TURF",
+      "application_timing": null,
+      "weed_common_name": "cobblers peg",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "30mL in 20L water per hectare",
+      "critical_comments": "Do not apply until 4 weeks after first mowing.",
+      "control_level": "control"
+    },
+    {
+      "crop": "NEWLY SOWN TURF",
+      "application_timing": null,
+      "weed_common_name": "wireweed",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "30mL in 20L water per hectare",
+      "critical_comments": "Do not apply until 4 weeks after first mowing.",
+      "control_level": "control"
+    }
+  ],
+  "application_methods": [
+    "Ground spray"
+  ],
+  "state_restrictions": [],
+  "withholding_period": null,
+  "compatible_products": [],
+  "_metadata": {
+    "source_file": "31538ELBL.md",
+    "extracted_at": "2026-01-08T13:44:19.340620",
+    "model": "gemini-2.5-flash-lite"
+  }
+}

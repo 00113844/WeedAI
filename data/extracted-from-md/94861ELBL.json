@@ -1,0 +1,55 @@
+{
+  "product_name": "TITAN Aminopyralid 240 SL Herbicide",
+  "apvma_number": null,
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "4",
+  "identified_crops": [
+    "",
+    "Winter cereals (Wheat, and Barley,) (Northern NSW, QLD only)"
+  ],
+  "identified_weeds": [
+    "Apply from 3 leaf up to 1\u02e2\u1d57 node stage of the crops (Z13 to Z31).",
+    "Apply from early tillering (when main shoot has 4 to 5 leaves plus 2 or more tillers have formed) to start of jointing (1\u02e2\u1d57 node)"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Winter cereals (Wheat, and Barley,) (Northern NSW, QLD only)",
+      "weed_common_name": "Apply from 3 leaf up to 1\u02e2\u1d57 node stage of the crops (Z13 to Z31).",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 4.0,
+      "rate_unit": "Up to 4 leaf",
+      "rate_full_text": "Up to 4 leaf",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "22mL"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Apply from early tillering (when main shoot has 4 to 5 leaves plus 2 or more tillers have formed) to start of jointing (1\u02e2\u1d57 node)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "16mL"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "product_name": "Spalding Pic-T Herbicide",
+  "apvma_number": "88416/121253",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "I",
+  "identified_crops": [
+    "",
+    "Acacia (except Qld), Angophora, Casuarina, Corymbia, Eucalyptus (except Yellow Box), Lophostemon and Melaleuca species"
+  ],
+  "identified_weeds": [
+    "Multiple stems or more than 25cm diameter at base (Ground level application)",
+    "Multiple stems or more than 25cm diameter at base (Waist height application)",
+    "Single stems less than 25cm diameter at base (Ground level application)",
+    "Single stems less than 25cm diameter at base (Waist height application)"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Acacia (except Qld), Angophora, Casuarina, Corymbia, Eucalyptus (except Yellow Box), Lophostemon and Melaleuca species",
+      "weed_common_name": "Single stems less than 25cm diameter at base (Waist height application)",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_value": 13.0,
+      "rate_unit": "1 mL of diluted chemical per cut @ 10 to 13 cm centres",
+      "rate_full_text": "1 mL of diluted chemical per cut @ 10 to 13 cm centres",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "NOTE: Control of Acacia, Casuarina and Lophostemon species may be variable. Use ground level application to reduce variability."
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Single stems less than 25cm diameter at base (Ground level application)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 15.0,
+      "rate_unit": "1 mL of diluted chemical per cut @ 12 to 15 cm centres",
+      "rate_full_text": "1 mL of diluted chemical per cut @ 12 to 15 cm centres",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "DO NOT exceed the spacings shown from the centre of one cut to the centre of the next cut. Inject each stem of a multi-stem tree where possible. Injection at or near ground level is essential in the Traprock area of south-eastern Queensland and is preferred for optimum results in poplar box areas. In areas where experience has shown that results are variable because species are harder to kill or due to marginal soil and/or climate factors, higher doses may improve control. Contact Spalding Holdings Pty Ltd for more detail."
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Multiple stems or more than 25cm diameter at base (Waist height application)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 13.0,
+      "rate_unit": "2 mL of diluted chemical per cut @ 10 to 13 cm centres",
+      "rate_full_text": "2 mL of diluted chemical per cut @ 10 to 13 cm centres",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Multiple stems or more than 25cm diameter at base (Ground level application)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 15.0,
+      "rate_unit": "2 mL of diluted chemical per cut @ 12 to 15 cm centres",
+      "rate_full_text": "2 mL of diluted chemical per cut @ 12 to 15 cm centres",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    }
+  ]
+}

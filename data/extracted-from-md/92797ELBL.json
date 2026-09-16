@@ -1,0 +1,414 @@
+{
+  "product_name": "Submarino Terbutryn-MCPA Herbicide",
+  "apvma_number": "92797/136683",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": null,
+  "identified_crops": [
+    "Ball Mustard\u2460, Neslia paniculata",
+    "Cape Weed, Arctotheca calendula",
+    "Charlock, Sinapis arvensis",
+    "Deadnettle, Lamium amplexicaule",
+    "Fat-hen, Chenopodium album",
+    "Fumitory-Red, Fumaria densiflora",
+    "Fumitory-White, Fumaria parviflora",
+    "Indian Hedge Mustard, Sisymbrium orientale",
+    "Ivyleaf, Three-cornered Jack/ Spiny Emex/ Doublegee, Emex australis",
+    "Mallee Catchfly, Silene apetala",
+    "Melilotus/Hexam scent, Melilotus indica",
+    "Paterson\u2019s Curse, Echium plantagineum",
+    "Pimpernel, Speedwell- Anagallis arvensis",
+    "Rough Poppy, Papaver hybridum",
+    "Rounded Chamomile, Matricaria matricarioides",
+    "Saffron Thistle, Carthamus lanatus",
+    "Scented Woolly Sage, Salvia lanigera",
+    "Sheepweed/Corn Gromwell, Buglossoides arvense",
+    "Stemless Thistle, Onopordum acaulon",
+    "Toadrush, Juncus bufonis",
+    "Turnip Weed, Rapistrum rugosum",
+    "Wards weed, Carrichtera annua",
+    "Wheat, barley and certain oat varieties",
+    "Wild Turnip, Brassica tournefortii",
+    "Wireweed, Polygonum aviculare",
+    "Yellow Burr Weed, Amsinckia spp."
+  ],
+  "identified_weeds": [
+    "Australian Crassula",
+    "Crassula sieberana",
+    "NSW",
+    "SA & WA only",
+    "Vic"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Wheat, barley and certain oat varieties",
+      "weed_common_name": "Australian Crassula",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC"
+      ],
+      "rate_value": 1.0,
+      "rate_unit": "1 L",
+      "rate_full_text": "1 L",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Spray actively growing weeds at the 2 to 6 leaf stage when cereals have 3 to 5 leaves on the main stem, i.e. Zadoks scale code Z 13- 15."
+        }
+      ]
+    },
+    {
+      "crop": "Cape Weed, Arctotheca calendula",
+      "weed_common_name": "NSW",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Charlock, Sinapis arvensis",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Fumitory-Red, Fumaria densiflora",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Fumitory-White, Fumaria parviflora",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Indian Hedge Mustard, Sisymbrium orientale",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Melilotus/Hexam scent, Melilotus indica",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Paterson\u2019s Curse, Echium plantagineum",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Rough Poppy, Papaver hybridum",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Rounded Chamomile, Matricaria matricarioides",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Sheepweed/Corn Gromwell, Buglossoides arvense",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Turnip Weed, Rapistrum rugosum",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Wards weed, Carrichtera annua",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Wild Turnip, Brassica tournefortii",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Yellow Burr Weed, Amsinckia spp.",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Fat-hen, Chenopodium album",
+      "weed_common_name": "SA & WA only",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Scented Woolly Sage, Salvia lanigera",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Ball Mustard\u2460, Neslia paniculata",
+      "weed_common_name": "NSW",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 15.0,
+      "rate_unit": "Spray actively growing weeds at the 2 to 6 leaf stage when cereals have 3 to 5 leaves on the main stem, i.e. Zadoks scale code Z 13- 15. For Three-cornered Jack apply at the 1 to 4 true leaf stage.",
+      "rate_full_text": "Spray actively growing weeds at the 2 to 6 leaf stage when cereals have 3 to 5 leaves on the main stem, i.e. Zadoks scale code Z 13- 15. For Three-cornered Jack apply at the 1 to 4 true leaf stage.",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Deadnettle, Lamium amplexicaule",
+      "weed_common_name": "NSW",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Mallee Catchfly, Silene apetala",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Pimpernel, Speedwell- Anagallis arvensis",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Ivyleaf, Three-cornered Jack/ Spiny Emex/ Doublegee, Emex australis",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Toadrush, Juncus bufonis",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Wireweed, Polygonum aviculare",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Saffron Thistle, Carthamus lanatus",
+      "weed_common_name": "SA & WA only",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Stemless Thistle, Onopordum acaulon",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    }
+  ]
+}

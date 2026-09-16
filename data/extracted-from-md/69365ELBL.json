@@ -1,0 +1,114 @@
+{
+  "product_name": "Label",
+  "apvma_number": "69365/60598",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "A",
+  "identified_crops": [
+    "Annual Ryegrass",
+    "Barley Grass, Brome Grass, Paradoxa",
+    "Volunteer Cereals",
+    "Wild Oats (Northern NSW & Qld)",
+    "Wild Oats (WA, SA, Vic, Tas, Southern and Central NSW)"
+  ],
+  "identified_weeds": [
+    "2 to 4 leaf"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Annual Ryegrass",
+      "weed_common_name": "2 to 4 leaf",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 60.0,
+      "rate_unit": "60",
+      "rate_full_text": "60",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "CANOLA, LINOLA AND LINSEED: DO NOT apply after the 8 leaf stage of the crop. DO NOT apply after the commencement of stem elongation."
+        }
+      ]
+    },
+    {
+      "crop": "Barley Grass, Brome Grass, Paradoxa",
+      "weed_common_name": "2 to 4 leaf",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 45.0,
+      "rate_unit": "45",
+      "rate_full_text": "45",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "This means that application must not occur after the 8 leaf stage, or if stem elongation commences before the 8 leaf stage, application must not occur after stem elongation has commenced."
+        }
+      ]
+    },
+    {
+      "crop": "Volunteer Cereals",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "DO NOT apply more than 1 Haloxyfop per crop."
+        }
+      ]
+    },
+    {
+      "crop": "Wild Oats (WA, SA, Vic, Tas, Southern and Central NSW)",
+      "weed_common_name": "2 to 4 leaf",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 30.0,
+      "rate_unit": "30",
+      "rate_full_text": "30",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "DO NOT apply after grazing."
+        }
+      ]
+    },
+    {
+      "crop": "Wild Oats (Northern NSW & Qld)",
+      "weed_common_name": "2 to 4 leaf",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 45.0,
+      "rate_unit": "45",
+      "rate_full_text": "45",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "The only oil recommended for use with lmtrade Haloxyfop 900 EC Herbicide is Uptake\\* Spraying Oil. lmtrade Haloxyfop 900 EC Herbicide + Lontrel\\* 750 SG + Uptake\\* Spraying Oil are compatible and selective to canola. This tank-mix is also compatible with Atrazine and selective to Triazine Tolerant Canola."
+        }
+      ]
+    }
+  ]
+}

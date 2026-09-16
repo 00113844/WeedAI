@@ -1,0 +1,411 @@
+{
+  "product_number": "61410",
+  "product_name": "Foxtrot",
+  "active_constituent": "69 g/L FENOXAPROP-P-ETHYL 34.5 g/L CLOQUINTOCET-MEXYL",
+  "chemical_group": null,
+  "mode_of_action_group": "A",
+  "registered_crops": [
+    "Wheat",
+    "Barley",
+    "Triticale",
+    "Cereal rye"
+  ],
+  "registered_weeds": [
+    "Wild oats",
+    "Annual phalaris"
+  ],
+  "weed_control_entries": [
+    {
+      "crop": "Wheat",
+      "application_timing": "Post-emergence",
+      "weed_common_name": "Wild oats",
+      "weed_scientific_name": "Avena spp.",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "475 mL/ha",
+      "critical_comments": "Apply 3 to 4 weeks after sowing when cereal has 2 to 5 true leaves (Z12 to Z15). Do not use this rate when wild oats are past the four leaf stage (Z14) or when there are more than 200 plants per square metre.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Wheat",
+      "application_timing": "Post-emergence",
+      "weed_common_name": "Wild oats",
+      "weed_scientific_name": "Avena spp.",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "560 mL/ha",
+      "critical_comments": "Apply generally 3 to 6 weeks after sowing when cereal is usually 2 leaf to early tillering (Z12 to Z22). Aim to apply to actively growing young weeds up to 5 total leaves (1 tiller) (Z14, Z21).",
+      "control_level": "control"
+    },
+    {
+      "crop": "Wheat",
+      "application_timing": "Post-emergence",
+      "weed_common_name": "Wild oats",
+      "weed_scientific_name": "Avena spp.",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "635 mL/ha",
+      "critical_comments": "Apply up to approximately 10 weeks after sowing to actively growing weeds up to mid tillering (Z22 to Z24).",
+      "control_level": "control"
+    },
+    {
+      "crop": "Wheat",
+      "application_timing": "Post-emergence",
+      "weed_common_name": "Annual phalaris",
+      "weed_scientific_name": "Phalaris minor",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "635 mL/ha",
+      "critical_comments": "Apply generally 3 to 4 weeks after sowing when cereal usually has 2 to 5 true leaves (Z12 to Z15). Apply only to weed densities below 200 plants per square metre. Aim to apply to actively growing young weeds up to 4 total leaves (Z14).",
+      "control_level": "control"
+    },
+    {
+      "crop": "Wheat",
+      "application_timing": "Post-emergence",
+      "weed_common_name": "Annual phalaris",
+      "weed_scientific_name": "Phalaris minor",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "800 mL/ha",
+      "critical_comments": "Apply generally 4 to 6 weeks after sowing when cereal has usually reached early tillering (Z21 to Z22). Aim to apply to actively growing young weeds up to 5 total leaves (1 tiller) (Z14, Z21).",
+      "control_level": "control"
+    },
+    {
+      "crop": "Barley",
+      "application_timing": "Post-emergence",
+      "weed_common_name": "Wild oats",
+      "weed_scientific_name": "Avena spp.",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "475 mL/ha",
+      "critical_comments": "Apply 3 to 4 weeks after sowing when cereal has 2 to 5 true leaves (Z12 to Z15). Do not use this rate when wild oats are past the four leaf stage (Z14) or when there are more than 200 plants per square metre.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Barley",
+      "application_timing": "Post-emergence",
+      "weed_common_name": "Wild oats",
+      "weed_scientific_name": "Avena spp.",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "560 mL/ha",
+      "critical_comments": "Apply generally 3 to 6 weeks after sowing when cereal is usually 2 leaf to early tillering (Z12 to Z22). Aim to apply to actively growing young weeds up to 5 total leaves (1 tiller) (Z14, Z21).",
+      "control_level": "control"
+    },
+    {
+      "crop": "Barley",
+      "application_timing": "Post-emergence",
+      "weed_common_name": "Wild oats",
+      "weed_scientific_name": "Avena spp.",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "635 mL/ha",
+      "critical_comments": "Apply up to approximately 10 weeks after sowing to actively growing weeds up to mid tillering (Z22 to Z24).",
+      "control_level": "control"
+    },
+    {
+      "crop": "Barley",
+      "application_timing": "Post-emergence",
+      "weed_common_name": "Annual phalaris",
+      "weed_scientific_name": "Phalaris minor",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "635 mL/ha",
+      "critical_comments": "Apply generally 3 to 4 weeks after sowing when cereal usually has 2 to 5 true leaves (Z12 to Z15). Apply only to weed densities below 200 plants per square metre. Aim to apply to actively growing young weeds up to 4 total leaves (Z14).",
+      "control_level": "control"
+    },
+    {
+      "crop": "Barley",
+      "application_timing": "Post-emergence",
+      "weed_common_name": "Annual phalaris",
+      "weed_scientific_name": "Phalaris minor",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "800 mL/ha",
+      "critical_comments": "Apply generally 4 to 6 weeks after sowing when cereal has usually reached early tillering (Z21 to Z22). Aim to apply to actively growing young weeds up to 5 total leaves (1 tiller) (Z14, Z21).",
+      "control_level": "control"
+    },
+    {
+      "crop": "Triticale",
+      "application_timing": "Post-emergence",
+      "weed_common_name": "Wild oats",
+      "weed_scientific_name": "Avena spp.",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "475 mL/ha",
+      "critical_comments": "Apply 3 to 4 weeks after sowing when cereal has 2 to 5 true leaves (Z12 to Z15). Do not use this rate when wild oats are past the four leaf stage (Z14) or when there are more than 200 plants per square metre.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Triticale",
+      "application_timing": "Post-emergence",
+      "weed_common_name": "Wild oats",
+      "weed_scientific_name": "Avena spp.",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "560 mL/ha",
+      "critical_comments": "Apply generally 3 to 6 weeks after sowing when cereal is usually 2 leaf to early tillering (Z12 to Z22). Aim to apply to actively growing young weeds up to 5 total leaves (1 tiller) (Z14, Z21).",
+      "control_level": "control"
+    },
+    {
+      "crop": "Triticale",
+      "application_timing": "Post-emergence",
+      "weed_common_name": "Wild oats",
+      "weed_scientific_name": "Avena spp.",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "635 mL/ha",
+      "critical_comments": "Apply up to approximately 10 weeks after sowing to actively growing weeds up to mid tillering (Z22 to Z24).",
+      "control_level": "control"
+    },
+    {
+      "crop": "Triticale",
+      "application_timing": "Post-emergence",
+      "weed_common_name": "Annual phalaris",
+      "weed_scientific_name": "Phalaris minor",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "635 mL/ha",
+      "critical_comments": "Apply generally 3 to 4 weeks after sowing when cereal usually has 2 to 5 true leaves (Z12 to Z15). Apply only to weed densities below 200 plants per square metre. Aim to apply to actively growing young weeds up to 4 total leaves (Z14).",
+      "control_level": "control"
+    },
+    {
+      "crop": "Triticale",
+      "application_timing": "Post-emergence",
+      "weed_common_name": "Annual phalaris",
+      "weed_scientific_name": "Phalaris minor",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "800 mL/ha",
+      "critical_comments": "Apply generally 4 to 6 weeks after sowing when cereal has usually reached early tillering (Z21 to Z22). Aim to apply to actively growing young weeds up to 5 total leaves (1 tiller) (Z14, Z21).",
+      "control_level": "control"
+    },
+    {
+      "crop": "Cereal rye",
+      "application_timing": "Post-emergence",
+      "weed_common_name": "Wild oats",
+      "weed_scientific_name": "Avena spp.",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "475 mL/ha",
+      "critical_comments": "Apply 3 to 4 weeks after sowing when cereal has 2 to 5 true leaves (Z12 to Z15). Do not use this rate when wild oats are past the four leaf stage (Z14) or when there are more than 200 plants per square metre.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Cereal rye",
+      "application_timing": "Post-emergence",
+      "weed_common_name": "Wild oats",
+      "weed_scientific_name": "Avena spp.",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "560 mL/ha",
+      "critical_comments": "Apply generally 3 to 6 weeks after sowing when cereal is usually 2 leaf to early tillering (Z12 to Z22). Aim to apply to actively growing young weeds up to 5 total leaves (1 tiller) (Z14, Z21).",
+      "control_level": "control"
+    },
+    {
+      "crop": "Cereal rye",
+      "application_timing": "Post-emergence",
+      "weed_common_name": "Wild oats",
+      "weed_scientific_name": "Avena spp.",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "635 mL/ha",
+      "critical_comments": "Apply up to approximately 10 weeks after sowing to actively growing weeds up to mid tillering (Z22 to Z24).",
+      "control_level": "control"
+    },
+    {
+      "crop": "Cereal rye",
+      "application_timing": "Post-emergence",
+      "weed_common_name": "Annual phalaris",
+      "weed_scientific_name": "Phalaris minor",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "635 mL/ha",
+      "critical_comments": "Apply generally 3 to 4 weeks after sowing when cereal usually has 2 to 5 true leaves (Z12 to Z15). Apply only to weed densities below 200 plants per square metre. Aim to apply to actively growing young weeds up to 4 total leaves (Z14).",
+      "control_level": "control"
+    },
+    {
+      "crop": "Cereal rye",
+      "application_timing": "Post-emergence",
+      "weed_common_name": "Annual phalaris",
+      "weed_scientific_name": "Phalaris minor",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "800 mL/ha",
+      "critical_comments": "Apply generally 4 to 6 weeks after sowing when cereal has usually reached early tillering (Z21 to Z22). Aim to apply to actively growing young weeds up to 5 total leaves (1 tiller) (Z14, Z21).",
+      "control_level": "control"
+    }
+  ],
+  "application_methods": [
+    "Ground sprayers",
+    "Aircraft"
+  ],
+  "state_restrictions": [],
+  "withholding_period": "Harvest: DO NOT HARVEST FOR 10 WEEKS AFTER APPLICATION; Grazing: DO NOT GRAZE OR CUT FOR STOCK FOOD FOR 3 WEEKS AFTER APPLICATION",
+  "compatible_products": [],
+  "_metadata": {
+    "source_file": "61410ELBL.md",
+    "extracted_at": "2026-01-08T13:47:46.782634",
+    "model": "gemini-2.5-flash-lite"
+  }
+}

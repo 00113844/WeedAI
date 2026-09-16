@@ -1,0 +1,323 @@
+{
+  "product_name": "STRAVIA Glyphosate 450 SL Herbicide",
+  "apvma_number": "95353/147896",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "9",
+  "identified_crops": [
+    "Amsinkia (Amsinkia)",
+    "Annual Ryegrass (Lolium rigidum)",
+    "Annual phalaris (Phalaris canariensis)",
+    "Brome Grass (Bromus unioloides)",
+    "Calomba daisy (Pentzia suffructicosa)",
+    "Capeweed (Arctotheca calendula)",
+    "Dock -seedling (Rumex spp.)",
+    "Fumitory (Fumaria officinalis, F. muralis)",
+    "Paterson's Curse/Salvation Jane (Echium plantaginium)",
+    "SOUTHERN AUSTRALIA Before sowing a crop or pasture.",
+    "Saffron Thistle (Carthamus lanatus)",
+    "Scotch Thistle (Onopordum acanthium)",
+    "Silver Grass (Vulpia spp.)",
+    "Spear Thistle (Circium vulgare)",
+    "Spiny Emex / Doublegee (Emex australis)",
+    "Variegated Thistle (Silybum marianum)",
+    "Volunteer Cereals, Wild Oats (Avena spp.)",
+    "Volunteer Lupins (Lupinus angustifolius)",
+    "Wild Turnip (Brassica tournefortii)",
+    "Winter Grass (Poa annua)"
+  ],
+  "identified_weeds": [
+    "Barley Grass (Hordeum leporinum)",
+    "SA only",
+    "Southern WA"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "SOUTHERN AUSTRALIA Before sowing a crop or pasture.",
+      "weed_common_name": "Barley Grass (Hordeum leporinum)",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "ACT",
+        "VIC"
+      ],
+      "rate_value": 800.0,
+      "rate_unit": "400 mL \u2013 800 mL pre tillering",
+      "rate_full_text": "400 mL \u2013 800 mL pre tillering",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Use the Higher Rate when treating in cold/overcast conditions, when using late in the season use the lower rate on young weeds and the higher rate on mature weeds i.e. fully tillered grasses or broadleaf weeds at budding or stem elongation."
+        }
+      ]
+    },
+    {
+      "crop": "Brome Grass (Bromus unioloides)",
+      "weed_common_name": "Southern WA",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 8.0,
+      "rate_unit": "If weeds have been grazed heavily remove stock prior to spraying to ensure regrowth to 6-8 cm before treatment and use the higher rate.",
+      "rate_full_text": "If weeds have been grazed heavily remove stock prior to spraying to ensure regrowth to 6-8 cm before treatment and use the higher rate.",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Volunteer Cereals, Wild Oats (Avena spp.)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 10.0,
+      "rate_unit": "To allow for herbicide uptake DO NOT begin sowing for 1 day after application for annual weeds and 7-10 days for perennial weeds.",
+      "rate_full_text": "To allow for herbicide uptake DO NOT begin sowing for 1 day after application for annual weeds and 7-10 days for perennial weeds.",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Annual phalaris (Phalaris canariensis)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 21.0,
+      "rate_unit": "If cultivation or sowing does not take place within 21 days retreatment may be necessary.",
+      "rate_full_text": "If cultivation or sowing does not take place within 21 days retreatment may be necessary.",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Annual Ryegrass (Lolium rigidum)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 70.0,
+      "rate_unit": "L/ha",
+      "rate_full_text": "Annual Ryegrass, Silver grass and Perennial grasses - It is recommended to use a water volume of 70L/ha or more with low volume nozzles to improve control.",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Silver Grass (Vulpia spp.)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "Crop Establishment: Sowing should not proceed until conditions allow for the formation of a satisfactory seedbed. See Crop Establishment for directions.",
+      "rate_full_text": "Crop Establishment: Sowing should not proceed until conditions allow for the formation of a satisfactory seedbed. See Crop Establishment for directions.",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Winter Grass (Poa annua)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 800.0,
+      "rate_unit": "400 mL \u2013 800 mL less than 8 cm diameter",
+      "rate_full_text": "400 mL \u2013 800 mL less than 8 cm diameter",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Calomba daisy (Pentzia suffructicosa)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Capeweed (Arctotheca calendula)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Spiny Emex / Doublegee (Emex australis)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Amsinkia (Amsinkia)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Fumitory (Fumaria officinalis, F. muralis)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Paterson's Curse/Salvation Jane (Echium plantaginium)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "For perennial weeds perennial phalaris, Soursob, Skeleton weed and Sorrel this product will provide knockdown, seasonal suppression and reduction in treated plant numbers.",
+      "rate_full_text": "For perennial weeds perennial phalaris, Soursob, Skeleton weed and Sorrel this product will provide knockdown, seasonal suppression and reduction in treated plant numbers.",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Saffron Thistle (Carthamus lanatus)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Scotch Thistle (Onopordum acanthium)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Spear Thistle (Circium vulgare)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Variegated Thistle (Silybum marianum)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Volunteer Lupins (Lupinus angustifolius)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Wild Turnip (Brassica tournefortii)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Dock -seedling (Rumex spp.)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 800.0,
+      "rate_unit": "800 mL - 1.2 L",
+      "rate_full_text": "800 mL - 1.2 L",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    }
+  ]
+}

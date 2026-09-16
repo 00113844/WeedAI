@@ -1,0 +1,110 @@
+{
+  "product_name": "POISON",
+  "apvma_number": "68208/57766",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "C",
+  "identified_crops": [
+    "Onions",
+    "Peas",
+    "Potatoes",
+    "Sweetcorn"
+  ],
+  "identified_weeds": [
+    "Blackberry nightshade (Solanum nigrum)",
+    "Cotula (Cotula spp.)",
+    "Storksbill (Erodium spp.)",
+    "black bindweed (Polygonum convolvulus)",
+    "chickweed (Stellaria media)",
+    "clovers (Trifolium spp.)",
+    "crowsfoot (Erodium spp.)",
+    "docks (Rumex spp.)",
+    "mountain sorrel (Calandrinia caulescens)",
+    "persicaria",
+    "persicaria redshank (Polygonum persicaria)",
+    "persicaria redshank (Polygonum)",
+    "plantain (Plantago spp.)",
+    "sorrel (Rumex acetosella)",
+    "sowthistle (Sonchus oleraceus)",
+    "spear thistle (Cirsium vulgare)",
+    "wild turnip (Brassica tournefortii)"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Peas",
+      "weed_common_name": "Blackberry nightshade (Solanum nigrum)",
+      "weed_scientific_name": null,
+      "states": [
+        "TAS"
+      ],
+      "rate_value": 2.2,
+      "rate_unit": "kg/ha",
+      "rate_full_text": "1.1 or 2.2 kg/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Use the lower rate for light friable soils and the higher rate for soils high in organic matter and clay loams. Apply early post-emergence when weeds are in the young seedling stage. Applications are best made when crop has reached the 4 node stage. Application prior to the 2 node stage or after flowering has commenced should be avoided. Do not use a rate greater than 1.1 kg/ha when mixing with other registered herbicides used in accordance with local recommendations."
+        }
+      ]
+    },
+    {
+      "crop": "Onions",
+      "weed_common_name": "persicaria",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply after the true leaf has emerged but NOT after the first signs of bulbing. Apply only in the cooler months (Late Autumn - Early Spring). May be used in a programme or applied in tank mixes with other herbicides at rates no greater than 800g when used in accordance with local recommendations."
+        }
+      ]
+    },
+    {
+      "crop": "Potatoes",
+      "weed_common_name": "Blackberry nightshade (Solanum nigrum)",
+      "weed_scientific_name": null,
+      "states": [
+        "TAS"
+      ],
+      "rate_value": 2.2,
+      "rate_unit": "kg/ha",
+      "rate_full_text": "2.2 kg/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply just before or as the crop is emerging, but before the majority of the crop has emerged. Applications when the majority of the crop has emerged should be avoided. Applications should be timed to coincide with moisture. May be used in a programme with other registered herbicides when used in accordance with local recommendations."
+        }
+      ]
+    },
+    {
+      "crop": "Sweetcorn",
+      "weed_common_name": "Storksbill (Erodium spp.)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 2.2,
+      "rate_unit": "kg/ha",
+      "rate_full_text": "1.1 or 2.2 kg/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "May be applied as a very early post-emergence treatment up to 4-leaf stage. Applications should be timed to coincide with moisture. Use the higher rate on soils high in organic matter and clay loams and/or where weeds have advanced beyond the seedling stage. Can be used in a programme with other registered herbicides when used in accordance with local recommendations. Applications made outside the constraints referred to should be avoided as crop damage may result."
+        }
+      ]
+    }
+  ]
+}

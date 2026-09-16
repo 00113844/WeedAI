@@ -1,0 +1,59 @@
+{
+  "product_name": "MAGNACIDE H HERBICIDE",
+  "apvma_number": null,
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "I",
+  "identified_crops": [
+    "Application times ranging from 30 minutes to 8 hours",
+    "Commonly occurring examples are:",
+    "Water in Irrigation Channels"
+  ],
+  "identified_weeds": [
+    "All Submersed and Floating Weeds and Algae."
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Water in Irrigation Channels",
+      "weed_common_name": "All Submersed and Floating Weeds and Algae.",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "Dosages of MAGNACIDE H Herbicide are based on the amount of aquatic weed present and rate of water flow.",
+      "rate_full_text": "Dosages of MAGNACIDE H Herbicide are based on the amount of aquatic weed present and rate of water flow.",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Application times ranging from 30 minutes to 8 hours",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Commonly occurring examples are:",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    }
+  ]
+}

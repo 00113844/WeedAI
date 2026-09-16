@@ -1,0 +1,152 @@
+{
+  "product_name": "FARMALINX FIREFOX 400 SL HERBICIDE",
+  "apvma_number": null,
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "R",
+  "identified_crops": [
+    "",
+    "Apple",
+    "Hops",
+    "Knapsack or Hand lance",
+    "Lucerne - established",
+    "Oilseed poppies"
+  ],
+  "identified_weeds": [
+    "1 part to 200 parts water",
+    "Broadleaf dock",
+    "Docks",
+    "curled dock",
+    "fiddle dock"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Apple",
+      "weed_common_name": "Docks",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "NSW, Vic, Tas, SA, WA",
+      "rate_full_text": "NSW, Vic, Tas, SA, WA",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply when docks are actively growing and have fully expanded leaves, just before flowering shoots emerge."
+        }
+      ]
+    },
+    {
+      "crop": "Knapsack or Hand lance",
+      "weed_common_name": "1 part to 200 parts water",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "only",
+      "rate_full_text": "only",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "With knapsack or hand lance, ensure uniform coverage but do not spray to run-off. Apply only to established trees. DO NOT graze the area to be sprayed for 7 days before and 21 days after application."
+        }
+      ]
+    },
+    {
+      "crop": "Hops",
+      "weed_common_name": "Broadleaf dock",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "Vic, Tas",
+      "rate_full_text": "Vic, Tas",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply before the hop plants have emerged. Apply the higher rate where fiddle dock is present or where docks are mainly old, established plants."
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Lucerne - established",
+      "weed_common_name": "Docks",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "All states",
+      "rate_full_text": "All states",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "DO NOT apply in spring if pasture is intended for seed production."
+        }
+      ]
+    },
+    {
+      "crop": "Knapsack or Hand lance",
+      "weed_common_name": "1 part to 200 parts water",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "Tas only",
+      "rate_full_text": "Tas only",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply when docks are actively growing and have fully expanded leaves, just before flowering shoots emerge. Ensure uniform spray coverage of docks but do not spray to run-off. DO NOT apply as an overall spray as crop damage may result. Sprayed onions may show a slight yellowing but they will normally recover quickly if good growing conditions exist."
+        }
+      ]
+    },
+    {
+      "crop": "Oilseed poppies",
+      "weed_common_name": "Broadleaf dock",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "Tas only",
+      "rate_full_text": "Tas only",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Crop stage: spray any time after the 4 to 6 leaf stage. Weed stage: apply when docks are actively growing and have fully expanded leaves, just before flowering shoots emerge. The range of control is extended with a spray program in combination with Ethofumesate as recommended by poppy contracting companies or the Department of Primary Industries, Tasmania."
+        }
+      ]
+    }
+  ]
+}

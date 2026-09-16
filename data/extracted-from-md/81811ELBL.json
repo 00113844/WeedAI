@@ -1,0 +1,430 @@
+{
+  "product_name": "Product Name: RELYON DIFLU-MCPA SELECTIVE HERBICIDE",
+  "apvma_number": null,
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": null,
+  "identified_crops": [
+    "",
+    "CEREALS Wheat, Barley, Oats, Triticale, Cereal Rye (including cereals undersown with clover)",
+    "Canola (Rape)",
+    "Capeweed",
+    "Charlock, Hedge Mustard, Indian Hedge Mustard, Shepherd\u2019s Purse, Turnip Weed, Wild Turnip",
+    "Corn Gromwell, Saffron Thistle, Toad Rush",
+    "Crassula",
+    "Deadnettle",
+    "Dense-flower Fumitory",
+    "PASTURE Newly Sown and Established Clover-based pasture, Clover for Hay and Seed Production",
+    "Prickly Lettuce",
+    "Purple Goosefoot",
+    "Sorrel",
+    "Ward\u2019s Weed"
+  ],
+  "identified_weeds": [
+    "London Rocket",
+    "Up to 2 leaf stage",
+    "Up to 4 leaf stage",
+    "Up to 6 leaf stage",
+    "Up to the 2 leaf stage",
+    "Up to the 2 leaf stage and not more than 60mm in diameter",
+    "Up to the 4 leaf stage",
+    "Up to the 4 leaf stage and not more than 120mm in diameter",
+    "Up to the 6 leaf stage",
+    "Up to the 6 leaf stage and not more than 150mm in diameter",
+    "Up to the 8 leaf stage and not more than 180mm in diameter",
+    "Wild Radish"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "CEREALS Wheat, Barley, Oats, Triticale, Cereal Rye (including cereals undersown with clover)",
+      "weed_common_name": "Wild Radish",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "WA only",
+      "rate_full_text": "WA only",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "250mL"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Up to the 4 leaf stage and not more than 120mm in diameter",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_value": 500.0,
+      "rate_unit": "500mL",
+      "rate_full_text": "500mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Optimum results are achieved when sprayed at 3-5 leaf crop stage (generally 4-8 weeks post sowing)."
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 750.0,
+      "rate_unit": "Over 750mL (5 leaf to late tillering stage - Z15 to 30)",
+      "rate_full_text": "Over 750mL (5 leaf to late tillering stage - Z15 to 30)",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "PASTURE Newly Sown and Established Clover-based pasture, Clover for Hay and Seed Production",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "WA only",
+      "rate_full_text": "WA only",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "750mL"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Up to the 8 leaf stage and not more than 180mm in diameter",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 1.0,
+      "rate_unit": "1.0L",
+      "rate_full_text": "1.0L",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Warning: RELYON DIFLU-MCPA SELECTIVE HERBICIDE may cause transient crop yellowing of cereals. Some varieties of oats have not been tested. (Refer to \u2018Crop Tolerance\u2019 section of General Instructions)."
+        }
+      ]
+    },
+    {
+      "crop": "Charlock, Hedge Mustard, Indian Hedge Mustard, Shepherd\u2019s Purse, Turnip Weed, Wild Turnip",
+      "weed_common_name": "Up to the 2 leaf stage and not more than 60mm in diameter",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 500.0,
+      "rate_unit": "500mL",
+      "rate_full_text": "500mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Application is recommended prior to the eighth trifoliate leaf stage, however, applications prior to the third leaf stage may result in crop damage especially under stressed conditions and in sandy soils. DO NOT apply to Annual Medics or Lucerne."
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Up to the 4 leaf stage and not more than 120mm in diameter",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_value": 750.0,
+      "rate_unit": "750mL",
+      "rate_full_text": "750mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Warning: RELYON DIFLU-MCPA SELECTIVE HERBICIDE may cause transient crop yellowing of clover, and may affect growth and seed set of some varieties of clover. (Refer to \u2018Crop Tolerance\u2019 section of General Instructions)."
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Up to the 6 leaf stage and not more than 150mm in diameter",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 1.0,
+      "rate_unit": "1.0L",
+      "rate_full_text": "1.0L",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "London Rocket",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "Qld only",
+      "rate_full_text": "Qld only",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "750mL"
+        }
+      ]
+    },
+    {
+      "crop": "Ward\u2019s Weed",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "SA only",
+      "rate_full_text": "SA only",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Capeweed",
+      "weed_common_name": "Up to the 2 leaf stage and not more than 60mm in diameter",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_value": 500.0,
+      "rate_unit": "500mL",
+      "rate_full_text": "500mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Up to the 4 leaf stage and not more than 120mm in diameter",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 1.0,
+      "rate_unit": "1.0L",
+      "rate_full_text": "1.0L",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Crassula",
+      "weed_common_name": "Up to the 2 leaf stage",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 500.0,
+      "rate_unit": "500mL",
+      "rate_full_text": "500mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Up to the 4 leaf stage",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 750.0,
+      "rate_unit": "750mL",
+      "rate_full_text": "750mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Prickly Lettuce",
+      "weed_common_name": "Up to the 2 leaf stage",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 500.0,
+      "rate_unit": "500mL",
+      "rate_full_text": "500mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Up to the 4 leaf stage",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 750.0,
+      "rate_unit": "750mL",
+      "rate_full_text": "750mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Up to the 6 leaf stage",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 1.0,
+      "rate_unit": "1.0L",
+      "rate_full_text": "1.0L",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Dense-flower Fumitory",
+      "weed_common_name": "Up to the 2 leaf stage",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 750.0,
+      "rate_unit": "750mL",
+      "rate_full_text": "750mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Corn Gromwell, Saffron Thistle, Toad Rush",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 1.0,
+      "rate_unit": "1.0L",
+      "rate_full_text": "1.0L",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Deadnettle",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC"
+      ],
+      "rate_value": 1.0,
+      "rate_unit": "1.0L",
+      "rate_full_text": "1.0L",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "SA only"
+        }
+      ]
+    },
+    {
+      "crop": "Sorrel",
+      "weed_common_name": "Up to 2 leaf stage",
+      "weed_scientific_name": null,
+      "states": [
+        "VIC"
+      ],
+      "rate_value": 1.0,
+      "rate_unit": "1.0 L",
+      "rate_full_text": "1.0 L",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Canola (Rape)",
+      "weed_common_name": "Up to 4 leaf stage",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_value": 500.0,
+      "rate_unit": "500 mL",
+      "rate_full_text": "500 mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Purple Goosefoot",
+      "weed_common_name": "Up to 6 leaf stage",
+      "weed_scientific_name": null,
+      "states": [
+        "QLD"
+      ],
+      "rate_value": 500.0,
+      "rate_unit": "500 mL",
+      "rate_full_text": "500 mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    }
+  ]
+}

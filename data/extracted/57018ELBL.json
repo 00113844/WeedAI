@@ -1,0 +1,102 @@
+{
+  "product_number": "57018",
+  "product_name": "NUFARM RAMROD HERBICIDE",
+  "active_constituent": "480 g/L PROPACHLOR",
+  "chemical_group": null,
+  "mode_of_action_group": "15",
+  "registered_crops": [
+    "Sorghum",
+    "Selected vegetable crops"
+  ],
+  "registered_weeds": [
+    "Annual grasses",
+    "Certain broadleaf weeds"
+  ],
+  "weed_control_entries": [
+    {
+      "crop": "Sorghum",
+      "application_timing": "Pre-emergence",
+      "weed_common_name": "Annual grasses",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": null,
+      "control_level": "control"
+    },
+    {
+      "crop": "Sorghum",
+      "application_timing": "Pre-emergence",
+      "weed_common_name": "Certain broadleaf weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": null,
+      "control_level": "control"
+    },
+    {
+      "crop": "Selected vegetable crops",
+      "application_timing": "Pre-emergence",
+      "weed_common_name": "Annual grasses",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": null,
+      "control_level": "control"
+    },
+    {
+      "crop": "Selected vegetable crops",
+      "application_timing": "Pre-emergence",
+      "weed_common_name": "Certain broadleaf weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": null,
+      "control_level": "control"
+    }
+  ],
+  "application_methods": [],
+  "state_restrictions": [],
+  "withholding_period": "NOT REQUIRED WHEN USED AS DIRECTED",
+  "compatible_products": [],
+  "_metadata": {
+    "source_file": "57018ELBL.md",
+    "extracted_at": "2026-01-08T13:46:20.218942",
+    "model": "gemini-2.5-flash-lite"
+  }
+}

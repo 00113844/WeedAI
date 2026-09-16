@@ -1,0 +1,123 @@
+{
+  "product_number": "500WG",
+  "product_name": "DEVRINOL-C 500WG HERBICIDE",
+  "active_constituent": "500 g/kg NAPROPAMIDE",
+  "chemical_group": "Acetamides",
+  "mode_of_action_group": "0",
+  "registered_crops": [
+    "Canola",
+    "Tomatoes",
+    "Almonds",
+    "Grapevines",
+    "Stone fruit"
+  ],
+  "registered_weeds": [
+    "certain weeds"
+  ],
+  "weed_control_entries": [
+    {
+      "crop": "Canola",
+      "application_timing": "Pre-emergence",
+      "weed_common_name": "certain weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": null,
+      "control_level": "control"
+    },
+    {
+      "crop": "Tomatoes",
+      "application_timing": "Pre-emergence",
+      "weed_common_name": "certain weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": "Direct seeded tomatoes are very susceptible to adverse soil and weather conditions during germination and establishment. Under these circumstances crop failure can occur even though no herbicide is used. When Devrinol is used for tomatoes it is therefore most important to ensure that the young tomato crop is not subject to adverse soil and weather conditions or disease, otherwise the crop may become less tolerant of the herbicide and suffer damage.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Almonds",
+      "application_timing": "Pre-emergence",
+      "weed_common_name": "certain weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": null,
+      "control_level": "control"
+    },
+    {
+      "crop": "Grapevines",
+      "application_timing": "Pre-emergence",
+      "weed_common_name": "certain weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": null,
+      "control_level": "control"
+    },
+    {
+      "crop": "Stone fruit",
+      "application_timing": "Pre-emergence",
+      "weed_common_name": "certain weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": null,
+      "control_level": "control"
+    }
+  ],
+  "application_methods": [],
+  "state_restrictions": [],
+  "withholding_period": "Not Required",
+  "compatible_products": [],
+  "_metadata": {
+    "source_file": "51479ELBL.md",
+    "extracted_at": "2026-01-08T13:45:05.311047",
+    "model": "gemini-2.5-flash-lite"
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "product_name": "D-KAM M Herbicide",
+  "apvma_number": "94039/146725",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "4",
+  "identified_crops": [
+    "Barley, Commercial Rye, Oats, Triticale, Wheat From early tillering stage (Zadoks 21)",
+    "Barley, Commercial Rye, Oats, Triticale, Wheat From early tillering stage (Zadoks 21) until the fully tillered stage and before jointing occurs (Zadoks 30)",
+    "Barley, Commercial Rye, Triticale From early tillering stage (Zadoks 21) until the fully tillered stage and before jointing occurs (Zadoks 30)",
+    "Oats, Wheat From early tillering stage (Zadoks 21) until the fully tillered stage and before jointing occurs (Zadoks 30)"
+  ],
+  "identified_weeds": [
+    "Capeweed",
+    "Charlock",
+    "Chickweed",
+    "Climbing Buckwheat (Black Bindweed)",
+    "Clover",
+    "Common Ice-Plant",
+    "Docks",
+    "Doublegee (Three comered Jack",
+    "Doublegee (Threecomered Jack",
+    "Fat-Hen",
+    "Hexham Scent (Melilotus)",
+    "Mouse-eared Chickweed",
+    "Mustards",
+    "Narrow-leaved Plaintain",
+    "Saffron Thistle",
+    "Seedling Docks",
+    "Seedling Hoary Cress",
+    "Soldier Thistle",
+    "Sorrel Seedlings",
+    "Spiny Emex)",
+    "Spurry",
+    "Sunflower",
+    "Swinecress",
+    "Tares",
+    "Tree Hogweed",
+    "Turnip Weed (Rapistrum rugosum)",
+    "Variegated Thistle",
+    "Vetch",
+    "Vetches",
+    "Volunteer Peas",
+    "Ward\u2019s Weed",
+    "Wild Radish",
+    "Wild Turnip (Brassica toumefortii)",
+    "Wireweed",
+    "Wireweed (Hogweed)"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Barley, Commercial Rye, Oats, Triticale, Wheat From early tillering stage (Zadoks 21)",
+      "weed_common_name": "Capeweed",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_value": 1.0,
+      "rate_unit": "L/ha",
+      "rate_full_text": "1L/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Spray when most weeds are in the 2 to 4 leaf stage. In some instances suppression only of Wireweed (Hogweed), Capeweed and Wild Radish will occur."
+        }
+      ]
+    },
+    {
+      "crop": "Barley, Commercial Rye, Oats, Triticale, Wheat From early tillering stage (Zadoks 21) until the fully tillered stage and before jointing occurs (Zadoks 30)",
+      "weed_common_name": "Doublegee (Threecomered Jack",
+      "weed_scientific_name": null,
+      "states": [
+        "QLD",
+        "NSW",
+        "TAS",
+        "WA",
+        "VIC",
+        "SA"
+      ],
+      "rate_value": 1.4,
+      "rate_unit": "L/ha",
+      "rate_full_text": "1.4L/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Note: Wild Radish may need to be resprayed (with 2,4-D or MCPA) if future germinations occur after spraying. In some instances suppression only of Wireweed (Hogweed), Hoary Cress and Climbing Buckwheat will be obtained."
+        }
+      ]
+    },
+    {
+      "crop": "Barley, Commercial Rye, Triticale From early tillering stage (Zadoks 21) until the fully tillered stage and before jointing occurs (Zadoks 30)",
+      "weed_common_name": "Volunteer Peas",
+      "weed_scientific_name": null,
+      "states": [
+        "SA"
+      ],
+      "rate_value": 500.0,
+      "rate_unit": "L/ha",
+      "rate_full_text": "1L/ha plus 60mL/ha dicamba (500 g/L)",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply when most peas are 5-7cm high."
+        }
+      ]
+    },
+    {
+      "crop": "Oats, Wheat From early tillering stage (Zadoks 21) until the fully tillered stage and before jointing occurs (Zadoks 30)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 500.0,
+      "rate_unit": "L/ha",
+      "rate_full_text": "1L/ha plus 120mL/ha dicamba (500 g/L)",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    }
+  ]
+}

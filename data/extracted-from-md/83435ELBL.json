@@ -1,0 +1,335 @@
+{
+  "product_name": "Label Name: eChem GrazMore 400 Herbicide",
+  "apvma_number": "83435/108278",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "I",
+  "identified_crops": [
+    "",
+    "African boxthorn",
+    "Angophora spp.",
+    "Australian blackthorn",
+    "Banksia spp.",
+    "Biddy bush (Chinese shrub) (Sifton bush)",
+    "Blackberry in association with: Docks, Ragwort, Smartweed, Thistles",
+    "Blue heliotrope",
+    "Brooms: Cape, English, Flax leaf, Montpellier",
+    "Camphor laurel",
+    "Casuarina spp.",
+    "Chinese apple",
+    "Cockspur thorn",
+    "Common sensitive plant",
+    "Crofton weed"
+  ],
+  "identified_weeds": [
+    "1 to 3 m tall",
+    "Above 2 m tall",
+    "Any time when actively growing",
+    "Autumn to winter",
+    "Autumn when actively growing",
+    "Flowering",
+    "Late spring to autumn",
+    "Less than 2 m tall",
+    "Spring to autumn",
+    "Spring to mid-summer prior to pod formation"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "African boxthorn",
+      "weed_common_name": "Less than 2 m tall",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_value": 500.0,
+      "rate_unit": "500 mL",
+      "rate_full_text": "500 mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply when bushes have good leaf cover, growth and no leaf fall."
+        }
+      ]
+    },
+    {
+      "crop": "Angophora spp.",
+      "weed_common_name": "1 to 3 m tall",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 350.0,
+      "rate_unit": "350 mL",
+      "rate_full_text": "350 mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Australian blackthorn",
+      "weed_common_name": "Less than 2 m tall",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 500.0,
+      "rate_unit": "500 mL",
+      "rate_full_text": "500 mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply from late spring to early autumn."
+        }
+      ]
+    },
+    {
+      "crop": "Banksia spp.",
+      "weed_common_name": "1 to 3 m tall",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 350.0,
+      "rate_unit": "350 mL",
+      "rate_full_text": "350 mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Biddy bush (Chinese shrub) (Sifton bush)",
+      "weed_common_name": "Autumn when actively growing",
+      "weed_scientific_name": null,
+      "states": [
+        "ACT",
+        "NSW"
+      ],
+      "rate_value": 500.0,
+      "rate_unit": "500 mL",
+      "rate_full_text": "500 mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Add a 100% concentrate non-ionic surfactant at 125 mL/100 L of water for best results."
+        }
+      ]
+    },
+    {
+      "crop": "Blackberry in association with: Docks, Ragwort, Smartweed, Thistles",
+      "weed_common_name": "Late spring to autumn",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 500.0,
+      "rate_unit": "350 mL OR 500 mL",
+      "rate_full_text": "350 mL OR 500 mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Use the higher rate on plants that have been damaged by grazing stock or insects and on known difficult to kill blackberry. Where herbicides other than Group I Herbicides have been used, allow two seasons regrowth to occur before respraying with eChem GrazMore 400 Herbicide."
+        }
+      ]
+    },
+    {
+      "crop": "Blue heliotrope",
+      "weed_common_name": "Flowering",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "QLD"
+      ],
+      "rate_value": 500.0,
+      "rate_unit": "500 mL",
+      "rate_full_text": "500 mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply in a minimum spray volume of 1250 L/ha."
+        }
+      ]
+    },
+    {
+      "crop": "Brooms: Cape, English, Flax leaf, Montpellier",
+      "weed_common_name": "Spring to mid-summer prior to pod formation",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 250.0,
+      "rate_unit": "250 mL",
+      "rate_full_text": "250 mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply as thorough foliage spray."
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Autumn to winter",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 350.0,
+      "rate_unit": "350 mL",
+      "rate_full_text": "350 mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Camphor laurel",
+      "weed_common_name": "Less than 2 m tall",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Above 2 m tall",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 500.0,
+      "rate_unit": "500 mL",
+      "rate_full_text": "500 mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Casuarina spp.",
+      "weed_common_name": "1 to 3 m tall",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 350.0,
+      "rate_unit": "350 mL",
+      "rate_full_text": "350 mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Chinese apple",
+      "weed_common_name": "Less than 2 m tall",
+      "weed_scientific_name": null,
+      "states": [
+        "QLD",
+        "WA"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Add a 100% concentrate non-ionic surfactant at 100 mL/100 L of water for best results."
+        }
+      ]
+    },
+    {
+      "crop": "Cockspur thorn",
+      "weed_common_name": "Spring to autumn",
+      "weed_scientific_name": null,
+      "states": [
+        "ACT",
+        "NSW",
+        "QLD"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply as a thorough foliage spray."
+        }
+      ]
+    },
+    {
+      "crop": "Common sensitive plant",
+      "weed_common_name": "Any time when actively growing",
+      "weed_scientific_name": null,
+      "states": [
+        "NT",
+        "QLD",
+        "WA"
+      ],
+      "rate_value": 200.0,
+      "rate_unit": "200 mL",
+      "rate_full_text": "200 mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "To avoid leaves closing during application, spray plants while moving forward. Add a 100% concentrate non-ionic surfactant at 100 mL/100 L of water for best results."
+        }
+      ]
+    },
+    {
+      "crop": "Crofton weed",
+      "weed_common_name": "Spring to autumn",
+      "weed_scientific_name": null,
+      "states": [
+        "ACT",
+        "NSW",
+        "QLD"
+      ],
+      "rate_value": 350.0,
+      "rate_unit": "350 mL",
+      "rate_full_text": "350 mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply as a thorough foliage spray."
+        }
+      ]
+    }
+  ]
+}

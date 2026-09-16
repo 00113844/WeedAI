@@ -1,0 +1,133 @@
+{
+  "product_name": "Titan Saflufenacil 700 WG Herbicide",
+  "apvma_number": "94597/142894",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "14",
+  "identified_crops": [
+    "",
+    "Tank mix with glyphosate",
+    "Tank mix with paraquat",
+    "Up to 34 g/ha Titan Saflufenacil 700 WG"
+  ],
+  "identified_weeds": [
+    "0.5 m or lower",
+    "1.0 m or lower"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Up to 34 g/ha Titan Saflufenacil 700 WG",
+      "weed_common_name": "0.5 m or lower",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "0 metres",
+      "rate_full_text": "0 metres",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "0 metres"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "1.0 m or lower",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "0 metres",
+      "rate_full_text": "0 metres",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "0 metres"
+        }
+      ]
+    },
+    {
+      "crop": "Tank mix with glyphosate",
+      "weed_common_name": "0.5 m or lower",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "0 metres",
+      "rate_full_text": "0 metres",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "0 metres"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "1.0 m or lower",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "0 metres",
+      "rate_full_text": "0 metres",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "0 metres"
+        }
+      ]
+    },
+    {
+      "crop": "Tank mix with paraquat",
+      "weed_common_name": "0.5 m or lower",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "0 metres",
+      "rate_full_text": "0 metres",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "0 metres"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "1.0 m or lower",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "0 metres",
+      "rate_full_text": "0 metres",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "0 metres"
+        }
+      ]
+    }
+  ]
+}

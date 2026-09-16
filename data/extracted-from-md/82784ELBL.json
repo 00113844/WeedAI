@@ -1,0 +1,281 @@
+{
+  "product_name": "GENFARM 2,4-D ESTER 680 LV HERBICIDE",
+  "apvma_number": "82784/129326",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "I",
+  "identified_crops": [
+    "",
+    "Cereal Rye",
+    "Stubble/Fallow",
+    "Sugar Cane",
+    "Triticale",
+    "USAGE RESTRICTIONS APPLY. See Table 3:",
+    "Wheat, Barley"
+  ],
+  "identified_weeds": [
+    "ACT only",
+    "Canola",
+    "Grain legumes",
+    "NSW",
+    "NT only)",
+    "Peanuts (Qld",
+    "Qld",
+    "Refer to Weed Table",
+    "SA only",
+    "Tas only",
+    "Timing restrictions for spraying sugarcane",
+    "Vic only",
+    "WA only",
+    "Winter cereals"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Wheat, Barley",
+      "weed_common_name": "Refer to Weed Table",
+      "weed_scientific_name": null,
+      "states": [
+        "VIC"
+      ],
+      "rate_value": 800.0,
+      "rate_unit": "210-800 mL",
+      "rate_full_text": "210-800 mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "CROP STAGES: ALL CEREALS"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Qld",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "Variations between varieties occur. Check sensitivity and growth stages of varieties before applying. Damage may result if applied too early.",
+      "rate_full_text": "Variations between varieties occur. Check sensitivity and growth stages of varieties before applying. Damage may result if applied too early.",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "SA only",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Tas only",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "Vic only: Apply at tillered to boot stages.",
+      "rate_full_text": "Vic only: Apply at tillered to boot stages.",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "WA only",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "NSW, ACT only: Apply after when the first node can be felt at the base of a tiller and before swelling of the head can be felt in a tiller.",
+      "rate_full_text": "NSW, ACT only: Apply after when the first node can be felt at the base of a tiller and before swelling of the head can be felt in a tiller.",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Triticale",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "QLD",
+        "NSW",
+        "ACT"
+      ],
+      "rate_value": 800.0,
+      "rate_unit": "410-800 mL",
+      "rate_full_text": "410-800 mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Qld only: Apply from mid-tillering (5 to 6 fully emerged main stem leaves plus one or more tillers) to before boot stage (visible swelling on the head at the top of the main stem)."
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "SA only",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "SA, Tas only: Apply from completion of tillering to early jointing stage.",
+      "rate_full_text": "SA, Tas only: Apply from completion of tillering to early jointing stage.",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Vic only",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "WA only",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Cereal Rye",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "QLD",
+        "NSW",
+        "ACT"
+      ],
+      "rate_value": 800.0,
+      "rate_unit": "410-800 mL",
+      "rate_full_text": "410-800 mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "WA only: Apply from the 5 leaf stage up to jointing stage (Zadoks 15-33). Apply only at 6 leaf stage for cranbrook and jacup wheats (Zadoks 16) to avoid possible damage."
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Vic only",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Sugar Cane",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "QLD",
+        "NSW"
+      ],
+      "rate_value": 2.4,
+      "rate_unit": "1.15-2.4 L",
+      "rate_full_text": "1.15-2.4 L",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Post-emergence"
+        }
+      ]
+    },
+    {
+      "crop": "USAGE RESTRICTIONS APPLY. See Table 3:",
+      "weed_common_name": "Timing restrictions for spraying sugarcane",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Stubble/Fallow",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_value": 800.0,
+      "rate_unit": "210-800 mL",
+      "rate_full_text": "210-800 mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Spray prior to Direct Drilling or Sowing."
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Winter cereals",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 450.0,
+      "rate_unit": "Observe the plant back periods given in the table in this leaflet. Must be tank mixed with a knockdown herbicide such as glyphosate 450 g/L, Paraquat 250 g/L Herbicide or a Paraquat/Diquat Herbicide. Select appropriate rate from the weed table. For skeleton weed, spraying should only be done 6-8 weeks before anticipated sowing date and subsequent cultivation limited to a minimum.",
+      "rate_full_text": "Observe the plant back periods given in the table in this leaflet. Must be tank mixed with a knockdown herbicide such as glyphosate 450 g/L, Paraquat 250 g/L Herbicide or a Paraquat/Diquat Herbicide. Select appropriate rate from the weed table. For skeleton weed, spraying should only be done 6-8 weeks before anticipated sowing date and subsequent cultivation limited to a minimum.",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    }
+  ]
+}

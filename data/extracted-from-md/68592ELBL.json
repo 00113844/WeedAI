@@ -1,0 +1,91 @@
+{
+  "product_name": "CAUTION",
+  "apvma_number": null,
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "A",
+  "identified_crops": [
+    "",
+    "Wheat, triticale, cereal rye"
+  ],
+  "identified_weeds": [
+    "350 mL",
+    "400 mL",
+    "Annual phalaris (Phalaris minor",
+    "P.paradoxa)",
+    "Wild oats (Avena spp.)",
+    "ha"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Wheat, triticale, cereal rye",
+      "weed_common_name": "Wild oats (Avena spp.)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 1000.0,
+      "rate_unit": "Apply 3 to 4 weeks after sowing when cereal has 2 to 5 true leaves (Z12 to Z15). Do not use this rate when wild oats are past the four leaf state (Z14) or when there are more than 200 plants per square metre. Add BS 1000 or an equivalent adjuvant at 250 mL/100 L water.",
+      "rate_full_text": "Apply 3 to 4 weeks after sowing when cereal has 2 to 5 true leaves (Z12 to Z15). Do not use this rate when wild oats are past the four leaf state (Z14) or when there are more than 200 plants per square metre. Add BS 1000 or an equivalent adjuvant at 250 mL/100 L water.",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "350 mL",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "400 mL",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Annual phalaris (Phalaris minor",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 1000.0,
+      "rate_unit": "Apply generally 3 to 4 weeks after sowing when cereal usually has 2 to 5 true leaves (Z12 to Z15). Apply only to weed densities below 200 plants per square meter. Aim to apply to actively growing young weeds up to 4 total leaves (Z14). Add BS 1000 or an equivalent adjuvant at 250 mL/100 L water.",
+      "rate_full_text": "Apply generally 3 to 4 weeks after sowing when cereal usually has 2 to 5 true leaves (Z12 to Z15). Apply only to weed densities below 200 plants per square meter. Aim to apply to actively growing young weeds up to 4 total leaves (Z14). Add BS 1000 or an equivalent adjuvant at 250 mL/100 L water.",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 1000.0,
+      "rate_unit": "Apply generally 4 to 6 weeks after sowing when cereal has usually reached early tillering (Z21 to Z22). Aim to apply to actively growing weeds up to 5 total leaves (1 tiller) (Z14, Z21). Add BS 1000 or an equivalent adjuvant at 250 mL/100 L water.",
+      "rate_full_text": "Apply generally 4 to 6 weeks after sowing when cereal has usually reached early tillering (Z21 to Z22). Aim to apply to actively growing weeds up to 5 total leaves (1 tiller) (Z14, Z21). Add BS 1000 or an equivalent adjuvant at 250 mL/100 L water.",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    }
+  ]
+}

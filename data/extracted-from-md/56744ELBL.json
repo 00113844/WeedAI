@@ -1,0 +1,66 @@
+{
+  "product_name": "Product Name: SIRION HERBICIDE",
+  "apvma_number": "56744/RV22",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "J",
+  "identified_crops": [
+    "2.5L in minimum 10L/ha water",
+    "3.75L in minimum 10L/ha water",
+    "Bystander areas"
+  ],
+  "identified_weeds": [
+    "10 metres",
+    "15 metres",
+    "Natural aquatic areas"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Bystander areas",
+      "weed_common_name": "Natural aquatic areas",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "Pollinator areas",
+      "rate_full_text": "Pollinator areas",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Vegetation areas"
+        }
+      ]
+    },
+    {
+      "crop": "2.5L in minimum 10L/ha water",
+      "weed_common_name": "10 metres",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "0 metres",
+      "rate_full_text": "0 metres",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "3.75L in minimum 10L/ha water",
+      "weed_common_name": "15 metres",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 5.0,
+      "rate_unit": "5 metres",
+      "rate_full_text": "5 metres",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    }
+  ]
+}

@@ -1,0 +1,332 @@
+{
+  "product_name": "Albaugh BOGEN 600 EC Herbicide",
+  "apvma_number": "94156/141713",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "4",
+  "identified_crops": [
+    "",
+    "Angophora",
+    "Banksia",
+    "Blackberry",
+    "Brigalow",
+    "Common Prickly Pear",
+    "English Broom",
+    "Eucalyptus (seedlings and regrowth from small lignotubers)",
+    "Gorse",
+    "Groundsel Bush",
+    "Seeding Camphor laurel (up to 3m tall)",
+    "Smooth Tree Pear",
+    "Tiger Pear",
+    "Wattles (including Silver and Black Wattle)",
+    "Weeds Controlled"
+  ],
+  "identified_weeds": [
+    "All States",
+    "All states",
+    "NSW",
+    "NSW only",
+    "Qld",
+    "SA",
+    "State",
+    "Tas only",
+    "Vic",
+    "Vic only",
+    "WA only"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Weeds Controlled",
+      "weed_common_name": "State",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 15.0,
+      "rate_unit": "Knap Sack Rate /15L Water",
+      "rate_full_text": "Knap Sack Rate /15L Water",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Critical Comments"
+        }
+      ]
+    },
+    {
+      "crop": "Blackberry",
+      "weed_common_name": "Qld",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 25.0,
+      "rate_unit": "25mL",
+      "rate_full_text": "25mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply from late spring to early autumn when bushes are actively growing. Best results are achieved from application made between January and April. One application may give satisfactory control but subsequent re-growth and seedlings should be re-sprayed after hardening off. Do not use this product under extremely dry conditions as considerable re-growth may occur. Thorough coverage is essential; however, avoid excess spraying which is wasteful of chemical. Where herbicides other than Albaugh BOGEN 600 EC or Grazon DS have been used, allow two seasons re-growth to occur before re-spraying with Albaugh BOGEN 600 EC or Grazon DS."
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Tas only",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 25.0,
+      "rate_unit": "15 or 25mL",
+      "rate_full_text": "15 or 25mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply from petal fall to leaf fall except when bushes are carrying mature fruit. Application from mid-fruit stage to leaf fall may give improved control. Use the higher rate on large bushes when complete wetting is difficult."
+        }
+      ]
+    },
+    {
+      "crop": "Seeding Camphor laurel (up to 3m tall)",
+      "weed_common_name": "All States",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 25.0,
+      "rate_unit": "25mL",
+      "rate_full_text": "25mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Thoroughly spray foliage when growth is active."
+        }
+      ]
+    },
+    {
+      "crop": "English Broom",
+      "weed_common_name": "Qld",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Eucalyptus (seedlings and regrowth from small lignotubers)",
+      "weed_common_name": "All states",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 90.0,
+      "rate_unit": "60 or 90mL",
+      "rate_full_text": "60 or 90mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Ensure plant has good coverage on foliage. Thoroughly spray foliage when growth is active. Apply the high rate in Vic, Tas, Southern NSW and where difficult to kill species are present."
+        }
+      ]
+    },
+    {
+      "crop": "Banksia",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Angophora",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Wattles (including Silver and Black Wattle)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 50.0,
+      "rate_unit": "25 or 50mL",
+      "rate_full_text": "25 or 50mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Thoroughly spray foliage when growth is active. Use the lower rate on young seedlings and the high rate on plants more than 2m tall."
+        }
+      ]
+    },
+    {
+      "crop": "Groundsel Bush",
+      "weed_common_name": "NSW only",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "For wattles apply to actively growing re-growth which is less than 5 years old and under 3m tall."
+        }
+      ]
+    },
+    {
+      "crop": "Brigalow",
+      "weed_common_name": "Qld",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 25.0,
+      "rate_unit": "25mL",
+      "rate_full_text": "25mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Overall high volume spray in 1000L of water/ha. See also Air Blast Spraying."
+        }
+      ]
+    },
+    {
+      "crop": "Gorse",
+      "weed_common_name": "All states",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 50.0,
+      "rate_unit": "25 or 50mL",
+      "rate_full_text": "25 or 50mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply from spring to mid\u2013summer. Use the high rate on old hard plants. Add a non-ionic wetting agent at a rate of 125mL/100L. Do not burn bushes for at least 6 months following treatment. Re-treatment of growth may be necessary."
+        }
+      ]
+    },
+    {
+      "crop": "Common Prickly Pear",
+      "weed_common_name": "All states",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 450.0,
+      "rate_unit": "450 mL",
+      "rate_full_text": "450 mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply as a thorough foliar spray."
+        }
+      ]
+    },
+    {
+      "crop": "Smooth Tree Pear",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Common Prickly Pear",
+      "weed_common_name": "All states",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 450.0,
+      "rate_unit": "450mL",
+      "rate_full_text": "450mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Mix this rate with diesel only and apply as a thorough foliar spray."
+        }
+      ]
+    },
+    {
+      "crop": "Tiger Pear",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Smooth Tree Pear",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "product_name": "Product Name: GENFARM MCPA BRO-PIC HERBICIDE",
+  "apvma_number": "91474/RV2024",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": null,
+  "identified_crops": [
+    "",
+    "Canola (Brassica napus)",
+    "Capeweed (Arctotheca calendula)",
+    "Charlock (Sinapis arvensis), Hedge mustard (Sisymbrium officinale), Indian hedge mustard (Sisymbrium orientale), Mustard (Sisymbrium spp.), Prickly lettuce (Lactuca serriola), Shepherd\u2019s purse (Capsella bursa-pastoris), Turnip weed (Rapistrum rugosum), Wild turnip (Brassica tournefortii)",
+    "Common sowthistle\\*\\* (Sonchus oleraceus), Doublegee\\*\\* (Emex australis)",
+    "Corn gromwell (Buglossoides arvense), Saffron thistle (Carthamus lanatus), Toad rush (Juncus bufonius)",
+    "Crassula (Crassula spp.)",
+    "Deadnettle\\*\\* (Lamium amplexicaule), Fumitory\\*\\* (Fumaria spp.), Volunteer lupins\\*\\* (Lupinus angustifolius)",
+    "Dense-flower fumitory (Fumaria densiflora)",
+    "Wheat, Barley, Oats, Triticale, Cereal rye (including undersown with clover)"
+  ],
+  "identified_weeds": [
+    "Up to the 2 leaf stage",
+    "Up to the 2 leaf stage and not more than 6cm in diameter",
+    "Up to the 4 leaf stage",
+    "Up to the 4 leaf stage and not more than 12cm in diameter",
+    "Up to the 6 leaf stage and not more than 15cm in diameter",
+    "Up to the 8 leaf stage and not more than 15cm in diameter",
+    "Up to the 8 leaf stage and not more than 18cm in diameter",
+    "Wild radish (Raphanus raphanistrum)"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Wheat, Barley, Oats, Triticale, Cereal rye (including undersown with clover)",
+      "weed_common_name": "Wild radish (Raphanus raphanistrum)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 360.0,
+      "rate_unit": "mL/ha",
+      "rate_full_text": "360 mL/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply to actively growing weeds, free from stress. See \u201cRestraints\u201d."
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Up to the 6 leaf stage and not more than 15cm in diameter",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 720.0,
+      "rate_unit": "mL/ha",
+      "rate_full_text": "Apply to crops from the 3 leaf stage (Z13) but prior to late tillering (Z28). The maximum 720mL/ha rate is safe to use on crops at the 3 leaf stage but GENFARM MCPA BRO-PIC HERBICIDE may cause transient yellowing of cereals, with oats being potentially most sensitive.",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Up to the 8 leaf stage and not more than 18cm in diameter",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "Residual control can be impaired by dry soil conditions and by inadequate soil surface coverage. Good soil moisture before and after application will assist performance. Good spray coverage of weeds is essential. Spray before crop canopy begins to close. Increase spray volume when weed or crop density is high. Transplanted weeds will not be adequately controlled.",
+      "rate_full_text": "Residual control can be impaired by dry soil conditions and by inadequate soil surface coverage. Good soil moisture before and after application will assist performance. Good spray coverage of weeds is essential. Spray before crop canopy begins to close. Increase spray volume when weed or crop density is high. Transplanted weeds will not be adequately controlled.",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Charlock (Sinapis arvensis), Hedge mustard (Sisymbrium officinale), Indian hedge mustard (Sisymbrium orientale), Mustard (Sisymbrium spp.), Prickly lettuce (Lactuca serriola), Shepherd\u2019s purse (Capsella bursa-pastoris), Turnip weed (Rapistrum rugosum), Wild turnip (Brassica tournefortii)",
+      "weed_common_name": "Up to the 2 leaf stage and not more than 6cm in diameter",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Up to the 4 leaf stage and not more than 12cm in diameter",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Up to the 8 leaf stage and not more than 15cm in diameter",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Capeweed (Arctotheca calendula)",
+      "weed_common_name": "Up to the 2 leaf stage and not more than 6cm in diameter",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "Transplanted weeds will not be adequately controlled.",
+      "rate_full_text": "Transplanted weeds will not be adequately controlled.",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Up to the 4 leaf stage and not more than 12cm in diameter",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 720.0,
+      "rate_unit": "mL/ha",
+      "rate_full_text": "GENFARM MCPA BRO-PIC HERBICIDE will provide better control than PARAGON of wild radish populations with developing resistance to Groups I and/or F. Rates of 540-720mL/ha are recommended for more robust control and to maximize the reduction in seed return to the soil bank.",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Canola (Brassica napus)",
+      "weed_common_name": "Up to the 4 leaf stage",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Crassula (Crassula spp.)",
+      "weed_common_name": "Up to the 2 leaf stage",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Up to the 4 leaf stage",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Corn gromwell (Buglossoides arvense), Saffron thistle (Carthamus lanatus), Toad rush (Juncus bufonius)",
+      "weed_common_name": "Up to the 2 leaf stage",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Dense-flower fumitory (Fumaria densiflora)",
+      "weed_common_name": "Up to the 2 leaf stage",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "Due to the wide variability in resistance levels in wild radish populations in WA absolute control cannot be guaranteed.",
+      "rate_full_text": "Due to the wide variability in resistance levels in wild radish populations in WA absolute control cannot be guaranteed.",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Common sowthistle\\*\\* (Sonchus oleraceus), Doublegee\\*\\* (Emex australis)",
+      "weed_common_name": "Up to the 2 leaf stage",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "\\*\\* Suppression only. These species are not consistently controlled by GENFARM MCPA BRO-PIC HERBICIDE but are usually significantly affected.",
+      "rate_full_text": "\\*\\* Suppression only. These species are not consistently controlled by GENFARM MCPA BRO-PIC HERBICIDE but are usually significantly affected.",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Deadnettle\\*\\* (Lamium amplexicaule), Fumitory\\*\\* (Fumaria spp.), Volunteer lupins\\*\\* (Lupinus angustifolius)",
+      "weed_common_name": "Up to the 4 leaf stage",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "product_name": "Product Name: PYRESTA XTREME LV HERBICIDE",
+  "apvma_number": "69952/128185",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": null,
+  "identified_crops": [
+    "",
+    "Up to 900mL"
+  ],
+  "identified_weeds": [
+    "0.5m or lower",
+    "1.0m or lower"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Up to 900mL",
+      "weed_common_name": "0.5m or lower",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 10.0,
+      "rate_unit": "10",
+      "rate_full_text": "10",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "0"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "1.0m or lower",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "55"
+        }
+      ]
+    }
+  ]
+}

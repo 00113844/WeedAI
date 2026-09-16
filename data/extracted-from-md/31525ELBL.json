@@ -1,0 +1,297 @@
+{
+  "product_name": "CAUTION",
+  "apvma_number": null,
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "F",
+  "identified_crops": [
+    "",
+    "CEREALS",
+    "Capeweed",
+    "PASTURE",
+    "Prickly lettuce",
+    "Ward's weed"
+  ],
+  "identified_weeds": [
+    "Charlock",
+    "Indian hedge mustard",
+    "Up to the 2 leaf stage",
+    "Up to the 2 leaf stage and not more than 60 mm in diameter",
+    "Up to the 4 leaf stage",
+    "Up to the 4 leaf stage and not more than 120 mm in diameter",
+    "Up to the 6 leaf stage and not more than 150 mm in diameter",
+    "Up to the 8 leaf stage and not more than 180 mm in diameter",
+    "Wild radish",
+    "hedge mustard",
+    "shepherd's purse",
+    "turnip weed",
+    "wild turnip"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "CEREALS",
+      "weed_common_name": "Wild radish",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "WA only",
+      "rate_full_text": "WA only",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "250 mL"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Up to the 4 leaf stage and not more than 120 mm in diameter",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_value": 500.0,
+      "rate_unit": "500 mL",
+      "rate_full_text": "500 mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Over 750 mL. (5 leaf to fully tillered stage - Z15 to 30)"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Up to the 6 leaf stage and not more than 150 mm in diameter",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 750.0,
+      "rate_unit": "750 mL",
+      "rate_full_text": "750 mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Optimum results are achieved when sprayed at 3-5 leaf crop stage (generally 4-8 weeks post sowing)."
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Up to the 8 leaf stage and not more than 180 mm in diameter",
+      "weed_scientific_name": null,
+      "states": [
+        "WA"
+      ],
+      "rate_value": 1.0,
+      "rate_unit": "1.0 L",
+      "rate_full_text": "1.0 L",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "DO NOT apply to Barley or Kulin Wheat before the 5 leaf stage (Z15)."
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "PASTURE",
+      "weed_common_name": "Charlock",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "500 mL"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Up to the 4 leaf stage and not more than 120 mm in diameter",
+      "weed_scientific_name": null,
+      "states": [
+        "QLD"
+      ],
+      "rate_value": 750.0,
+      "rate_unit": "750 mL",
+      "rate_full_text": "750 mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "DO NOT apply to Annual Medics or lucerne"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Up to the 6 leaf stage and not more than 150 mm in diameter",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 1.0,
+      "rate_unit": "1.0 L",
+      "rate_full_text": "1.0 L",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Warning: Tigrex may cause transient crop yellowing of clover, and may affect growth and seed set of some varieties of clover. (Refer to \"Crop Tolerance\" section of General Instructions)"
+        }
+      ]
+    },
+    {
+      "crop": "Ward's weed",
+      "weed_common_name": "Up to the 2 leaf stage and not more than 60 mm in diameter",
+      "weed_scientific_name": null,
+      "states": [
+        "SA"
+      ],
+      "rate_value": 500.0,
+      "rate_unit": "500 mL",
+      "rate_full_text": "500 mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Capeweed",
+      "weed_common_name": "Up to the 4 leaf stage and not more than 120 mm in diameter",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_value": 1.0,
+      "rate_unit": "1.0 L",
+      "rate_full_text": "1.0 L",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "WEED STAGE",
+      "rate_full_text": "WEED STAGE",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Crassula"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Up to the 4 leaf stage",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 750.0,
+      "rate_unit": "750 mL",
+      "rate_full_text": "750 mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Under certain conditions such as high crop and weed density, late season germinations, abnormal weed growth (including early flowering)."
+        }
+      ]
+    },
+    {
+      "crop": "Prickly lettuce",
+      "weed_common_name": "Up to the 2 leaf stage",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 500.0,
+      "rate_unit": "500 mL",
+      "rate_full_text": "500 mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Higher rates of product (up to the maximum rate of application specified for that weed) may be required."
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Up to the 4 leaf stage",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 750.0,
+      "rate_unit": "750 mL",
+      "rate_full_text": "750 mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Tigrex will not effectively control regrowth of suppressed weeds; transplanted weeds; regrowth from rhizomes or roots; weeds growing under stress from previous herbicide applications."
+        }
+      ]
+    }
+  ]
+}

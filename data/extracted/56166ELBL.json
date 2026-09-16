@@ -1,0 +1,70 @@
+{
+  "product_number": "56166",
+  "product_name": "DECISION SELECTIVE HERBICIDE",
+  "active_constituent": "200 g/L DICLOFOP-METHYL, 20 g/L SETHOXYDIM, 595 g/L LIQUID HYDROCARBON, 20 g/L MEFENPYR-DIETHYL",
+  "chemical_group": null,
+  "mode_of_action_group": "1",
+  "registered_crops": [
+    "barley",
+    "wheat"
+  ],
+  "registered_weeds": [
+    "annual ryegrass"
+  ],
+  "weed_control_entries": [
+    {
+      "crop": "barley",
+      "application_timing": "post-emergent",
+      "weed_common_name": "annual ryegrass",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to attachment",
+      "critical_comments": null,
+      "control_level": "control"
+    },
+    {
+      "crop": "wheat",
+      "application_timing": "post-emergent",
+      "weed_common_name": "annual ryegrass",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to attachment",
+      "critical_comments": null,
+      "control_level": "control"
+    }
+  ],
+  "application_methods": [
+    "Ground Sprayers",
+    "Aircraft"
+  ],
+  "state_restrictions": [],
+  "withholding_period": "GRAZING: DO NOT GRAZE OR CUT FOR STOCK FOOD FOR 7 WEEKS AFTER APPLICATION.",
+  "compatible_products": [
+    "Tigrex Selective Herbicide",
+    "Giant Selective Herbicide",
+    "MCPA LVE"
+  ],
+  "_metadata": {
+    "source_file": "56166ELBL.md",
+    "extracted_at": "2026-01-08T13:45:57.103522",
+    "model": "gemini-2.5-flash-lite"
+  }
+}

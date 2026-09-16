@@ -1,0 +1,45 @@
+{
+  "product_number": "67974",
+  "product_name": "TRIBUTE SELECTIVE TURF HERBICIDE",
+  "active_constituent": "22.5 g/L FORAMSULFURON",
+  "chemical_group": "sulfonylurea",
+  "mode_of_action_group": "B",
+  "registered_crops": [
+    "Turf"
+  ],
+  "registered_weeds": [
+    "grass weeds"
+  ],
+  "weed_control_entries": [
+    {
+      "crop": "Turf",
+      "application_timing": "post-emergent",
+      "weed_common_name": "grass weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to Directions for Use table",
+      "critical_comments": "For post-emergent control of certain grass weeds in turf as specified in the Directions for Use table.",
+      "control_level": "control"
+    }
+  ],
+  "application_methods": [
+    "Broadcast Application"
+  ],
+  "state_restrictions": [],
+  "withholding_period": null,
+  "compatible_products": [],
+  "_metadata": {
+    "source_file": "63240ELBL.md",
+    "extracted_at": "2026-01-08T13:48:39.276855",
+    "model": "gemini-2.5-flash-lite"
+  }
+}

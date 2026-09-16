@@ -1,0 +1,462 @@
+{
+  "product_number": "900",
+  "product_name": "ACCENSI SIMAZINE 900 WG HERBICIDE",
+  "active_constituent": "900 g/kg SIMAZINE AND RELATED TRIAZINES",
+  "chemical_group": "triazines",
+  "mode_of_action_group": "C",
+  "registered_crops": [
+    "CHICKPEAS",
+    "FABA BEANS",
+    "CANOLA",
+    "ALMONDS",
+    "HAZELNUTS",
+    "WALNUTS",
+    "PYRETHRUM",
+    "LEEKS",
+    "GINGER",
+    "OIL TEA TREE",
+    "WILDFLOWERS",
+    "ASPARAGUS",
+    "BERRY FRUIT",
+    "CITRUS",
+    "GLADIOLI",
+    "HOPS",
+    "LUPINS",
+    "ROSES",
+    "APPLES",
+    "PEARS",
+    "VINEYARDS"
+  ],
+  "registered_weeds": [
+    "Weeds"
+  ],
+  "weed_control_entries": [
+    {
+      "crop": "CHICKPEAS",
+      "application_timing": null,
+      "weed_common_name": "Weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not Specified",
+      "critical_comments": "DO NOT GRAZE OR CUT FOR STOCK FOOD FOR 9 WEEKS AFTER APPLICATION",
+      "control_level": "control"
+    },
+    {
+      "crop": "FABA BEANS",
+      "application_timing": null,
+      "weed_common_name": "Weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not Specified",
+      "critical_comments": "DO NOT USE TREATED PRODUCE FOR HUMAN CONSUMPTION WITHIN 23 WEEKS OF TREATMENT. DO NOT GRAZE OR CUT FOR STOCK FOOD FOR 9 WEEKS AFTER APPLICATION.",
+      "control_level": "control"
+    },
+    {
+      "crop": "CANOLA",
+      "application_timing": null,
+      "weed_common_name": "Weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not Specified",
+      "critical_comments": "DO NOT GRAZE OR CUT FOR STOCK FOOD FOR 15 WEEKS AFTER APPLICATION.",
+      "control_level": "control"
+    },
+    {
+      "crop": "ALMONDS",
+      "application_timing": null,
+      "weed_common_name": "Weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not Specified",
+      "critical_comments": "NOT REQUIRED WHEN USED AS DIRECTED.",
+      "control_level": "control"
+    },
+    {
+      "crop": "HAZELNUTS",
+      "application_timing": null,
+      "weed_common_name": "Weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not Specified",
+      "critical_comments": "NOT REQUIRED WHEN USED AS DIRECTED.",
+      "control_level": "control"
+    },
+    {
+      "crop": "WALNUTS",
+      "application_timing": null,
+      "weed_common_name": "Weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not Specified",
+      "critical_comments": "NOT REQUIRED WHEN USED AS DIRECTED.",
+      "control_level": "control"
+    },
+    {
+      "crop": "PYRETHRUM",
+      "application_timing": null,
+      "weed_common_name": "Weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not Specified",
+      "critical_comments": "NOT REQUIRED WHEN USED AS DIRECTED.",
+      "control_level": "control"
+    },
+    {
+      "crop": "LEEKS",
+      "application_timing": null,
+      "weed_common_name": "Weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not Specified",
+      "critical_comments": "NOT REQUIRED WHEN USED AS DIRECTED.",
+      "control_level": "control"
+    },
+    {
+      "crop": "GINGER",
+      "application_timing": null,
+      "weed_common_name": "Weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not Specified",
+      "critical_comments": "NOT REQUIRED WHEN USED AS DIRECTED.",
+      "control_level": "control"
+    },
+    {
+      "crop": "OIL TEA TREE",
+      "application_timing": null,
+      "weed_common_name": "Weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not Specified",
+      "critical_comments": "DO NOT GRAZE TREATED AREAS OR CUT FOR STOCK FOOD FOR 8 WEEKS AFTER APPLICATION.",
+      "control_level": "control"
+    },
+    {
+      "crop": "WILDFLOWERS",
+      "application_timing": null,
+      "weed_common_name": "Weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not Specified",
+      "critical_comments": "GRAZING: DO NOT ALLOW LIVESTOCK TO GRAZE SIMAZINE TREATED WEEDS.",
+      "control_level": "control"
+    },
+    {
+      "crop": "OTHER CROPS",
+      "application_timing": null,
+      "weed_common_name": "Weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not Specified",
+      "critical_comments": "DO NOT GRAZE FOR 14 DAYS AFTER APPLICATION. DO NOT CUT FOR STOCK FOOD FOR 21 DAYS AFTER APPLICATION.",
+      "control_level": "control"
+    },
+    {
+      "crop": "ASPARAGUS",
+      "application_timing": null,
+      "weed_common_name": "Weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not Specified",
+      "critical_comments": "DO NOT make more than two applications in any one year.",
+      "control_level": "control"
+    },
+    {
+      "crop": "BERRY FRUIT",
+      "application_timing": null,
+      "weed_common_name": "Weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not Specified",
+      "critical_comments": "DO NOT make more than two applications in any one year.",
+      "control_level": "control"
+    },
+    {
+      "crop": "CITRUS",
+      "application_timing": null,
+      "weed_common_name": "Weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not Specified",
+      "critical_comments": "DO NOT make more than two applications in any one year.",
+      "control_level": "control"
+    },
+    {
+      "crop": "GLADIOLI",
+      "application_timing": null,
+      "weed_common_name": "Weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not Specified",
+      "critical_comments": "DO NOT make more than two applications in any one year.",
+      "control_level": "control"
+    },
+    {
+      "crop": "HOPS",
+      "application_timing": null,
+      "weed_common_name": "Weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not Specified",
+      "critical_comments": "DO NOT make more than two applications in any one year.",
+      "control_level": "control"
+    },
+    {
+      "crop": "LUPINS",
+      "application_timing": null,
+      "weed_common_name": "Weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not Specified",
+      "critical_comments": "DO NOT make more than two applications in any one year.",
+      "control_level": "control"
+    },
+    {
+      "crop": "ROSES",
+      "application_timing": null,
+      "weed_common_name": "Weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not Specified",
+      "critical_comments": "DO NOT make more than two applications in any one year.",
+      "control_level": "control"
+    },
+    {
+      "crop": "APPLES",
+      "application_timing": null,
+      "weed_common_name": "Weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not Specified",
+      "critical_comments": "DO NOT make more than two applications in any one year.",
+      "control_level": "control"
+    },
+    {
+      "crop": "PEARS",
+      "application_timing": null,
+      "weed_common_name": "Weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not Specified",
+      "critical_comments": "DO NOT make more than two applications in any one year.",
+      "control_level": "control"
+    },
+    {
+      "crop": "VINEYARDS",
+      "application_timing": null,
+      "weed_common_name": "Weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not Specified",
+      "critical_comments": "DO NOT make more than two applications in any one year.",
+      "control_level": "control"
+    }
+  ],
+  "application_methods": [],
+  "state_restrictions": [],
+  "withholding_period": null,
+  "compatible_products": [],
+  "_metadata": {
+    "source_file": "55138ELBL.md",
+    "extracted_at": "2026-01-08T13:45:39.356720",
+    "model": "gemini-2.5-flash-lite"
+  }
+}

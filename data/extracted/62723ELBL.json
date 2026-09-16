@@ -1,0 +1,1017 @@
+{
+  "product_number": "97001",
+  "product_name": "NUFARM WEEDMASTER DST HERBICIDE",
+  "active_constituent": "470 g/L GLYPHOSATE PRESENT AS THE POTASSIUM &#x26; MONO-AMMONIUM SALTS",
+  "chemical_group": null,
+  "mode_of_action_group": "9",
+  "registered_crops": [
+    "BARLEY",
+    "CANOLA",
+    "LINSEED",
+    "LUPINS",
+    "MUSTARD",
+    "SAFFLOWER",
+    "SESAME",
+    "SUNFLOWER",
+    "COTTON",
+    "POPPLES",
+    "WHEAT",
+    "PULSES",
+    "SORGHUM"
+  ],
+  "registered_weeds": [
+    "annual weeds",
+    "perennial weeds",
+    "volunteer and ratoon Roundup Ready Flex* cotton",
+    "volunteer and ratoon Roundup Ready* canola",
+    "volunteer and ratoon TruFlex* canola",
+    "volunteer and ratoon canola hybrids with the Optimum GLY® herbicide tolerance trait"
+  ],
+  "weed_control_entries": [
+    {
+      "crop": "BARLEY",
+      "application_timing": null,
+      "weed_common_name": "annual weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to label",
+      "critical_comments": "DO NOT CUT OR GRAZE FOR STOCKFOOD FOR 7 DAYS AFTER APPLICATION.",
+      "control_level": "control"
+    },
+    {
+      "crop": "CANOLA",
+      "application_timing": null,
+      "weed_common_name": "annual weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to label",
+      "critical_comments": "DO NOT CUT OR GRAZE FOR STOCKFOOD FOR 7 DAYS AFTER APPLICATION.",
+      "control_level": "control"
+    },
+    {
+      "crop": "LINSEED",
+      "application_timing": null,
+      "weed_common_name": "annual weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to label",
+      "critical_comments": "DO NOT CUT OR GRAZE FOR STOCKFOOD FOR 7 DAYS AFTER APPLICATION.",
+      "control_level": "control"
+    },
+    {
+      "crop": "LUPINS",
+      "application_timing": null,
+      "weed_common_name": "annual weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to label",
+      "critical_comments": "DO NOT CUT OR GRAZE FOR STOCKFOOD FOR 7 DAYS AFTER APPLICATION.",
+      "control_level": "control"
+    },
+    {
+      "crop": "MUSTARD",
+      "application_timing": null,
+      "weed_common_name": "annual weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to label",
+      "critical_comments": "DO NOT CUT OR GRAZE FOR STOCKFOOD FOR 7 DAYS AFTER APPLICATION.",
+      "control_level": "control"
+    },
+    {
+      "crop": "SAFFLOWER",
+      "application_timing": null,
+      "weed_common_name": "annual weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to label",
+      "critical_comments": "DO NOT CUT OR GRAZE FOR STOCKFOOD FOR 7 DAYS AFTER APPLICATION.",
+      "control_level": "control"
+    },
+    {
+      "crop": "SESAME",
+      "application_timing": null,
+      "weed_common_name": "annual weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to label",
+      "critical_comments": "DO NOT CUT OR GRAZE FOR STOCKFOOD FOR 7 DAYS AFTER APPLICATION.",
+      "control_level": "control"
+    },
+    {
+      "crop": "SUNFLOWER",
+      "application_timing": null,
+      "weed_common_name": "annual weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to label",
+      "critical_comments": "DO NOT CUT OR GRAZE FOR STOCKFOOD FOR 7 DAYS AFTER APPLICATION.",
+      "control_level": "control"
+    },
+    {
+      "crop": "COTTON",
+      "application_timing": null,
+      "weed_common_name": "annual weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to label",
+      "critical_comments": "DO NOT GRAZE OR CUT FOR STOCKFOOD.",
+      "control_level": "control"
+    },
+    {
+      "crop": "POPPLES",
+      "application_timing": null,
+      "weed_common_name": "annual weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to label",
+      "critical_comments": "DO NOT GRAZE OR CUT FOR STOCKFOOD.",
+      "control_level": "control"
+    },
+    {
+      "crop": "WHEAT",
+      "application_timing": null,
+      "weed_common_name": "annual weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to label",
+      "critical_comments": "DO NOT CUT OR GRAZE FOR STOCKFOOD FOR 5 DAYS AFTER APPLICATION.",
+      "control_level": "control"
+    },
+    {
+      "crop": "BARLEY",
+      "application_timing": null,
+      "weed_common_name": "perennial weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to label",
+      "critical_comments": "DO NOT CUT OR GRAZE FOR STOCKFOOD FOR 7 DAYS AFTER APPLICATION.",
+      "control_level": "control"
+    },
+    {
+      "crop": "CANOLA",
+      "application_timing": null,
+      "weed_common_name": "perennial weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to label",
+      "critical_comments": "DO NOT CUT OR GRAZE FOR STOCKFOOD FOR 7 DAYS AFTER APPLICATION.",
+      "control_level": "control"
+    },
+    {
+      "crop": "LINSEED",
+      "application_timing": null,
+      "weed_common_name": "perennial weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to label",
+      "critical_comments": "DO NOT CUT OR GRAZE FOR STOCKFOOD FOR 7 DAYS AFTER APPLICATION.",
+      "control_level": "control"
+    },
+    {
+      "crop": "LUPINS",
+      "application_timing": null,
+      "weed_common_name": "perennial weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to label",
+      "critical_comments": "DO NOT CUT OR GRAZE FOR STOCKFOOD FOR 7 DAYS AFTER APPLICATION.",
+      "control_level": "control"
+    },
+    {
+      "crop": "MUSTARD",
+      "application_timing": null,
+      "weed_common_name": "perennial weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to label",
+      "critical_comments": "DO NOT CUT OR GRAZE FOR STOCKFOOD FOR 7 DAYS AFTER APPLICATION.",
+      "control_level": "control"
+    },
+    {
+      "crop": "SAFFLOWER",
+      "application_timing": null,
+      "weed_common_name": "perennial weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to label",
+      "critical_comments": "DO NOT CUT OR GRAZE FOR STOCKFOOD FOR 7 DAYS AFTER APPLICATION.",
+      "control_level": "control"
+    },
+    {
+      "crop": "SESAME",
+      "application_timing": null,
+      "weed_common_name": "perennial weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to label",
+      "critical_comments": "DO NOT CUT OR GRAZE FOR STOCKFOOD FOR 7 DAYS AFTER APPLICATION.",
+      "control_level": "control"
+    },
+    {
+      "crop": "SUNFLOWER",
+      "application_timing": null,
+      "weed_common_name": "perennial weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to label",
+      "critical_comments": "DO NOT CUT OR GRAZE FOR STOCKFOOD FOR 7 DAYS AFTER APPLICATION.",
+      "control_level": "control"
+    },
+    {
+      "crop": "COTTON",
+      "application_timing": null,
+      "weed_common_name": "perennial weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to label",
+      "critical_comments": "DO NOT GRAZE OR CUT FOR STOCKFOOD.",
+      "control_level": "control"
+    },
+    {
+      "crop": "POPPLES",
+      "application_timing": null,
+      "weed_common_name": "perennial weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to label",
+      "critical_comments": "DO NOT GRAZE OR CUT FOR STOCKFOOD.",
+      "control_level": "control"
+    },
+    {
+      "crop": "WHEAT",
+      "application_timing": null,
+      "weed_common_name": "perennial weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to label",
+      "critical_comments": "DO NOT CUT OR GRAZE FOR STOCKFOOD FOR 5 DAYS AFTER APPLICATION.",
+      "control_level": "control"
+    },
+    {
+      "crop": "BARLEY",
+      "application_timing": null,
+      "weed_common_name": "annual weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to label",
+      "critical_comments": "DO NOT HARVEST FOR 7 DAYS AFTER APPLICATION.",
+      "control_level": "control"
+    },
+    {
+      "crop": "POPPLES",
+      "application_timing": null,
+      "weed_common_name": "annual weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to label",
+      "critical_comments": "DO NOT HARVEST FOR 7 DAYS AFTER APPLICATION.",
+      "control_level": "control"
+    },
+    {
+      "crop": "PULSES",
+      "application_timing": null,
+      "weed_common_name": "annual weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to label",
+      "critical_comments": "DO NOT HARVEST FOR 7 DAYS AFTER APPLICATION.",
+      "control_level": "control"
+    },
+    {
+      "crop": "SAFFLOWER",
+      "application_timing": null,
+      "weed_common_name": "annual weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to label",
+      "critical_comments": "DO NOT HARVEST FOR 7 DAYS AFTER APPLICATION.",
+      "control_level": "control"
+    },
+    {
+      "crop": "SESAME",
+      "application_timing": null,
+      "weed_common_name": "annual weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to label",
+      "critical_comments": "DO NOT HARVEST FOR 7 DAYS AFTER APPLICATION.",
+      "control_level": "control"
+    },
+    {
+      "crop": "SORGHUM",
+      "application_timing": null,
+      "weed_common_name": "annual weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to label",
+      "critical_comments": "DO NOT HARVEST FOR 7 DAYS AFTER APPLICATION.",
+      "control_level": "control"
+    },
+    {
+      "crop": "SUNFLOWER",
+      "application_timing": null,
+      "weed_common_name": "annual weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to label",
+      "critical_comments": "DO NOT HARVEST FOR 7 DAYS AFTER APPLICATION.",
+      "control_level": "control"
+    },
+    {
+      "crop": "CANOLA",
+      "application_timing": null,
+      "weed_common_name": "annual weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to label",
+      "critical_comments": "NOT REQUIRED WHEN USED AS DIRECTED ON CANOLA HYBRIDS WITH THE OPTIMUM GLY® HERBICIDE TOLERANCE TRAIT. NOT REQUIRED WHEN USED SOLELY IN-CROP OVER ROUNDUP READY CANOLA PRIOR TO BUD FORMATION. DO NOT HARVEST FOR 5 DAYS AFTER APPLICATION TO A STANDING CROP AS A PRE-HARVEST / CUTTING APPLICATION. NOT REQUIRED WHEN USED AT WINDROWING.",
+      "control_level": "control"
+    },
+    {
+      "crop": "MUSTARD",
+      "application_timing": null,
+      "weed_common_name": "annual weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to label",
+      "critical_comments": "NOT REQUIRED WHEN USED AS DIRECTED ON CANOLA HYBRIDS WITH THE OPTIMUM GLY® HERBICIDE TOLERANCE TRAIT. NOT REQUIRED WHEN USED SOLELY IN-CROP OVER ROUNDUP READY CANOLA PRIOR TO BUD FORMATION. DO NOT HARVEST FOR 5 DAYS AFTER APPLICATION TO A STANDING CROP AS A PRE-HARVEST / CUTTING APPLICATION. NOT REQUIRED WHEN USED AT WINDROWING.",
+      "control_level": "control"
+    },
+    {
+      "crop": "COTTON",
+      "application_timing": null,
+      "weed_common_name": "annual weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to label",
+      "critical_comments": "NOT REQUIRED WHEN USED AS DIRECTED.",
+      "control_level": "control"
+    },
+    {
+      "crop": "LINSEED",
+      "application_timing": null,
+      "weed_common_name": "annual weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to label",
+      "critical_comments": "DO NOT HARVEST FOR 10 DAYS AFTER APPLICATION.",
+      "control_level": "control"
+    },
+    {
+      "crop": "WHEAT",
+      "application_timing": null,
+      "weed_common_name": "annual weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to label",
+      "critical_comments": "DO NOT HARVEST FOR 5 DAYS AFTER APPLICATION.",
+      "control_level": "control"
+    },
+    {
+      "crop": "BARLEY",
+      "application_timing": null,
+      "weed_common_name": "perennial weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to label",
+      "critical_comments": "DO NOT HARVEST FOR 7 DAYS AFTER APPLICATION.",
+      "control_level": "control"
+    },
+    {
+      "crop": "POPPLES",
+      "application_timing": null,
+      "weed_common_name": "perennial weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to label",
+      "critical_comments": "DO NOT HARVEST FOR 7 DAYS AFTER APPLICATION.",
+      "control_level": "control"
+    },
+    {
+      "crop": "PULSES",
+      "application_timing": null,
+      "weed_common_name": "perennial weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to label",
+      "critical_comments": "DO NOT HARVEST FOR 7 DAYS AFTER APPLICATION.",
+      "control_level": "control"
+    },
+    {
+      "crop": "SAFFLOWER",
+      "application_timing": null,
+      "weed_common_name": "perennial weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to label",
+      "critical_comments": "DO NOT HARVEST FOR 7 DAYS AFTER APPLICATION.",
+      "control_level": "control"
+    },
+    {
+      "crop": "SESAME",
+      "application_timing": null,
+      "weed_common_name": "perennial weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to label",
+      "critical_comments": "DO NOT HARVEST FOR 7 DAYS AFTER APPLICATION.",
+      "control_level": "control"
+    },
+    {
+      "crop": "SORGHUM",
+      "application_timing": null,
+      "weed_common_name": "perennial weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to label",
+      "critical_comments": "DO NOT HARVEST FOR 7 DAYS AFTER APPLICATION.",
+      "control_level": "control"
+    },
+    {
+      "crop": "SUNFLOWER",
+      "application_timing": null,
+      "weed_common_name": "perennial weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to label",
+      "critical_comments": "DO NOT HARVEST FOR 7 DAYS AFTER APPLICATION.",
+      "control_level": "control"
+    },
+    {
+      "crop": "CANOLA",
+      "application_timing": null,
+      "weed_common_name": "perennial weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to label",
+      "critical_comments": "NOT REQUIRED WHEN USED AS DIRECTED ON CANOLA HYBRIDS WITH THE OPTIMUM GLY® HERBICIDE TOLERANCE TRAIT. NOT REQUIRED WHEN USED SOLELY IN-CROP OVER ROUNDUP READY CANOLA PRIOR TO BUD FORMATION. DO NOT HARVEST FOR 5 DAYS AFTER APPLICATION TO A STANDING CROP AS A PRE-HARVEST / CUTTING APPLICATION. NOT REQUIRED WHEN USED AT WINDROWING.",
+      "control_level": "control"
+    },
+    {
+      "crop": "MUSTARD",
+      "application_timing": null,
+      "weed_common_name": "perennial weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to label",
+      "critical_comments": "NOT REQUIRED WHEN USED AS DIRECTED ON CANOLA HYBRIDS WITH THE OPTIMUM GLY® HERBICIDE TOLERANCE TRAIT. NOT REQUIRED WHEN USED SOLELY IN-CROP OVER ROUNDUP READY CANOLA PRIOR TO BUD FORMATION. DO NOT HARVEST FOR 5 DAYS AFTER APPLICATION TO A STANDING CROP AS A PRE-HARVEST / CUTTING APPLICATION. NOT REQUIRED WHEN USED AT WINDROWING.",
+      "control_level": "control"
+    },
+    {
+      "crop": "COTTON",
+      "application_timing": null,
+      "weed_common_name": "perennial weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to label",
+      "critical_comments": "NOT REQUIRED WHEN USED AS DIRECTED.",
+      "control_level": "control"
+    },
+    {
+      "crop": "LINSEED",
+      "application_timing": null,
+      "weed_common_name": "perennial weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to label",
+      "critical_comments": "DO NOT HARVEST FOR 10 DAYS AFTER APPLICATION.",
+      "control_level": "control"
+    },
+    {
+      "crop": "WHEAT",
+      "application_timing": null,
+      "weed_common_name": "perennial weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to label",
+      "critical_comments": "DO NOT HARVEST FOR 5 DAYS AFTER APPLICATION.",
+      "control_level": "control"
+    },
+    {
+      "crop": "FALLOW",
+      "application_timing": "post-emergence",
+      "weed_common_name": "volunteer and ratoon Roundup Ready Flex* cotton",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to label",
+      "critical_comments": "These plants will not be controlled by Nufarm weedmaster DST or other glyphosate (Group 9) herbicides and should be controlled in both cropping and non-cropping areas. These plants are best managed with cultivation and/or appropriate registered herbicides.",
+      "control_level": "control"
+    },
+    {
+      "crop": "FALLOW",
+      "application_timing": "post-emergence",
+      "weed_common_name": "volunteer and ratoon Roundup Ready* canola",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to label",
+      "critical_comments": "These plants will not be controlled by Nufarm weedmaster DST or other glyphosate (Group 9) herbicides and should be controlled in both cropping and non-cropping areas. These plants are best managed with cultivation and/or appropriate registered herbicides.",
+      "control_level": "control"
+    },
+    {
+      "crop": "FALLOW",
+      "application_timing": "post-emergence",
+      "weed_common_name": "volunteer and ratoon TruFlex* canola",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to label",
+      "critical_comments": "These plants will not be controlled by Nufarm weedmaster DST or other glyphosate (Group 9) herbicides and should be controlled in both cropping and non-cropping areas. These plants are best managed with cultivation and/or appropriate registered herbicides.",
+      "control_level": "control"
+    },
+    {
+      "crop": "FALLOW",
+      "application_timing": "post-emergence",
+      "weed_common_name": "volunteer and ratoon canola hybrids with the Optimum GLY® herbicide tolerance trait",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to label",
+      "critical_comments": "These plants will not be controlled by Nufarm weedmaster DST or other glyphosate (Group 9) herbicides and should be controlled in both cropping and non-cropping areas. These plants are best managed with cultivation and/or appropriate registered herbicides.",
+      "control_level": "control"
+    }
+  ],
+  "application_methods": [
+    "Ground spray",
+    "Aerial"
+  ],
+  "state_restrictions": [],
+  "withholding_period": null,
+  "compatible_products": [
+    "Agritone® 750",
+    "Alliance®",
+    "Amicide® Advance 700",
+    "Amitrole T",
+    "Associate®",
+    "Bentley®",
+    "Biffo®",
+    "Broadside®",
+    "Broadsword®",
+    "Bromicide® 200",
+    "Bromicide® MA",
+    "Comet® 400",
+    "Eliminar® C",
+    "Estercide® Xtra 680",
+    "Nail®240",
+    "Nail®600",
+    "Polo® 570 LVE",
+    "Revolver®",
+    "Sentry®",
+    "Shirquat® 250",
+    "T-Rex®",
+    "Unity®"
+  ],
+  "_metadata": {
+    "source_file": "62723ELBL.md",
+    "extracted_at": "2026-01-08T13:48:29.077917",
+    "model": "gemini-2.5-flash-lite"
+  }
+}

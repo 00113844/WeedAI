@@ -1,0 +1,166 @@
+{
+  "product_name": "ACCENSI 2,4-D LOW ODOUR 500 SELECTIVE HERBICIDE",
+  "apvma_number": "68535/128105",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "I",
+  "identified_crops": [
+    "",
+    "Up to 1 L (450 g ae/ha)",
+    "Up to 2.3 L (1150 g ae/ha)",
+    "Up to 3 L (1500 g ae/ha)",
+    "Up to 4.0 L (2000 g ae/ha)",
+    "Up to 5.5 L (2750 g ae/ha)"
+  ],
+  "identified_weeds": [
+    "0.5m or lower",
+    "1.0m or lower"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Up to 1 L (450 g ae/ha)",
+      "weed_common_name": "0.5m or lower",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 10.0,
+      "rate_unit": "10",
+      "rate_full_text": "10",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "0 metres"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "1.0m or lower",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 35.0,
+      "rate_unit": "35",
+      "rate_full_text": "35",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Up to 2.3 L (1150 g ae/ha)",
+      "weed_common_name": "0.5m or lower",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 30.0,
+      "rate_unit": "30",
+      "rate_full_text": "30",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "1.0m or lower",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 60.0,
+      "rate_unit": "60",
+      "rate_full_text": "60",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Up to 3 L (1500 g ae/ha)",
+      "weed_common_name": "0.5m or lower",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 30.0,
+      "rate_unit": "30",
+      "rate_full_text": "30",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "1.0m or lower",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 75.0,
+      "rate_unit": "75",
+      "rate_full_text": "75",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Up to 4.0 L (2000 g ae/ha)",
+      "weed_common_name": "0.5m or lower",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 35.0,
+      "rate_unit": "35",
+      "rate_full_text": "35",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "1.0m or lower",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 100.0,
+      "rate_unit": "100",
+      "rate_full_text": "100",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Up to 5.5 L (2750 g ae/ha)",
+      "weed_common_name": "0.5m or lower",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 45.0,
+      "rate_unit": "45",
+      "rate_full_text": "45",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "1.0m or lower",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 130.0,
+      "rate_unit": "130",
+      "rate_full_text": "130",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    }
+  ]
+}

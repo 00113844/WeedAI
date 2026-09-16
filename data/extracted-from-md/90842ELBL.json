@@ -1,0 +1,55 @@
+{
+  "product_name": "Agro-2,4D Amine 720 SL Herbicide",
+  "apvma_number": "90842/130191",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "I",
+  "identified_crops": [
+    "Winter Cereals and Maize, Sweet Corn, Peanuts",
+    "Winter cereals"
+  ],
+  "identified_weeds": [
+    "Refer weed table"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Winter cereals",
+      "weed_common_name": "Refer weed table",
+      "weed_scientific_name": null,
+      "states": [
+        "VIC"
+      ],
+      "rate_value": 190.0,
+      "rate_unit": "190 mL \u2013 1.2 L",
+      "rate_full_text": "190 mL \u2013 1.2 L",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Observe plant back periods given in the table on this leaflet. Can be mixed with a Ken-Chlor 750 (Chlorsulfuron 750 g/kg WDG) or Para-Ken 250 (Paraquat 250 g/L EC) where grasses are present."
+        }
+      ]
+    },
+    {
+      "crop": "Winter Cereals and Maize, Sweet Corn, Peanuts",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "QLD",
+        "NT"
+      ],
+      "rate_value": 485.0,
+      "rate_unit": "485 mL \u2013 1.45 L",
+      "rate_full_text": "485 mL \u2013 1.45 L",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "For Skeleton Weed spraying should only be done 6-8 weeks before anticipated sowing date and subsequent cultivation limited to a minimum."
+        }
+      ]
+    }
+  ]
+}

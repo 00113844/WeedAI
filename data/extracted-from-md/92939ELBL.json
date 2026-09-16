@@ -1,0 +1,44 @@
+{
+  "product_name": "GENFARM MESOSULFURON-METHYL OD HERBICIDE",
+  "apvma_number": "92939/138358",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "2",
+  "identified_crops": [
+    "",
+    "Up to maximum label rate"
+  ],
+  "identified_weeds": [
+    "Natural aquatic areas"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "",
+      "weed_common_name": "Natural aquatic areas",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "Bystander areas",
+      "rate_full_text": "Bystander areas",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Up to maximum label rate",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "0 metres",
+      "rate_full_text": "0 metres",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    }
+  ]
+}

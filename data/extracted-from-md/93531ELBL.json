@@ -1,0 +1,102 @@
+{
+  "product_name": "IMTRADE EDGE UNIFY 900 WG HERBICIDE",
+  "apvma_number": "93531/139440",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "3",
+  "identified_crops": [
+    "",
+    "Chickpeas, Faba Beans, Field Peas, Lentils, Lupins",
+    "IBS (Incorporated By Sowing)"
+  ],
+  "identified_weeds": [
+    "Annual Ryegrass",
+    "Barley Grass",
+    "Brassica juncea)",
+    "Canary Grass",
+    "Canola and Mustard (Oilseed Cultivars",
+    "Fescue",
+    "Great Brome",
+    "Prairie Grass",
+    "Rat\u2019s Tail Fescue",
+    "Silver Grass",
+    "Squirrel Tail",
+    "Use rates towards the higher end of the range on heavy soils",
+    "Wild Oats",
+    "Winter Grass",
+    "if conditions are not optimal or where a heavy grass population is expected."
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "IBS (Incorporated By Sowing)",
+      "weed_common_name": "Canola and Mustard (Oilseed Cultivars",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_value": 0.57,
+      "rate_unit": "kg/ha",
+      "rate_full_text": "0.57kg/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "IBS - when weeds are at the pre-emergent stage prior to sowing the crop."
+        }
+      ]
+    },
+    {
+      "crop": "Chickpeas, Faba Beans, Field Peas, Lentils, Lupins",
+      "weed_common_name": "Annual Ryegrass",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_value": 0.84,
+      "rate_unit": "kg/ha",
+      "rate_full_text": "0.57 \u2013 0.84kg/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "IBS - when weeds are at the pre-emergent stage prior to sowing the crop."
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Use rates towards the higher end of the range on heavy soils",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "0.84 \u2013 1.12kg/ha"
+        }
+      ]
+    }
+  ]
+}

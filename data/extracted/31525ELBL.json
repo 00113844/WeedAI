@@ -1,0 +1,19 @@
+{
+  "product_number": "00000",
+  "product_name": "Tigrex®",
+  "active_constituent": "250 g/L MCPA AS THE 2-ETHYLHEXYL ESTER, 25 g/L DIFLUFENICAN",
+  "chemical_group": null,
+  "mode_of_action_group": "F",
+  "registered_crops": [],
+  "registered_weeds": [],
+  "weed_control_entries": [],
+  "application_methods": [],
+  "state_restrictions": [],
+  "withholding_period": null,
+  "compatible_products": [],
+  "_metadata": {
+    "source_file": "31525ELBL.md",
+    "extracted_at": "2026-01-08T13:43:32.822882",
+    "model": "gemini-2.5-flash-lite"
+  }
+}

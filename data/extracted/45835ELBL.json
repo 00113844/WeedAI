@@ -1,0 +1,30 @@
+{
+  "product_number": "NRA",
+  "product_name": "SPINNAKER",
+  "active_constituent": "240 g/L IMAZETHAPYR",
+  "chemical_group": "Imidazolinone",
+  "mode_of_action_group": "B",
+  "registered_crops": [
+    "Centrosema (Cavalcade)",
+    "chickpeas",
+    "faba beans",
+    "field peas",
+    "lucerne",
+    "mung beans",
+    "peanuts",
+    "serradella",
+    "soybeans",
+    "subterranean clover"
+  ],
+  "registered_weeds": [],
+  "weed_control_entries": [],
+  "application_methods": [],
+  "state_restrictions": [],
+  "withholding_period": null,
+  "compatible_products": [],
+  "_metadata": {
+    "source_file": "45835ELBL.md",
+    "extracted_at": "2026-01-08T13:44:30.483312",
+    "model": "gemini-2.5-flash-lite"
+  }
+}

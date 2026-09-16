@@ -1,0 +1,41 @@
+{
+  "product_name": "FallowMate IPA 650 Herbicide",
+  "apvma_number": "89360/132210",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "4",
+  "identified_crops": [
+    "Non Crop Areas, Fallow Land, Industrial & Commercial Areas, Rights of Way"
+  ],
+  "identified_weeds": [
+    "Refer to Weed Table"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Non Crop Areas, Fallow Land, Industrial & Commercial Areas, Rights of Way",
+      "weed_common_name": "Refer to Weed Table",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "Refer to Weed Table",
+      "rate_full_text": "Refer to Weed Table",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply at rates shown in Weed Table when weeds only are present and no crop or pasture is involved."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "product_number": "67900",
+  "product_name": "NOMINEE HERBICIDE",
+  "active_constituent": "100 g/L BISPYRIBAC-SODIUM",
+  "chemical_group": null,
+  "mode_of_action_group": "B",
+  "registered_crops": [
+    "Creeping Bentgrass",
+    "Tall Fescue",
+    "Couch",
+    "Perennial Ryegrass"
+  ],
+  "registered_weeds": [
+    "Poa annua"
+  ],
+  "weed_control_entries": [
+    {
+      "crop": "Creeping Bentgrass",
+      "application_timing": null,
+      "weed_common_name": "Poa annua",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "not specified",
+      "critical_comments": "For the control and the suppression of seed heads.",
+      "control_level": "suppression"
+    },
+    {
+      "crop": "Tall Fescue",
+      "application_timing": null,
+      "weed_common_name": "Poa annua",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "not specified",
+      "critical_comments": "For the control and the suppression of seed heads.",
+      "control_level": "suppression"
+    },
+    {
+      "crop": "Couch",
+      "application_timing": null,
+      "weed_common_name": "Poa annua",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "not specified",
+      "critical_comments": "For the control and the suppression of seed heads.",
+      "control_level": "suppression"
+    },
+    {
+      "crop": "Perennial Ryegrass",
+      "application_timing": null,
+      "weed_common_name": "Poa annua",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "not specified",
+      "critical_comments": "For the control and the suppression of seed heads.",
+      "control_level": "suppression"
+    }
+  ],
+  "application_methods": [],
+  "state_restrictions": [],
+  "withholding_period": "DO NOT GRAZE TREATED AREAS OR FEED TREATED GRASS CLIPPINGS TO LIVESTOCK.",
+  "compatible_products": [],
+  "_metadata": {
+    "source_file": "63233ELBL.md",
+    "extracted_at": "2026-01-08T13:48:36.349030",
+    "model": "gemini-2.5-flash-lite"
+  }
+}

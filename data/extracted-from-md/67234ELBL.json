@@ -1,0 +1,157 @@
+{
+  "product_name": "MAIN PANEL",
+  "apvma_number": null,
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "B",
+  "identified_crops": [
+    "",
+    "Alligator weed (Alternanthera philoxeroides)",
+    "Australian blackthorn (Bursaria spinosa)",
+    "Bellyache bush (Jatropha gossypifolia)",
+    "Bitou bush (Chrysanthemoides monilifera)",
+    "Blackberry (Rubus spp)"
+  ],
+  "identified_weeds": [
+    "NSW",
+    "Qld",
+    "SA",
+    "Tas",
+    "Vic"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Alligator weed (Alternanthera philoxeroides)",
+      "weed_common_name": "Qld",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 250.0,
+      "rate_unit": "250",
+      "rate_full_text": "250",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply in terrestrial situations only. Follow-up applications, over at least two years seasons, are essential for complete control. DO NOT spray into water."
+        }
+      ]
+    },
+    {
+      "crop": "Alligator weed (Alternanthera philoxeroides)",
+      "weed_common_name": "NSW",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 250.0,
+      "rate_unit": "250",
+      "rate_full_text": "250",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply in terrestrial situations only. Follow-up applications, over at least two years seasons, are essential for complete control. DO NOT spray into water."
+        }
+      ]
+    },
+    {
+      "crop": "Australian blackthorn (Bursaria spinosa)",
+      "weed_common_name": "Qld",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Spray to thoroughly wet all foliage. Avoid spraying when plants are stressed."
+        }
+      ]
+    },
+    {
+      "crop": "Bellyache bush (Jatropha gossypifolia)",
+      "weed_common_name": "Qld",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Spray just prior to flowering, when the plant is in full leaf and actively growing."
+        }
+      ]
+    },
+    {
+      "crop": "Bitou bush (Chrysanthemoides monilifera)",
+      "weed_common_name": "Qld",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Spray just prior to flowering, when the plant is in full leaf and actively growing. Minimise contact with adjoining plants."
+        }
+      ]
+    },
+    {
+      "crop": "Blackberry (Rubus spp)",
+      "weed_common_name": "NSW",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 250.0,
+      "rate_unit": "250",
+      "rate_full_text": "250",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Use this rate on plants growing under ideal conditions such as: Shade, along creek banks and waterways or in deep, moist, fertile soils. Ensure runners, up to 2 or 3 metres from the periphery of the bush are treated. In Tasmania DO NOT apply to bushes carrying mature fruit."
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 375.0,
+      "rate_unit": "375",
+      "rate_full_text": "375",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Use this rate in all other situations. Blackberries MUST be actively growing with adequate moisture and NOT stressed by: Lack of soil moisture, high temperatures OR damaged by insects, browsing or fire. DO NOT treat plants that have been treated with chemicals within the previous 24 months and then only treat plants that have at least 1m of new growth."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "product_number": "62444",
+  "product_name": "VELOCITY SELECTIVE HERBICIDE",
+  "active_constituent": "210 g/L BROMOXYNIL AS ITS MIXED HEPTANOIC ACID AND OCTANOIC ACID ESTERS, 37.5 g/L PYRASULFOTOLE",
+  "chemical_group": null,
+  "mode_of_action_group": "6",
+  "registered_crops": [
+    "wheat",
+    "barley",
+    "cereal rye",
+    "triticale",
+    "maize",
+    "sorghum",
+    "cotton",
+    "soybean",
+    "sunflower",
+    "mung bean"
+  ],
+  "registered_weeds": [],
+  "weed_control_entries": [
+    {
+      "crop": "maize",
+      "application_timing": "post-emergence",
+      "weed_common_name": "broadleaf weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "up to 1.0 L/ha",
+      "critical_comments": "DO NOT use if rainfall or irrigation is to occur within 2 hours of application. DO NOT apply to frost affected weeds or if frosts are imminent. DO NOT apply without adjuvant. See 'Use of Adjuvant/Wetting Agent' under 'General Instructions'. DO NOT apply to broadleaf crops, e.g. canola, chickpea, clover, faba bean, lupin, lucerne, medic, vetch. DO NOT apply to any crop other than wheat, barley, cereal rye or triticale. DO NOT apply to oats. DO NOT apply using aircraft. DO NOT apply through a mister. For summer recropping, transient biomass reduction or discolouration may occur where recropped after Velocity application. When used as directed grain yield is not compromised where transient biomass reduction or discolouration occurs. Where Velocity at 1.0 L/ha is applied, recropping areas that receive double rates (boom overlaps) may show increased symptoms of damage. This is generally restricted to discolouration (bleaching) of the crop but may also result in biomass reduction in some situations.",
+      "control_level": "control"
+    },
+    {
+      "crop": "sorghum",
+      "application_timing": "post-emergence",
+      "weed_common_name": "broadleaf weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "up to 1.0 L/ha",
+      "critical_comments": "DO NOT use if rainfall or irrigation is to occur within 2 hours of application. DO NOT apply to frost affected weeds or if frosts are imminent. DO NOT apply without adjuvant. See 'Use of Adjuvant/Wetting Agent' under 'General Instructions'. DO NOT apply to broadleaf crops, e.g. canola, chickpea, clover, faba bean, lupin, lucerne, medic, vetch. DO NOT apply to any crop other than wheat, barley, cereal rye or triticale. DO NOT apply to oats. DO NOT apply using aircraft. DO NOT apply through a mister. For summer recropping, transient biomass reduction or discolouration may occur where recropped after Velocity application. When used as directed grain yield is not compromised where transient biomass reduction or discolouration occurs. Where Velocity at 1.0 L/ha is applied, recropping areas that receive double rates (boom overlaps) may show increased symptoms of damage. This is generally restricted to discolouration (bleaching) of the crop but may also result in biomass reduction in some situations.",
+      "control_level": "control"
+    },
+    {
+      "crop": "cotton",
+      "application_timing": "post-emergence",
+      "weed_common_name": "broadleaf weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "up to 670 mL/ha",
+      "critical_comments": "DO NOT use if rainfall or irrigation is to occur within 2 hours of application. DO NOT apply to frost affected weeds or if frosts are imminent. DO NOT apply without adjuvant. See 'Use of Adjuvant/Wetting Agent' under 'General Instructions'. DO NOT apply to broadleaf crops, e.g. canola, chickpea, clover, faba bean, lupin, lucerne, medic, vetch. DO NOT apply to any crop other than wheat, barley, cereal rye or triticale. DO NOT apply to oats. DO NOT apply using aircraft. DO NOT apply through a mister. For summer recropping, transient biomass reduction or discolouration may occur where recropped after Velocity application. When used as directed grain yield is not compromised where transient biomass reduction or discolouration occurs. Where Velocity at 1.0 L/ha is applied, recropping areas that receive double rates (boom overlaps) may show increased symptoms of damage. This is generally restricted to discolouration (bleaching) of the crop but may also result in biomass reduction in some situations.",
+      "control_level": "control"
+    },
+    {
+      "crop": "soybean",
+      "application_timing": "post-emergence",
+      "weed_common_name": "broadleaf weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "up to 670 mL/ha",
+      "critical_comments": "DO NOT use if rainfall or irrigation is to occur within 2 hours of application. DO NOT apply to frost affected weeds or if frosts are imminent. DO NOT apply without adjuvant. See 'Use of Adjuvant/Wetting Agent' under 'General Instructions'. DO NOT apply to broadleaf crops, e.g. canola, chickpea, clover, faba bean, lupin, lucerne, medic, vetch. DO NOT apply to any crop other than wheat, barley, cereal rye or triticale. DO NOT apply to oats. DO NOT apply using aircraft. DO NOT apply through a mister. For summer recropping, transient biomass reduction or discolouration may occur where recropped after Velocity application. When used as directed grain yield is not compromised where transient biomass reduction or discolouration occurs. Where Velocity at 1.0 L/ha is applied, recropping areas that receive double rates (boom overlaps) may show increased symptoms of damage. This is generally restricted to discolouration (bleaching) of the crop but may also result in biomass reduction in some situations.",
+      "control_level": "control"
+    },
+    {
+      "crop": "sunflower",
+      "application_timing": "post-emergence",
+      "weed_common_name": "broadleaf weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "up to 670 mL/ha",
+      "critical_comments": "DO NOT use if rainfall or irrigation is to occur within 2 hours of application. DO NOT apply to frost affected weeds or if frosts are imminent. DO NOT apply without adjuvant. See 'Use of Adjuvant/Wetting Agent' under 'General Instructions'. DO NOT apply to broadleaf crops, e.g. canola, chickpea, clover, faba bean, lupin, lucerne, medic, vetch. DO NOT apply to any crop other than wheat, barley, cereal rye or triticale. DO NOT apply to oats. DO NOT apply using aircraft. DO NOT apply through a mister. For summer recropping, transient biomass reduction or discolouration may occur where recropped after Velocity application. When used as directed grain yield is not compromised where transient biomass reduction or discolouration occurs. Where Velocity at 1.0 L/ha is applied, recropping areas that receive double rates (boom overlaps) may show increased symptoms of damage. This is generally restricted to discolouration (bleaching) of the crop but may also result in biomass reduction in some situations.",
+      "control_level": "control"
+    },
+    {
+      "crop": "mung bean",
+      "application_timing": "post-emergence",
+      "weed_common_name": "broadleaf weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "up to 1.0 L/ha",
+      "critical_comments": "DO NOT use if rainfall or irrigation is to occur within 2 hours of application. DO NOT apply to frost affected weeds or if frosts are imminent. DO NOT apply without adjuvant. See 'Use of Adjuvant/Wetting Agent' under 'General Instructions'. DO NOT apply to broadleaf crops, e.g. canola, chickpea, clover, faba bean, lupin, lucerne, medic, vetch. DO NOT apply to any crop other than wheat, barley, cereal rye or triticale. DO NOT apply to oats. DO NOT apply using aircraft. DO NOT apply through a mister. For summer recropping, transient biomass reduction or discolouration may occur where recropped after Velocity application. When used as directed grain yield is not compromised where transient biomass reduction or discolouration occurs. Where Velocity at 1.0 L/ha is applied, recropping areas that receive double rates (boom overlaps) may show increased symptoms of damage. This is generally restricted to discolouration (bleaching) of the crop but may also result in biomass reduction in some situations.",
+      "control_level": "control"
+    },
+    {
+      "crop": "cotton",
+      "application_timing": "post-emergence",
+      "weed_common_name": "broadleaf weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "up to 1.0 L/ha",
+      "critical_comments": "DO NOT use if rainfall or irrigation is to occur within 2 hours of application. DO NOT apply to frost affected weeds or if frosts are imminent. DO NOT apply without adjuvant. See 'Use of Adjuvant/Wetting Agent' under 'General Instructions'. DO NOT apply to broadleaf crops, e.g. canola, chickpea, clover, faba bean, lupin, lucerne, medic, vetch. DO NOT apply to any crop other than wheat, barley, cereal rye or triticale. DO NOT apply to oats. DO NOT apply using aircraft. DO NOT apply through a mister. For summer recropping, transient biomass reduction or discolouration may occur where recropped after Velocity application. When used as directed grain yield is not compromised where transient biomass reduction or discolouration occurs. Where Velocity at 1.0 L/ha is applied, recropping areas that receive double rates (boom overlaps) may show increased symptoms of damage. This is generally restricted to discolouration (bleaching) of the crop but may also result in biomass reduction in some situations.",
+      "control_level": "control"
+    },
+    {
+      "crop": "soybean",
+      "application_timing": "post-emergence",
+      "weed_common_name": "broadleaf weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "up to 1.0 L/ha",
+      "critical_comments": "DO NOT use if rainfall or irrigation is to occur within 2 hours of application. DO NOT apply to frost affected weeds or if frosts are imminent. DO NOT apply without adjuvant. See 'Use of Adjuvant/Wetting Agent' under 'General Instructions'. DO NOT apply to broadleaf crops, e.g. canola, chickpea, clover, faba bean, lupin, lucerne, medic, vetch. DO NOT apply to any crop other than wheat, barley, cereal rye or triticale. DO NOT apply to oats. DO NOT apply using aircraft. DO NOT apply through a mister. For summer recropping, transient biomass reduction or discolouration may occur where recropped after Velocity application. When used as directed grain yield is not compromised where transient biomass reduction or discolouration occurs. Where Velocity at 1.0 L/ha is applied, recropping areas that receive double rates (boom overlaps) may show increased symptoms of damage. This is generally restricted to discolouration (bleaching) of the crop but may also result in biomass reduction in some situations.",
+      "control_level": "control"
+    },
+    {
+      "crop": "sunflower",
+      "application_timing": "post-emergence",
+      "weed_common_name": "broadleaf weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "up to 1.0 L/ha",
+      "critical_comments": "DO NOT use if rainfall or irrigation is to occur within 2 hours of application. DO NOT apply to frost affected weeds or if frosts are imminent. DO NOT apply without adjuvant. See 'Use of Adjuvant/Wetting Agent' under 'General Instructions'. DO NOT apply to broadleaf crops, e.g. canola, chickpea, clover, faba bean, lupin, lucerne, medic, vetch. DO NOT apply to any crop other than wheat, barley, cereal rye or triticale. DO NOT apply to oats. DO NOT apply using aircraft. DO NOT apply through a mister. For summer recropping, transient biomass reduction or discolouration may occur where recropped after Velocity application. When used as directed grain yield is not compromised where transient biomass reduction or discolouration occurs. Where Velocity at 1.0 L/ha is applied, recropping areas that receive double rates (boom overlaps) may show increased symptoms of damage. This is generally restricted to discolouration (bleaching) of the crop but may also result in biomass reduction in some situations.",
+      "control_level": "control"
+    }
+  ],
+  "application_methods": [
+    "ground spray"
+  ],
+  "state_restrictions": [],
+  "withholding_period": "Harvest NOT REQUIRED WHEN USED AS DIRECTED, Grazing/Stockfood DO NOT GRAZE OR CUT FOR STOCKFOOD FOR 6 WEEKS AFTER APPLICATION",
+  "compatible_products": [],
+  "_metadata": {
+    "source_file": "62444ELBL.md",
+    "extracted_at": "2026-01-08T13:48:01.457673",
+    "model": "gemini-2.5-flash-lite"
+  }
+}

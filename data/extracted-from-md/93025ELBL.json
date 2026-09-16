@@ -1,0 +1,176 @@
+{
+  "product_name": "Product Name: ACCENSI 2,4-D / PICLORAM HERBICIDE",
+  "apvma_number": "93025/137653v",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "4",
+  "identified_crops": [
+    "",
+    "Up to 1 L (300 g ae/ha)",
+    "Up to 15 L (4500 g ae/ha)",
+    "Up to 2 L (600 g ae/ha)",
+    "Up to 5 L (1500 g ae/ha)"
+  ],
+  "identified_weeds": [
+    "0.5m or lower",
+    "1.0m or lower"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "Natural Aquatic Areas",
+      "rate_full_text": "Natural Aquatic Areas",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Pollinator Areas"
+        }
+      ]
+    },
+    {
+      "crop": "Up to 1 L (300 g ae/ha)",
+      "weed_common_name": "0.5m or lower",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "0",
+      "rate_full_text": "0",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "0"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "1.0m or lower",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 25.0,
+      "rate_unit": "25",
+      "rate_full_text": "25",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Up to 2 L (600 g ae/ha)",
+      "weed_common_name": "0.5m or lower",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 10.0,
+      "rate_unit": "10",
+      "rate_full_text": "10",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "10"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "1.0m or lower",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 40.0,
+      "rate_unit": "40",
+      "rate_full_text": "40",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "40"
+        }
+      ]
+    },
+    {
+      "crop": "Up to 5 L (1500 g ae/ha)",
+      "weed_common_name": "0.5m or lower",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 30.0,
+      "rate_unit": "30",
+      "rate_full_text": "30",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "30"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "1.0m or lower",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 75.0,
+      "rate_unit": "75",
+      "rate_full_text": "75",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "75"
+        }
+      ]
+    },
+    {
+      "crop": "Up to 15 L (4500 g ae/ha)",
+      "weed_common_name": "0.5m or lower",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 75.0,
+      "rate_unit": "75",
+      "rate_full_text": "75",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "1.0m or lower",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 300.0,
+      "rate_unit": "300",
+      "rate_full_text": "300",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    }
+  ]
+}

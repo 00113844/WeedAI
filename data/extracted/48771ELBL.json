@@ -1,0 +1,22 @@
+{
+  "product_number": "0",
+  "product_name": "EPTAM SELECTIVE PRE-EMERGENT HERBICIDE",
+  "active_constituent": "720 g/L EPTC",
+  "chemical_group": "thiocarbamate",
+  "mode_of_action_group": "J",
+  "registered_crops": [],
+  "registered_weeds": [],
+  "weed_control_entries": [],
+  "application_methods": [
+    "broadcast",
+    "band"
+  ],
+  "state_restrictions": [],
+  "withholding_period": "NOT REQUIRED WHEN USED AS DIRECTED",
+  "compatible_products": [],
+  "_metadata": {
+    "source_file": "48771ELBL.md",
+    "extracted_at": "2026-01-08T13:44:55.414975",
+    "model": "gemini-2.5-flash-lite"
+  }
+}

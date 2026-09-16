@@ -1,0 +1,466 @@
+{
+  "product_name": "Titan Ioxynil 250 EC Herbicide",
+  "apvma_number": "91890/133839",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "6",
+  "identified_crops": [
+    "",
+    "Onions"
+  ],
+  "identified_weeds": [
+    "Bellvine (Ipomoea plebeia)",
+    "Burr Medic\\* (Medicago polymorpha)",
+    "Capeweed\\* (Arctotheca calendula)",
+    "Chickweed (Stellaria media)",
+    "Climbing Buckwheat (Black Bindweed) (Polygonum convolvulus)",
+    "Common Heliotrope (Heliotropium europaeum)",
+    "Common Sowthistle (Milk Thistle) (Sonchus oleraceus)",
+    "Corn Gromwell (Sheepweed) (Buglossoides arvense)",
+    "Dandelion (Taraxacum officinale)",
+    "Dead Nettle (Henbit",
+    "Fat-Hen (Chenopodium album)",
+    "Fumitories (Fumaria spp.)",
+    "Green Amaranth (Amaranthus viridis)",
+    "Green Crumbweed (Keeled Goosefoot) (Chenopodium carinatum)",
+    "Lesser Swinecress (Bittercress) (Coronopus didymus)",
+    "Ox Tongue (Picris echioides)",
+    "Pigweed (Portulaca) (Portulaca oleracea)",
+    "Potato Weed (Yellow Weed) (Galinsoga parviflora)",
+    "Prickly Paddy Melon (Cucumis myriocarpus)",
+    "Saffron Thistle\\* (Carthamus lanatus)",
+    "Scarlet Pimpernel or Blue Pimpernel (Anagallis arvensis)",
+    "Shepherd\u2019s Purse (Capsella bursa-pastoris)",
+    "Slender Celery\\* (Apium leptophyllum)",
+    "Smallflower Mallow (Marshmallow)\\* (Malva parviflora)",
+    "Stagger Weed (Stachys arvensis)",
+    "Stingless Nettle) (Lamium amplexicaule)",
+    "Threecornered Jack (Spiny Emex) (Emex australis)",
+    "Threeflower Nightshade (Solanum triflorum)",
+    "Turnip Weed (Rapistrum) (Rapistrum rugosum)",
+    "Wards Weed (Carrichtera annua)"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Onions",
+      "weed_common_name": "Bellvine (Ipomoea plebeia)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "-",
+      "rate_full_text": "-",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "CROP: Apply between the three and eight leaf stage."
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Burr Medic\\* (Medicago polymorpha)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Slight scorch or symptoms of wilting may occur but this is transient as subsequent growth and yield is unaffected."
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Capeweed\\* (Arctotheca calendula)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Chickweed (Stellaria media)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Climbing Buckwheat (Black Bindweed) (Polygonum convolvulus)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Common Heliotrope (Heliotropium europaeum)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Common Sowthistle (Milk Thistle) (Sonchus oleraceus)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Corn Gromwell (Sheepweed) (Buglossoides arvense)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Dandelion (Taraxacum officinale)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Dead Nettle (Henbit",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Fat-Hen (Chenopodium album)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Fumitories (Fumaria spp.)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Where Wireweed is dominant or weeds are more mature, 2 applications of 2.1 L/ha should be made at an interval of 14 to 21 days."
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Green Amaranth (Amaranthus viridis)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Green Crumbweed (Keeled Goosefoot) (Chenopodium carinatum)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Lesser Swinecress (Bittercress) (Coronopus didymus)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Ox Tongue (Picris echioides)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Pigweed (Portulaca) (Portulaca oleracea)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Potato Weed (Yellow Weed) (Galinsoga parviflora)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Prickly Paddy Melon (Cucumis myriocarpus)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Saffron Thistle\\* (Carthamus lanatus)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Scarlet Pimpernel or Blue Pimpernel (Anagallis arvensis)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Shepherd\u2019s Purse (Capsella bursa-pastoris)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Slender Celery\\* (Apium leptophyllum)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Smallflower Mallow (Marshmallow)\\* (Malva parviflora)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Stagger Weed (Stachys arvensis)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Threecornered Jack (Spiny Emex) (Emex australis)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Threeflower Nightshade (Solanum triflorum)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Turnip Weed (Rapistrum) (Rapistrum rugosum)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Wards Weed (Carrichtera annua)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    }
+  ]
+}

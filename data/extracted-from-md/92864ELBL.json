@@ -1,0 +1,85 @@
+{
+  "product_name": "MONSOON Herbicide",
+  "apvma_number": "92864/RV2024",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": null,
+  "identified_crops": [
+    "350 mL/ha MCPA LVE 570",
+    "5 g/ha metsulfuron-methyl",
+    "670 mL/ha MONSOON +",
+    "800 mL/ha MONSOON +"
+  ],
+  "identified_weeds": [
+    "0.5 m or lower",
+    "1.0 m or lower"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "800 mL/ha MONSOON +",
+      "weed_common_name": "0.5 m or lower",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "Refer to MCPA label",
+      "rate_full_text": "Refer to MCPA label",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "350 mL/ha MCPA LVE 570",
+      "weed_common_name": "1.0 m or lower",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "Refer to MCPA label",
+      "rate_full_text": "Refer to MCPA label",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "670 mL/ha MONSOON +",
+      "weed_common_name": "0.5 m or lower",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "80 metres"
+        }
+      ]
+    },
+    {
+      "crop": "5 g/ha metsulfuron-methyl",
+      "weed_common_name": "1.0 m or lower",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "275 metres"
+        }
+      ]
+    }
+  ]
+}

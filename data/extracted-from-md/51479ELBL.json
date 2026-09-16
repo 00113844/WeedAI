@@ -1,0 +1,261 @@
+{
+  "product_name": "Label Name: DEVRINOL-C 500WG HERBICIDE",
+  "apvma_number": "51479/135919",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "0",
+  "identified_crops": [
+    "",
+    "Almonds",
+    "Canola",
+    "Grapevines",
+    "Stone fruit",
+    "Tomatoes"
+  ],
+  "identified_weeds": [
+    "Annual Ryegrass",
+    "Barnyard Grass",
+    "Crowsfoot Grass",
+    "Direct seeded and transplant",
+    "Innocent weed",
+    "Liverseed grass",
+    "Pigweed",
+    "Potato Weed",
+    "Redshank",
+    "Sowthistle",
+    "Stinkgrass",
+    "Summer Grass",
+    "Winter Grass"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Almonds",
+      "weed_common_name": "Annual Ryegrass",
+      "weed_scientific_name": null,
+      "states": [
+        "VIC",
+        "TAS"
+      ],
+      "rate_value": 4.5,
+      "rate_unit": "4.5 kg",
+      "rate_full_text": "4.5 kg",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Almonds- DO NOT apply when nuts are on the ground."
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Barnyard Grass",
+      "weed_scientific_name": null,
+      "states": [
+        "SA"
+      ],
+      "rate_value": 6.7,
+      "rate_unit": "6.7 kg",
+      "rate_full_text": "6.7 kg",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Grapevines",
+      "weed_common_name": "Crowsfoot Grass",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Soil must be free of weeds, trash and of fine tilth. Apply in 500 to 1000 L of water per ha. Apply as a directed band spray avoiding contact with fruit or foliage."
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Innocent weed",
+      "weed_scientific_name": null,
+      "states": [
+        "VIC"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Liverseed grass",
+      "weed_scientific_name": null,
+      "states": [
+        "TAS"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Pigweed",
+      "weed_scientific_name": null,
+      "states": [
+        "SA"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Stone fruit",
+      "weed_common_name": "Potato Weed",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "In irrigated areas apply in early Spring and follow with sprinkler irrigation to 5 cm soil depth within 10 days of application. In non-irrigated Winter rainfall areas apply late Autumn/Winter and mechanically incorporate within 10 days- if rainfall exceeds 20 mm during this 10 day period, mechanical incorporation will be unnecessary."
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Redshank",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Sowthistle",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Stinkgrass",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Summer Grass",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Winter Grass",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Tomatoes",
+      "weed_common_name": "Direct seeded and transplant",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Soil must be free of weeds, trash and of fine tilth. Apply in 400 L of water per ha. Mechanically incorporate to a depth of 2 to 5 cm before seeding or transplanting. OR irrigate to 5 cm soil depth on same day as spraying prior to or after seeding or transplanting."
+        }
+      ]
+    },
+    {
+      "crop": "Canola",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 2.25,
+      "rate_unit": "1.75 to 2.25 kg",
+      "rate_full_text": "1.75 to 2.25 kg",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "DEVRINOL may be spray applied and incorporated into the soil before drilling the crop (incorporation should occur within 2 hours of application and not more than 4 hours after application), or post-drilling, pre-emergence of the crop. Mechanically incorporate into the top 25mm of soil."
+        }
+      ]
+    }
+  ]
+}

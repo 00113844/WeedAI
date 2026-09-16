@@ -1,0 +1,48 @@
+{
+  "product_name": "e-Label Application (DRAFT)",
+  "apvma_number": "31253/105258",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "C",
+  "identified_crops": [
+    "Pineapple"
+  ],
+  "identified_weeds": [
+    "Asthma plant",
+    "Barnyard grass",
+    "Billygoat weed",
+    "Cobbler\u2019s-pegs",
+    "Crowsfoot grass",
+    "Fat-hen",
+    "Guinea grass",
+    "Physalis spp.",
+    "Pigweed",
+    "Red natal grass",
+    "Sonchus spp.",
+    "Sourgrass",
+    "Stinking roger",
+    "Summer grass",
+    "Thickhead."
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Pineapple",
+      "weed_common_name": "Asthma plant",
+      "weed_scientific_name": null,
+      "states": [
+        "QLD"
+      ],
+      "rate_value": 4.5,
+      "rate_unit": "kg/ha",
+      "rate_full_text": "4.5 kg/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "CROP - Avoid spray contacting crop foliage or fruit. PRE-EMERGENCE OF WEEDS OR TO WEED SEEDLINGS ONLY. DO NOT apply in the Wet Tropics. DO NOT apply in the Burdekin between 1 December and 29 February. DO NOT apply in Mackay/Whitsunday between 1 December and 31 May. DO NOT apply in Mary-Burnett between 1 December and 31 May. DO NOT apply in SE Queensland between 1 September and 31 May. BLANKET SPRAYS - apply to moist soil prior to weed emergence after planting and before planting material begins to grow. Use 2,200 \u2013 4,400 L/ha. DIRECT INTER-ROW SPRAYS - APPLY ONLY as a directed band spray over a maximum of 60% of the crop area. These additional sprays may be made prior to flower differentiation if needed. DO NOT spray over top of plants. DO NOT apply more than 13 kg/ha per year. For best results the soil should be well prepared and as free as possible from trash and clods. DO NOT cultivate soil surface after application as efficacy may be reduced and/or crop injury may result."
+        }
+      ]
+    }
+  ]
+}

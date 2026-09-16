@@ -1,0 +1,124 @@
+{
+  "product_name": "TRIPLE TIME HERBICIDE",
+  "apvma_number": "66129/RV2024",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": null,
+  "identified_crops": [
+    "5 leaf to fully tillered (from Zadoks 15-30)",
+    "Recreational Turf",
+    "Wheat, Barley, Oats, Triticale, Cereal rye"
+  ],
+  "identified_weeds": [
+    "3 leaf to fully tillered (from Zadoks 13-30)",
+    "Bent and Rye lawns",
+    "Charlock (Sinapis arvensis)",
+    "Established Couch (including Queensland Blue)",
+    "Fat hen (Chenopodium album)",
+    "Fescue",
+    "Kikuyu",
+    "Lesser swinecress (Bittercress) (Coronopus didymus)",
+    "Paspalum",
+    "Rough poppy (Papaver hybridum)",
+    "Saffron thistle (Carthamus lanatus)",
+    "Turnip weed (Rapistrum rugosum)",
+    "Vetch (Vicia spp)"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Wheat, Barley, Oats, Triticale, Cereal rye",
+      "weed_common_name": "3 leaf to fully tillered (from Zadoks 13-30)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "QLD, NSW, VIC, SA, WA only",
+      "rate_full_text": "QLD, NSW, VIC, SA, WA only",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "750 mL/ha"
+        }
+      ]
+    },
+    {
+      "crop": "5 leaf to fully tillered (from Zadoks 15-30)",
+      "weed_common_name": "Turnip weed (Rapistrum rugosum)",
+      "weed_scientific_name": null,
+      "states": [
+        "WA"
+      ],
+      "rate_value": 1.4,
+      "rate_unit": "L/ha",
+      "rate_full_text": "1.4 L/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "6 to 8 leaf stage but not more than 10cm in diameter."
+        }
+      ]
+    },
+    {
+      "crop": "Wheat, Barley, Oats, Triticale, Cereal rye",
+      "weed_common_name": "3 leaf to fully tillered (from Zadoks 13-30)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "QLD, NSW, VIC, SA, WA only",
+      "rate_full_text": "QLD, NSW, VIC, SA, WA only",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "1 L/ha"
+        }
+      ]
+    },
+    {
+      "crop": "5 leaf to fully tillered (from Zadoks 15-30)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "TAS"
+      ],
+      "rate_value": 1.4,
+      "rate_unit": "L/ha",
+      "rate_full_text": "1.4 L/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "6 to 8 leaf stage but not more than 10cm in diameter."
+        }
+      ]
+    },
+    {
+      "crop": "Recreational Turf",
+      "weed_common_name": "Established Couch (including Queensland Blue)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "All states",
+      "rate_full_text": "All states",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "4-5 L in 150 L water/ha"
+        }
+      ]
+    }
+  ]
+}

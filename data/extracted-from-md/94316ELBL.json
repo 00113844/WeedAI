@@ -1,0 +1,316 @@
+{
+  "product_name": "Swan Devastate Plus Glyphosate 580 Herbicide",
+  "apvma_number": "94316/142067",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "9",
+  "identified_crops": [
+    "",
+    "SOUTHERN AUSTRALIA"
+  ],
+  "identified_weeds": [
+    "Barley grass"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "SOUTHERN AUSTRALIA",
+      "weed_common_name": "Barley grass",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "Rate Selection",
+      "rate_full_text": "Rate Selection",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 930.0,
+      "rate_unit": "mL/ha",
+      "rate_full_text": "620 mL to 930 mL/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Use the lower rate on young weeds; increase to the higher rate where grasses reach full tillering or where broadleaf weeds commence stem elongation or budding. Use higher rates in spring and under cold conditions. In Tasmania use 1 - 2 L/ha with the higher rate for control of perennial weeds."
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 930.0,
+      "rate_unit": "mL/ha",
+      "rate_full_text": "620 mL to 930 mL/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 930.0,
+      "rate_unit": "mL/ha",
+      "rate_full_text": "620 mL to 930 mL/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 930.0,
+      "rate_unit": "L/ha",
+      "rate_full_text": "930 mL to 1.2 L/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Pasture or Crop Establishment - DO NOT sow into excessive trash. Excessive plant residues may be removed by grazing after treatment. Planting may proceed from 1 hour of daylight after application to seedling annual weeds if a satisfactory seedbed can be created for crop germination and seedling establishment."
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 930.0,
+      "rate_unit": "L/ha",
+      "rate_full_text": "930 mL to 1.2 L/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 930.0,
+      "rate_unit": "L/ha",
+      "rate_full_text": "930 mL to 1.2 L/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 930.0,
+      "rate_unit": "L/ha",
+      "rate_full_text": "930 mL to 1.2 L/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 930.0,
+      "rate_unit": "L/ha",
+      "rate_full_text": "930 mL to 1.2 L/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 930.0,
+      "rate_unit": "L/ha",
+      "rate_full_text": "930 mL to 1.2 L/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 930.0,
+      "rate_unit": "L/ha",
+      "rate_full_text": "930 mL to 1.2 L/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 930.0,
+      "rate_unit": "L/ha",
+      "rate_full_text": "930 mL to 1.2 L/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 930.0,
+      "rate_unit": "L/ha",
+      "rate_full_text": "930 mL to 1.2 L/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 930.0,
+      "rate_unit": "L/ha",
+      "rate_full_text": "930 mL to 1.2 L/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "Bathurst burr",
+      "rate_full_text": "Bathurst burr",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "930 mL to 1.2 L/ha"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 930.0,
+      "rate_unit": "L/ha",
+      "rate_full_text": "930 mL to 1.2 L/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 930.0,
+      "rate_unit": "L/ha",
+      "rate_full_text": "930 mL to 1.2 L/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 930.0,
+      "rate_unit": "L/ha",
+      "rate_full_text": "930 mL to 1.2 L/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 930.0,
+      "rate_unit": "L/ha",
+      "rate_full_text": "930 mL to 1.2 L/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 930.0,
+      "rate_unit": "L/ha",
+      "rate_full_text": "930 mL to 1.2 L/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Couch, Kikuyu, Paspalum - Use the higher rate on dense infestations. Apply sequential treatments during Summer and Autumn. Repeat applications will be required for full control. For improved control, use in conjunction with cultivation. Kikuyu, Paspalum - Use the low rate for suppression, the high rate for control. Dock, Flatweed - Use the maximum rate for full control. Hoary cress - Use at a rate of 1 L/ha. Treat from late rosette to early flowering."
+        }
+      ]
+    }
+  ]
+}

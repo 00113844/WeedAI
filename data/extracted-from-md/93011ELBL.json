@@ -1,0 +1,268 @@
+{
+  "product_name": "Titan Triforto EC Herbicide",
+  "apvma_number": "93011/RV2024",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": null,
+  "identified_crops": [
+    "",
+    "CEREALS",
+    "CORN",
+    "Crassula",
+    "Deadnettle",
+    "Dense-Flower Fumitory",
+    "Purple Goosefoot",
+    "Toad Rush",
+    "Wheat, Barley, Triticale, Cereal rye"
+  ],
+  "identified_weeds": [
+    "Canola (rape)",
+    "Capeweed",
+    "Cereal rye",
+    "Charlock",
+    "Gromwell",
+    "Indian hedge mustard",
+    "Saffron Thistle",
+    "Up to 2 leaf",
+    "Up to 2 leaf stage",
+    "Up to 4 leaf",
+    "Up to 6 leaf",
+    "hedge mustard",
+    "shepherd's purse",
+    "turnip weed",
+    "wild turnip"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "CEREALS",
+      "weed_common_name": "Canola (rape)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 500.0,
+      "rate_unit": "500 mL",
+      "rate_full_text": "500 mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "CROP STAGE"
+        }
+      ]
+    },
+    {
+      "crop": "Wheat, Barley, Triticale, Cereal rye",
+      "weed_common_name": "Capeweed",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 500.0,
+      "rate_unit": "500 mL",
+      "rate_full_text": "500 mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Cereals"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 750.0,
+      "rate_unit": "Up to 750 mL",
+      "rate_full_text": "Up to 750 mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "(3 leaf to fully tillered stage - Z13 to 30). Over 750 mL (5 leaf to fully tillered stage Z15-30)"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Cereal rye",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 1.0,
+      "rate_unit": "1.0 L",
+      "rate_full_text": "1.0 L",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Optimum results are achieved when sprayed at 3-5 leaf crop stage (generally 4-8 weeks post sowing)."
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Charlock",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 500.0,
+      "rate_unit": "500 mL",
+      "rate_full_text": "500 mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Warning: The maximum litre per hectare rate is safe to use at the 3 leaf stage. Titan Triforto EC Herbicide may cause transient crop yellowing of cereals (Refer to \u201cCrop Tolerance\u201d section of General Instructions)."
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 750.0,
+      "rate_unit": "750 mL",
+      "rate_full_text": "750 mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 1.0,
+      "rate_unit": "1.0 L",
+      "rate_full_text": "1.0 L",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "WEED STAGE: Apply when weeds are actively growing. In most situations the rate specified for each weed size will give satisfactory control. Under certain conditions such as:"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "\u2022 high crop and weed density \u2022 late season germinations \u2022 abnormal weed growth (including early flowering), higher rates of product (up to the maximum rate of application specified for that weed) may be required."
+        }
+      ]
+    },
+    {
+      "crop": "CORN",
+      "weed_common_name": "Gromwell",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 500.0,
+      "rate_unit": "500 mL",
+      "rate_full_text": "500 mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Toad Rush",
+      "weed_common_name": "Up to 2 leaf",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Crassula",
+      "weed_common_name": "Up to 4 leaf",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Deadnettle",
+      "weed_common_name": "Up to 2 leaf stage",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Dense-Flower Fumitory",
+      "weed_common_name": "Up to 2 leaf",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Purple Goosefoot",
+      "weed_common_name": "Up to 6 leaf",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    }
+  ]
+}

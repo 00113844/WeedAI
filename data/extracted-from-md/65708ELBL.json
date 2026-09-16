@@ -1,0 +1,234 @@
+{
+  "product_name": "DANGEROUS POISON",
+  "apvma_number": null,
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "L",
+  "identified_crops": [
+    "",
+    "Cultivation can commence 30 minutes after spraying but should be completed within 7 days unless a suitable residual herbicide is added or weeds are sprayed again.",
+    "DIRECT DRILLING",
+    "SOUTHERN AUSTRALIA",
+    "Vulpia (Silver grass, Sand Fescue)"
+  ],
+  "identified_weeds": [
+    "Annual ryegrass",
+    "Ball Mustard",
+    "Barley grass",
+    "Charlock",
+    "Indian Hedge Mustard",
+    "Long Fruited Wild Turnip",
+    "Seedling Brassica weeds",
+    "Seedling Grasses",
+    "Volunteer cereals",
+    "Wild Oats"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "SOUTHERN AUSTRALIA",
+      "weed_common_name": "Seedling Grasses",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 3.0,
+      "rate_unit": "2 to 3 leaf",
+      "rate_full_text": "2 to 3 leaf",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Annual ryegrass",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 4.0,
+      "rate_unit": "4 leaf to early tiller",
+      "rate_full_text": "4 leaf to early tiller",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "0.8 to 1.6"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Barley grass",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "mid to fully tillered",
+      "rate_full_text": "mid to fully tillered",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Volunteer cereals",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Wild Oats",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Vulpia (Silver grass, Sand Fescue)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 3.0,
+      "rate_unit": "2 to 3 leaf",
+      "rate_full_text": "2 to 3 leaf",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "4 leaf to early tiller"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "mid to fully tillered",
+      "rate_full_text": "mid to fully tillered",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "DIRECT DRILLING",
+      "weed_common_name": "Seedling Brassica weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 5.0,
+      "rate_unit": "1 to 5 cm diam",
+      "rate_full_text": "1 to 5 cm diam",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Ball Mustard",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 10.0,
+      "rate_unit": "5 to 10 cm diam",
+      "rate_full_text": "5 to 10 cm diam",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Charlock",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 20.0,
+      "rate_unit": "10 to 20 cm diam",
+      "rate_full_text": "10 to 20 cm diam",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Indian Hedge Mustard",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Long Fruited Wild Turnip",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Cultivation can commence 30 minutes after spraying but should be completed within 7 days unless a suitable residual herbicide is added or weeds are sprayed again.",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    }
+  ]
+}

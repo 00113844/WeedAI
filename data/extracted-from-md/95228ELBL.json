@@ -1,0 +1,49 @@
+{
+  "product_name": "Farmalinx Aqua-Noxy Herbicide",
+  "apvma_number": "95228/146407",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "4",
+  "identified_crops": [
+    "Up to 10 L/ha",
+    "Up to 5 L/ha"
+  ],
+  "identified_weeds": [
+    "Helicopter"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Up to 10 L/ha",
+      "weed_common_name": "Helicopter",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 250.0,
+      "rate_unit": "250 metres",
+      "rate_full_text": "250 metres",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "0"
+        }
+      ]
+    },
+    {
+      "crop": "Up to 5 L/ha",
+      "weed_common_name": "Helicopter",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 160.0,
+      "rate_unit": "160 metres",
+      "rate_full_text": "160 metres",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    }
+  ]
+}

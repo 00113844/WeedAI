@@ -1,0 +1,101 @@
+{
+  "product_name": "READ SAFETY DIRECTIONS",
+  "apvma_number": "45853/2Kg/0909",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "C",
+  "identified_crops": [
+    "APPLES & PEACHES",
+    "PEACHES"
+  ],
+  "identified_weeds": [
+    "ANNUAL WEEDS: Amaranthus",
+    "As above",
+    "Barley grass",
+    "Bathurst Burr",
+    "Brome grasses",
+    "Capeweed",
+    "Doublegee)",
+    "Fat-hen",
+    "Innocent weed",
+    "Johnson grass",
+    "Kikuyu",
+    "Milk Thistle",
+    "Nutgrass",
+    "PERENNIAL WEEDS: Couch grass",
+    "Paterson\u2019s Curse",
+    "Pigweed",
+    "Shepherd\u2019s Purse",
+    "Threecornered jack(s) (Spiny Emex",
+    "Whorled Pigeon grass",
+    "Wild Lettuce",
+    "Wild Oats",
+    "Wild Radish",
+    "Wild Turnip"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "APPLES & PEACHES",
+      "weed_common_name": "ANNUAL WEEDS: Amaranthus",
+      "weed_scientific_name": null,
+      "states": [
+        "QLD",
+        "NSW",
+        "VIC",
+        "TAS"
+      ],
+      "rate_value": 2.2,
+      "rate_unit": "2.2 kg",
+      "rate_full_text": "2.2 kg",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply to moist soil just before or during active weed growth."
+        }
+      ]
+    },
+    {
+      "crop": "PEACHES",
+      "weed_common_name": "As above",
+      "weed_scientific_name": null,
+      "states": [
+        "SA"
+      ],
+      "rate_value": 3.5,
+      "rate_unit": "2.2-3.5 kg",
+      "rate_full_text": "2.2-3.5 kg",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Use higher rates for heavy weed infestation."
+        }
+      ]
+    },
+    {
+      "crop": "APPLES & PEACHES",
+      "weed_common_name": "PERENNIAL WEEDS: Couch grass",
+      "weed_scientific_name": null,
+      "states": [
+        "QLD",
+        "NSW",
+        "VIC",
+        "TAS"
+      ],
+      "rate_value": 4.5,
+      "rate_unit": "4.5 kg",
+      "rate_full_text": "4.5 kg",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply as a broadcast spray."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "product_number": "56744",
+  "product_name": "SIRION HERBICIDE",
+  "active_constituent": "960 g/L MOLINATE",
+  "chemical_group": "thiocarbamates",
+  "mode_of_action_group": "J",
+  "registered_crops": [
+    "rice"
+  ],
+  "registered_weeds": [
+    "grass weeds"
+  ],
+  "weed_control_entries": [
+    {
+      "crop": "rice",
+      "application_timing": "Post emergence",
+      "weed_common_name": "grass weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "[INSERT RATE]",
+      "critical_comments": "For aerial application by SCWIIRT (Soluble Chemical Water Injection In Rice Technique) by helicopter or Bickley boom by fixed wing aircraft only",
+      "control_level": "control"
+    }
+  ],
+  "application_methods": [
+    "aerial"
+  ],
+  "state_restrictions": [],
+  "withholding_period": "NOT REQUIRED WHEN USED AS DIRECTED",
+  "compatible_products": [],
+  "_metadata": {
+    "source_file": "56744ELBL.md",
+    "extracted_at": "2026-01-08T13:46:14.343306",
+    "model": "gemini-2.5-flash-lite"
+  }
+}

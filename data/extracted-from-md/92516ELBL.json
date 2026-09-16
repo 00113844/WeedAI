@@ -1,0 +1,74 @@
+{
+  "product_name": "Label Name: HELLCAT HERBICIDE",
+  "apvma_number": "92516/135803",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": null,
+  "identified_crops": [
+    "",
+    "3.75 L/ha or lower",
+    "Up to 5.0 L/ha"
+  ],
+  "identified_weeds": [
+    "0.5 m or lower",
+    "1.0 m or lower"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Up to 5.0 L/ha",
+      "weed_common_name": "0.5 m or lower",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 15.0,
+      "rate_unit": "15 metres",
+      "rate_full_text": "15 metres",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "1.0 m or lower",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 50.0,
+      "rate_unit": "50 metres",
+      "rate_full_text": "50 metres",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "3.75 L/ha or lower",
+      "weed_common_name": "0.5 m or lower",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 10.0,
+      "rate_unit": "10 metres",
+      "rate_full_text": "10 metres",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "1.0 m or lower",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 30.0,
+      "rate_unit": "30 metres",
+      "rate_full_text": "30 metres",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    }
+  ]
+}

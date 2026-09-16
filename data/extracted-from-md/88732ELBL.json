@@ -1,0 +1,78 @@
+{
+  "product_name": "GENFARM BROM M PLUS HERBICIDE",
+  "apvma_number": "88732/RV2024",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": null,
+  "identified_crops": [
+    "Gromwell (Ironweed, Sheepweed) (Buglossoides arvensis)",
+    "Wheat, Barley, Cereal Rye, Oats and Triticale; Linseed; Grass Pastures"
+  ],
+  "identified_weeds": [
+    "Amsinckia (Amsinckia spp.)",
+    "C. pycnocephalus)",
+    "Capeweed (Arctotheca Calendula)",
+    "Chamomile (Matricaria matricarioides)",
+    "Charlock (Sinapis arvensis)",
+    "Corn Gromwell (Ironweed",
+    "Fat Hen (Chenopodium album)",
+    "Field Madder (Sherardia arvensis)",
+    "Hexham Scent (King Island Melilot) (Melilotus indicus)",
+    "Horned Poppy (Glaucium flavum)",
+    "Indian Hedge Mustard (Sisymbrium orientale)",
+    "Lesser Swinecress (Coronopus didymus)",
+    "Mexican Poppy (Argemone mexicana)",
+    "Mintweed (Salvia reflexa)",
+    "Paterson\u2019s Curse (Salvation Jane) (Echium plantagineum)",
+    "Plants up to the 8 leaf stage but not more than 75 mm in diameter",
+    "Rough Poppy (Papaver hybridum)",
+    "Saffron Thistle (Carthamus lanatus)",
+    "Sheepweed) (Buglossoides arvensis)",
+    "Shepherd\u2019s Purse (Capsella bursa-pastoris)",
+    "Slender Thistle (Corduus tenuiflorus",
+    "Tree Hogweed (Polygonum patulum)",
+    "Turnip Weed (Giant Mustard) (Rapistrum rugosum)",
+    "Wild Radish (Raphanus raphanistrum)",
+    "Wild Turnip (Brassica tournefortii)"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Wheat, Barley, Cereal Rye, Oats and Triticale; Linseed; Grass Pastures",
+      "weed_common_name": "Amsinckia (Amsinckia spp.)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "WA only",
+      "rate_full_text": "WA only",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "540 mL"
+        }
+      ]
+    },
+    {
+      "crop": "Gromwell (Ironweed, Sheepweed) (Buglossoides arvensis)",
+      "weed_common_name": "Plants up to the 8 leaf stage but not more than 75 mm in diameter",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "WA only",
+      "rate_full_text": "WA only",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "1 L"
+        }
+      ]
+    }
+  ]
+}

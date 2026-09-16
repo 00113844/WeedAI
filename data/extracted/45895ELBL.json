@@ -1,0 +1,408 @@
+{
+  "product_number": "45895",
+  "product_name": "BARMAC",
+  "active_constituent": "220 g/L DSMA 70 g/L MCPA present as the Sodium salt",
+  "chemical_group": null,
+  "mode_of_action_group": "K",
+  "registered_crops": [
+    "TURF",
+    "COUCH",
+    "Bowling Greens",
+    "TURF BENT & FESCUE."
+  ],
+  "registered_weeds": [
+    "Barnyard Grass",
+    "Bindii",
+    "Capeweed",
+    "Catsear",
+    "Chickweed",
+    "Clovers",
+    "Cotula",
+    "Cudweed",
+    "Dandelion",
+    "Duckweed",
+    "Fleabane",
+    "Lamb's Tongue",
+    "Mouse‑eared Chickweed",
+    "Mullumbimby Couch",
+    "Nutgrass",
+    "Paspalum",
+    "Scarlet Pimpernel",
+    "Summergrass",
+    "Water Couchgreen",
+    "White Clover"
+  ],
+  "weed_control_entries": [
+    {
+      "crop": "TURF",
+      "application_timing": null,
+      "weed_common_name": "Barnyard Grass",
+      "weed_scientific_name": null,
+      "states": [
+        "VIC",
+        "WA",
+        "SA",
+        "QLD",
+        "NSW",
+        "ACT",
+        "NT"
+      ],
+      "rate_per_ha": "600 mL per 100 m² in 20 L of water",
+      "critical_comments": "Three split applications at 7 day intervals gives a better result than a single application. Repeat spray as necessary.",
+      "control_level": "control"
+    },
+    {
+      "crop": "COUCH",
+      "application_timing": null,
+      "weed_common_name": "Bindii",
+      "weed_scientific_name": null,
+      "states": [
+        "VIC",
+        "WA",
+        "SA",
+        "QLD",
+        "NSW",
+        "ACT",
+        "NT"
+      ],
+      "rate_per_ha": "450 mL in 15 Litres of water",
+      "critical_comments": "Three split applications at 7 day intervals gives a better result than a single application. Repeat spray as necessary.",
+      "control_level": "control"
+    },
+    {
+      "crop": "COUCH",
+      "application_timing": null,
+      "weed_common_name": "Capeweed",
+      "weed_scientific_name": null,
+      "states": [
+        "VIC",
+        "WA",
+        "SA",
+        "QLD",
+        "NSW",
+        "ACT",
+        "NT"
+      ],
+      "rate_per_ha": "450 mL in 15 Litres of water",
+      "critical_comments": "Three split applications at 7 day intervals gives a better result than a single application. Repeat spray as necessary.",
+      "control_level": "control"
+    },
+    {
+      "crop": "COUCH",
+      "application_timing": null,
+      "weed_common_name": "Catsear",
+      "weed_scientific_name": null,
+      "states": [
+        "VIC",
+        "WA",
+        "SA",
+        "QLD",
+        "NSW",
+        "ACT",
+        "NT"
+      ],
+      "rate_per_ha": "450 mL in 15 Litres of water",
+      "critical_comments": "Three split applications at 7 day intervals gives a better result than a single application. Repeat spray as necessary.",
+      "control_level": "control"
+    },
+    {
+      "crop": "COUCH",
+      "application_timing": null,
+      "weed_common_name": "Chickweed",
+      "weed_scientific_name": null,
+      "states": [
+        "VIC",
+        "WA",
+        "SA",
+        "QLD",
+        "NSW",
+        "ACT",
+        "NT"
+      ],
+      "rate_per_ha": "450 mL in 15 Litres of water",
+      "critical_comments": "Three split applications at 7 day intervals gives a better result than a single application. Repeat spray as necessary.",
+      "control_level": "control"
+    },
+    {
+      "crop": "COUCH",
+      "application_timing": null,
+      "weed_common_name": "Clovers",
+      "weed_scientific_name": null,
+      "states": [
+        "VIC",
+        "WA",
+        "SA",
+        "QLD",
+        "NSW",
+        "ACT",
+        "NT"
+      ],
+      "rate_per_ha": "450 mL in 15 Litres of water",
+      "critical_comments": "Three split applications at 7 day intervals gives a better result than a single application. Repeat spray as necessary.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Bowling Greens",
+      "application_timing": null,
+      "weed_common_name": "Cotula",
+      "weed_scientific_name": null,
+      "states": [
+        "VIC",
+        "WA",
+        "SA",
+        "QLD",
+        "NSW",
+        "ACT",
+        "NT"
+      ],
+      "rate_per_ha": "9 L per standard green in 300 L of water",
+      "critical_comments": null,
+      "control_level": "control"
+    },
+    {
+      "crop": "Bowling Greens",
+      "application_timing": null,
+      "weed_common_name": "Cudweed",
+      "weed_scientific_name": null,
+      "states": [
+        "VIC",
+        "WA",
+        "SA",
+        "QLD",
+        "NSW",
+        "ACT",
+        "NT"
+      ],
+      "rate_per_ha": "9 L per standard green in 300 L of water",
+      "critical_comments": null,
+      "control_level": "control"
+    },
+    {
+      "crop": "Bowling Greens",
+      "application_timing": null,
+      "weed_common_name": "Dandelion",
+      "weed_scientific_name": null,
+      "states": [
+        "VIC",
+        "WA",
+        "SA",
+        "QLD",
+        "NSW",
+        "ACT",
+        "NT"
+      ],
+      "rate_per_ha": "9 L per standard green in 300 L of water",
+      "critical_comments": null,
+      "control_level": "control"
+    },
+    {
+      "crop": "Bowling Greens",
+      "application_timing": null,
+      "weed_common_name": "Duckweed",
+      "weed_scientific_name": null,
+      "states": [
+        "VIC",
+        "WA",
+        "SA",
+        "QLD",
+        "NSW",
+        "ACT",
+        "NT"
+      ],
+      "rate_per_ha": "9 L per standard green in 300 L of water",
+      "critical_comments": null,
+      "control_level": "control"
+    },
+    {
+      "crop": "TURF BENT & FESCUE.",
+      "application_timing": null,
+      "weed_common_name": "Fleabane",
+      "weed_scientific_name": null,
+      "states": [
+        "VIC",
+        "WA",
+        "SA",
+        "QLD",
+        "NSW",
+        "ACT",
+        "NT"
+      ],
+      "rate_per_ha": "300 mL per 100 m² in 20 L of water",
+      "critical_comments": "Treated turf may be discoloured at temperatures over 32ᵒC. Repeat in 10 days or as necessary depending on weed growth.",
+      "control_level": "control"
+    },
+    {
+      "crop": "TURF BENT & FESCUE.",
+      "application_timing": null,
+      "weed_common_name": "Lamb's Tongue",
+      "weed_scientific_name": null,
+      "states": [
+        "VIC",
+        "WA",
+        "SA",
+        "QLD",
+        "NSW",
+        "ACT",
+        "NT"
+      ],
+      "rate_per_ha": "230 mL in 15 L of water",
+      "critical_comments": "Treated turf may be discoloured at temperatures over 32ᵒC. Repeat in 10 days or as necessary depending on weed growth.",
+      "control_level": "control"
+    },
+    {
+      "crop": "TURF BENT & FESCUE.",
+      "application_timing": null,
+      "weed_common_name": "Mouse‑eared Chickweed",
+      "weed_scientific_name": null,
+      "states": [
+        "VIC",
+        "WA",
+        "SA",
+        "QLD",
+        "NSW",
+        "ACT",
+        "NT"
+      ],
+      "rate_per_ha": "230 mL in 15 L of water",
+      "critical_comments": "Treated turf may be discoloured at temperatures over 32ᵒC. Repeat in 10 days or as necessary depending on weed growth.",
+      "control_level": "control"
+    },
+    {
+      "crop": "TURF BENT & FESCUE.",
+      "application_timing": null,
+      "weed_common_name": "Mullumbimby Couch",
+      "weed_scientific_name": null,
+      "states": [
+        "VIC",
+        "WA",
+        "SA",
+        "QLD",
+        "NSW",
+        "ACT",
+        "NT"
+      ],
+      "rate_per_ha": "230 mL in 15 L of water",
+      "critical_comments": "Treated turf may be discoloured at temperatures over 32ᵒC. Repeat in 10 days or as necessary depending on weed growth.",
+      "control_level": "control"
+    },
+    {
+      "crop": "TURF BENT & FESCUE.",
+      "application_timing": null,
+      "weed_common_name": "Nutgrass",
+      "weed_scientific_name": null,
+      "states": [
+        "VIC",
+        "WA",
+        "SA",
+        "QLD",
+        "NSW",
+        "ACT",
+        "NT"
+      ],
+      "rate_per_ha": "230 mL in 15 L of water",
+      "critical_comments": "Treated turf may be discoloured at temperatures over 32ᵒC. Repeat in 10 days or as necessary depending on weed growth.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Bowling Greens",
+      "application_timing": null,
+      "weed_common_name": "Paspalum",
+      "weed_scientific_name": null,
+      "states": [
+        "VIC",
+        "WA",
+        "SA",
+        "QLD",
+        "NSW",
+        "ACT",
+        "NT"
+      ],
+      "rate_per_ha": "4.5 L per standard green in 300 L of water",
+      "critical_comments": null,
+      "control_level": "control"
+    },
+    {
+      "crop": "Bowling Greens",
+      "application_timing": null,
+      "weed_common_name": "Scarlet Pimpernel",
+      "weed_scientific_name": null,
+      "states": [
+        "VIC",
+        "WA",
+        "SA",
+        "QLD",
+        "NSW",
+        "ACT",
+        "NT"
+      ],
+      "rate_per_ha": "4.5 L per standard green in 300 L of water",
+      "critical_comments": null,
+      "control_level": "control"
+    },
+    {
+      "crop": "Bowling Greens",
+      "application_timing": null,
+      "weed_common_name": "Summergrass",
+      "weed_scientific_name": null,
+      "states": [
+        "VIC",
+        "WA",
+        "SA",
+        "QLD",
+        "NSW",
+        "ACT",
+        "NT"
+      ],
+      "rate_per_ha": "4.5 L per standard green in 300 L of water",
+      "critical_comments": null,
+      "control_level": "control"
+    },
+    {
+      "crop": "Bowling Greens",
+      "application_timing": null,
+      "weed_common_name": "Water Couchgreen",
+      "weed_scientific_name": null,
+      "states": [
+        "VIC",
+        "WA",
+        "SA",
+        "QLD",
+        "NSW",
+        "ACT",
+        "NT"
+      ],
+      "rate_per_ha": "4.5 L per standard green in 300 L of water",
+      "critical_comments": null,
+      "control_level": "control"
+    },
+    {
+      "crop": "Bowling Greens",
+      "application_timing": null,
+      "weed_common_name": "White Clover",
+      "weed_scientific_name": null,
+      "states": [
+        "VIC",
+        "WA",
+        "SA",
+        "QLD",
+        "NSW",
+        "ACT",
+        "NT"
+      ],
+      "rate_per_ha": "4.5 L per standard green in 300 L of water",
+      "critical_comments": null,
+      "control_level": "control"
+    }
+  ],
+  "application_methods": [
+    "KNAPSACK SPRAYING"
+  ],
+  "state_restrictions": [],
+  "withholding_period": null,
+  "compatible_products": [],
+  "_metadata": {
+    "source_file": "45895ELBL.md",
+    "extracted_at": "2026-01-08T13:49:33.388682",
+    "model": "gemini-2.5-flash-lite"
+  }
+}

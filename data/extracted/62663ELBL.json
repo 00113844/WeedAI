@@ -1,0 +1,143 @@
+{
+  "product_number": "62663",
+  "product_name": "MCPA 750",
+  "active_constituent": "750 g/L MCPA present as the Dimethylamine salt",
+  "chemical_group": null,
+  "mode_of_action_group": "I",
+  "registered_crops": [
+    "cereals",
+    "linseed",
+    "pastures",
+    "rice",
+    "sugar cane",
+    "turf"
+  ],
+  "registered_weeds": [
+    "broadleaf weeds"
+  ],
+  "weed_control_entries": [
+    {
+      "crop": "cereals",
+      "application_timing": null,
+      "weed_common_name": "broadleaf weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to Directions for Use table",
+      "critical_comments": null,
+      "control_level": "control"
+    },
+    {
+      "crop": "linseed",
+      "application_timing": null,
+      "weed_common_name": "broadleaf weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to Directions for Use table",
+      "critical_comments": null,
+      "control_level": "control"
+    },
+    {
+      "crop": "pastures",
+      "application_timing": null,
+      "weed_common_name": "broadleaf weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to Directions for Use table",
+      "critical_comments": null,
+      "control_level": "control"
+    },
+    {
+      "crop": "rice",
+      "application_timing": null,
+      "weed_common_name": "broadleaf weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to Directions for Use table",
+      "critical_comments": null,
+      "control_level": "control"
+    },
+    {
+      "crop": "sugar cane",
+      "application_timing": null,
+      "weed_common_name": "broadleaf weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to Directions for Use table",
+      "critical_comments": null,
+      "control_level": "control"
+    },
+    {
+      "crop": "turf",
+      "application_timing": null,
+      "weed_common_name": "broadleaf weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to Directions for Use table",
+      "critical_comments": null,
+      "control_level": "control"
+    }
+  ],
+  "application_methods": [],
+  "state_restrictions": [],
+  "withholding_period": null,
+  "compatible_products": [],
+  "_metadata": {
+    "source_file": "62663ELBL.md",
+    "extracted_at": "2026-01-08T13:48:06.177155",
+    "model": "gemini-2.5-flash-lite"
+  }
+}

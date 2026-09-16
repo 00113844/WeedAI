@@ -1,0 +1,24 @@
+{
+  "product_number": "46516",
+  "product_name": "SPRAY.SEED 250 HERBICIDE",
+  "active_constituent": "135 g/L PARAQUAT PRESENT AS PARAQUAT DICHLORIDE, 115 g/L DIQUAT PRESENT AS DIQUAT DIBROMIDE MONOHYDRATE",
+  "chemical_group": null,
+  "mode_of_action_group": "22",
+  "registered_crops": [],
+  "registered_weeds": [
+    "grasses",
+    "broadleaf weeds"
+  ],
+  "weed_control_entries": [],
+  "application_methods": [
+    "ground application"
+  ],
+  "state_restrictions": [],
+  "withholding_period": "Grazing: DO NOT GRAZE OR CUT SPRAYED VEGETATION FOR STOCK FOOD FOR AT LEAST 1 DAY OR GRAZE HORSES FOR 7 DAYS AFTER APPLICATION. REMOVE STOCK FROM TREATED AREAS 3 DAYS BEFORE SLAUGHTER. Harvest: Cotton: DO NOT HARVEST EARLIER THAN 7 DAYS AFTER APPLICATION. All Other Crops: NOT REQUIRED WHEN USED AS DIRECTED.",
+  "compatible_products": [],
+  "_metadata": {
+    "source_file": "46516ELBL.md",
+    "extracted_at": "2026-01-08T13:44:42.695136",
+    "model": "gemini-2.5-flash-lite"
+  }
+}

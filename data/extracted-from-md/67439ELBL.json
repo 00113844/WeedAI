@@ -1,0 +1,90 @@
+{
+  "product_name": "CAUTION",
+  "apvma_number": "67439/56042",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "C",
+  "identified_crops": [
+    "Pineapples",
+    "Sugar Cane",
+    "Sugar Cane (plant and ratoon)"
+  ],
+  "identified_weeds": [
+    "African Stargrass",
+    "Awnless Barnyard Grass",
+    "Barnyard Grass",
+    "Bellvine",
+    "Billygoat Weed",
+    "Bluetop",
+    "Chinese Burr",
+    "Crowsfoot Grass",
+    "Cupid's Flower",
+    "Flannel Weed",
+    "Gambia Pea",
+    "Green Summer Grass",
+    "Mossman River Grass",
+    "Pigweed",
+    "Pretty Boy",
+    "Rattlepod",
+    "Sedges",
+    "Summer Grass",
+    "Thick Head"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Pineapples",
+      "weed_common_name": "Crowsfoot Grass",
+      "weed_scientific_name": null,
+      "states": [
+        "QLD",
+        "NSW"
+      ],
+      "rate_value": 2000.0,
+      "rate_unit": "2.5 to 5 kg in 2000 litres of water",
+      "rate_full_text": "2.5 to 5 kg in 2000 litres of water",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "100L of water"
+        }
+      ]
+    },
+    {
+      "crop": "Sugar Cane",
+      "weed_common_name": "Barnyard Grass",
+      "weed_scientific_name": null,
+      "states": [
+        "QLD",
+        "NSW",
+        "WA"
+      ],
+      "rate_value": 550.0,
+      "rate_unit": "2.8 kg + 550 mL. of a non-ionic surfactant in sufficient water for thorough coverage",
+      "rate_full_text": "2.8 kg + 550 mL. of a non-ionic surfactant in sufficient water for thorough coverage",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "250 g + 250 mL of a non-ionic surfactant."
+        }
+      ]
+    },
+    {
+      "crop": "Sugar Cane (plant and ratoon)",
+      "weed_common_name": "African Stargrass",
+      "weed_scientific_name": null,
+      "states": [
+        "QLD"
+      ],
+      "rate_value": 900.0,
+      "rate_unit": "2.5 kg plus 6 L of Atrazine 500 SC or 3.3 kg Sabakem Atrazine 900 WG in sufficient water for thorough coverage",
+      "rate_full_text": "2.5 kg plus 6 L of Atrazine 500 SC or 3.3 kg Sabakem Atrazine 900 WG in sufficient water for thorough coverage",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    }
+  ]
+}

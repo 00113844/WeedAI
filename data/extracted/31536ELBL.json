@@ -1,0 +1,103 @@
+{
+  "product_number": "67934",
+  "product_name": "CAMPBELL METHAR TRI-KOMBI HERBICIDE",
+  "active_constituent": "336 g/L MECOPROP, 80 g/L 2,4-D, 40 g/L DICAMBA",
+  "chemical_group": "Phenoxy and Benzoic",
+  "mode_of_action_group": "I",
+  "registered_crops": [
+    "Turf"
+  ],
+  "registered_weeds": [
+    "Broadleaved weeds",
+    "Clovers",
+    "Bindii",
+    "Creeping oxalis"
+  ],
+  "weed_control_entries": [
+    {
+      "crop": "Turf",
+      "application_timing": null,
+      "weed_common_name": "Broadleaved weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": "Do not mow turf for 2 days before or after treatment. Repeat applications may be required to control some hard to kill weeds and these can be applied at intervals of 7-14 days.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Turf",
+      "application_timing": null,
+      "weed_common_name": "Clovers",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": "Do not mow turf for 2 days before or after treatment. Repeat applications may be required to control some hard to kill weeds and these can be applied at intervals of 7-14 days.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Turf",
+      "application_timing": null,
+      "weed_common_name": "Bindii",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": "Do not mow turf for 2 days before or after treatment. Repeat applications may be required to control some hard to kill weeds and these can be applied at intervals of 7-14 days.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Turf",
+      "application_timing": null,
+      "weed_common_name": "Creeping oxalis",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": "Do not mow turf for 2 days before or after treatment. Repeat applications may be required to control some hard to kill weeds and these can be applied at intervals of 7-14 days.",
+      "control_level": "control"
+    }
+  ],
+  "application_methods": [],
+  "state_restrictions": [],
+  "withholding_period": null,
+  "compatible_products": [],
+  "_metadata": {
+    "source_file": "31536ELBL.md",
+    "extracted_at": "2026-01-08T13:43:36.107923",
+    "model": "gemini-2.5-flash-lite"
+  }
+}

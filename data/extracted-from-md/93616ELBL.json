@@ -1,0 +1,338 @@
+{
+  "product_name": "CropSure Jagged Selective Herbicide",
+  "apvma_number": "93616/RV2024",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": null,
+  "identified_crops": [
+    "",
+    "Canola (rapeseed), charlock, turnip weed, wild turnip",
+    "Climbing buckwheat",
+    "Clover and lucerne Application is recommended prior to the 8th trifoliate leaf stage. Application can be made from the 1st trifoliate leaf stage in Qld, NSW, ACT and Vic only. In other States applications prior to the 3 leaf stage may result in crop damage if seedlings are under stress and in sandy soils. DO NOT apply to annual medics. Warning: CropSure Jagged Selective Herbicide may affect growth and seed set of some varieties of clover and Lucerne (Refer to \"Crop Tolerance\" section of General Instructions).",
+    "Deadnettle, Paterson's curse, (Salvation Jane), rough poppy",
+    "Doublegee (spiny emex)",
+    "Pasture",
+    "Shepherd's purse",
+    "Wheat, barley, triticale, cereal rye (including cereals undersown with clover and/or lucerne), and these cover crops in vineyards",
+    "Wild mustard, Wild radish"
+  ],
+  "identified_weeds": [
+    "Capeweed",
+    "Clover and",
+    "Corn gromwell",
+    "Up to 2 leaf stage",
+    "Up to 4 leaf stage",
+    "Up to 6 leaf stage",
+    "Up to 8 leaf stage",
+    "Wild radish",
+    "or lucerne-based pasture (newly sown or established)"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Wheat, barley, triticale, cereal rye (including cereals undersown with clover and/or lucerne), and these cover crops in vineyards",
+      "weed_common_name": "Wild radish",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 350.0,
+      "rate_unit": "350 mL",
+      "rate_full_text": "350 mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "WA only"
+        }
+      ]
+    },
+    {
+      "crop": "Wild mustard, Wild radish",
+      "weed_common_name": "Up to 4 leaf stage",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "All States",
+      "rate_full_text": "All States",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Warning: CropSure Jagged Selective Herbicide may cause transient crop yellowing of cereals. (Refer to \"Crop Tolerance section of General Instructions)."
+        }
+      ]
+    },
+    {
+      "crop": "Clover and lucerne Application is recommended prior to the 8th trifoliate leaf stage. Application can be made from the 1st trifoliate leaf stage in Qld, NSW, ACT and Vic only. In other States applications prior to the 3 leaf stage may result in crop damage if seedlings are under stress and in sandy soils. DO NOT apply to annual medics. Warning: CropSure Jagged Selective Herbicide may affect growth and seed set of some varieties of clover and Lucerne (Refer to \"Crop Tolerance\" section of General Instructions).",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Pasture",
+      "weed_common_name": "Clover and",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 1.0,
+      "rate_unit": "1.0 L",
+      "rate_full_text": "1.0 L",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Canola (rapeseed), charlock, turnip weed, wild turnip",
+      "weed_common_name": "Up to 2 leaf stage",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "and not more than 60 mm in diameter"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 750.0,
+      "rate_unit": "750 mL",
+      "rate_full_text": "750 mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Shepherd's purse",
+      "weed_common_name": "Up to 6 leaf stage",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "and not more than 150 mm in diameter"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Capeweed",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 4.0,
+      "rate_unit": "Up to 4 leaf stage",
+      "rate_full_text": "Up to 4 leaf stage",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "500 mL"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Up to 6 leaf stage",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "and not more than 150 mm in diameter"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Up to 8 leaf stage",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "and not more than 180 mm in diameter"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Corn gromwell",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 4.0,
+      "rate_unit": "Up to 4 leaf stage",
+      "rate_full_text": "Up to 4 leaf stage",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "500 mL"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Up to 6 leaf stage",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Climbing buckwheat",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 500.0,
+      "rate_unit": "500 mL",
+      "rate_full_text": "500 mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Up to 4 leaf stage",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Up to 6 leaf stage",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Deadnettle, Paterson's curse, (Salvation Jane), rough poppy",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 500.0,
+      "rate_unit": "500 mL",
+      "rate_full_text": "500 mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Up to 4 leaf stage",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Doublegee (spiny emex)",
+      "weed_common_name": "Up to 2 leaf stage",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "Qld, NSW, ACT, Vic, Tas, WA only",
+      "rate_full_text": "Qld, NSW, ACT, Vic, Tas, WA only",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Up to 4 leaf stage",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "All States",
+      "rate_full_text": "All States",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    }
+  ]
+}

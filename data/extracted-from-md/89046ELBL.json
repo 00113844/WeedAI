@@ -1,0 +1,90 @@
+{
+  "product_name": "TITAN ETHOFUMESATE 500 SC HERBICIDE",
+  "apvma_number": "89046/123493",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "J",
+  "identified_crops": [
+    "",
+    "Beet crops e.g. beetroot, fodder beet, mangolds, sugar beet"
+  ],
+  "identified_weeds": [
+    "Barley Grass",
+    "Chickweed",
+    "Cleavers",
+    "Fat-hen",
+    "Fumitory",
+    "Oilseed poppy",
+    "Post-emergence:",
+    "Prairie Grass",
+    "Redshank (Amaranthus spp.)",
+    "Shepherd\u2019s Purse",
+    "Summer Grass",
+    "Winter Grass",
+    "Wireweed"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Beet crops e.g. beetroot, fodder beet, mangolds, sugar beet",
+      "weed_common_name": "Barley Grass",
+      "weed_scientific_name": null,
+      "states": [
+        "QLD",
+        "NSW",
+        "ACT",
+        "VIC",
+        "TAS",
+        "SA"
+      ],
+      "rate_value": 6.0,
+      "rate_unit": "L/ha",
+      "rate_full_text": "4 or 6L/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "-"
+        }
+      ]
+    },
+    {
+      "crop": "Beet crops e.g. beetroot, fodder beet, mangolds, sugar beet",
+      "weed_common_name": "Post-emergence:",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 5.0,
+      "rate_unit": "2L plus 5L Betanal\\*/ha",
+      "rate_full_text": "2L plus 5L Betanal\\*/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "-"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Oilseed poppy",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "Tas only",
+      "rate_full_text": "Tas only",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "400mL to 2L/ha"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "product_number": "N/A",
+  "product_name": "COMBO SC HERBICIDE",
+  "active_constituent": "250 g/L AMETRYN, 250 g/L ATRAZINE",
+  "chemical_group": null,
+  "mode_of_action_group": "5",
+  "registered_crops": [
+    "sugar cane"
+  ],
+  "registered_weeds": [
+    "grasses",
+    "broadleaf weeds"
+  ],
+  "weed_control_entries": [
+    {
+      "crop": "sugar cane",
+      "application_timing": "pre-emergence",
+      "weed_common_name": "grasses",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "N/A",
+      "critical_comments": "Seedling grass and broadleaf weeds should be at the 2 to 3 leaf stage and actively growing. Always add a non-ionic (100%) surfactant at the rate of 200 mL per 100 L mixture.",
+      "control_level": "control"
+    },
+    {
+      "crop": "sugar cane",
+      "application_timing": "pre-emergence",
+      "weed_common_name": "broadleaf weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "N/A",
+      "critical_comments": "Seedling grass and broadleaf weeds should be at the 2 to 3 leaf stage and actively growing. Always add a non-ionic (100%) surfactant at the rate of 200 mL per 100 L mixture.",
+      "control_level": "control"
+    },
+    {
+      "crop": "sugar cane",
+      "application_timing": "post-emergence",
+      "weed_common_name": "grasses",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "N/A",
+      "critical_comments": "Seedling grass and broadleaf weeds should be at the 2 to 3 leaf stage and actively growing. Always add a non-ionic (100%) surfactant at the rate of 200 mL per 100 L mixture.",
+      "control_level": "control"
+    },
+    {
+      "crop": "sugar cane",
+      "application_timing": "post-emergence",
+      "weed_common_name": "broadleaf weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "N/A",
+      "critical_comments": "Seedling grass and broadleaf weeds should be at the 2 to 3 leaf stage and actively growing. Always add a non-ionic (100%) surfactant at the rate of 200 mL per 100 L mixture.",
+      "control_level": "control"
+    }
+  ],
+  "application_methods": [],
+  "state_restrictions": [],
+  "withholding_period": "28 days",
+  "compatible_products": [],
+  "_metadata": {
+    "source_file": "51814ELBL.md",
+    "extracted_at": "2026-01-08T13:45:14.230365",
+    "model": "gemini-2.5-flash-lite"
+  }
+}

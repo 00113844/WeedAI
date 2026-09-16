@@ -1,0 +1,95 @@
+{
+  "product_name": "NUFARM BROADSIDE HERBICIDE",
+  "apvma_number": "49908/RV2024",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": null,
+  "identified_crops": [
+    "5 leaf to fully tillered (from Z15-30)",
+    "Wheat, Barley, Oats, Triticale, Cereal rye"
+  ],
+  "identified_weeds": [
+    "3 leaf to fully tillered (from Z13-30)",
+    "3 leaf to fully tillered (from Z15-30)",
+    "Common iceplant (Mesembryanthemum crystallinum)",
+    "Rough poppy (Papaver hybridum)"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Wheat, Barley, Oats, Triticale, Cereal rye",
+      "weed_common_name": "3 leaf to fully tillered (from Z13-30)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "Qld, NSW, Vic, SA, WA only",
+      "rate_full_text": "Qld, NSW, Vic, SA, WA only",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "750 mL/ha"
+        }
+      ]
+    },
+    {
+      "crop": "5 leaf to fully tillered (from Z15-30)",
+      "weed_common_name": "Rough poppy (Papaver hybridum)",
+      "weed_scientific_name": null,
+      "states": [
+        "WA"
+      ],
+      "rate_value": 1.4,
+      "rate_unit": "L/ha",
+      "rate_full_text": "1.4 L/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "6 - 8 leaf stage but not more than 10 cm in diameter."
+        }
+      ]
+    },
+    {
+      "crop": "Wheat, Barley, Oats, Triticale, Cereal rye",
+      "weed_common_name": "3 leaf to fully tillered (from Z15-30)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "Qld, NSW, Vic, SA",
+      "rate_full_text": "Qld, NSW, Vic, SA",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "1 L/ha"
+        }
+      ]
+    },
+    {
+      "crop": "5 leaf to fully tillered (from Z15-30)",
+      "weed_common_name": "Common iceplant (Mesembryanthemum crystallinum)",
+      "weed_scientific_name": null,
+      "states": [
+        "WA"
+      ],
+      "rate_value": 1.4,
+      "rate_unit": "L/ha",
+      "rate_full_text": "1.4 L/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "6 - 8 leaf stage but not more than 10 cm in diameter."
+        }
+      ]
+    }
+  ]
+}

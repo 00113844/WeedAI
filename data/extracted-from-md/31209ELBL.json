@@ -1,0 +1,57 @@
+{
+  "product_name": "NUFARM ESTERCIDE 800 HERBICIDE",
+  "apvma_number": "31209/124744",
+  "active_constituents": [
+    "800 g/L 2,4-D present as the ethyl ester"
+  ],
+  "moa_number": null,
+  "moa_legacy_letter": "I",
+  "identified_crops": [
+    "Fallow spray prior to Direct Drilling or Sowing Winter cereals, Grain legumes, Pastures \u2013 non-legume, Canola",
+    "Wheat, Barley"
+  ],
+  "identified_weeds": [
+    "Refer to Weed Table 1",
+    "Refer to Weed Table 2"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Fallow spray prior to Direct Drilling or Sowing Winter cereals, Grain legumes, Pastures \u2013 non-legume, Canola",
+      "weed_common_name": "Refer to Weed Table 1",
+      "weed_scientific_name": null,
+      "states": [
+        "WA"
+      ],
+      "rate_value": 700.0,
+      "rate_unit": "mL/ha",
+      "rate_full_text": "180-700mL/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Observe the plant back periods given in the table in this leaflet. Must be tank mixed with a knockdown herbicide such as Nufarm CRUCIAL\u00ae Advanced Technology Herbicide, weedmaster\u00ae DST\u00ae, weedmaster\u00ae ARGO\u00ae, Gladiator\u00ae CT, weedmaster\u00ae DUO, Shirquat\u00ae 250 or Spray\u25cfSeed\\*/Revolver\u00ae. Select appropriate rate from the Weed Table. For skeleton weed, spraying should only be done 6-8 weeks before anticipated sowing date and subsequent cultivation limited to a minimum."
+        }
+      ]
+    },
+    {
+      "crop": "Wheat, Barley",
+      "weed_common_name": "Refer to Weed Table 2",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 700.0,
+      "rate_unit": "mL/ha",
+      "rate_full_text": "700mL/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply from first node stage (Z31) until the start of booting (when the head can be felt at the base of the stem)."
+        }
+      ]
+    }
+  ]
+}

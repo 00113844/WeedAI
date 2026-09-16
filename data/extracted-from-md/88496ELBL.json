@@ -1,0 +1,621 @@
+{
+  "product_name": "Titan Fluroxypyr 333 EC Herbicide",
+  "apvma_number": "88496/143096",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "4",
+  "identified_crops": [
+    "Bathurst Burr",
+    "Bellyache Bush",
+    "Black Bindweed (Climbing Buckwheat)",
+    "Blackberry Nightshade",
+    "Blue Heliotrope",
+    "Bokhara Clover",
+    "Broadleaf Pepper Tree",
+    "Caltrop (Yellow Vine)",
+    "Cobblers Pegs",
+    "Cockspur Thorn",
+    "Common Sensitive Plant",
+    "Common Sowthistle",
+    "Creeping Lantana",
+    "Crofton Weed",
+    "Docks (Rumex spp.)",
+    "Flannel Weed",
+    "Hexham Scent",
+    "Honey Locust",
+    "Lantana",
+    "Limebush",
+    "Madeira Vine",
+    "Milkweed",
+    "Mimosa pigra",
+    "Mistflower",
+    "Mother-of-millions",
+    "Noogoora Burr",
+    "Plants and regrowth 1.2 to 2m high",
+    "Prickly Acacia",
+    "Sida spp.",
+    "Small Flowered Mallow (Marshmallow)",
+    "Snakeweed (Dark and Light Blue)",
+    "Stinking Passion Flower",
+    "Wandering Jew",
+    "Yellowflower Devil\u2019s Claw"
+  ],
+  "identified_weeds": [
+    "3 leaf to flowering",
+    "Apply at time of active growth",
+    "Apply from mid to late summer",
+    "At flowering",
+    "Established plants and regrowth",
+    "Flowering",
+    "Infestations up to 1.5m high only",
+    "Mature leaves",
+    "Seedling and young plants before flowering",
+    "Seedlings and regrowth 0.5 to 1.2m high",
+    "Seedlings and rosettes up to 30cm high",
+    "Seedlings and young plants",
+    "Seedlings and young plants before flowering",
+    "Seedlings and young plants up to 2m high",
+    "Seedlings and young plants up to 30cm diameter",
+    "Seedlings and young plants up to bolting",
+    "Seedlings and young plants up to flowering",
+    "Up to 15cm high",
+    "Up to 3m high",
+    "Young plants up to and including flowering",
+    "fruiting",
+    "up to 40cm high",
+    "up to flowering"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Bathurst Burr",
+      "weed_common_name": "Seedlings and young plants",
+      "weed_scientific_name": null,
+      "states": [
+        "QLD",
+        "NSW",
+        "WA",
+        "NT"
+      ],
+      "rate_value": 45.0,
+      "rate_unit": "45",
+      "rate_full_text": "45",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Noogoora Burr",
+      "weed_common_name": "up to 40cm high",
+      "weed_scientific_name": null,
+      "states": [
+        "QLD",
+        "NSW",
+        "WA",
+        "NT"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Black Bindweed (Climbing Buckwheat)",
+      "weed_common_name": "Seedlings and young plants before flowering",
+      "weed_scientific_name": null,
+      "states": [
+        "QLD",
+        "NSW"
+      ],
+      "rate_value": 180.0,
+      "rate_unit": "180",
+      "rate_full_text": "180",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Mimosa pigra",
+      "weed_common_name": "Apply from mid to late summer",
+      "weed_scientific_name": null,
+      "states": [
+        "WA",
+        "NT"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Add Uptake\\* Spraying Oil (see General Instructions; oils and surfactants)."
+        }
+      ]
+    },
+    {
+      "crop": "Common Sensitive Plant",
+      "weed_common_name": "Seedlings and young plants up to flowering",
+      "weed_scientific_name": null,
+      "states": [
+        "QLD",
+        "WA"
+      ],
+      "rate_value": 300.0,
+      "rate_unit": "300",
+      "rate_full_text": "300",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Bellyache Bush",
+      "weed_common_name": "up to flowering",
+      "weed_scientific_name": null,
+      "states": [
+        "QLD",
+        "NSW",
+        "WA"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Blackberry Nightshade",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "QLD",
+        "NSW"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Bokhara Clover",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Caltrop (Yellow Vine)",
+      "weed_common_name": "Seedlings and young plants up to 30cm diameter",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Cobblers Pegs",
+      "weed_common_name": "Up to 15cm high",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Cockspur Thorn",
+      "weed_common_name": "Up to 3m high",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Creeping Lantana",
+      "weed_common_name": "At flowering",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Crofton Weed",
+      "weed_common_name": "Seedlings and young plants",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Mistflower",
+      "weed_common_name": "up to flowering",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Docks (Rumex spp.)",
+      "weed_common_name": "Seedlings and rosettes up to 30cm high",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Hexham Scent",
+      "weed_common_name": "Seedlings and young plants up to flowering",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Boom spray: TITAN Fluroxypyr 333 EC Herbicide at 0.18L/ha + 0.4L/ha of 2,4-D Amine (625g/L)."
+        }
+      ]
+    },
+    {
+      "crop": "Honey Locust",
+      "weed_common_name": "Seedlings and young plants up to 2m high",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Small Flowered Mallow (Marshmallow)",
+      "weed_common_name": "Seedlings and young plants up to flowering",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Yellowflower Devil\u2019s Claw",
+      "weed_common_name": "Seedlings and young plants up to flowering",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Lantana",
+      "weed_common_name": "Seedlings and regrowth 0.5 to 1.2m high",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 600.0,
+      "rate_unit": "600",
+      "rate_full_text": "600",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply to actively growing plants from October to April. Some regrowth may occur particularly when treating old woody plants with sparse canopies."
+        }
+      ]
+    },
+    {
+      "crop": "Plants and regrowth 1.2 to 2m high",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Blue Heliotrope",
+      "weed_common_name": "Flowering",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Limebush",
+      "weed_common_name": "Infestations up to 1.5m high only",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Madeira Vine",
+      "weed_common_name": "Apply at time of active growth",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 300.0,
+      "rate_unit": "300",
+      "rate_full_text": "300",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Milkweed",
+      "weed_common_name": "3 leaf to flowering",
+      "weed_scientific_name": null,
+      "states": [
+        "QLD"
+      ],
+      "rate_value": 600.0,
+      "rate_unit": "600",
+      "rate_full_text": "600",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Repeat applications will be necessary to control subsequent germinations."
+        }
+      ]
+    },
+    {
+      "crop": "Common Sowthistle",
+      "weed_common_name": "Seedlings and young plants up to bolting",
+      "weed_scientific_name": null,
+      "states": [
+        "QLD",
+        "NSW"
+      ],
+      "rate_value": 300.0,
+      "rate_unit": "300",
+      "rate_full_text": "300",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Add a surfactant (See General Instructions; oils and surfactants)."
+        }
+      ]
+    },
+    {
+      "crop": "Mother-of-millions",
+      "weed_common_name": "Seedlings and young plants before flowering",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 360.0,
+      "rate_unit": "360",
+      "rate_full_text": "360",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Prickly Acacia",
+      "weed_common_name": "Seedlings and young plants up to 2m high",
+      "weed_scientific_name": null,
+      "states": [
+        "QLD"
+      ],
+      "rate_value": 450.0,
+      "rate_unit": "450",
+      "rate_full_text": "450",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Add Uptake Spraying Oil (See General Instructions; oils and surfactants)."
+        }
+      ]
+    },
+    {
+      "crop": "Sida spp.",
+      "weed_common_name": "Seedlings and young plants up to flowering",
+      "weed_scientific_name": null,
+      "states": [
+        "QLD",
+        "NSW",
+        "WA",
+        "NT"
+      ],
+      "rate_value": 600.0,
+      "rate_unit": "600",
+      "rate_full_text": "600",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Broadleaf Pepper Tree",
+      "weed_common_name": "Mature leaves",
+      "weed_scientific_name": null,
+      "states": [
+        "QLD"
+      ],
+      "rate_value": 300.0,
+      "rate_unit": "300",
+      "rate_full_text": "300",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Winter application only."
+        }
+      ]
+    },
+    {
+      "crop": "Flannel Weed",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Snakeweed (Dark and Light Blue)",
+      "weed_common_name": "Seedling and young plants before flowering",
+      "weed_scientific_name": null,
+      "states": [
+        "QLD"
+      ],
+      "rate_value": 450.0,
+      "rate_unit": "450",
+      "rate_full_text": "450",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Add Uptake Spraying Oil (See General Instructions; oils and surfactants)."
+        }
+      ]
+    },
+    {
+      "crop": "Stinking Passion Flower",
+      "weed_common_name": "Established plants and regrowth",
+      "weed_scientific_name": null,
+      "states": [
+        "QLD",
+        "WA",
+        "NT"
+      ],
+      "rate_value": 270.0,
+      "rate_unit": "270",
+      "rate_full_text": "270",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Use 42mL/15L for a knapsack."
+        }
+      ]
+    },
+    {
+      "crop": "Wandering Jew",
+      "weed_common_name": "Young plants up to and including flowering",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_value": 900.0,
+      "rate_unit": "900",
+      "rate_full_text": "900",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Some regrowth will usually occur and will require retreatment."
+        }
+      ]
+    }
+  ]
+}

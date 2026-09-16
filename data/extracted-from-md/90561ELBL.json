@@ -1,0 +1,189 @@
+{
+  "product_name": "GENFARM DICAMBA 750 SL HERBICIDE",
+  "apvma_number": "90561/129306v",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "I",
+  "identified_crops": [
+    "",
+    "Mintweed",
+    "Wheat, Oats, Barley, Triticale, Commercial Rye",
+    "Wild turnip (Brassica tournefortii), Radish, Mustards, Tares, Charlock, Capeweed, Sorrel, Saffron thistle, Chickweed, Turnip weed (Rapistrum rugosum)"
+  ],
+  "identified_weeds": [
+    "Capeweed",
+    "Charlock",
+    "Chickweed",
+    "Climbing buckwheat (Black bindweed)",
+    "Clover",
+    "Common ice-plant",
+    "Docks",
+    "Double gee (Three-cornered Jack",
+    "Fat hen",
+    "Hexham scent (Melilotus)",
+    "Hoary cress",
+    "Mustards",
+    "New Zealand spinach",
+    "Radish",
+    "Saffron thistle",
+    "Scotch (Cotton or Woolly) thistle",
+    "Seedling docks",
+    "Soldier thistle",
+    "Sorrel",
+    "Spiny emex)",
+    "Sunflower",
+    "Sunflowers",
+    "Tares",
+    "Tree hogweed",
+    "Turnip weed (Rapistrum rugosum)",
+    "Variegated thistle",
+    "Vetch",
+    "Ward\u2019s weed",
+    "Wild radish",
+    "Wild turnip (Brassica tournefortii)",
+    "Wireweed",
+    "Wireweed (Hogweed)"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Wheat, Oats, Barley, Triticale, Commercial Rye",
+      "weed_common_name": "Double gee (Three-cornered Jack",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_value": 750.0,
+      "rate_unit": "mL/ha",
+      "rate_full_text": "105mL/ha plus 465mL/ha of MCPA 750",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Spray when most weeds have germinated and are in the 2-4 leaf stage. In some instances suppression only of Wireweed (Hogweed) and Capeweed will occur."
+        }
+      ]
+    },
+    {
+      "crop": "Wheat, Oats, Barley, Triticale, Commercial Rye",
+      "weed_common_name": "Double gee (Three-cornered Jack",
+      "weed_scientific_name": null,
+      "states": [
+        "SA"
+      ],
+      "rate_value": 185.0,
+      "rate_unit": "mL/ha",
+      "rate_full_text": "185mL/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Spray when most weeds have germinated and are still in the young rosette stage. When weeds DO NOT form a rosette, spray when they have not more than 8 true leaves. In some instances suppression only of Wireweed (Hogweed) and Climbing buckwheat (Black bindweed) will occur."
+        }
+      ]
+    },
+    {
+      "crop": "Wheat, Oats, Barley, Triticale, Commercial Rye",
+      "weed_common_name": "Double gee (Three-cornered Jack",
+      "weed_scientific_name": null,
+      "states": [
+        "QLD",
+        "NSW",
+        "VIC"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Wheat, Oats, Barley, Triticale, Commercial Rye",
+      "weed_common_name": "Wild turnip (Brassica tournefortii)",
+      "weed_scientific_name": null,
+      "states": [
+        "SA"
+      ],
+      "rate_value": 750.0,
+      "rate_unit": "mL/ha",
+      "rate_full_text": "185mL/ha plus 665mL/ha of MCPA 750",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "DO NOT use GENFARM DICAMBA 750 SL HERBICIDE plus 2,4-D 700 in Oats in SA. If any of these weeds are found in these cereal crops as well as the above weeds, the addition of MCPA 750 OR 2,4-D 700 is essential. Spray when most weeds have germinated and are still in the young rosette stage. In some instances, suppression only of Wireweed (Hogweed), Capeweed and Hoary cress will occur. A mixture with 2,4-D 700 must not be used in Tasmania."
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Common ice-plant",
+      "weed_scientific_name": null,
+      "states": [
+        "WA"
+      ],
+      "rate_value": 700.0,
+      "rate_unit": "mL/ha",
+      "rate_full_text": "215mL/ha plus 570mL/ha of 2,4-D 700",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Chickweed",
+      "weed_scientific_name": null,
+      "states": [
+        "WA"
+      ],
+      "rate_value": 800.0,
+      "rate_unit": "mL/ha",
+      "rate_full_text": "270mL/ha or 185mL/ha plus 800mL/ha of MCPA 750 or 185mL/ha plus 570mL of 2,4-D 700",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Mintweed",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "QLD"
+      ],
+      "rate_value": 185.0,
+      "rate_unit": "mL/ha",
+      "rate_full_text": "185mL/ha plus",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Wild turnip (Brassica tournefortii), Radish, Mustards, Tares, Charlock, Capeweed, Sorrel, Saffron thistle, Chickweed, Turnip weed (Rapistrum rugosum)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "QLD",
+        "VIC",
+        "NSW",
+        "TAS"
+      ],
+      "rate_value": 800.0,
+      "rate_unit": "mL/ha",
+      "rate_full_text": "800mL/ha of MCPA 750 or 185mL/ha plus 500mL of 2,4-D 700",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    }
+  ]
+}

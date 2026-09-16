@@ -1,0 +1,29 @@
+{
+  "product_name": "IMTRADE TALISMAN 400 EC",
+  "apvma_number": "93654/140068",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "14",
+  "identified_crops": [
+    ""
+  ],
+  "identified_weeds": [
+    "Glyphosate"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "",
+      "weed_common_name": "Glyphosate",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "0 metres",
+      "rate_full_text": "0 metres",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    }
+  ]
+}

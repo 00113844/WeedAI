@@ -1,0 +1,187 @@
+{
+  "product_name": "CropSure Diuron 900WG Herbicide",
+  "apvma_number": "94026/141284",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "5",
+  "identified_crops": [
+    "Asparagus",
+    "Bananas",
+    "Cotton",
+    "Lupins (WA only)",
+    "Sugarcane",
+    "Summer fallows (SA only)",
+    "Wheat, barley (NSW, Vic, ACT, SA only)",
+    "Wheat, barley (SA only)",
+    "Wheat, barley, oats (NSW, Vic, ACT, SA only)",
+    "Wheat, barley, triticale, and oats (WA only)",
+    "Wheat, barley, triticale, cereal rye, oats (WA only)"
+  ],
+  "identified_weeds": [
+    "1000 - 2000",
+    "1100",
+    "200 - 278",
+    "2000",
+    "278",
+    "278 - 500",
+    "278 - 555",
+    "500",
+    "711 - 978"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Wheat, barley, triticale, cereal rye, oats (WA only)",
+      "weed_common_name": "278 - 555",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 60.0,
+      "rate_unit": "60",
+      "rate_full_text": "60",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Wheat, barley, triticale, and oats (WA only)",
+      "weed_common_name": "200 - 278",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 30.0,
+      "rate_unit": "30",
+      "rate_full_text": "30",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Wheat, barley, oats (NSW, Vic, ACT, SA only)",
+      "weed_common_name": "500",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 50.0,
+      "rate_unit": "50",
+      "rate_full_text": "50",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Wheat, barley (SA only)",
+      "weed_common_name": "711 - 978",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 100.0,
+      "rate_unit": "100",
+      "rate_full_text": "100",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Wheat, barley (NSW, Vic, ACT, SA only)",
+      "weed_common_name": "278",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 30.0,
+      "rate_unit": "30",
+      "rate_full_text": "30",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Summer fallows (SA only)",
+      "weed_common_name": "278",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 30.0,
+      "rate_unit": "30",
+      "rate_full_text": "30",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Cotton",
+      "weed_common_name": "1000 - 2000",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 200.0,
+      "rate_unit": "200",
+      "rate_full_text": "200",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Lupins (WA only)",
+      "weed_common_name": "1100",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 80.0,
+      "rate_unit": "80",
+      "rate_full_text": "80",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Bananas",
+      "weed_common_name": "278 - 500",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 50.0,
+      "rate_unit": "50",
+      "rate_full_text": "50",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Sugarcane",
+      "weed_common_name": "2000",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 200.0,
+      "rate_unit": "200",
+      "rate_full_text": "200",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Asparagus",
+      "weed_common_name": "2000",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 200.0,
+      "rate_unit": "200",
+      "rate_full_text": "200",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    }
+  ]
+}

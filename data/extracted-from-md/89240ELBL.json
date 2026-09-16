@@ -1,0 +1,81 @@
+{
+  "product_name": "Prizm Industrial Herbicide",
+  "apvma_number": "89240/124100",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": null,
+  "identified_crops": [
+    "",
+    "Commercial and Industrial areas including around building lines, rights of way, roadsides, guideposts, powerlines and substations, aerodromes, public utilities and fencelines.",
+    "HARD TO KILL PERENNIALS"
+  ],
+  "identified_weeds": [
+    "ANNUALS",
+    "Fog grass (Holcus lanatus)",
+    "Geranium (Geranium sp.)",
+    "Milk Thistle (Sow) (Sonchus oleraceus L.)"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Commercial and Industrial areas including around building lines, rights of way, roadsides, guideposts, powerlines and substations, aerodromes, public utilities and fencelines.",
+      "weed_common_name": "ANNUALS",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 100.0,
+      "rate_unit": "1 x 100 g",
+      "rate_full_text": "1 x 100 g",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply to weeds less than 10 cm in height or diameter."
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Geranium (Geranium sp.)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Milk Thistle (Sow) (Sonchus oleraceus L.)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "HARD TO KILL PERENNIALS",
+      "weed_common_name": "Fog grass (Holcus lanatus)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 1000.0,
+      "rate_unit": "Apply this product with a water volume of approximately 1000 litres per hectare.",
+      "rate_full_text": "Apply this product with a water volume of approximately 1000 litres per hectare.",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    }
+  ]
+}

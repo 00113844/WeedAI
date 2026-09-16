@@ -1,0 +1,149 @@
+{
+  "product_name": "Etong Flupropanate 745 Herbicide",
+  "apvma_number": "68732/145831",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "0",
+  "identified_crops": [
+    "African Feathergrass (Pennisetum macrourum)",
+    "African Love Grass (Eragrostis curvula)",
+    "Industrial use",
+    "Pastures and non-crop situations",
+    "Rat\u2019s Tail grasses",
+    "Sporobolus spp. such as: Giant Parramatta Grass (S. fertilis), Giant Rat\u2019s Tail Fescue (S. pyramidalis), and S. natalensis"
+  ],
+  "identified_weeds": [
+    "Couch (Cynodon dactylon)",
+    "Kikuyu grass (Pennisetum clandestinum)",
+    "NSW",
+    "NSW only",
+    "Parramatta grass (Sporobolus spp.)",
+    "Paspalum (Paspalum dilatatum)",
+    "Qld",
+    "Qld only",
+    "Tas",
+    "WA",
+    "WA only"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Industrial use",
+      "weed_common_name": "Paspalum (Paspalum dilatatum)",
+      "weed_scientific_name": null,
+      "states": [
+        "TAS",
+        "WA",
+        "SA",
+        "VIC"
+      ],
+      "rate_value": 9.0,
+      "rate_unit": "9 L",
+      "rate_full_text": "9 L",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "-"
+        }
+      ]
+    },
+    {
+      "crop": "African Feathergrass (Pennisetum macrourum)",
+      "weed_common_name": "Tas",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "-",
+      "rate_full_text": "-",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "-"
+        }
+      ]
+    },
+    {
+      "crop": "Pastures and non-crop situations",
+      "weed_common_name": "Parramatta grass (Sporobolus spp.)",
+      "weed_scientific_name": null,
+      "states": [
+        "QLD",
+        "NSW",
+        "WA"
+      ],
+      "rate_value": 2.0,
+      "rate_unit": "2 L",
+      "rate_full_text": "2 L",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "2 L"
+        }
+      ]
+    },
+    {
+      "crop": "Sporobolus spp. such as: Giant Parramatta Grass (S. fertilis), Giant Rat\u2019s Tail Fescue (S. pyramidalis), and S. natalensis",
+      "weed_common_name": "NSW only",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "-",
+      "rate_full_text": "-",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "200 mL"
+        }
+      ]
+    },
+    {
+      "crop": "African Love Grass (Eragrostis curvula)",
+      "weed_common_name": "NSW",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "-",
+      "rate_full_text": "-",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "300 mL"
+        }
+      ]
+    },
+    {
+      "crop": "Rat\u2019s Tail grasses",
+      "weed_common_name": "Qld",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "-",
+      "rate_full_text": "-",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "200 mL"
+        }
+      ]
+    }
+  ]
+}

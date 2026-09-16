@@ -1,0 +1,68 @@
+{
+  "product_name": "COMBO SC HERBICIDE",
+  "apvma_number": "51814/145173",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "5",
+  "identified_crops": [
+    "",
+    "Sugar Cane (Plant and ratoon)"
+  ],
+  "identified_weeds": [
+    "African Stargrass",
+    "Barnyard grass",
+    "Bellvine",
+    "Billygoat Weed",
+    "Chinese Burr",
+    "Crowsfoot Grass",
+    "Cupid\u2019s flower",
+    "Flannel Weed",
+    "Gambia Pea",
+    "Green Summer Grass plus above weeds",
+    "Mossman River Grass",
+    "Rattlepod",
+    "Summer Grass"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Sugar Cane (Plant and ratoon)",
+      "weed_common_name": "African Stargrass",
+      "weed_scientific_name": null,
+      "states": [
+        "QLD",
+        "NSW",
+        "WA"
+      ],
+      "rate_value": 8.0,
+      "rate_unit": "6 to 8 litres",
+      "rate_full_text": "6 to 8 litres",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply as a pre or early post-emergent application to both crop and weeds. If weeds and grasses are present these should be ACTIVELY growing and not exceed 3-4 leaf stage. Aim to apply onto moist soil and when rain is likely to occur within 10 days of application. If conditions remain dry for a period after spraying and irrigation cannot be applied, a shallow (2.5 cm) cultivation may assist results. When applying after the cane has emerged, use a directed spray to minimise contact of the spray with cane plants. Contact of the herbicide on the foliage of the cane may cause a short term yellowing of some cane varieties. Use rates towards the higher end of the range in post-emergent situations where a high grass and weed population is encountered. Residual control of weeds and grasses can be expected for 6 to 12 weeks, with the longer control being obtained during the autumn/winter or low grass pressure."
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Green Summer Grass plus above weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 500.0,
+      "rate_unit": "6 litres + 2 litres of a flowable Diuron Herbicide (500 g/L)",
+      "rate_full_text": "6 litres + 2 litres of a flowable Diuron Herbicide (500 g/L)",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Use the tank mixture in situations where Green Summer Grass (Brachiaria spp.) is present. Apply as an early post-emergent application to both crop and weeds. Weeds should be actively growing and not exceed 3 to 4 leaf stage. Apply as a directed spray to minimise contact of the spray with the cane foliage."
+        }
+      ]
+    }
+  ]
+}

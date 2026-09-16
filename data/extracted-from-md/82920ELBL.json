@@ -1,0 +1,75 @@
+{
+  "product_name": "Bendax 600WG Herbicide",
+  "apvma_number": "82920/112080",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "B",
+  "identified_crops": [
+    "",
+    "Rice"
+  ],
+  "identified_weeds": [
+    "Arrowhead (Sagittaria montevidensis)",
+    "Dirty Dora (Cyperus difformis)",
+    "Star Fruit (Damasonium minus)"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Rice",
+      "weed_common_name": "Arrowhead (Sagittaria montevidensis)",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW"
+      ],
+      "rate_value": 85.0,
+      "rate_unit": "50 to 85",
+      "rate_full_text": "50 to 85",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "For best result apply early post crop emergence when weeds are small, up to 3 leaf stage."
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Star Fruit (Damasonium minus)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply by air to flooded paddy when rice has reached 2 leaf or later stage. Use the higher rate where paddy water is muddy/turbid or weeds are larger."
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Dirty Dora (Cyperus difformis)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "In the top bays for more reliable weed control use the maximum label rate."
+        }
+      ]
+    }
+  ]
+}

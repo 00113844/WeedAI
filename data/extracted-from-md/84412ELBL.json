@@ -1,0 +1,196 @@
+{
+  "product_name": "Smart Tola 960 Herbicide",
+  "apvma_number": "84412/110326",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "K",
+  "identified_crops": [
+    "",
+    "Barley, Oats",
+    "Broccoli, Brussels sprouts, Cabbages, Cauliflowers",
+    "Canola",
+    "Cotton",
+    "Crowsfoot Grass, Fierce Thornapple (suppression), Liverseed Grass, Winter Grass",
+    "Wheat, Barley, Oats, Triticale"
+  ],
+  "identified_weeds": [
+    "Apple of Peru",
+    "Awnless Barnyard Grass",
+    "Barnyard Grass",
+    "Blackberry Nightshade",
+    "Chickweed (suppression)",
+    "Crowsfoot Grass",
+    "Deadnettle",
+    "Fat-hen",
+    "Fierce Thornapple (suppression)",
+    "Liverseed Grass",
+    "Lovegrass",
+    "Pigeon Grass",
+    "Pigweed (suppression)",
+    "Potato Weed",
+    "Shepherds Purse",
+    "Stinging Nettle",
+    "Summer Grass",
+    "Suppression of Annual Ryegrass",
+    "Toad Rush",
+    "Wandering",
+    "Wireweed (suppression)"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Barley, Oats",
+      "weed_common_name": "Suppression of Annual Ryegrass",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "ACT",
+        "VIC",
+        "TAS",
+        "SA",
+        "WA"
+      ],
+      "rate_value": 750.0,
+      "rate_unit": "mL/ha",
+      "rate_full_text": "565 - 750 mL/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply to moist soils immediately after planting and before crop and weeds emerge. Use the lower rate on light soils. Application should be made to a moist seedbed and sufficient rain to thoroughly wet the top 3 to 4cm of soil should occur within 10 days after spraying. Damage may occur if crop is sown too shallow (less than 4cm). Damage can occur on light sandy soil types after heavy rain. See General Instructions for use in zero-tillage systems."
+        }
+      ]
+    },
+    {
+      "crop": "Wheat, Barley, Oats, Triticale",
+      "weed_common_name": "Toad Rush",
+      "weed_scientific_name": null,
+      "states": [
+        "VIC",
+        "NSW",
+        "ACT",
+        "SA",
+        "TAS",
+        "WA"
+      ],
+      "rate_value": 375.0,
+      "rate_unit": "mL/ha",
+      "rate_full_text": "225 to 375 mL/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply at or immediately after planting and before crop and weeds emerge. Application should be made to a moist seedbed and sufficient rain to thoroughly wet the top 3 to 4cm of soil should occur within 10 days after spraying. Use rates towards the higher end of the range in wet areas or when longer residual control is required or in situations where crop competition is minimal. When mixed with Triasulfuron 750 apply pre-sowing and incorporate by sowing operation (for wheat only)."
+        }
+      ]
+    },
+    {
+      "crop": "Broccoli, Brussels sprouts, Cabbages, Cauliflowers",
+      "weed_common_name": "Barnyard Grass",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "ACT",
+        "VIC",
+        "QLD",
+        "TAS",
+        "NT"
+      ],
+      "rate_value": 3.0,
+      "rate_unit": "L/ha",
+      "rate_full_text": "2.25 to 3 L/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply immediately after transplanting. Sufficient irrigation to wet the top 3 to 4cm of soil should be applied within 24 hours. Use rates towards the higher end of the range where Blackberry Nightshade, Chickweed, Fat-hen, Lovegrass, Pigeon Grass, Pigweed, Potato Weed and Wireweed are the major problem."
+        }
+      ]
+    },
+    {
+      "crop": "Crowsfoot Grass, Fierce Thornapple (suppression), Liverseed Grass, Winter Grass",
+      "weed_common_name": "Apple of Peru",
+      "weed_scientific_name": null,
+      "states": [
+        "QLD"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply immediately after transplanting. Sufficient irrigation to wet the top 3 to 4cm of soil should be applied within 24 hours. Use rates towards the higher end of the range where Apple of Peru, Common Sowthistle, Fierce Thornapple, Liverseed Grass, Redroot Amaranth, Twiggy Turnip and Nettleleaf Goosefoot are the major problems. WARNING: Qld, only stunting and reduced yield may occur in broccoli in red soils and light alluvial soils. See Warning \u2013 Brassica crops."
+        }
+      ]
+    },
+    {
+      "crop": "Canola",
+      "weed_common_name": "Toad Rush",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "ACT",
+        "SA",
+        "VIC",
+        "TAS",
+        "QLD"
+      ],
+      "rate_value": 375.0,
+      "rate_unit": "mL/ha",
+      "rate_full_text": "225 to 375 mL/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply at or immediately after planting and before crops and weeds emerge. Apply to moist soil; use rates towards the higher end of the range where longer residual control is required."
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Toad Rush",
+      "weed_scientific_name": null,
+      "states": [
+        "WA"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply before crops and weeds emerge. Apply to moist soil. To avoid crop injury use rates towards the lower end of the range on light sandy soils."
+        }
+      ]
+    },
+    {
+      "crop": "Cotton",
+      "weed_common_name": "Barnyard Grass",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "WA",
+        "QLD"
+      ],
+      "rate_value": 1.5,
+      "rate_unit": "L/ha",
+      "rate_full_text": "1.5 L/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Pre-emergent. Apply before, at, or immediately after planting and before crops and weeds have germinated using a low volume boom sprayer applying 60 to 120 litres of mixture per hectare."
+        }
+      ]
+    }
+  ]
+}

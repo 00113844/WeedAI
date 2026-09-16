@@ -1,0 +1,46 @@
+{
+  "product_name": "AXICHEM PTY LTD",
+  "apvma_number": "81207/102550",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": null,
+  "identified_crops": [
+    "Sorghum Seed Treated with Concep II"
+  ],
+  "identified_weeds": [
+    "Crowsfoot Grass",
+    "Liverseed Grass",
+    "Lovegrass",
+    "Mintweed",
+    "Needle Burr",
+    "Noogoora Burr",
+    "Pigeon Grass",
+    "Pigweed",
+    "Red root Amaranth",
+    "Slim Amaranth",
+    "Summer Grass",
+    "Thornapple"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Sorghum Seed Treated with Concep II",
+      "weed_common_name": "Thornapple",
+      "weed_scientific_name": null,
+      "states": [
+        "QLD",
+        "NSW"
+      ],
+      "rate_value": 960.0,
+      "rate_unit": "3.2L plus 0.5 to 1L s- Metolachlor (960g/L)",
+      "rate_full_text": "3.2L plus 0.5 to 1L s- Metolachlor (960g/L)",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Pre-plant: Apply the product to an even, unridged seedbed and incorporate with suitable harrows (eg 5 row) or when sowing occurs shortly after application by the planting operation trailing covering harrows. Post-plant: If the soil is ridged, cloddy or with heavy trash at application then mechanical incorporation is not recommended. Rainfall or irrigation is then required to incorporate and activate the product. Moisture in the top 3 to 4 cm of soil is required to keep the product activated. In flood or furrow irrigation situations, mechanical incorporation is required to ensure the irrigation water comes in contact with the product to ensure activation. DO NOT throw untreated soil onto treated areas as this will reduce weed control. Apply as a tank mixture as a pre-emergent application where grasses are the major problem. Use rates of AC Pulsate Herbicide towards the higher end of the range on heavy soils where a high grass population is expected. Low grass populations can be achieved by limiting seed production the previous season. Agronomic practices which reduce large grass weed seed banks in the soil before sowing should be used. Maize, sweet corn: DO NOT use on soils where the sand content exceeds 70%. DO NOT use tank mixture when the sand content of the soil is greater than 50%. Precaution: Crop retardation or injury can occur when sufficient rainfall is received after application to carry the herbicide to the germinating seed or into the root zone. Under certain unfavourable environmental conditions weed escapes may occur. These should be controlled by an appropriate post-emergent herbicide application."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "product_name": "NUFARM WEEDMASTER DST HERBICIDE",
+  "apvma_number": "62723/136257",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "9",
+  "identified_crops": [
+    "",
+    "Tank mix with Terrad\u2019or"
+  ],
+  "identified_weeds": [
+    "0.5 m or lower",
+    "1.0 m or lower"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Tank mix with Terrad\u2019or",
+      "weed_common_name": "0.5 m or lower",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "1.0 m or lower",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    }
+  ]
+}

@@ -1,0 +1,306 @@
+{
+  "product_number": "57834/5/0807",
+  "product_name": "KRISMAT WG",
+  "active_constituent": "731.5 g/kg AMETRYN 18.5 g/kg TRIFLOXYSULFURON SODIUM",
+  "chemical_group": null,
+  "mode_of_action_group": "B",
+  "registered_crops": [
+    "Sugarcane"
+  ],
+  "registered_weeds": [
+    "Bellvine",
+    "Calopo",
+    "Giant pigweed",
+    "Knob weed",
+    "Red convolvulus",
+    "Red pigweed",
+    "Sensitive weed",
+    "Volunteer peanuts",
+    "Wild rose (spiny spider flower)",
+    "Nutgrass",
+    "Barnyard grass",
+    "Summer grass",
+    "Sour grass",
+    "Townsville lucerne"
+  ],
+  "weed_control_entries": [
+    {
+      "crop": "Sugarcane",
+      "application_timing": "post-emergent",
+      "weed_common_name": "Bellvine",
+      "weed_scientific_name": "Ipomea plebeia",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "1.5 to 2.0 kg/ha plus 250 mL Agral® at 100 L",
+      "critical_comments": "Apply post-emergent as a broadcast spray over-the-top of sugarcane up to the 6 leaf stage, or as a directed spray for older sugarcane or sugarcane varieties sensitive to ametryn. Good spray coverage of emerged weeds is essential. Spray when broadleaf weeds are at the 2 to 6 leaf stage and grasses are at the 3 leaf to early tillering stage. Use the higher rate when weeds are at the upper end of the specified growth stage range, on dense weed infestations or heavy soil types. Apply when weeds are actively growing. Apply to moist soil when follow up rainfall is expected within 10 days.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Sugarcane",
+      "application_timing": "post-emergent",
+      "weed_common_name": "Calopo",
+      "weed_scientific_name": "Calapogonium mucunoides",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "1.5 to 2.0 kg/ha plus 250 mL Agral® at 100 L",
+      "critical_comments": "Apply post-emergent as a broadcast spray over-the-top of sugarcane up to the 6 leaf stage, or as a directed spray for older sugarcane or sugarcane varieties sensitive to ametryn. Good spray coverage of emerged weeds is essential. Spray when broadleaf weeds are at the 2 to 6 leaf stage and grasses are at the 3 leaf to early tillering stage. Use the higher rate when weeds are at the upper end of the specified growth stage range, on dense weed infestations or heavy soil types. Apply when weeds are actively growing. Apply to moist soil when follow up rainfall is expected within 10 days.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Sugarcane",
+      "application_timing": "post-emergent",
+      "weed_common_name": "Giant pigweed",
+      "weed_scientific_name": "Trianthema portulacastrum",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "1.5 to 2.0 kg/ha plus 250 mL Agral® at 100 L",
+      "critical_comments": "Apply post-emergent as a broadcast spray over-the-top of sugarcane up to the 6 leaf stage, or as a directed spray for older sugarcane or sugarcane varieties sensitive to ametryn. Good spray coverage of emerged weeds is essential. Spray when broadleaf weeds are at the 2 to 6 leaf stage and grasses are at the 3 leaf to early tillering stage. Use the higher rate when weeds are at the upper end of the specified growth stage range, on dense weed infestations or heavy soil types. Apply when weeds are actively growing. Apply to moist soil when follow up rainfall is expected within 10 days.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Sugarcane",
+      "application_timing": "post-emergent",
+      "weed_common_name": "Knob weed",
+      "weed_scientific_name": "Hyptis capitata",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "1.5 to 2.0 kg/ha plus 250 mL Agral® at 100 L",
+      "critical_comments": "Apply post-emergent as a broadcast spray over-the-top of sugarcane up to the 6 leaf stage, or as a directed spray for older sugarcane or sugarcane varieties sensitive to ametryn. Good spray coverage of emerged weeds is essential. Spray when broadleaf weeds are at the 2 to 6 leaf stage and grasses are at the 3 leaf to early tillering stage. Use the higher rate when weeds are at the upper end of the specified growth stage range, on dense weed infestations or heavy soil types. Apply when weeds are actively growing. Apply to moist soil when follow up rainfall is expected within 10 days.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Sugarcane",
+      "application_timing": "post-emergent",
+      "weed_common_name": "Red convolvulus",
+      "weed_scientific_name": "Ipomoea hederifolia",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "1.5 to 2.0 kg/ha plus 250 mL Agral® at 100 L",
+      "critical_comments": "Apply post-emergent as a broadcast spray over-the-top of sugarcane up to the 6 leaf stage, or as a directed spray for older sugarcane or sugarcane varieties sensitive to ametryn. Good spray coverage of emerged weeds is essential. Spray when broadleaf weeds are at the 2 to 6 leaf stage and grasses are at the 3 leaf to early tillering stage. Use the higher rate when weeds are at the upper end of the specified growth stage range, on dense weed infestations or heavy soil types. Apply when weeds are actively growing. Apply to moist soil when follow up rainfall is expected within 10 days.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Sugarcane",
+      "application_timing": "post-emergent",
+      "weed_common_name": "Red pigweed",
+      "weed_scientific_name": "Portulaca oleracea",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "1.5 to 2.0 kg/ha plus 250 mL Agral® at 100 L",
+      "critical_comments": "Apply post-emergent as a broadcast spray over-the-top of sugarcane up to the 6 leaf stage, or as a directed spray for older sugarcane or sugarcane varieties sensitive to ametryn. Good spray coverage of emerged weeds is essential. Spray when broadleaf weeds are at the 2 to 6 leaf stage and grasses are at the 3 leaf to early tillering stage. Use the higher rate when weeds are at the upper end of the specified growth stage range, on dense weed infestations or heavy soil types. Apply when weeds are actively growing. Apply to moist soil when follow up rainfall is expected within 10 days.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Sugarcane",
+      "application_timing": "post-emergent",
+      "weed_common_name": "Sensitive weed",
+      "weed_scientific_name": "Mimosa pudica",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "1.5 to 2.0 kg/ha plus 250 mL Agral® at 100 L",
+      "critical_comments": "Apply post-emergent as a broadcast spray over-the-top of sugarcane up to the 6 leaf stage, or as a directed spray for older sugarcane or sugarcane varieties sensitive to ametryn. Good spray coverage of emerged weeds is essential. Spray when broadleaf weeds are at the 2 to 6 leaf stage and grasses are at the 3 leaf to early tillering stage. Use the higher rate when weeds are at the upper end of the specified growth stage range, on dense weed infestations or heavy soil types. Apply when weeds are actively growing. Apply to moist soil when follow up rainfall is expected within 10 days.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Sugarcane",
+      "application_timing": "post-emergent",
+      "weed_common_name": "Volunteer peanuts",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "1.5 to 2.0 kg/ha plus 250 mL Agral® at 100 L",
+      "critical_comments": "Apply post-emergent as a broadcast spray over-the-top of sugarcane up to the 6 leaf stage, or as a directed spray for older sugarcane or sugarcane varieties sensitive to ametryn. Good spray coverage of emerged weeds is essential. Spray when broadleaf weeds are at the 2 to 6 leaf stage and grasses are at the 3 leaf to early tillering stage. Use the higher rate when weeds are at the upper end of the specified growth stage range, on dense weed infestations or heavy soil types. Apply when weeds are actively growing. Apply to moist soil when follow up rainfall is expected within 10 days.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Sugarcane",
+      "application_timing": "post-emergent",
+      "weed_common_name": "Wild rose (spiny spider flower)",
+      "weed_scientific_name": "Cleome aculeata",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "1.5 to 2.0 kg/ha plus 250 mL Agral® at 100 L",
+      "critical_comments": "Apply post-emergent as a broadcast spray over-the-top of sugarcane up to the 6 leaf stage, or as a directed spray for older sugarcane or sugarcane varieties sensitive to ametryn. Good spray coverage of emerged weeds is essential. Spray when broadleaf weeds are at the 2 to 6 leaf stage and grasses are at the 3 leaf to early tillering stage. Use the higher rate when weeds are at the upper end of the specified growth stage range, on dense weed infestations or heavy soil types. Apply when weeds are actively growing. Apply to moist soil when follow up rainfall is expected within 10 days.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Sugarcane",
+      "application_timing": "post-emergent",
+      "weed_common_name": "Nutgrass",
+      "weed_scientific_name": "Cyperus spp.",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "1.5 to 2.0 kg/ha plus 250 mL Agral® at 100 L",
+      "critical_comments": "Apply post-emergent as a broadcast spray over-the-top of sugarcane up to the 6 leaf stage, or as a directed spray for older sugarcane or sugarcane varieties sensitive to ametryn. Good spray coverage of emerged weeds is essential. Spray when broadleaf weeds are at the 2 to 6 leaf stage and grasses are at the 3 leaf to early tillering stage. Use the higher rate when weeds are at the upper end of the specified growth stage range, on dense weed infestations or heavy soil types. Apply when weeds are actively growing. Apply to moist soil when follow up rainfall is expected within 10 days.",
+      "control_level": "suppression"
+    },
+    {
+      "crop": "Sugarcane",
+      "application_timing": "post-emergent",
+      "weed_common_name": "Barnyard grass",
+      "weed_scientific_name": "Echinocloa spp.",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "1.5 to 2.0 kg/ha plus 250 mL Agral® at 100 L",
+      "critical_comments": "Apply post-emergent as a broadcast spray over-the-top of sugarcane up to the 6 leaf stage, or as a directed spray for older sugarcane or sugarcane varieties sensitive to ametryn. Good spray coverage of emerged weeds is essential. Spray when broadleaf weeds are at the 2 to 6 leaf stage and grasses are at the 3 leaf to early tillering stage. Use the higher rate when weeds are at the upper end of the specified growth stage range, on dense weed infestations or heavy soil types. Apply when weeds are actively growing. Apply to moist soil when follow up rainfall is expected within 10 days.",
+      "control_level": "suppression"
+    },
+    {
+      "crop": "Sugarcane",
+      "application_timing": "post-emergent",
+      "weed_common_name": "Summer grass",
+      "weed_scientific_name": "Digitaria ciliaris",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "1.5 to 2.0 kg/ha plus 250 mL Agral® at 100 L",
+      "critical_comments": "Apply post-emergent as a broadcast spray over-the-top of sugarcane up to the 6 leaf stage, or as a directed spray for older sugarcane or sugarcane varieties sensitive to ametryn. Good spray coverage of emerged weeds is essential. Spray when broadleaf weeds are at the 2 to 6 leaf stage and grasses are at the 3 leaf to early tillering stage. Use the higher rate when weeds are at the upper end of the specified growth stage range, on dense weed infestations or heavy soil types. Apply when weeds are actively growing. Apply to moist soil when follow up rainfall is expected within 10 days.",
+      "control_level": "suppression"
+    },
+    {
+      "crop": "Sugarcane",
+      "application_timing": "post-emergent",
+      "weed_common_name": "Sour grass",
+      "weed_scientific_name": "Paspalum conjugatum",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "1.5 to 2.0 kg/ha plus 250 mL Agral® at 100 L",
+      "critical_comments": "Apply post-emergent as a broadcast spray over-the-top of sugarcane up to the 6 leaf stage, or as a directed spray for older sugarcane or sugarcane varieties sensitive to ametryn. Good spray coverage of emerged weeds is essential. Spray when broadleaf weeds are at the 2 to 6 leaf stage and grasses are at the 3 leaf to early tillering stage. Use the higher rate when weeds are at the upper end of the specified growth stage range, on dense weed infestations or heavy soil types. Apply when weeds are actively growing. Apply to moist soil when follow up rainfall is expected within 10 days.",
+      "control_level": "suppression"
+    },
+    {
+      "crop": "Sugarcane",
+      "application_timing": "post-emergent",
+      "weed_common_name": "Townsville lucerne",
+      "weed_scientific_name": "Stylosanthes humilis",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "1.5 to 2.0 kg/ha plus 250 mL Agral® at 100 L",
+      "critical_comments": "Apply post-emergent as a broadcast spray over-the-top of sugarcane up to the 6 leaf stage, or as a directed spray for older sugarcane or sugarcane varieties sensitive to ametryn. Good spray coverage of emerged weeds is essential. Spray when broadleaf weeds are at the 2 to 6 leaf stage and grasses are at the 3 leaf to early tillering stage. Use the higher rate when weeds are at the upper end of the specified growth stage range, on dense weed infestations or heavy soil types. Apply when weeds are actively growing. Apply to moist soil when follow up rainfall is expected within 10 days.",
+      "control_level": "suppression"
+    }
+  ],
+  "application_methods": [
+    "broadcast spray",
+    "directed spray"
+  ],
+  "state_restrictions": [],
+  "withholding_period": null,
+  "compatible_products": [],
+  "_metadata": {
+    "source_file": "57834ELBL.md",
+    "extracted_at": "2026-01-08T13:46:33.963548",
+    "model": "gemini-2.5-flash-lite"
+  }
+}

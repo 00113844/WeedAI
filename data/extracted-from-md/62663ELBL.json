@@ -1,0 +1,113 @@
+{
+  "product_name": "KEEP OUT OF REACH OF CHILDREN",
+  "apvma_number": "62663/0210",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "I",
+  "identified_crops": [
+    "",
+    "Wheat, Barley, Oats, Triticale"
+  ],
+  "identified_weeds": [
+    "Refer to Weed Table"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Wheat, Barley, Oats, Triticale",
+      "weed_common_name": "Refer to Weed Table",
+      "weed_scientific_name": null,
+      "states": [
+        "SA",
+        "TAS"
+      ],
+      "rate_value": 460.0,
+      "rate_unit": "L/ha",
+      "rate_full_text": "460 mL-1.45 L/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply through the tillering stage after the crop plants have 5 leaves and before they commence jointing."
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "QLD"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply from early tillering (4-5 fully emerged main stem leaves plus one or more tillers) until before the boot stage (visible swelling of the head at the top of the main stem)."
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "ACT"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply 460 mL rate after crop has reached 5 leaf stage and weeds marked # in weed table have 3-6 leaves. Higher rates after the first node can be felt at the base of a tiller and before swelling of the head can be felt in a tiller."
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "VIC"
+      ],
+      "rate_value": 960.0,
+      "rate_unit": "mL/ha",
+      "rate_full_text": "460 mL-960 mL/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply 460 mL rate after crop has reached 2-3 leaf stage and weeds marked # in weed table have 2-4 leaves. Higher rate after the crop plants have 5 leaves to fully tillered."
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "WA"
+      ],
+      "rate_value": 600.0,
+      "rate_unit": "L/ha",
+      "rate_full_text": "600 mL-1.35 L/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply to crop from 5 leaf to Flag leaf emergence. (Zadoks 15-37)"
+        }
+      ]
+    }
+  ]
+}

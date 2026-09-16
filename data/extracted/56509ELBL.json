@@ -1,0 +1,202 @@
+{
+  "product_number": "56509",
+  "product_name": "Imtrade MSMA",
+  "active_constituent": "800 g/L MSMA",
+  "chemical_group": null,
+  "mode_of_action_group": "Z",
+  "registered_crops": [
+    "Cotton",
+    "Sugarcane",
+    "Couch Turf",
+    "Non-crop areas"
+  ],
+  "registered_weeds": [
+    "Annual Grasses",
+    "Perennial Grasses",
+    "Burrs",
+    "Grass Weeds",
+    "Prickly Pear"
+  ],
+  "weed_control_entries": [
+    {
+      "crop": "Cotton",
+      "application_timing": "Post Emergence",
+      "weed_common_name": "Annual Grasses",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": null,
+      "control_level": "control"
+    },
+    {
+      "crop": "Cotton",
+      "application_timing": "Post Emergence",
+      "weed_common_name": "Perennial Grasses",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": null,
+      "control_level": "control"
+    },
+    {
+      "crop": "Cotton",
+      "application_timing": "Post Emergence",
+      "weed_common_name": "Burrs",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": null,
+      "control_level": "control"
+    },
+    {
+      "crop": "Sugarcane",
+      "application_timing": "Post Emergence",
+      "weed_common_name": "Annual Grasses",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": null,
+      "control_level": "control"
+    },
+    {
+      "crop": "Sugarcane",
+      "application_timing": "Post Emergence",
+      "weed_common_name": "Perennial Grasses",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": null,
+      "control_level": "control"
+    },
+    {
+      "crop": "Couch Turf",
+      "application_timing": "Post Emergence",
+      "weed_common_name": "Grass Weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": null,
+      "control_level": "control"
+    },
+    {
+      "crop": "Non-crop areas",
+      "application_timing": "Post Emergence",
+      "weed_common_name": "Prickly Pear",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": null,
+      "control_level": "control"
+    },
+    {
+      "crop": "Non-crop areas",
+      "application_timing": "Post Emergence",
+      "weed_common_name": "Grasses",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": null,
+      "control_level": "control"
+    },
+    {
+      "crop": "Non-crop areas",
+      "application_timing": "Post Emergence",
+      "weed_common_name": "Burrs",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": null,
+      "control_level": "control"
+    }
+  ],
+  "application_methods": [],
+  "state_restrictions": [],
+  "withholding_period": null,
+  "compatible_products": [],
+  "_metadata": {
+    "source_file": "56509ELBL.md",
+    "extracted_at": "2026-01-08T13:46:11.347073",
+    "model": "gemini-2.5-flash-lite"
+  }
+}

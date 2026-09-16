@@ -1,0 +1,145 @@
+{
+  "product_name": "Product Name: QA Haloxyfop 520 EC Herbicide",
+  "apvma_number": "90835/149902",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "1",
+  "identified_crops": [
+    "",
+    "Annual ryegrass",
+    "Barley grass, Brome grass, Paradoxa grass, Volunteer cereals",
+    "Wild oats"
+  ],
+  "identified_weeds": [
+    "2 to 4 leaf",
+    "Early Tillering"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Annual ryegrass",
+      "weed_common_name": "2 to 4 leaf",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 8.0,
+      "rate_unit": "CANOLA, LINOLA AND LINSEED DO NOT apply after the 8 leaf stage of the crop. DO NOT apply after the commencement of stem elongation.",
+      "rate_full_text": "CANOLA, LINOLA AND LINSEED DO NOT apply after the 8 leaf stage of the crop. DO NOT apply after the commencement of stem elongation.",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Early Tillering",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 100.0,
+      "rate_unit": "100",
+      "rate_full_text": "100",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 100.0,
+      "rate_unit": "100",
+      "rate_full_text": "100",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Barley grass, Brome grass, Paradoxa grass, Volunteer cereals",
+      "weed_common_name": "2 to 4 leaf",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 1.0,
+      "rate_unit": "DO NOT apply more than 1 application of herbicide containing haloxyfop per crop. DO NOT apply after grazing.",
+      "rate_full_text": "DO NOT apply more than 1 application of herbicide containing haloxyfop per crop. DO NOT apply after grazing.",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Early Tillering",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Wild oats",
+      "weed_common_name": "2 to 4 leaf",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 520.0,
+      "rate_unit": "WA, SA, Vic, Tas, Southern and Central NSW The only oil recommended for use with QA Haloxyfop 520 EC is Uptake\\* Spraying Oil.",
+      "rate_full_text": "WA, SA, Vic, Tas, Southern and Central NSW The only oil recommended for use with QA Haloxyfop 520 EC is Uptake\\* Spraying Oil.",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Early Tillering",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Wild oats",
+      "weed_common_name": "2 to 4 leaf",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "LUPINS AND FIELD PEAS: Mixtures with Brodal\\* or simazine may cause crop yellowing and separate applications are recommended.",
+      "rate_full_text": "LUPINS AND FIELD PEAS: Mixtures with Brodal\\* or simazine may cause crop yellowing and separate applications are recommended.",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Early Tillering",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    }
+  ]
+}

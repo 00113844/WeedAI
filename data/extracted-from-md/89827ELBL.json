@@ -1,0 +1,132 @@
+{
+  "product_name": "F.S.A. Clodinafop 240 EC Herbicide",
+  "apvma_number": "89827/126194",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "A",
+  "identified_crops": [
+    "",
+    "Wild Oats"
+  ],
+  "identified_weeds": [
+    "Wheat"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Wild Oats",
+      "weed_common_name": "Wheat",
+      "weed_scientific_name": null,
+      "states": [
+        "QLD"
+      ],
+      "rate_value": 500.0,
+      "rate_unit": "65 mL + 1 L of DC-Trate oil or 500mL Hasten or Infuse oil per 100L of water",
+      "rate_full_text": "65 mL + 1 L of DC-Trate oil or 500mL Hasten or Infuse oil per 100L of water",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "2 leaf to late jointing (Zadoks 12 - 37)"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 500.0,
+      "rate_unit": "85mL + 1L of DC-Trate oil or 500mL Hasten or Infuse oil per 100L of water",
+      "rate_full_text": "85mL + 1L of DC-Trate oil or 500mL Hasten or Infuse oil per 100L of water",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "2 leaf to mid tillering"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 500.0,
+      "rate_unit": "85mL + 1L of DC-Trate oil or 500mL Hasten or Infuse oil per 100L of water",
+      "rate_full_text": "85mL + 1L of DC-Trate oil or 500mL Hasten or Infuse oil per 100L of water",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "2 to 5 leaf"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 500.0,
+      "rate_unit": "125mL + 1L of DC-Trate oil or 500mL Hasten or Infuse oil per 100L of water",
+      "rate_full_text": "125mL + 1L of DC-Trate oil or 500mL Hasten or Infuse oil per 100L of water",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "2 leaf to mid tillering"
+        }
+      ]
+    },
+    {
+      "crop": "Wild Oats",
+      "weed_common_name": "Wheat",
+      "weed_scientific_name": null,
+      "states": [
+        "VIC",
+        "SA",
+        "WA"
+      ],
+      "rate_value": 500.0,
+      "rate_unit": "65 mL + 1L of DC-Trate oil or 500mL Hasten or Infuse oil per 100L of water",
+      "rate_full_text": "65 mL + 1L of DC-Trate oil or 500mL Hasten or Infuse oil per 100L of water",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "2 leaf to late jointing (Zadoks 12 - 37)"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 500.0,
+      "rate_unit": "85mL + 1L of DC-Trate oil or 500mL Hasten or Infuse oil per 100L of water",
+      "rate_full_text": "85mL + 1L of DC-Trate oil or 500mL Hasten or Infuse oil per 100L of water",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "2 leaf to mid tillering"
+        }
+      ]
+    }
+  ]
+}

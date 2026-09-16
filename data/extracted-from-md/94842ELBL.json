@@ -1,0 +1,94 @@
+{
+  "product_name": "Product Name: eLabel Argold Herbicide",
+  "apvma_number": "94842/143824",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "30",
+  "identified_crops": [
+    "",
+    "Up to 350 mL/ha",
+    "Up to 500 mL/ha"
+  ],
+  "identified_weeds": [
+    "0.5 m or lower",
+    "1.0 m or lower"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Up to 350 mL/ha",
+      "weed_common_name": "0.5 m or lower",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "0 metres",
+      "rate_full_text": "0 metres",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "0 metres"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "1.0 m or lower",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 20.0,
+      "rate_unit": "20 metres",
+      "rate_full_text": "20 metres",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "0 metres"
+        }
+      ]
+    },
+    {
+      "crop": "Up to 500 mL/ha",
+      "weed_common_name": "0.5 m or lower",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "0 metres",
+      "rate_full_text": "0 metres",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "0 metres"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "1.0 m or lower",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 25.0,
+      "rate_unit": "25 metres",
+      "rate_full_text": "25 metres",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "0 metres"
+        }
+      ]
+    }
+  ]
+}

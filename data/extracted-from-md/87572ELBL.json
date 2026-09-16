@@ -1,0 +1,143 @@
+{
+  "product_name": "XtendiMax Herbicide with VapourGrip Technology",
+  "apvma_number": "87572/118693v",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "4",
+  "identified_crops": [
+    "",
+    "Barley, Oats, Triticale, Wheat"
+  ],
+  "identified_weeds": [
+    "Amsinckia (Yellow Burrweed)",
+    "Capeweed\u2206",
+    "Climbing Buckwheat",
+    "Climbing Buckwheat (Black Bindweed)",
+    "Docks",
+    "Fat Hen",
+    "Hexham Scent",
+    "Indian Hedge Mustard",
+    "New Zealand Spinach",
+    "Peas",
+    "Scotch Thistle (Black or Spear Thistle)",
+    "Spiny Emex (Doublegee",
+    "Subterranean Clover",
+    "Sunflowers",
+    "Tares",
+    "Three-Cornered Jack)",
+    "Tree Hogweed",
+    "Turnip Weed",
+    "Variegated Thistles",
+    "Vetch)",
+    "Volunteer Legumes (Chickpeas",
+    "Wild Radish",
+    "Wild Turnip"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Barley, Oats, Triticale, Wheat",
+      "weed_common_name": "Amsinckia (Yellow Burrweed)",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "TAS",
+        "SA",
+        "WA"
+      ],
+      "rate_value": 230.0,
+      "rate_unit": "230 mL plus 7 g",
+      "rate_full_text": "230 mL plus 7 g",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Up to 4 leaf and maximum 8 cm height or diameter"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Climbing Buckwheat (Black Bindweed)",
+      "weed_scientific_name": null,
+      "states": [
+        "QLD",
+        "NSW"
+      ],
+      "rate_value": 230.0,
+      "rate_unit": "230 mL plus 5 g Eclipse",
+      "rate_full_text": "230 mL plus 5 g Eclipse",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Indian Hedge Mustard",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_value": 230.0,
+      "rate_unit": "230 mL plus 7 g Eclipse",
+      "rate_full_text": "230 mL plus 7 g Eclipse",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Up to 8 leaf or young rosette stage and maximum 15 cm height or diameter"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Spiny Emex (Doublegee",
+      "weed_scientific_name": null,
+      "states": [
+        "QLD",
+        "WA"
+      ],
+      "rate_value": 230.0,
+      "rate_unit": "230 mL plus 5 g Eclipse",
+      "rate_full_text": "230 mL plus 5 g Eclipse",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Up to 4 leaf and maximum 12 cm height or diameter"
+        }
+      ]
+    },
+    {
+      "crop": "Barley, Oats, Triticale, Wheat",
+      "weed_common_name": "Climbing Buckwheat",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "QLD",
+        "VIC"
+      ],
+      "rate_value": 400.0,
+      "rate_unit": "400 mL",
+      "rate_full_text": "400 mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Up to 8 leaf or young rosette stage and maximum 10 cm height or diameter"
+        }
+      ]
+    }
+  ]
+}

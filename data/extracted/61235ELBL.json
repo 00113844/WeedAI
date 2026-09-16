@@ -1,0 +1,553 @@
+{
+  "product_number": "61235",
+  "product_name": "X-Pand Herbicide",
+  "active_constituent": "610 g/Kg ISOXABEN 40 g/Kg FLORASULAM",
+  "chemical_group": null,
+  "mode_of_action_group": "G",
+  "registered_crops": [
+    "Barley",
+    "Triticale",
+    "Wheat"
+  ],
+  "registered_weeds": [
+    "Wild radish",
+    "Bedstraw",
+    "Capeweed",
+    "Doublegee",
+    "Turnip weed",
+    "Canola",
+    "Lupin",
+    "Indian Hedge Mustard"
+  ],
+  "weed_control_entries": [
+    {
+      "crop": "Barley",
+      "application_timing": "Early post-emergent",
+      "weed_common_name": "Wild radish",
+      "weed_scientific_name": "Raphanus raphanistrum",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "165 g/ha",
+      "critical_comments": "Only use this rate where some larger weeds are present or the density of weeds is high (see comment below on Wild radish).",
+      "control_level": "control"
+    },
+    {
+      "crop": "Barley",
+      "application_timing": "Early post-emergent",
+      "weed_common_name": "Bedstraw",
+      "weed_scientific_name": "Galium spp.",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "125 g/ha",
+      "critical_comments": "Capeweed: May only be suppressed at this rate. To optimise control, use a tank-mix as recommended below. Wild radish: Any survivors must be treated with another management technique or herbicide from a different mode-of-action group to avoid viable seed production.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Barley",
+      "application_timing": "Early post-emergent",
+      "weed_common_name": "Capeweed",
+      "weed_scientific_name": "Arctotheca calendula",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "125 g/ha",
+      "critical_comments": "Capeweed: May only be suppressed at this rate. To optimise control, use a tank-mix as recommended below. Wild radish: Any survivors must be treated with another management technique or herbicide from a different mode-of-action group to avoid viable seed production.",
+      "control_level": "suppression"
+    },
+    {
+      "crop": "Barley",
+      "application_timing": "Early post-emergent",
+      "weed_common_name": "Doublegee",
+      "weed_scientific_name": "Emex australis",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "125 g/ha",
+      "critical_comments": "Capeweed: May only be suppressed at this rate. To optimise control, use a tank-mix as recommended below. Wild radish: Any survivors must be treated with another management technique or herbicide from a different mode-of-action group to avoid viable seed production.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Barley",
+      "application_timing": "Early post-emergent",
+      "weed_common_name": "Turnip weed",
+      "weed_scientific_name": "Rapistrum rugosum",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "125 g/ha",
+      "critical_comments": "Capeweed: May only be suppressed at this rate. To optimise control, use a tank-mix as recommended below. Wild radish: Any survivors must be treated with another management technique or herbicide from a different mode-of-action group to avoid viable seed production.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Barley",
+      "application_timing": "Early post-emergent",
+      "weed_common_name": "Canola",
+      "weed_scientific_name": "Brassica napus",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "125 g/ha",
+      "critical_comments": "Capeweed: May only be suppressed at this rate. To optimise control, use a tank-mix as recommended below. Wild radish: Any survivors must be treated with another management technique or herbicide from a different mode-of-action group to avoid viable seed production.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Barley",
+      "application_timing": "Early post-emergent",
+      "weed_common_name": "Lupin",
+      "weed_scientific_name": "Lupinus albus",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "125 g/ha",
+      "critical_comments": "Capeweed: May only be suppressed at this rate. To optimise control, use a tank-mix as recommended below. Wild radish: Any survivors must be treated with another management technique or herbicide from a different mode-of-action group to avoid viable seed production.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Barley",
+      "application_timing": "Early post-emergent",
+      "weed_common_name": "Wild radish",
+      "weed_scientific_name": "Raphanus raphanistrum",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "125 g/ha",
+      "critical_comments": "Capeweed: May only be suppressed at this rate. To optimise control, use a tank-mix as recommended below. Wild radish: Any survivors must be treated with another management technique or herbicide from a different mode-of-action group to avoid viable seed production.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Barley",
+      "application_timing": "Early post-emergent",
+      "weed_common_name": "Indian Hedge Mustard",
+      "weed_scientific_name": "Sisymbrium orientale",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "125 g/ha + tank-mix partner",
+      "critical_comments": "Tank-mixes: For improved control, including larger weeds (up to 15 cm), apply X-Pand Herbicide in a tank-mix with MCPA LVE (500 g/L) at 350 – 500 mL/ha or Bromoxynil-MCPA (200 g + 200 g/L) at 350 – 500 mL/ha.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Triticale",
+      "application_timing": "Early post-emergent",
+      "weed_common_name": "Wild radish",
+      "weed_scientific_name": "Raphanus raphanistrum",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "165 g/ha",
+      "critical_comments": "Only use this rate where some larger weeds are present or the density of weeds is high (see comment below on Wild radish).",
+      "control_level": "control"
+    },
+    {
+      "crop": "Triticale",
+      "application_timing": "Early post-emergent",
+      "weed_common_name": "Bedstraw",
+      "weed_scientific_name": "Galium spp.",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "125 g/ha",
+      "critical_comments": "Capeweed: May only be suppressed at this rate. To optimise control, use a tank-mix as recommended below. Wild radish: Any survivors must be treated with another management technique or herbicide from a different mode-of-action group to avoid viable seed production.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Triticale",
+      "application_timing": "Early post-emergent",
+      "weed_common_name": "Capeweed",
+      "weed_scientific_name": "Arctotheca calendula",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "125 g/ha",
+      "critical_comments": "Capeweed: May only be suppressed at this rate. To optimise control, use a tank-mix as recommended below. Wild radish: Any survivors must be treated with another management technique or herbicide from a different mode-of-action group to avoid viable seed production.",
+      "control_level": "suppression"
+    },
+    {
+      "crop": "Triticale",
+      "application_timing": "Early post-emergent",
+      "weed_common_name": "Doublegee",
+      "weed_scientific_name": "Emex australis",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "125 g/ha",
+      "critical_comments": "Capeweed: May only be suppressed at this rate. To optimise control, use a tank-mix as recommended below. Wild radish: Any survivors must be treated with another management technique or herbicide from a different mode-of-action group to avoid viable seed production.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Triticale",
+      "application_timing": "Early post-emergent",
+      "weed_common_name": "Turnip weed",
+      "weed_scientific_name": "Rapistrum rugosum",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "125 g/ha",
+      "critical_comments": "Capeweed: May only be suppressed at this rate. To optimise control, use a tank-mix as recommended below. Wild radish: Any survivors must be treated with another management technique or herbicide from a different mode-of-action group to avoid viable seed production.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Triticale",
+      "application_timing": "Early post-emergent",
+      "weed_common_name": "Canola",
+      "weed_scientific_name": "Brassica napus",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "125 g/ha",
+      "critical_comments": "Capeweed: May only be suppressed at this rate. To optimise control, use a tank-mix as recommended below. Wild radish: Any survivors must be treated with another management technique or herbicide from a different mode-of-action group to avoid viable seed production.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Triticale",
+      "application_timing": "Early post-emergent",
+      "weed_common_name": "Lupin",
+      "weed_scientific_name": "Lupinus albus",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "125 g/ha",
+      "critical_comments": "Capeweed: May only be suppressed at this rate. To optimise control, use a tank-mix as recommended below. Wild radish: Any survivors must be treated with another management technique or herbicide from a different mode-of-action group to avoid viable seed production.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Triticale",
+      "application_timing": "Early post-emergent",
+      "weed_common_name": "Wild radish",
+      "weed_scientific_name": "Raphanus raphanistrum",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "125 g/ha",
+      "critical_comments": "Capeweed: May only be suppressed at this rate. To optimise control, use a tank-mix as recommended below. Wild radish: Any survivors must be treated with another management technique or herbicide from a different mode-of-action group to avoid viable seed production.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Triticale",
+      "application_timing": "Early post-emergent",
+      "weed_common_name": "Indian Hedge Mustard",
+      "weed_scientific_name": "Sisymbrium orientale",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "125 g/ha + tank-mix partner",
+      "critical_comments": "Tank-mixes: For improved control, including larger weeds (up to 15 cm), apply X-Pand Herbicide in a tank-mix with MCPA LVE (500 g/L) at 350 – 500 mL/ha or Bromoxynil-MCPA (200 g + 200 g/L) at 350 – 500 mL/ha.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Wheat",
+      "application_timing": "Early post-emergent",
+      "weed_common_name": "Wild radish",
+      "weed_scientific_name": "Raphanus raphanistrum",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "165 g/ha",
+      "critical_comments": "Only use this rate where some larger weeds are present or the density of weeds is high (see comment below on Wild radish).",
+      "control_level": "control"
+    },
+    {
+      "crop": "Wheat",
+      "application_timing": "Early post-emergent",
+      "weed_common_name": "Bedstraw",
+      "weed_scientific_name": "Galium spp.",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "125 g/ha",
+      "critical_comments": "Capeweed: May only be suppressed at this rate. To optimise control, use a tank-mix as recommended below. Wild radish: Any survivors must be treated with another management technique or herbicide from a different mode-of-action group to avoid viable seed production.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Wheat",
+      "application_timing": "Early post-emergent",
+      "weed_common_name": "Capeweed",
+      "weed_scientific_name": "Arctotheca calendula",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "125 g/ha",
+      "critical_comments": "Capeweed: May only be suppressed at this rate. To optimise control, use a tank-mix as recommended below. Wild radish: Any survivors must be treated with another management technique or herbicide from a different mode-of-action group to avoid viable seed production.",
+      "control_level": "suppression"
+    },
+    {
+      "crop": "Wheat",
+      "application_timing": "Early post-emergent",
+      "weed_common_name": "Doublegee",
+      "weed_scientific_name": "Emex australis",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "125 g/ha",
+      "critical_comments": "Capeweed: May only be suppressed at this rate. To optimise control, use a tank-mix as recommended below. Wild radish: Any survivors must be treated with another management technique or herbicide from a different mode-of-action group to avoid viable seed production.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Wheat",
+      "application_timing": "Early post-emergent",
+      "weed_common_name": "Turnip weed",
+      "weed_scientific_name": "Rapistrum rugosum",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "125 g/ha",
+      "critical_comments": "Capeweed: May only be suppressed at this rate. To optimise control, use a tank-mix as recommended below. Wild radish: Any survivors must be treated with another management technique or herbicide from a different mode-of-action group to avoid viable seed production.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Wheat",
+      "application_timing": "Early post-emergent",
+      "weed_common_name": "Canola",
+      "weed_scientific_name": "Brassica napus",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "125 g/ha",
+      "critical_comments": "Capeweed: May only be suppressed at this rate. To optimise control, use a tank-mix as recommended below. Wild radish: Any survivors must be treated with another management technique or herbicide from a different mode-of-action group to avoid viable seed production.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Wheat",
+      "application_timing": "Early post-emergent",
+      "weed_common_name": "Lupin",
+      "weed_scientific_name": "Lupinus albus",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "125 g/ha",
+      "critical_comments": "Capeweed: May only be suppressed at this rate. To optimise control, use a tank-mix as recommended below. Wild radish: Any survivors must be treated with another management technique or herbicide from a different mode-of-action group to avoid viable seed production.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Wheat",
+      "application_timing": "Early post-emergent",
+      "weed_common_name": "Wild radish",
+      "weed_scientific_name": "Raphanus raphanistrum",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "125 g/ha",
+      "critical_comments": "Capeweed: May only be suppressed at this rate. To optimise control, use a tank-mix as recommended below. Wild radish: Any survivors must be treated with another management technique or herbicide from a different mode-of-action group to avoid viable seed production.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Wheat",
+      "application_timing": "Early post-emergent",
+      "weed_common_name": "Indian Hedge Mustard",
+      "weed_scientific_name": "Sisymbrium orientale",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "125 g/ha + tank-mix partner",
+      "critical_comments": "Tank-mixes: For improved control, including larger weeds (up to 15 cm), apply X-Pand Herbicide in a tank-mix with MCPA LVE (500 g/L) at 350 – 500 mL/ha or Bromoxynil-MCPA (200 g + 200 g/L) at 350 – 500 mL/ha.",
+      "control_level": "control"
+    }
+  ],
+  "application_methods": [
+    "Ground spray"
+  ],
+  "state_restrictions": [],
+  "withholding_period": "6 weeks (stockfood)",
+  "compatible_products": [
+    "Bromoxynil-MCPA",
+    "MCPA LVE",
+    "Lontrel 750SG",
+    "Uptake Spraying Oil"
+  ],
+  "_metadata": {
+    "source_file": "61235ELBL.md",
+    "extracted_at": "2026-01-08T13:47:10.702067",
+    "model": "gemini-2.5-flash-lite"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "product_number": "31253",
+  "product_name": "DUPONT KROVAR DF HERBICIDE",
+  "active_constituent": "400 g/kg BROMACIL, 400 g/kg DIURON",
+  "chemical_group": null,
+  "mode_of_action_group": "C",
+  "registered_crops": [
+    "Pineapples"
+  ],
+  "registered_weeds": [],
+  "weed_control_entries": [
+    {
+      "crop": "Pineapples",
+      "application_timing": null,
+      "weed_common_name": "weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": "Apply to moist weed free soil. Well established weeds should be removed before application. Sufficient moisture, either by rainfall or irrigation, is required within 3 – 4 days of treatment to carry the product into the soil. With irrigation wet the entire area.",
+      "control_level": "control"
+    }
+  ],
+  "application_methods": [
+    "Fixed boom power sprayers",
+    "Hand gun",
+    "Knapsack or pressurised hand sprayer",
+    "Watering can"
+  ],
+  "state_restrictions": [
+    "Wet Tropics"
+  ],
+  "withholding_period": "NOT REQUIRED WHEN USED AS DIRECTED",
+  "compatible_products": [],
+  "_metadata": {
+    "source_file": "31253ELBL.md",
+    "extracted_at": "2026-01-08T13:43:27.310495",
+    "model": "gemini-2.5-flash-lite"
+  }
+}

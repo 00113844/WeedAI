@@ -1,0 +1,242 @@
+{
+  "product_name": "4Farmers Dalapon 740 Herbicide",
+  "apvma_number": "95207/144977",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "0",
+  "identified_crops": [
+    "",
+    "Bananas",
+    "Black and Red Currants",
+    "Cherries, Peaches, Apricots",
+    "Citrus",
+    "Cotton, Potatoes, Tobacco, Sunflower, Maize, Soybean",
+    "Irrigation Channels, Drains, Bore Drains",
+    "Lucerne",
+    "Non-Crop Areas",
+    "Wimmera Grass & Brown Top"
+  ],
+  "identified_weeds": [
+    "All States",
+    "Annual Grasses",
+    "Annual and Perennial Grasses",
+    "Couch",
+    "Cumbungi",
+    "Kikuyu",
+    "Non-Crop Areas",
+    "Paspalum dilatatum",
+    "Rush and Sedge",
+    "Water Couch"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Bananas",
+      "weed_common_name": "Annual and Perennial Grasses",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "QLD"
+      ],
+      "rate_value": 15.0,
+      "rate_unit": "10-15 kg",
+      "rate_full_text": "10-15 kg",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "1-1.5 kg"
+        }
+      ]
+    },
+    {
+      "crop": "Black and Red Currants",
+      "weed_common_name": "All States",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 1.5,
+      "rate_unit": "1-1.5 kg",
+      "rate_full_text": "1-1.5 kg",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "100-150 g"
+        }
+      ]
+    },
+    {
+      "crop": "Cherries, Peaches, Apricots",
+      "weed_common_name": "Annual and Perennial Grasses",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 8.0,
+      "rate_unit": "6-8 kg",
+      "rate_full_text": "6-8 kg",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "600-800 g"
+        }
+      ]
+    },
+    {
+      "crop": "Citrus",
+      "weed_common_name": "Kikuyu",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 4.0,
+      "rate_unit": "2.5-4 kg",
+      "rate_full_text": "2.5-4 kg",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "500 g"
+        }
+      ]
+    },
+    {
+      "crop": "Cotton, Potatoes, Tobacco, Sunflower, Maize, Soybean",
+      "weed_common_name": "Annual and Perennial Grasses",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "WA",
+        "SA",
+        "TAS",
+        "VIC"
+      ],
+      "rate_value": 5.0,
+      "rate_unit": "5 kg",
+      "rate_full_text": "5 kg",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "-"
+        }
+      ]
+    },
+    {
+      "crop": "Irrigation Channels, Drains, Bore Drains",
+      "weed_common_name": "Rush and Sedge",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_value": 20.0,
+      "rate_unit": "10-20 kg",
+      "rate_full_text": "10-20 kg",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "1-2 kg"
+        }
+      ]
+    },
+    {
+      "crop": "Lucerne",
+      "weed_common_name": "Annual Grasses",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_value": 3.5,
+      "rate_unit": "3.5 kg",
+      "rate_full_text": "3.5 kg",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "300-500 g"
+        }
+      ]
+    },
+    {
+      "crop": "Wimmera Grass & Brown Top",
+      "weed_common_name": "Non-Crop Areas",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 5.0,
+      "rate_unit": "5 kg",
+      "rate_full_text": "5 kg",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "500 g"
+        }
+      ]
+    },
+    {
+      "crop": "Non-Crop Areas",
+      "weed_common_name": "Annual Grasses",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 10.0,
+      "rate_unit": "5-10 kg",
+      "rate_full_text": "5-10 kg",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "500 g-1 kg"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 40.0,
+      "rate_unit": "20-40 kg",
+      "rate_full_text": "20-40 kg",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "2-4 kg"
+        }
+      ]
+    }
+  ]
+}

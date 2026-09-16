@@ -1,0 +1,363 @@
+{
+  "product_name": "Agro-Essence Bentazone 480 SL Herbicide",
+  "apvma_number": "89145/123740",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "C",
+  "identified_crops": [
+    "",
+    "Annual ground cherry (Physalis angulata)",
+    "Anoda weed (Anoda cristata)",
+    "Apple of Peru (Nicandra physalodes)",
+    "Bellvine (Ipomea plebeia)",
+    "Blackberry nightshade (Solanum nigrum)",
+    "Broad Beans",
+    "Cobblers pegs (Bidens pilosa)",
+    "Green beans (Dwarf French)",
+    "Hairy wandering Jew (Commelina benghalensis)",
+    "Noogoora burr (Xanthium pungens)",
+    "Star burr (Acanthospermum hispidum)",
+    "Variegated thistle (Silybum marianum)"
+  ],
+  "identified_weeds": [
+    "Black bindweed (Polygonum convolvulus)",
+    "Blackberry nightshade (Solanum nigrum)",
+    "Corn spurry (Spergula arvensis)",
+    "Fat Hen (Chenopodium album)",
+    "Fumitory (Fumaria muralis)",
+    "Hedge mustard (Sisymbrium officinale)",
+    "Qld only",
+    "SA",
+    "Thornapples (Datura spp.)",
+    "Vic",
+    "WA only"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Broad Beans",
+      "weed_common_name": "Black bindweed (Polygonum convolvulus)",
+      "weed_scientific_name": null,
+      "states": [
+        "TAS"
+      ],
+      "rate_value": 1.0,
+      "rate_unit": "1 L",
+      "rate_full_text": "1 L",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "5 weeks"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 2.0,
+      "rate_unit": "2 L",
+      "rate_full_text": "2 L",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 3.0,
+      "rate_unit": "3 L",
+      "rate_full_text": "3 L",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Fat Hen (Chenopodium album)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Blackberry nightshade (Solanum nigrum)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Corn spurry (Spergula arvensis)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Fumitory (Fumaria muralis)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Hedge mustard (Sisymbrium officinale)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Green beans (Dwarf French)",
+      "weed_common_name": "Thornapples (Datura spp.)",
+      "weed_scientific_name": null,
+      "states": [
+        "QLD",
+        "NSW",
+        "VIC"
+      ],
+      "rate_value": 1.5,
+      "rate_unit": "1.5 L",
+      "rate_full_text": "1.5 L",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "5 weeks"
+        }
+      ]
+    },
+    {
+      "crop": "Noogoora burr (Xanthium pungens)",
+      "weed_common_name": "WA only",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply low rate when weeds are cotyledon to 3 leaves and high rate when 4 to 6 leaves."
+        }
+      ]
+    },
+    {
+      "crop": "Annual ground cherry (Physalis angulata)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply when weeds are cotyledon to 4 leaves. Variegated thistle should be less than 15 cm in diameter. Annual ground cherry should be less than 1.5 cm high."
+        }
+      ]
+    },
+    {
+      "crop": "Apple of Peru (Nicandra physalodes)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Bellvine (Ipomea plebeia)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Cobblers pegs (Bidens pilosa)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Star burr (Acanthospermum hispidum)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Variegated thistle (Silybum marianum)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Anoda weed (Anoda cristata)",
+      "weed_common_name": "Qld only",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Hairy wandering Jew (Commelina benghalensis)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Blackberry nightshade (Solanum nigrum)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "TAS"
+      ],
+      "rate_value": 1.0,
+      "rate_unit": "1 L",
+      "rate_full_text": "1 L",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply when first trifoliate bean leaf is fully expanded."
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Vic",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Ensure weeds are less than 5 cm high and second trifoliate bean leaf is fully expanded."
+        }
+      ]
+    }
+  ]
+}

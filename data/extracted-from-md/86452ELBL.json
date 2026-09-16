@@ -1,0 +1,95 @@
+{
+  "product_name": "Voraxor Herbicide",
+  "apvma_number": "86452/136491",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "14",
+  "identified_crops": [
+    "",
+    "100 mL/ha in combination with glyphosate",
+    "100 mL/ha or lower",
+    "Up to maximum label rate"
+  ],
+  "identified_weeds": [
+    "0.5 m or lower",
+    "1.0 m or lower"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Up to maximum label rate",
+      "weed_common_name": "0.5 m or lower",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 60.0,
+      "rate_unit": "60 metres",
+      "rate_full_text": "60 metres",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Not required"
+        }
+      ]
+    },
+    {
+      "crop": "100 mL/ha or lower",
+      "weed_common_name": "0.5 m or lower",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 30.0,
+      "rate_unit": "30 metres",
+      "rate_full_text": "30 metres",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Not required"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "1.0 m or lower",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 85.0,
+      "rate_unit": "85 metres",
+      "rate_full_text": "85 metres",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Not required"
+        }
+      ]
+    },
+    {
+      "crop": "100 mL/ha in combination with glyphosate",
+      "weed_common_name": "0.5 m or lower",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 30.0,
+      "rate_unit": "30 metres",
+      "rate_full_text": "30 metres",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Not required"
+        }
+      ]
+    }
+  ]
+}

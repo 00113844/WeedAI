@@ -1,0 +1,58 @@
+{
+  "product_name": "QA Chlorsulfuron 750 WG Herbicide",
+  "apvma_number": "91711/149923",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "2",
+  "identified_crops": [
+    "",
+    "Wheat and Triticale only"
+  ],
+  "identified_weeds": [
+    "Annual (Wimmera) Ryegrass"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Wheat and Triticale only",
+      "weed_common_name": "Annual (Wimmera) Ryegrass",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "ACT",
+        "VIC",
+        "SA",
+        "WA"
+      ],
+      "rate_value": 20.0,
+      "rate_unit": "20",
+      "rate_full_text": "20",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Light to Medium Soils"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 20.0,
+      "rate_unit": "15 or 20\\*",
+      "rate_full_text": "15 or 20\\*",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Heavy Soils"
+        }
+      ]
+    }
+  ]
+}

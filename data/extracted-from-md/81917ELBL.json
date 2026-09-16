@@ -1,0 +1,216 @@
+{
+  "product_name": "Apparent Fireball 400 Herbicide",
+  "apvma_number": "81917/144576",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "I",
+  "identified_crops": [
+    "Bathurst burr, Noogoora burr",
+    "Bellyache bush",
+    "Black bindweed (Climbing buckwheat)",
+    "Blackberry nightshade, Bokhara clover",
+    "Caltrop (yellow vine)",
+    "Cobblers pegs",
+    "Cockspur thorn",
+    "Common sensitive plant",
+    "Creeping lantana",
+    "Crofton weed, Mistflower",
+    "Docks (Rumex spp.)",
+    "Mimosa pigra"
+  ],
+  "identified_weeds": [
+    "Apply from mid to late summer",
+    "At flowering",
+    "Seedlings and rosettes up to 30 cm high",
+    "Seedlings and young plants before flowering",
+    "Seedlings and young plants up to 30 cm diameter",
+    "Seedlings and young plants up to 40 cm high",
+    "Seedlings and young plants up to flowering",
+    "Up to 15 cm high",
+    "Up to 3 m high"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Bathurst burr, Noogoora burr",
+      "weed_common_name": "Seedlings and young plants up to 40 cm high",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "NT",
+        "QLD",
+        "WA"
+      ],
+      "rate_value": 38.0,
+      "rate_unit": "38",
+      "rate_full_text": "38",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Black bindweed (Climbing buckwheat)",
+      "weed_common_name": "Seedlings and young plants before flowering",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "QLD"
+      ],
+      "rate_value": 150.0,
+      "rate_unit": "150",
+      "rate_full_text": "150",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Mimosa pigra",
+      "weed_common_name": "Apply from mid to late summer",
+      "weed_scientific_name": null,
+      "states": [
+        "NT",
+        "WA"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Add Uptake\\* Spraying Oil (see General Instructions; Oils and surfactants)."
+        }
+      ]
+    },
+    {
+      "crop": "Common sensitive plant",
+      "weed_common_name": "Seedlings and young plants up to flowering",
+      "weed_scientific_name": null,
+      "states": [
+        "QLD",
+        "WA"
+      ],
+      "rate_value": 250.0,
+      "rate_unit": "250",
+      "rate_full_text": "250",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Bellyache bush",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "QLD",
+        "NSW",
+        "WA"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Blackberry nightshade, Bokhara clover",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "QLD"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Caltrop (yellow vine)",
+      "weed_common_name": "Seedlings and young plants up to 30 cm diameter",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Cobblers pegs",
+      "weed_common_name": "Up to 15 cm high",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Cockspur thorn",
+      "weed_common_name": "Up to 3 m high",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Creeping lantana",
+      "weed_common_name": "At flowering",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Crofton weed, Mistflower",
+      "weed_common_name": "Seedlings and young plants up to flowering",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Docks (Rumex spp.)",
+      "weed_common_name": "Seedlings and rosettes up to 30 cm high",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    }
+  ]
+}

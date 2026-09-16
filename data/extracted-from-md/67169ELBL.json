@@ -1,0 +1,88 @@
+{
+  "product_name": "CAUTION",
+  "apvma_number": null,
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": null,
+  "identified_crops": [
+    "ANNUAL RYEGRASS, SILVERGRASS AND PERENNIAL GRASSES.",
+    "Commercial & Industrial",
+    "Rights-of way including railways, powerlines, roads and highways, parks & gardens, pavers, footpaths, driveways, posts, poles, road signs, airports, phone, gas and water pipeline easements, around poles, posts and road markers and fence lines and firebreaks and stock enclosures, around buildings, sheds and other structures.",
+    "TANK MIXTURES For better control of Dock, sorrel and subterranean clover add dicamba. Read and follow label directions, restraints, regional use restrictions and safety directions for the tank mix products. See Tank Mixtures for directions. The addition of ammonium sulfate, 2 kg/100 L, may improve control when treating under marginal environmental conditions. Application to hardened weeds or drought stressed weeds especially under summer conditions may cause only localised injury to weed foliage."
+  ],
+  "identified_weeds": [
+    "1.25-1.65",
+    "Around buildings",
+    "Barley grass",
+    "Brome grass",
+    "Canary grass (Phalaris sp)",
+    "Capeweed",
+    "Volunteer cereals",
+    "Wild oats",
+    "Winter grass",
+    "variegated thistle"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Commercial & Industrial",
+      "weed_common_name": "Around buildings",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 850.0,
+      "rate_unit": "850 mL",
+      "rate_full_text": "850 mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Common storksbill should be no larger than 4 leaf at spraying, recently germinated and not under stress - older or stressed plants may not be adequately controlled. Application to hardened weeds or drought stressed weeds especially under summer conditions may cause only localised injury to weed foliage which may not enhance final weed control. Mallow growing and sprayed in the summer is especially prone to drought stress and may either not show symptoms typical of SpeedMax or may regrow following treatment although plants did not appear very stressed at application."
+        }
+      ]
+    },
+    {
+      "crop": "Rights-of way including railways, powerlines, roads and highways, parks & gardens, pavers, footpaths, driveways, posts, poles, road signs, airports, phone, gas and water pipeline easements, around poles, posts and road markers and fence lines and firebreaks and stock enclosures, around buildings, sheds and other structures.",
+      "weed_common_name": "Barley grass",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 8.0,
+      "rate_unit": "Treat only actively growing weeds not under stress from low moisture, frost, cold, disease or water logging. If heavy grazing OR MOWING of mature plants has occurred allow regrowth to 6-8 cm before spraying.",
+      "rate_full_text": "Treat only actively growing weeds not under stress from low moisture, frost, cold, disease or water logging. If heavy grazing OR MOWING of mature plants has occurred allow regrowth to 6-8 cm before spraying.",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "ANNUAL RYEGRASS, SILVERGRASS AND PERENNIAL GRASSES.",
+      "weed_common_name": "1.25-1.65",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 572.0,
+      "rate_unit": "L/ha",
+      "rate_full_text": "The addition of wetter TX 200 mL/100 L spray solution, may improve control. When treating dense infestations of silvergrass, nozzles designed to produce MEDIUM to COARSE spray quality (ASAE S572), and a spray volume of 200 L/ha or more is recommended to improve spray coverage. Good coverage of silvergrass is critical for control.",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "TANK MIXTURES For better control of Dock, sorrel and subterranean clover add dicamba. Read and follow label directions, restraints, regional use restrictions and safety directions for the tank mix products. See Tank Mixtures for directions. The addition of ammonium sulfate, 2 kg/100 L, may improve control when treating under marginal environmental conditions. Application to hardened weeds or drought stressed weeds especially under summer conditions may cause only localised injury to weed foliage.",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    }
+  ]
+}

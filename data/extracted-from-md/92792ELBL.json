@@ -1,0 +1,45 @@
+{
+  "product_name": "Submarino Imazapic 700 WG Herbicide",
+  "apvma_number": "92792/136671",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "2",
+  "identified_crops": [
+    "Fallow prior to Planting wheat, barley or chickpea"
+  ],
+  "identified_weeds": [
+    "Barnyard grass (Echinochloa colona)",
+    "Blowaway grass (Panicum decompositum)",
+    "Boggabri weed (Amaranthus mitchelfi)",
+    "Button grass (Dactyloctenium radulans)",
+    "Dwarf amaranth (Amaranthus macrocarpus)",
+    "Liverseed grass (Urochloa panicoides)",
+    "Mintweed (Salvia reffexa)",
+    "Peachvine",
+    "Pigweed (Portulaca oleracea)",
+    "Stink grass (Eragrostis cifianensis)",
+    "Yellow vine (Tribulus terrestris)",
+    "cowvine (Ipomoea lonchophylla)"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Fallow prior to Planting wheat, barley or chickpea",
+      "weed_common_name": "Barnyard grass (Echinochloa colona)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "Qld and Northern NSW only",
+      "rate_full_text": "Qld and Northern NSW only",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Treatments may be applied from the end of the previous crop harvest but not less than 4 months prior to planting of winter crop. Best results are obtained where treatments are applied to dry, weed-free soil prior to weed germination. Treatments can be applied to standing crop residues. Sufficient rainfall is required after application and prior to weed emergence to wet soil to a depth of 5 cm. Use the higher rates for increased residual control of weeds or anticipated high weed pressure. Emerged weeds must be controlled by prior cultivation, or by application of a knockdown herbicide. Where infestation of emerged weeds is light, tank mix treatment with GLYPHOSATE HERBICIDES. Cultivation following application of treatments may reduce pre-emergence weed control provided by Submarino Imazapic 700 WG Herbicide. Prolonged wet soil conditions following treatment will reduce the effective life of pre-emergence treatments. Weed escapes may require follow up application of knockdown herbicides. DO NOT apply more than 70 g/ha per season on cropland. DO NOT apply in more than two successive seasons on cropland. DO NOT overspray headlands."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "product_number": "186",
+  "product_name": "Sertin 186 EC",
+  "active_constituent": "186 g/L SETHOXYDIM",
+  "chemical_group": "cyclohexanedione",
+  "mode_of_action_group": "A",
+  "registered_crops": [
+    "Ornamentals"
+  ],
+  "registered_weeds": [
+    "grass weeds",
+    "volunteer wheat",
+    "volunteer oats",
+    "wild oats",
+    "paradoxa grass",
+    "annual ryegrasses"
+  ],
+  "weed_control_entries": [
+    {
+      "crop": "Ornamentals",
+      "application_timing": "post-emergence",
+      "weed_common_name": "grass weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to DIRECTIONS FOR USE Table",
+      "critical_comments": "Sertin is selective to broad-leaved plants i.e. it is active only against grasses (Gramineae). A check should always be made on a small number of ornamental plants of a variety or species not previously tested.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Ornamentals",
+      "application_timing": "post-emergence",
+      "weed_common_name": "volunteer wheat",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to DIRECTIONS FOR USE Table",
+      "critical_comments": "Sertin is selective to broad-leaved plants i.e. it is active only against grasses (Gramineae). A check should always be made on a small number of ornamental plants of a variety or species not previously tested.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Ornamentals",
+      "application_timing": "post-emergence",
+      "weed_common_name": "volunteer oats",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to DIRECTIONS FOR USE Table",
+      "critical_comments": "Sertin is selective to broad-leaved plants i.e. it is active only against grasses (Gramineae). A check should always be made on a small number of ornamental plants of a variety or species not previously tested.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Ornamentals",
+      "application_timing": "post-emergence",
+      "weed_common_name": "wild oats",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to DIRECTIONS FOR USE Table",
+      "critical_comments": "Sertin is selective to broad-leaved plants i.e. it is active only against grasses (Gramineae). A check should always be made on a small number of ornamental plants of a variety or species not previously tested.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Ornamentals",
+      "application_timing": "post-emergence",
+      "weed_common_name": "paradoxa grass",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to DIRECTIONS FOR USE Table",
+      "critical_comments": "Sertin is selective to broad-leaved plants i.e. it is active only against grasses (Gramineae). A check should always be made on a small number of ornamental plants of a variety or species not previously tested.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Ornamentals",
+      "application_timing": "post-emergence",
+      "weed_common_name": "annual ryegrasses",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to DIRECTIONS FOR USE Table",
+      "critical_comments": "Sertin is selective to broad-leaved plants i.e. it is active only against grasses (Gramineae). A check should always be made on a small number of ornamental plants of a variety or species not previously tested.",
+      "control_level": "control"
+    }
+  ],
+  "application_methods": [
+    "Ground Rig Application",
+    "Aerial Application"
+  ],
+  "state_restrictions": [],
+  "withholding_period": null,
+  "compatible_products": [
+    "Afalon",
+    "Basagran",
+    "Betanal",
+    "Broadstrike",
+    "Correct",
+    "Eclipse",
+    "Fusilade",
+    "Igran",
+    "2,4-DB",
+    "Verdict",
+    "Correct",
+    "Fusilade",
+    "Brodal",
+    "simazine",
+    "most commonly used insecticide and fungicide formulations"
+  ],
+  "_metadata": {
+    "source_file": "31839ELBL.md",
+    "extracted_at": "2026-01-08T13:44:24.865173",
+    "model": "gemini-2.5-flash-lite"
+  }
+}

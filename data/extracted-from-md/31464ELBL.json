@@ -1,0 +1,34 @@
+{
+  "product_name": "NUFARM BROMICIDE MA HERBICIDE APVMA",
+  "apvma_number": null,
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": null,
+  "identified_crops": [
+    "Wheat, barley, triticale"
+  ],
+  "identified_weeds": [
+    "3 leaf (Z13) to first node (Z31)"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Wheat, barley, triticale",
+      "weed_common_name": "3 leaf (Z13) to first node (Z31)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 1250.0,
+      "rate_unit": "mL/ha",
+      "rate_full_text": "525 - 1250 mL/ha + 250 - 670 mL/ha Nufarm GalaxyTM + 0.5 L/100L Nufarm CanDoTM Adjuvant\\*",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply only on actively growing weeds. Use the lower rates when good coverage of individual weeds can be achieved. Use the high rate on high density weed populations or when excellent coverage cannot be achieved. Mixtures of Nufarm Galaxy with Nufarm Bromicide\u00ae MA may provide faster control than mixtures of Nufarm Galaxy with Nufarm Bromoxynil 200 or Nufarm MCPA LVE 570 in most situations. To extend the weed spectrum, Nufarm Archer\u00ae 750 or Nufarm Saracen\u00ae can be added as tank mix partners as listed in Section 3 Weed Table for wheat, barley and triticale at 3 leaf (Z13) to first node (Z31)."
+        }
+      ]
+    }
+  ]
+}

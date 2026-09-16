@@ -1,0 +1,80 @@
+{
+  "product_name": "Agro-Essence Imazethapyr 700 WG Herbicide",
+  "apvma_number": "89144/123739",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "B",
+  "identified_crops": [
+    "Chickpeas",
+    "Faba beans, Field peas"
+  ],
+  "identified_weeds": [
+    "Capeweed (Arctotheca calendula)",
+    "Deadnettle (Lamium amplexicaule)",
+    "Indian hedge mustard (Sisymbrium orientale)",
+    "Mouse-ear chickweed (Cerastium glomeratum)",
+    "Shepherd's purse (Capsella bursa-pastoris)",
+    "Stinging nettle (Urtica urens) (NSW",
+    "Storksbill (Erodium spp.)",
+    "Toadrush (Juncus bufonius)",
+    "Turnip weed (Rapistrum rugosum)",
+    "Vic only)",
+    "White ironweed (Buglossoides arvensis)",
+    "Wild radish (Raphanus raphanistrum)",
+    "Wireweed (Polygonum aviculare)",
+    "\\* Deadnettle (Lamium amplexicaule)",
+    "\\* Doublegee (Emex australis)",
+    "\\* Paterson's curse (Echium plantagineum)",
+    "\\* Prickly lettuce (Lactuca serriola)",
+    "\\* Wild radish (Raphanus raphanistrum)",
+    "\\* Wireweed (Polygonum aviculare)",
+    "\\* Yellow burrweed (Amsinckia intermedia)",
+    "\\*\\* Annual ryegrass (Lolium rigidum)",
+    "\\*\\* Barley grass (Hordeum leporinum)",
+    "\\*\\* Wild oats (Avena fatua)"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Chickpeas",
+      "weed_common_name": "Deadnettle (Lamium amplexicaule)",
+      "weed_scientific_name": null,
+      "states": [
+        "VIC",
+        "SA"
+      ],
+      "rate_value": 500.0,
+      "rate_unit": "45 g plus 1.0 to 1.5 L Simazine Liquid (500 g/L)",
+      "rate_full_text": "45 g plus 1.0 to 1.5 L Simazine Liquid (500 g/L)",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply to moist, well prepared, clod and weed-free soil after planting and before crop emergence. Sufficient rainfall is required after application and prior to weed emergence to wet soil to a depth of 5 cm. Use the higher rate of simazine on heavier soils, or where higher weed pressure is expected, or where wireweed is a problem. Under adverse conditions, weeds may not be totally controlled but populations will be significantly reduced and surviving plants will generally be severely retarded. Good crop growth will aid weed control. Transient yellowing or reddening of the crop may occur. The risk of crop injury may be increased under adverse growing conditions. DO NOT use this mixture on soils, and in areas, ill-suited to growing chickpeas, as crop injury will be increased."
+        }
+      ]
+    },
+    {
+      "crop": "Faba beans, Field peas",
+      "weed_common_name": "Indian hedge mustard (Sisymbrium orientale)",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "SA",
+        "WA"
+      ],
+      "rate_value": 70.0,
+      "rate_unit": "70 g",
+      "rate_full_text": "70 g",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply to moist, well prepared, clod and weed-free soil after planting and before crop emergence. Sufficient rainfall is required after application and prior to weed emergence to wet soil to a depth of 5 cm. Under adverse conditions, weeds may not be totally controlled but populations will be significantly reduced and surviving plants will generally be severely retarded. Good crop growth will aid weed control. \\* Surviving plants will generally be retarded and will not compete with the crop. A follow-up spray with another product may be required for control of wild radish under high weed pressure or high rainfall conditions. \\*\\* Competition from grass weeds will be significantly reduced for at least 8 weeks. A post-emergence grass herbicide application may be required. (Refer to COMPATIBILITY section of label). \\*\\*\\* Populations will not be reduced but plants will generally be significantly stunted. Seed set will also be reduced. Use the higher rates under anticipated high weed pressure and in high winter rainfall areas. DO NOT use on Faba beans on light, sandy soils. On alkaline soils, the risk of crop damage to Faba beans may be increased under adverse growth conditions."
+        }
+      ]
+    }
+  ]
+}

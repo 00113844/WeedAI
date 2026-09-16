@@ -1,8 +1,12 @@
-# Data
+# Data — only cleaned markdown and extracted JSON are tracked.
+# data/labels/*.pdf were committed before this rule existed and remain tracked;
+# new PDFs are ignored. `data/*` (not `data/`) so subdirs can be un-ignored.
 *.pdf
-data/
-data/labels/
-data/parsed/
+data/*
+!data/README.md
+!data/parsed-clean/
+!data/extracted/
+!data/extracted-from-md/
 
 # Environment & Config
 .env

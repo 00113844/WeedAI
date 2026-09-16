@@ -1,0 +1,29 @@
+{
+  "product_name": "GENFARM PYRASULFOTOLE-MCPA EC HERBICIDE",
+  "apvma_number": "95025/144491",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": null,
+  "identified_crops": [
+    "Up to maximum label rate"
+  ],
+  "identified_weeds": [
+    "10 m"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Up to maximum label rate",
+      "weed_common_name": "10 m",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 20.0,
+      "rate_unit": "20 m",
+      "rate_full_text": "20 m",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    }
+  ]
+}

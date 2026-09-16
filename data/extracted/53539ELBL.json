@@ -1,0 +1,48 @@
+{
+  "product_number": "53539",
+  "product_name": "TOUCHDOWN B-POWER",
+  "active_constituent": "5 g/L BUTAFENACIL, 225 g/L GLYPHOSATE, present as the isopropylamine salt",
+  "chemical_group": null,
+  "mode_of_action_group": "G",
+  "registered_crops": [
+    "Cereal crops"
+  ],
+  "registered_weeds": [
+    "various weeds"
+  ],
+  "weed_control_entries": [
+    {
+      "crop": "Cereal crops",
+      "application_timing": "prior to planting",
+      "weed_common_name": "various weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": "For the control of various weeds prior to planting cereal crops as per Directions for Use",
+      "control_level": "control"
+    }
+  ],
+  "application_methods": [
+    "Boom Equipment"
+  ],
+  "state_restrictions": [],
+  "withholding_period": null,
+  "compatible_products": [
+    "LOGRAN®",
+    "Glean*"
+  ],
+  "_metadata": {
+    "source_file": "53539ELBL.md",
+    "extracted_at": "2026-01-08T13:45:17.279785",
+    "model": "gemini-2.5-flash-lite"
+  }
+}

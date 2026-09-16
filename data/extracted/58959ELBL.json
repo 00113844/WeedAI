@@ -1,0 +1,304 @@
+{
+  "product_number": "58959",
+  "product_name": "KENSO AGCARE FLUROKEN 200 HERBICIDE",
+  "active_constituent": "200 g/L FLUROXYPYR present as the METHYLHEPTYL ESTER",
+  "chemical_group": null,
+  "mode_of_action_group": "G",
+  "registered_crops": [
+    "Fallow",
+    "Lucerne",
+    "Maize",
+    "Millets",
+    "Poppies",
+    "Sorghum",
+    "Sugar cane",
+    "Sweetcorn",
+    "Winter cereals",
+    "Agricultural non-crop areas",
+    "Commercial and industrial areas",
+    "Forests",
+    "Pastures",
+    "Right-of-way"
+  ],
+  "registered_weeds": [
+    "Broadleaf weeds",
+    "Woody weeds"
+  ],
+  "weed_control_entries": [
+    {
+      "crop": "Fallow",
+      "application_timing": null,
+      "weed_common_name": "Broadleaf weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": null,
+      "control_level": "control"
+    },
+    {
+      "crop": "Lucerne",
+      "application_timing": null,
+      "weed_common_name": "Broadleaf weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": null,
+      "control_level": "control"
+    },
+    {
+      "crop": "Maize",
+      "application_timing": null,
+      "weed_common_name": "Broadleaf weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": null,
+      "control_level": "control"
+    },
+    {
+      "crop": "Millets",
+      "application_timing": null,
+      "weed_common_name": "Broadleaf weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": null,
+      "control_level": "control"
+    },
+    {
+      "crop": "Poppies",
+      "application_timing": null,
+      "weed_common_name": "Broadleaf weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": null,
+      "control_level": "control"
+    },
+    {
+      "crop": "Sorghum",
+      "application_timing": null,
+      "weed_common_name": "Broadleaf weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": null,
+      "control_level": "control"
+    },
+    {
+      "crop": "Sugar cane",
+      "application_timing": null,
+      "weed_common_name": "Broadleaf weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": null,
+      "control_level": "control"
+    },
+    {
+      "crop": "Sweetcorn",
+      "application_timing": null,
+      "weed_common_name": "Broadleaf weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": null,
+      "control_level": "control"
+    },
+    {
+      "crop": "Winter cereals",
+      "application_timing": null,
+      "weed_common_name": "Broadleaf weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": null,
+      "control_level": "control"
+    },
+    {
+      "crop": "Agricultural non-crop areas",
+      "application_timing": null,
+      "weed_common_name": "Woody weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": null,
+      "control_level": "control"
+    },
+    {
+      "crop": "Commercial and industrial areas",
+      "application_timing": null,
+      "weed_common_name": "Woody weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": null,
+      "control_level": "control"
+    },
+    {
+      "crop": "Forests",
+      "application_timing": null,
+      "weed_common_name": "Woody weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": null,
+      "control_level": "control"
+    },
+    {
+      "crop": "Pastures",
+      "application_timing": null,
+      "weed_common_name": "Woody weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": null,
+      "control_level": "control"
+    },
+    {
+      "crop": "Right-of-way",
+      "application_timing": null,
+      "weed_common_name": "Woody weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": null,
+      "control_level": "control"
+    }
+  ],
+  "application_methods": [],
+  "state_restrictions": [],
+  "withholding_period": null,
+  "compatible_products": [],
+  "_metadata": {
+    "source_file": "58959ELBL.md",
+    "extracted_at": "2026-01-08T13:46:39.572598",
+    "model": "gemini-2.5-flash-lite"
+  }
+}

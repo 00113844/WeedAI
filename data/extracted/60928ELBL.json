@@ -1,0 +1,146 @@
+{
+  "product_number": "67903",
+  "product_name": "CHEETAH GOLD SELECTIVE HERBICIDE",
+  "active_constituent": "200 g/L DICLOFOP-METHYL, 20 g/L SETHOXYDIM, 13.6 g/L FENOXAPROP-P-ETHYL",
+  "chemical_group": null,
+  "mode_of_action_group": "A",
+  "registered_crops": [
+    "Barley",
+    "Wheat"
+  ],
+  "registered_weeds": [
+    "Wild Oats",
+    "Annual Ryegrass",
+    "Annual Phalaris"
+  ],
+  "weed_control_entries": [
+    {
+      "crop": "Barley",
+      "application_timing": "Post-Emergent",
+      "weed_common_name": "Wild Oats",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to Page 5",
+      "critical_comments": "DO NOT apply to any crop other than barley or wheat. DO NOT apply to crops that are physically damaged (e.g. by hail, wind, insect attack). DO NOT allow spray overlap or double spraying of corners. DO NOT apply to weeds or crops under stress due to for example, very dry, very wet, nutrient deficient, frosty or diseased conditions, or as the result of a previous herbicide or foliar fertiliser treatment (see also General Instructions). DO NOT apply if rainfall is expected within 4 hours.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Barley",
+      "application_timing": "Post-Emergent",
+      "weed_common_name": "Annual Ryegrass",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to Page 5",
+      "critical_comments": "DO NOT apply to any crop other than barley or wheat. DO NOT apply to crops that are physically damaged (e.g. by hail, wind, insect attack). DO NOT allow spray overlap or double spraying of corners. DO NOT apply to weeds or crops under stress due to for example, very dry, very wet, nutrient deficient, frosty or diseased conditions, or as the result of a previous herbicide or foliar fertiliser treatment (see also General Instructions). DO NOT apply if rainfall is expected within 4 hours.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Barley",
+      "application_timing": "Post-Emergent",
+      "weed_common_name": "Annual Phalaris",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to Page 5",
+      "critical_comments": "DO NOT apply to any crop other than barley or wheat. DO NOT apply to crops that are physically damaged (e.g. by hail, wind, insect attack). DO NOT allow spray overlap or double spraying of corners. DO NOT apply to weeds or crops under stress due to for example, very dry, very wet, nutrient deficient, frosty or diseased conditions, or as the result of a previous herbicide or foliar fertiliser treatment (see also General Instructions). DO NOT apply if rainfall is expected within 4 hours.",
+      "control_level": "suppression"
+    },
+    {
+      "crop": "Wheat",
+      "application_timing": "Post-Emergent",
+      "weed_common_name": "Wild Oats",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to Page 5",
+      "critical_comments": "DO NOT apply to any crop other than barley or wheat. DO NOT apply to crops that are physically damaged (e.g. by hail, wind, insect attack). DO NOT allow spray overlap or double spraying of corners. DO NOT apply to weeds or crops under stress due to for example, very dry, very wet, nutrient deficient, frosty or diseased conditions, or as the result of a previous herbicide or foliar fertiliser treatment (see also General Instructions). DO NOT apply if rainfall is expected within 4 hours.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Wheat",
+      "application_timing": "Post-Emergent",
+      "weed_common_name": "Annual Ryegrass",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to Page 5",
+      "critical_comments": "DO NOT apply to any crop other than barley or wheat. DO NOT apply to crops that are physically damaged (e.g. by hail, wind, insect attack). DO NOT allow spray overlap or double spraying of corners. DO NOT apply to weeds or crops under stress due to for example, very dry, very wet, nutrient deficient, frosty or diseased conditions, or as the result of a previous herbicide or foliar fertiliser treatment (see also General Instructions). DO NOT apply if rainfall is expected within 4 hours.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Wheat",
+      "application_timing": "Post-Emergent",
+      "weed_common_name": "Annual Phalaris",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to Page 5",
+      "critical_comments": "DO NOT apply to any crop other than barley or wheat. DO NOT apply to crops that are physically damaged (e.g. by hail, wind, insect attack). DO NOT allow spray overlap or double spraying of corners. DO NOT apply to weeds or crops under stress due to for example, very dry, very wet, nutrient deficient, frosty or diseased conditions, or as the result of a previous herbicide or foliar fertiliser treatment (see also General Instructions). DO NOT apply if rainfall is expected within 4 hours.",
+      "control_level": "suppression"
+    }
+  ],
+  "application_methods": [
+    "Ground Sprayers"
+  ],
+  "state_restrictions": [],
+  "withholding_period": "Harvest: NOT REQUIRED WHEN USED AS DIRECTED\nGrazing: DO NOT GRAZE OR CUT FOR STOCK FOOD FOR 7 WEEKS AFTER APPLICATION.",
+  "compatible_products": [
+    "Tigrex®",
+    "MCPA LVE"
+  ],
+  "_metadata": {
+    "source_file": "60928ELBL.md",
+    "extracted_at": "2026-01-08T13:46:53.579150",
+    "model": "gemini-2.5-flash-lite"
+  }
+}

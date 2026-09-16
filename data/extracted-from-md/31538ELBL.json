@@ -1,0 +1,72 @@
+{
+  "product_name": "55895 Sp31538 41654 25L/LABELMPL V02",
+  "apvma_number": null,
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": null,
+  "identified_crops": [
+    "GOLF FAIRWAYS",
+    "NEWLY SOWN TURF",
+    "PARKS, OVALS"
+  ],
+  "identified_weeds": [
+    "Clovers",
+    "bindii",
+    "catsear",
+    "chickweed",
+    "cobblers peg",
+    "creeping oxalis",
+    "dandelion",
+    "fat hen",
+    "lambs tongue",
+    "mallow",
+    "mouse-eared chickweed.",
+    "pearlwort",
+    "staggerweeds.",
+    "wireweed."
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "GOLF FAIRWAYS",
+      "weed_common_name": "Clovers",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "DO NOT use on buffalo grass.",
+      "rate_full_text": "DO NOT use on buffalo grass.",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "PARKS, OVALS",
+      "weed_common_name": "lambs tongue",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "Sportsground is a member of the Phenoxies group of herbicides.",
+      "rate_full_text": "Sportsground is a member of the Phenoxies group of herbicides.",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "NEWLY SOWN TURF",
+      "weed_common_name": "bindii",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 4.0,
+      "rate_unit": "Do not apply until 4 weeks after first mowing.",
+      "rate_full_text": "Do not apply until 4 weeks after first mowing.",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    }
+  ]
+}

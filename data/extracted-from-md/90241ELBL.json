@@ -1,0 +1,272 @@
+{
+  "product_name": "Gro-Sure Triclopyr 600 Herbicide",
+  "apvma_number": "90241/128212",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "I",
+  "identified_crops": [
+    "",
+    "African Boxthorn (Lycium ferocissium)",
+    "Angophora and Banksia regrowth",
+    "Blackberry (Rubus fruticosus)",
+    "Brigalow (Aracia harpophylla)",
+    "Brooms \u2013 English (Cytisus scoparius)",
+    "Camphor Laurel (Cinnamomum camphora)",
+    "Capeweed (Arctotheca calendula)",
+    "Common Prickly Pear (Opunita spp.)",
+    "English Ivy (Hedera helix)",
+    "Eucalyptus spp.",
+    "In association with St John's Wort (Hypericum perforatum)"
+  ],
+  "identified_weeds": [
+    "1 - 2m tall",
+    "Active growth",
+    "Active growth during late spring to early autumn",
+    "Active growth during late spring to late summer",
+    "During flowering (Nov - Jan)",
+    "Less than 2m tall",
+    "Rosette",
+    "Seedlings and regrowth from small lignotubers",
+    "Seedlings up to 3m tall",
+    "Spring to mid-summer prior to pod formation"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "African Boxthorn (Lycium ferocissium)",
+      "weed_common_name": "Less than 2m tall",
+      "weed_scientific_name": null,
+      "states": [
+        "TAS"
+      ],
+      "rate_value": 170.0,
+      "rate_unit": "170mL",
+      "rate_full_text": "170mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Angophora and Banksia regrowth",
+      "weed_common_name": "1 - 2m tall",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_value": 560.0,
+      "rate_unit": "400 or 560mL",
+      "rate_full_text": "400 or 560mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Use the higher rate on larger regrowth. Ensure the weed has dense foliage."
+        }
+      ]
+    },
+    {
+      "crop": "Blackberry (Rubus fruticosus)",
+      "weed_common_name": "Active growth during late spring to early autumn",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_value": 170.0,
+      "rate_unit": "170mL",
+      "rate_full_text": "170mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Where herbicides other than Group I herbicides have been used, allow two seasons regrowth to occur before spraying with Gro-Sure Triclopyr 600 Herbicide. Any subsequent regrowth and seedlings should be sprayed after hardening off."
+        }
+      ]
+    },
+    {
+      "crop": "In association with St John's Wort (Hypericum perforatum)",
+      "weed_common_name": "During flowering (Nov - Jan)",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "ACT",
+        "VIC",
+        "TAS"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply as a thorough foliage spray."
+        }
+      ]
+    },
+    {
+      "crop": "Brigalow (Aracia harpophylla)",
+      "weed_common_name": "1 - 2m tall",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "ACT",
+        "QLD"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Use at least 1000L of water per hectare."
+        }
+      ]
+    },
+    {
+      "crop": "Brooms \u2013 English (Cytisus scoparius)",
+      "weed_common_name": "Spring to mid-summer prior to pod formation",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Camphor Laurel (Cinnamomum camphora)",
+      "weed_common_name": "Seedlings up to 3m tall",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Capeweed (Arctotheca calendula)",
+      "weed_common_name": "Rosette",
+      "weed_scientific_name": null,
+      "states": [
+        "TAS"
+      ],
+      "rate_value": 80.0,
+      "rate_unit": "80mL",
+      "rate_full_text": "80mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Common Prickly Pear (Opunita spp.)",
+      "weed_common_name": "Active growth",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_value": 3.0,
+      "rate_unit": "3L",
+      "rate_full_text": "3L",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "English Ivy (Hedera helix)",
+      "weed_common_name": "Active growth during late spring to late summer",
+      "weed_scientific_name": null,
+      "states": [
+        "VIC"
+      ],
+      "rate_value": 360.0,
+      "rate_unit": "1L + 1L glyphosate (360g/L)",
+      "rate_full_text": "1L + 1L glyphosate (360g/L)",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "DO NOT treat ivy growing up trees or on other plants as death of the host may result. This mixture is not selective to grasses."
+        }
+      ]
+    },
+    {
+      "crop": "Eucalyptus spp.",
+      "weed_common_name": "Seedlings and regrowth from small lignotubers",
+      "weed_scientific_name": null,
+      "states": [
+        "QLD",
+        "SA",
+        "WA",
+        "NT"
+      ],
+      "rate_value": 400.0,
+      "rate_unit": "400mL",
+      "rate_full_text": "400mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Add 250mL to 500mL of non-ionic surfactant to 100L of water for best results."
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "ACT",
+        "TAS",
+        "VIC"
+      ],
+      "rate_value": 560.0,
+      "rate_unit": "560mL",
+      "rate_full_text": "560mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    }
+  ]
+}

@@ -1,0 +1,497 @@
+{
+  "product_name": "Infinity Ultra Herbicide",
+  "apvma_number": "91984/146943",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": null,
+  "identified_crops": [
+    "",
+    "110 mL/ha + 1.6 L/ha glyphosate 450 g/L or 1.26 L/ha Roundup UltraMax Herbicide with Plantshield or 1.26 L/ha Roundup UltraMax Herbicide",
+    "110 mL/ha + 115 g/ha dicamba 700 g/kg present as the sodium salt",
+    "110 mL/ha + 37.5 mL/ha clopyralid 600 g/L present as the dimethylamine salt",
+    "110 mL/ha + 440 mL/ha MCPA LVE 570 g/L",
+    "110 mL/ha + 500 mL/ha bromoxynil 200 g/L",
+    "110 mL/ha + 700 mL/ha bromoxynil 200 g/L",
+    "110 mL/ha + 900 mL/ha bromoxynil 200 g/L",
+    "110 mL/ha + up to 1200 mL/ha bromoxynil 200 g/L",
+    "140 mL/ha + 440 mL/ha MCPA LVE 570 g/L",
+    "140 mL/ha + 700 mL/ha bromoxynil 200 g/L",
+    "Infinity Ultra Herbicide",
+    "Infinity Ultra Herbicide + MCPA LVE 570 g/L",
+    "Infinity Ultra Herbicide + bromoxynil 200 g/L present as the n-octanoyl ester",
+    "Infinity Ultra Herbicide + clopyralid 600 g/L present as the dimethylamine salt",
+    "Infinity Ultra Herbicide + dicamba 700 g/kg",
+    "Infinity Ultra Herbicide + glyphosate 450 g/L or 570 g/L (720 g a.i./ha glyphosate)",
+    "Up to 140 mL/ha",
+    "Up to 170 mL/ha"
+  ],
+  "identified_weeds": [
+    "0.5 m or lower"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Infinity Ultra Herbicide",
+      "weed_common_name": "0.5 m or lower",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "Natural aquatic areas",
+      "rate_full_text": "Natural aquatic areas",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 55.0,
+      "rate_unit": "55",
+      "rate_full_text": "55",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Up to 140 mL/ha",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 25.0,
+      "rate_unit": "25",
+      "rate_full_text": "25",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 65.0,
+      "rate_unit": "65",
+      "rate_full_text": "65",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Up to 170 mL/ha",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 30.0,
+      "rate_unit": "30",
+      "rate_full_text": "30",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 75.0,
+      "rate_unit": "75",
+      "rate_full_text": "75",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Infinity Ultra Herbicide + glyphosate 450 g/L or 570 g/L (720 g a.i./ha glyphosate)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 20.0,
+      "rate_unit": "20",
+      "rate_full_text": "20",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "75"
+        }
+      ]
+    },
+    {
+      "crop": "110 mL/ha + 1.6 L/ha glyphosate 450 g/L or 1.26 L/ha Roundup UltraMax Herbicide with Plantshield or 1.26 L/ha Roundup UltraMax Herbicide",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 55.0,
+      "rate_unit": "55",
+      "rate_full_text": "55",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "230"
+        }
+      ]
+    },
+    {
+      "crop": "Infinity Ultra Herbicide + bromoxynil 200 g/L present as the n-octanoyl ester",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 20.0,
+      "rate_unit": "20",
+      "rate_full_text": "20",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "0"
+        }
+      ]
+    },
+    {
+      "crop": "110 mL/ha + 500 mL/ha bromoxynil 200 g/L",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 55.0,
+      "rate_unit": "55",
+      "rate_full_text": "55",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "25"
+        }
+      ]
+    },
+    {
+      "crop": "110 mL/ha + 700 mL/ha bromoxynil 200 g/L",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 20.0,
+      "rate_unit": "20",
+      "rate_full_text": "20",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "25"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 55.0,
+      "rate_unit": "55",
+      "rate_full_text": "55",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "70"
+        }
+      ]
+    },
+    {
+      "crop": "110 mL/ha + 900 mL/ha bromoxynil 200 g/L",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 20.0,
+      "rate_unit": "20",
+      "rate_full_text": "20",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "30"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 55.0,
+      "rate_unit": "55",
+      "rate_full_text": "55",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "80"
+        }
+      ]
+    },
+    {
+      "crop": "110 mL/ha + up to 1200 mL/ha bromoxynil 200 g/L",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 20.0,
+      "rate_unit": "20",
+      "rate_full_text": "20",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "35"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 55.0,
+      "rate_unit": "55",
+      "rate_full_text": "55",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "90"
+        }
+      ]
+    },
+    {
+      "crop": "140 mL/ha + 700 mL/ha bromoxynil 200 g/L",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 25.0,
+      "rate_unit": "25",
+      "rate_full_text": "25",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "30"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 65.0,
+      "rate_unit": "65",
+      "rate_full_text": "65",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "70"
+        }
+      ]
+    },
+    {
+      "crop": "Infinity Ultra Herbicide + MCPA LVE 570 g/L",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 20.0,
+      "rate_unit": "20",
+      "rate_full_text": "20",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "0"
+        }
+      ]
+    },
+    {
+      "crop": "110 mL/ha + 440 mL/ha MCPA LVE 570 g/L",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 55.0,
+      "rate_unit": "55",
+      "rate_full_text": "55",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "20"
+        }
+      ]
+    },
+    {
+      "crop": "140 mL/ha + 440 mL/ha MCPA LVE 570 g/L",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "25"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 65.0,
+      "rate_unit": "65",
+      "rate_full_text": "65",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "55"
+        }
+      ]
+    },
+    {
+      "crop": "Infinity Ultra Herbicide + clopyralid 600 g/L present as the dimethylamine salt",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 20.0,
+      "rate_unit": "20",
+      "rate_full_text": "20",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "10"
+        }
+      ]
+    },
+    {
+      "crop": "110 mL/ha + 37.5 mL/ha clopyralid 600 g/L present as the dimethylamine salt",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 55.0,
+      "rate_unit": "55",
+      "rate_full_text": "55",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "30"
+        }
+      ]
+    },
+    {
+      "crop": "Infinity Ultra Herbicide + dicamba 700 g/kg",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 20.0,
+      "rate_unit": "20",
+      "rate_full_text": "20",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "25"
+        }
+      ]
+    },
+    {
+      "crop": "110 mL/ha + 115 g/ha dicamba 700 g/kg present as the sodium salt",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "55"
+        }
+      ]
+    }
+  ]
+}

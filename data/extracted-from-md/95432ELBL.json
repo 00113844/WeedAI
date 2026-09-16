@@ -1,0 +1,61 @@
+{
+  "product_name": "Label Name: Smart Knockdown 500 Herbicide",
+  "apvma_number": "95432/145676",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "14",
+  "identified_crops": [
+    "",
+    "Prior to sowing Cereal grains, Pulses, oil seeds and cotton",
+    "Sugarcane"
+  ],
+  "identified_weeds": [
+    "15 metres",
+    "5 metres",
+    "Natural environment"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "",
+      "weed_common_name": "Natural environment",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "Vegetation areas",
+      "rate_full_text": "Vegetation areas",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Prior to sowing Cereal grains, Pulses, oil seeds and cotton",
+      "weed_common_name": "15 metres",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 15.0,
+      "rate_unit": "15 metres",
+      "rate_full_text": "15 metres",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Sugarcane",
+      "weed_common_name": "5 metres",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 120.0,
+      "rate_unit": "120 metres",
+      "rate_full_text": "120 metres",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    }
+  ]
+}

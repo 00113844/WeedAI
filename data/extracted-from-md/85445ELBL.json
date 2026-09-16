@@ -1,0 +1,216 @@
+{
+  "product_name": "Diclokey Herbicide",
+  "apvma_number": "85445/113315",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "A",
+  "identified_crops": [
+    "",
+    "Common barbgrass",
+    "Lupins, Peas",
+    "Oilseed poppies",
+    "Pasture, Legume",
+    "Seed crops",
+    "Wheat, Barley, Triticale, Cereal Rye, Canola (rapeseed), Safflower, Linseed"
+  ],
+  "identified_weeds": [
+    "Annual (Wimmera) ryegrass",
+    "Annual ryegrass",
+    "NSW & ACT only",
+    "Wild Oats"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Wheat, Barley, Triticale, Cereal Rye, Canola (rapeseed), Safflower, Linseed",
+      "weed_common_name": "Annual (Wimmera) ryegrass",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_value": 14.0,
+      "rate_unit": "2 to 4 leaf (Z12 to Z14)",
+      "rate_full_text": "2 to 4 leaf (Z12 to Z14)",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "1"
+        }
+      ]
+    },
+    {
+      "crop": "Common barbgrass",
+      "weed_common_name": "NSW & ACT only",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 1.25,
+      "rate_unit": "1.25",
+      "rate_full_text": "1.25",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "For all crops add wetting agent at 0.25% a.i. to water in spray tank - i.e. 250mL Wetter1000/100L water. This is irrespective of volume of water/ha or rate of Diclokey Herbicide."
+        }
+      ]
+    },
+    {
+      "crop": "Wheat, Barley, Triticale, Cereal Rye, Canola (rapeseed), Safflower, Linseed",
+      "weed_common_name": "Wild Oats",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_value": 13.0,
+      "rate_unit": "2 to 3 leaf (Z12-Z13)",
+      "rate_full_text": "2 to 3 leaf (Z12-Z13)",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "1.5"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 2.0,
+      "rate_unit": "2 (not barley)",
+      "rate_full_text": "2 (not barley)",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "For all crops add wetting agent as above."
+        }
+      ]
+    },
+    {
+      "crop": "Lupins, Peas",
+      "weed_common_name": "Wild Oats",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "ACT",
+        "VIC",
+        "TAS",
+        "SA",
+        "WA"
+      ],
+      "rate_value": 13.0,
+      "rate_unit": "2 to 3 leaf (Z12-Z13)",
+      "rate_full_text": "2 to 3 leaf (Z12-Z13)",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "1.5"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 2.0,
+      "rate_unit": "2",
+      "rate_full_text": "2",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Pasture, Legume",
+      "weed_common_name": "Annual ryegrass",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_value": 14.0,
+      "rate_unit": "2 to 4 leaf (Z12-Z14)",
+      "rate_full_text": "2 to 4 leaf (Z12-Z14)",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "1"
+        }
+      ]
+    },
+    {
+      "crop": "Seed crops",
+      "weed_common_name": "Wild Oats",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "1.5 - 2"
+        }
+      ]
+    },
+    {
+      "crop": "Oilseed poppies",
+      "weed_common_name": "Wild Oats",
+      "weed_scientific_name": null,
+      "states": [
+        "TAS"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "See critical comments",
+      "rate_full_text": "See critical comments",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "0.5 - 3"
+        }
+      ]
+    }
+  ]
+}

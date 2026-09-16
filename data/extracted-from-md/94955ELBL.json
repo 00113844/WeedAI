@@ -1,0 +1,79 @@
+{
+  "product_name": "IMTRADE INCLINE OD HERBICIDE",
+  "apvma_number": "94955/144300",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "2",
+  "identified_crops": [
+    "Annual Phalaris, Paradoxa Grass (Phalaris paradoxa only)",
+    "Wheat",
+    "Wild Oats (Avena spp.)"
+  ],
+  "identified_weeds": [
+    "All States",
+    "Annual Ryegrass (Lolium rigidum)"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Wheat",
+      "weed_common_name": "Annual Ryegrass (Lolium rigidum)",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "ACT",
+        "VIC",
+        "SA",
+        "WA"
+      ],
+      "rate_value": 13.0,
+      "rate_unit": "1 to 3-leaf (Z11 to Z13)",
+      "rate_full_text": "1 to 3-leaf (Z11 to Z13)",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "75"
+        }
+      ]
+    },
+    {
+      "crop": "Wild Oats (Avena spp.)",
+      "weed_common_name": "All States",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "100"
+        }
+      ]
+    },
+    {
+      "crop": "Annual Phalaris, Paradoxa Grass (Phalaris paradoxa only)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "100"
+        }
+      ]
+    }
+  ]
+}

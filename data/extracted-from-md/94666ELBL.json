@@ -1,0 +1,76 @@
+{
+  "product_name": "Product Name: Sabakem Dicamba 700 WG Herbicide",
+  "apvma_number": "94666/143141v",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "4",
+  "identified_crops": [
+    "140 g",
+    "200 g",
+    "400 g"
+  ],
+  "identified_weeds": [
+    "1",
+    "14",
+    "7"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "140 g",
+      "weed_common_name": "1",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 1.0,
+      "rate_unit": "1",
+      "rate_full_text": "1",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "1"
+        }
+      ]
+    },
+    {
+      "crop": "200 g",
+      "weed_common_name": "7",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 7.0,
+      "rate_unit": "7",
+      "rate_full_text": "7",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "7"
+        }
+      ]
+    },
+    {
+      "crop": "400 g",
+      "weed_common_name": "14",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 14.0,
+      "rate_unit": "14",
+      "rate_full_text": "14",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "14"
+        }
+      ]
+    }
+  ]
+}

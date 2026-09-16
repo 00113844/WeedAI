@@ -1,0 +1,49 @@
+{
+  "product_number": "67900",
+  "product_name": "POACHEK TURF HERBICIDE",
+  "active_constituent": "175g/L ENDOTHAL present as the dipotassium salt",
+  "chemical_group": null,
+  "mode_of_action_group": "K",
+  "registered_crops": [
+    "Blue couch",
+    "Common couch",
+    "Bent buffalo",
+    "Brown Top turf",
+    "lawns"
+  ],
+  "registered_weeds": [
+    "Winter Grass"
+  ],
+  "weed_control_entries": [
+    {
+      "crop": "Blue couch, common couch, bent, buffalo, and New Zealand Brown Top lawns and turf",
+      "application_timing": "post emergence",
+      "weed_common_name": "Winter Grass",
+      "weed_scientific_name": "Poa annua",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "150mL per 1000m²",
+      "critical_comments": "Apply 2-3 sprays spaced 10-14 days apart in late winter to early spring. Apply as a fine mist spray in 50-100L of water per 1000m². For a full sized bowling green (38m x 38m) apply 210mL in 70L water. Apply before seed heads form. Can also be applied in Autumn and early Winter, although new germinations will have to be retreated. Apply when winter grass is becoming evident. One spray may be sufficient.",
+      "control_level": "control"
+    }
+  ],
+  "application_methods": [
+    "boom spray"
+  ],
+  "state_restrictions": [],
+  "withholding_period": null,
+  "compatible_products": [],
+  "_metadata": {
+    "source_file": "47841ELBL.md",
+    "extracted_at": "2026-01-08T13:44:52.931601",
+    "model": "gemini-2.5-flash-lite"
+  }
+}

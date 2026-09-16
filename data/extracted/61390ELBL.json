@@ -1,0 +1,285 @@
+{
+  "product_number": "67978",
+  "product_name": "GENFARM TRIALLATE GOLD 500 SELECTIVE HERBICIDE",
+  "active_constituent": "500 g/L TRIALLATE",
+  "chemical_group": "Thiocarbamate",
+  "mode_of_action_group": "15",
+  "registered_crops": [
+    "Wheat",
+    "Triticale",
+    "Chickpeas",
+    "Barley",
+    "Peas",
+    "Linseed",
+    "Lupins",
+    "Canola (Rapeseed)",
+    "Mustard",
+    "Faba beans",
+    "Safflower",
+    "Oil seed poppy"
+  ],
+  "registered_weeds": [
+    "Wild oats",
+    "Ryegrass"
+  ],
+  "weed_control_entries": [
+    {
+      "crop": "Wheat",
+      "application_timing": "Pre-emergence",
+      "weed_common_name": "Wild oats",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": "Apply to soil in friable condition so that uniform incorporation of the product can be achieved to a depth of 2 to 4 cm. The soil should be free of large clods (>75 mm) and should not have crop or weed residue at a level which will interfere with the free flow of soil through planting equipment providing full soil disturbance. Emerged wild oats should be controlled either by prior cultivation/application of a knockdown herbicide or by the tank mixing of a knockdown herbicide with GENFARM TRIALLATE GOLD 500. Two pass incorporation provides superior weed control to single pass incorporation on heavier textured soils. Incorporation with planting operation only up to 24 hours following application onto a dry soil surface or up to 6 hours on moist surface soil. If sprayed on dry soil, and it rains before incorporation is planned, the product must be incorporated within 6 hours to retain its herbicide effectiveness. Planting should be carried out with a combine or airseeder/cultivator which provides full soil disturbance. Heavy tyned harrows or a rotary harrow should trail the planter or follow as a separate operation to complete incorporation. Ensure that the soil surface is fell free of pronounced ridging. Do not operate incorporation equipment at greater than 5 to 7 cm depth. Where soil is wet at planting, poor incorporation may result. For shallow-sown legume and oil-seed crops, complete incorporation by cultivation to a depth of 5 cm must be undertaken before planting. Note that point size should be matched to tyne spacing to avoid uneven incorporation. For example, a wideline seeder with 15 cm tyne spacing should be fitted with unworn 15 cm points. A combine with 9 cm spacing should be fitted with an evenly worn set of 10 cm points. Sweeps or other low profile points may not provide satisfactory incorporation.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Triticale",
+      "application_timing": "Pre-emergence",
+      "weed_common_name": "Wild oats",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": "Apply to soil in friable condition so that uniform incorporation of the product can be achieved to a depth of 2 to 4 cm. The soil should be free of large clods (>75 mm) and should not have crop or weed residue at a level which will interfere with the free flow of soil through planting equipment providing full soil disturbance. Emerged wild oats should be controlled either by prior cultivation/application of a knockdown herbicide or by the tank mixing of a knockdown herbicide with GENFARM TRIALLATE GOLD 500. Two pass incorporation provides superior weed control to single pass incorporation on heavier textured soils. Incorporation with planting operation only up to 24 hours following application onto a dry soil surface or up to 6 hours on moist surface soil. If sprayed on dry soil, and it rains before incorporation is planned, the product must be incorporated within 6 hours to retain its herbicide effectiveness. Planting should be carried out with a combine or airseeder/cultivator which provides full soil disturbance. Heavy tyned harrows or a rotary harrow should trail the planter or follow as a separate operation to complete incorporation. Ensure that the soil surface is fell free of pronounced ridging. Do not operate incorporation equipment at greater than 5 to 7 cm depth. Where soil is wet at planting, poor incorporation may result. For shallow-sown legume and oil-seed crops, complete incorporation by cultivation to a depth of 5 cm must be undertaken before planting. Note that point size should be matched to tyne spacing to avoid uneven incorporation. For example, a wideline seeder with 15 cm tyne spacing should be fitted with unworn 15 cm points. A combine with 9 cm spacing should be fitted with an evenly worn set of 10 cm points. Sweeps or other low profile points may not provide satisfactory incorporation.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Chickpeas",
+      "application_timing": "Pre-emergence",
+      "weed_common_name": "Wild oats",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": "Apply to soil in friable condition so that uniform incorporation of the product can be achieved to a depth of 2 to 4 cm. The soil should be free of large clods (>75 mm) and should not have crop or weed residue at a level which will interfere with the free flow of soil through planting equipment providing full soil disturbance. Emerged wild oats should be controlled either by prior cultivation/application of a knockdown herbicide or by the tank mixing of a knockdown herbicide with GENFARM TRIALLATE GOLD 500. Two pass incorporation provides superior weed control to single pass incorporation on heavier textured soils. Incorporation with planting operation only up to 24 hours following application onto a dry soil surface or up to 6 hours on moist surface soil. If sprayed on dry soil, and it rains before incorporation is planned, the product must be incorporated within 6 hours to retain its herbicide effectiveness. Planting should be carried out with a combine or airseeder/cultivator which provides full soil disturbance. Heavy tyned harrows or a rotary harrow should trail the planter or follow as a separate operation to complete incorporation. Ensure that the soil surface is fell free of pronounced ridging. Do not operate incorporation equipment at greater than 5 to 7 cm depth. Where soil is wet at planting, poor incorporation may result. For shallow-sown legume and oil-seed crops, complete incorporation by cultivation to a depth of 5 cm must be undertaken before planting. Note that point size should be matched to tyne spacing to avoid uneven incorporation. For example, a wideline seeder with 15 cm tyne spacing should be fitted with unworn 15 cm points. A combine with 9 cm spacing should be fitted with an evenly worn set of 10 cm points. Sweeps or other low profile points may not provide satisfactory incorporation.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Barley",
+      "application_timing": "Pre-emergence",
+      "weed_common_name": "Wild oats",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": "Apply to soil in friable condition so that uniform incorporation of the product can be achieved to a depth of 2 to 4 cm. The soil should be free of large clods (>75 mm) and should not have crop or weed residue at a level which will interfere with the free flow of soil through planting equipment providing full soil disturbance. Emerged wild oats should be controlled either by prior cultivation/application of a knockdown herbicide or by the tank mixing of a knockdown herbicide with GENFARM TRIALLATE GOLD 500. Two pass incorporation provides superior weed control to single pass incorporation on heavier textured soils. Incorporation with planting operation only up to 24 hours following application onto a dry soil surface or up to 6 hours on moist surface soil. If sprayed on dry soil, and it rains before incorporation is planned, the product must be incorporated within 6 hours to retain its herbicide effectiveness. Planting should be carried out with a combine or airseeder/cultivator which provides full soil disturbance. Heavy tyned harrows or a rotary harrow should trail the planter or follow as a separate operation to complete incorporation. Ensure that the soil surface is fell free of pronounced ridging. Do not operate incorporation equipment at greater than 5 to 7 cm depth. Where soil is wet at planting, poor incorporation may result. For shallow-sown legume and oil-seed crops, complete incorporation by cultivation to a depth of 5 cm must be undertaken before planting. Note that point size should be matched to tyne spacing to avoid uneven incorporation. For example, a wideline seeder with 15 cm tyne spacing should be fitted with unworn 15 cm points. A combine with 9 cm spacing should be fitted with an evenly worn set of 10 cm points. Sweeps or other low profile points may not provide satisfactory incorporation.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Peas",
+      "application_timing": "Pre-emergence",
+      "weed_common_name": "Wild oats",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": "Apply to soil in friable condition so that uniform incorporation of the product can be achieved to a depth of 2 to 4 cm. The soil should be free of large clods (>75 mm) and should not have crop or weed residue at a level which will interfere with the free flow of soil through planting equipment providing full soil disturbance. Emerged wild oats should be controlled either by prior cultivation/application of a knockdown herbicide or by the tank mixing of a knockdown herbicide with GENFARM TRIALLATE GOLD 500. Two pass incorporation provides superior weed control to single pass incorporation on heavier textured soils. Incorporation with planting operation only up to 24 hours following application onto a dry soil surface or up to 6 hours on moist surface soil. If sprayed on dry soil, and it rains before incorporation is planned, the product must be incorporated within 6 hours to retain its herbicide effectiveness. Planting should be carried out with a combine or airseeder/cultivator which provides full soil disturbance. Heavy tyned harrows or a rotary harrow should trail the planter or follow as a separate operation to complete incorporation. Ensure that the soil surface is fell free of pronounced ridging. Do not operate incorporation equipment at greater than 5 to 7 cm depth. Where soil is wet at planting, poor incorporation may result. For shallow-sown legume and oil-seed crops, complete incorporation by cultivation to a depth of 5 cm must be undertaken before planting. Note that point size should be matched to tyne spacing to avoid uneven incorporation. For example, a wideline seeder with 15 cm tyne spacing should be fitted with unworn 15 cm points. A combine with 9 cm spacing should be fitted with an evenly worn set of 10 cm points. Sweeps or other low profile points may not provide satisfactory incorporation.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Linseed",
+      "application_timing": "Pre-emergence",
+      "weed_common_name": "Wild oats",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": "Apply to soil in friable condition so that uniform incorporation of the product can be achieved to a depth of 2 to 4 cm. The soil should be free of large clods (>75 mm) and should not have crop or weed residue at a level which will interfere with the free flow of soil through planting equipment providing full soil disturbance. Emerged wild oats should be controlled either by prior cultivation/application of a knockdown herbicide or by the tank mixing of a knockdown herbicide with GENFARM TRIALLATE GOLD 500. Two pass incorporation provides superior weed control to single pass incorporation on heavier textured soils. Incorporation with planting operation only up to 24 hours following application onto a dry soil surface or up to 6 hours on moist surface soil. If sprayed on dry soil, and it rains before incorporation is planned, the product must be incorporated within 6 hours to retain its herbicide effectiveness. Planting should be carried out with a combine or airseeder/cultivator which provides full soil disturbance. Heavy tyned harrows or a rotary harrow should trail the planter or follow as a separate operation to complete incorporation. Ensure that the soil surface is fell free of pronounced ridging. Do not operate incorporation equipment at greater than 5 to 7 cm depth. Where soil is wet at planting, poor incorporation may result. For shallow-sown legume and oil-seed crops, complete incorporation by cultivation to a depth of 5 cm must be undertaken before planting. Note that point size should be matched to tyne spacing to avoid uneven incorporation. For example, a wideline seeder with 15 cm tyne spacing should be fitted with unworn 15 cm points. A combine with 9 cm spacing should be fitted with an evenly worn set of 10 cm points. Sweeps or other low profile points may not provide satisfactory incorporation.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Lupins",
+      "application_timing": "Pre-emergence",
+      "weed_common_name": "Wild oats",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": "Apply to soil in friable condition so that uniform incorporation of the product can be achieved to a depth of 2 to 4 cm. The soil should be free of large clods (>75 mm) and should not have crop or weed residue at a level which will interfere with the free flow of soil through planting equipment providing full soil disturbance. Emerged wild oats should be controlled either by prior cultivation/application of a knockdown herbicide or by the tank mixing of a knockdown herbicide with GENFARM TRIALLATE GOLD 500. Two pass incorporation provides superior weed control to single pass incorporation on heavier textured soils. Incorporation with planting operation only up to 24 hours following application onto a dry soil surface or up to 6 hours on moist surface soil. If sprayed on dry soil, and it rains before incorporation is planned, the product must be incorporated within 6 hours to retain its herbicide effectiveness. Planting should be carried out with a combine or airseeder/cultivator which provides full soil disturbance. Heavy tyned harrows or a rotary harrow should trail the planter or follow as a separate operation to complete incorporation. Ensure that the soil surface is fell free of pronounced ridging. Do not operate incorporation equipment at greater than 5 to 7 cm depth. Where soil is wet at planting, poor incorporation may result. For shallow-sown legume and oil-seed crops, complete incorporation by cultivation to a depth of 5 cm must be undertaken before planting. Note that point size should be matched to tyne spacing to avoid uneven incorporation. For example, a wideline seeder with 15 cm tyne spacing should be fitted with unworn 15 cm points. A combine with 9 cm spacing should be fitted with an evenly worn set of 10 cm points. Sweeps or other low profile points may not provide satisfactory incorporation.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Canola (Rapeseed)",
+      "application_timing": "Pre-emergence",
+      "weed_common_name": "Wild oats",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": "Apply to soil in friable condition so that uniform incorporation of the product can be achieved to a depth of 2 to 4 cm. The soil should be free of large clods (>75 mm) and should not have crop or weed residue at a level which will interfere with the free flow of soil through planting equipment providing full soil disturbance. Emerged wild oats should be controlled either by prior cultivation/application of a knockdown herbicide or by the tank mixing of a knockdown herbicide with GENFARM TRIALLATE GOLD 500. Two pass incorporation provides superior weed control to single pass incorporation on heavier textured soils. Incorporation with planting operation only up to 24 hours following application onto a dry soil surface or up to 6 hours on moist surface soil. If sprayed on dry soil, and it rains before incorporation is planned, the product must be incorporated within 6 hours to retain its herbicide effectiveness. Planting should be carried out with a combine or airseeder/cultivator which provides full soil disturbance. Heavy tyned harrows or a rotary harrow should trail the planter or follow as a separate operation to complete incorporation. Ensure that the soil surface is fell free of pronounced ridging. Do not operate incorporation equipment at greater than 5 to 7 cm depth. Where soil is wet at planting, poor incorporation may result. For shallow-sown legume and oil-seed crops, complete incorporation by cultivation to a depth of 5 cm must be undertaken before planting. Note that point size should be matched to tyne spacing to avoid uneven incorporation. For example, a wideline seeder with 15 cm tyne spacing should be fitted with unworn 15 cm points. A combine with 9 cm spacing should be fitted with an evenly worn set of 10 cm points. Sweeps or other low profile points may not provide satisfactory incorporation.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Mustard",
+      "application_timing": "Pre-emergence",
+      "weed_common_name": "Wild oats",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": "Apply to soil in friable condition so that uniform incorporation of the product can be achieved to a depth of 2 to 4 cm. The soil should be free of large clods (>75 mm) and should not have crop or weed residue at a level which will interfere with the free flow of soil through planting equipment providing full soil disturbance. Emerged wild oats should be controlled either by prior cultivation/application of a knockdown herbicide or by the tank mixing of a knockdown herbicide with GENFARM TRIALLATE GOLD 500. Two pass incorporation provides superior weed control to single pass incorporation on heavier textured soils. Incorporation with planting operation only up to 24 hours following application onto a dry soil surface or up to 6 hours on moist surface soil. If sprayed on dry soil, and it rains before incorporation is planned, the product must be incorporated within 6 hours to retain its herbicide effectiveness. Planting should be carried out with a combine or airseeder/cultivator which provides full soil disturbance. Heavy tyned harrows or a rotary harrow should trail the planter or follow as a separate operation to complete incorporation. Ensure that the soil surface is fell free of pronounced ridging. Do not operate incorporation equipment at greater than 5 to 7 cm depth. Where soil is wet at planting, poor incorporation may result. For shallow-sown legume and oil-seed crops, complete incorporation by cultivation to a depth of 5 cm must be undertaken before planting. Note that point size should be matched to tyne spacing to avoid uneven incorporation. For example, a wideline seeder with 15 cm tyne spacing should be fitted with unworn 15 cm points. A combine with 9 cm spacing should be fitted with an evenly worn set of 10 cm points. Sweeps or other low profile points may not provide satisfactory incorporation.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Faba beans",
+      "application_timing": "Pre-emergence",
+      "weed_common_name": "Wild oats",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": "Apply to soil in friable condition so that uniform incorporation of the product can be achieved to a depth of 2 to 4 cm. The soil should be free of large clods (>75 mm) and should not have crop or weed residue at a level which will interfere with the free flow of soil through planting equipment providing full soil disturbance. Emerged wild oats should be controlled either by prior cultivation/application of a knockdown herbicide or by the tank mixing of a knockdown herbicide with GENFARM TRIALLATE GOLD 500. Two pass incorporation provides superior weed control to single pass incorporation on heavier textured soils. Incorporation with planting operation only up to 24 hours following application onto a dry soil surface or up to 6 hours on moist surface soil. If sprayed on dry soil, and it rains before incorporation is planned, the product must be incorporated within 6 hours to retain its herbicide effectiveness. Planting should be carried out with a combine or airseeder/cultivator which provides full soil disturbance. Heavy tyned harrows or a rotary harrow should trail the planter or follow as a separate operation to complete incorporation. Ensure that the soil surface is fell free of pronounced ridging. Do not operate incorporation equipment at greater than 5 to 7 cm depth. Where soil is wet at planting, poor incorporation may result. For shallow-sown legume and oil-seed crops, complete incorporation by cultivation to a depth of 5 cm must be undertaken before planting. Note that point size should be matched to tyne spacing to avoid uneven incorporation. For example, a wideline seeder with 15 cm tyne spacing should be fitted with unworn 15 cm points. A combine with 9 cm spacing should be fitted with an evenly worn set of 10 cm points. Sweeps or other low profile points may not provide satisfactory incorporation.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Safflower",
+      "application_timing": "Pre-emergence",
+      "weed_common_name": "Wild oats",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": "Apply to soil in friable condition so that uniform incorporation of the product can be achieved to a depth of 2 to 4 cm. The soil should be free of large clods (>75 mm) and should not have crop or weed residue at a level which will interfere with the free flow of soil through planting equipment providing full soil disturbance. Emerged wild oats should be controlled either by prior cultivation/application of a knockdown herbicide or by the tank mixing of a knockdown herbicide with GENFARM TRIALLATE GOLD 500. Two pass incorporation provides superior weed control to single pass incorporation on heavier textured soils. Incorporation with planting operation only up to 24 hours following application onto a dry soil surface or up to 6 hours on moist surface soil. If sprayed on dry soil, and it rains before incorporation is planned, the product must be incorporated within 6 hours to retain its herbicide effectiveness. Planting should be carried out with a combine or airseeder/cultivator which provides full soil disturbance. Heavy tyned harrows or a rotary harrow should trail the planter or follow as a separate operation to complete incorporation. Ensure that the soil surface is fell free of pronounced ridging. Do not operate incorporation equipment at greater than 5 to 7 cm depth. Where soil is wet at planting, poor incorporation may result. For shallow-sown legume and oil-seed crops, complete incorporation by cultivation to a depth of 5 cm must be undertaken before planting. Note that point size should be matched to tyne spacing to avoid uneven incorporation. For example, a wideline seeder with 15 cm tyne spacing should be fitted with unworn 15 cm points. A combine with 9 cm spacing should be fitted with an evenly worn set of 10 cm points. Sweeps or other low profile points may not provide satisfactory incorporation.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Oil seed poppy",
+      "application_timing": "Post-emergence",
+      "weed_common_name": "Ryegrass",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": "Apply to soil in friable condition so that uniform incorporation of the product can be achieved to a depth of 2 to 4 cm. The soil should be free of large clods (>75 mm) and should not have crop or weed residue at a level which will interfere with the free flow of soil through planting equipment providing full soil disturbance. Emerged wild oats should be controlled either by prior cultivation/application of a knockdown herbicide or by the tank mixing of a knockdown herbicide with GENFARM TRIALLATE GOLD 500. Two pass incorporation provides superior weed control to single pass incorporation on heavier textured soils. Incorporation with planting operation only up to 24 hours following application onto a dry soil surface or up to 6 hours on moist surface soil. If sprayed on dry soil, and it rains before incorporation is planned, the product must be incorporated within 6 hours to retain its herbicide effectiveness. Planting should be carried out with a combine or airseeder/cultivator which provides full soil disturbance. Heavy tyned harrows or a rotary harrow should trail the planter or follow as a separate operation to complete incorporation. Ensure that the soil surface is fell free of pronounced ridging. Do not operate incorporation equipment at greater than 5 to 7 cm depth. Where soil is wet at planting, poor incorporation may result. For shallow-sown legume and oil-seed crops, complete incorporation by cultivation to a depth of 5 cm must be undertaken before planting. Note that point size should be matched to tyne spacing to avoid uneven incorporation. For example, a wideline seeder with 15 cm tyne spacing should be fitted with unworn 15 cm points. A combine with 9 cm spacing should be fitted with an evenly worn set of 10 cm points. Sweeps or other low profile points may not provide satisfactory incorporation.",
+      "control_level": "control"
+    }
+  ],
+  "application_methods": [
+    "Ground sprayer"
+  ],
+  "state_restrictions": [],
+  "withholding_period": "Not required when used as directed.",
+  "compatible_products": [
+    "Chlorsulfuron 900",
+    "Triasulfuron 750",
+    "Trifluralin 480",
+    "Oryzalin/Trifluralin 250",
+    "Glyhosate",
+    "Sulfosulfuron 750",
+    "S-Metolachlor 960",
+    "Terbuthylazine 875",
+    "Diuron 900",
+    "Simazine",
+    "Atrazine",
+    "Paraquat 250",
+    "Diquat/Paraquat 250",
+    "Pyroxasulfone",
+    "S-Metolachlor/Prosulfocarb 920",
+    "Trifluralin 600",
+    "Dimethenamid-P 720",
+    "Non-Ionic Surfactants"
+  ],
+  "_metadata": {
+    "source_file": "61390ELBL.md",
+    "extracted_at": "2026-01-08T13:47:34.089931",
+    "model": "gemini-2.5-flash-lite"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "product_number": "49908",
+  "product_name": "BROADSIDE HERBICIDE",
+  "active_constituent": "280 g/L MCPA present as the ethyl hexyl ester, 140 g/L BROMOXYNIL present as the octanoate ester, 40 g/L DICAMBA present as the acid",
+  "chemical_group": null,
+  "mode_of_action_group": "4",
+  "registered_crops": [
+    "wheat",
+    "barley",
+    "cereal rye",
+    "oats",
+    "triticale",
+    "turf"
+  ],
+  "registered_weeds": [],
+  "weed_control_entries": [],
+  "application_methods": [],
+  "state_restrictions": [],
+  "withholding_period": "DO NOT GRAZE OR CUT FOR STOCK FOOD FOR 8 WEEKS AFTER APPLICATION.",
+  "compatible_products": [],
+  "_metadata": {
+    "source_file": "49908ELBL.md",
+    "extracted_at": "2026-01-08T13:44:57.907452",
+    "model": "gemini-2.5-flash-lite"
+  }
+}

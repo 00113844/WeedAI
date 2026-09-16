@@ -1,0 +1,157 @@
+{
+  "product_name": "Benuron 750 WG Herbicide",
+  "apvma_number": "94160/141718",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "2",
+  "identified_crops": [
+    "Deadnettle (Lamium amplexicaule)",
+    "FALLOW",
+    "Medics (Native)",
+    "New Zealand Spinach (Tetragonia tetregonoides)",
+    "PRE-CROP",
+    "Prickly Lettuce (Lactuca serriola)",
+    "Sowthistle / Milk Thistle (Sonchus oleraceus)",
+    "Turnip Weed (Rapistrum rugosum)"
+  ],
+  "identified_weeds": [
+    "Amaranthus",
+    "Boggabri weed (Amaranthus mitchelli)",
+    "Caltrop",
+    "Yellowvine (Tribulus terrestris)"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "FALLOW",
+      "weed_common_name": "Amaranthus",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 10.0,
+      "rate_unit": "Apply up to the 10-leaf stage",
+      "rate_full_text": "Apply up to the 10-leaf stage",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "As a herbicide Resistance countering measure, DO NOT use an ALS inhibitor herbicide in the crop following the use of BENURON 750 WG Herbicide as a preceding fallow or pre-crop treatment."
+        }
+      ]
+    },
+    {
+      "crop": "PRE-CROP",
+      "weed_common_name": "Caltrop",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Sowthistle / Milk Thistle (Sonchus oleraceus)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 6.0,
+      "rate_unit": "Apply up to the 6-leaf stage",
+      "rate_full_text": "Apply up to the 6-leaf stage",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "If weeds are at a more advanced growth stage and/or are present in high numbers (greater than 50 per m\u00b2) use a Glyphosate mixture as specified in the BENURON 750 WG Herbicide and Glyphosate Tank mix table."
+        }
+      ]
+    },
+    {
+      "crop": "Deadnettle (Lamium amplexicaule)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 6.0,
+      "rate_unit": "Apply up to the 6-leaf stage",
+      "rate_full_text": "Apply up to the 6-leaf stage",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "If weeds are at a more advanced growth stage and/or are present in high numbers (greater than 50 per m\u00b2) use a Glyphosate mixture as specified in the BENURON 750 WG Herbicide and Glyphosate Tank mix table."
+        }
+      ]
+    },
+    {
+      "crop": "Medics (Native)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 5.0,
+      "rate_unit": "Apply up to 5 cm diameter",
+      "rate_full_text": "Apply up to 5 cm diameter",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "New Zealand Spinach (Tetragonia tetregonoides)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 10.0,
+      "rate_unit": "Apply up to the 10-leaf stage",
+      "rate_full_text": "Apply up to the 10-leaf stage",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Prickly Lettuce (Lactuca serriola)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 4.0,
+      "rate_unit": "Apply up to the 4-leaf stage",
+      "rate_full_text": "Apply up to the 4-leaf stage",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "If weeds are at a more advanced growth stage and/or are present in high numbers (greater than 50 per m\u00b2) use a Glyphosate mixture as specified in Tank Mixes table."
+        }
+      ]
+    },
+    {
+      "crop": "Turnip Weed (Rapistrum rugosum)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "Apply up to flowering",
+      "rate_full_text": "Apply up to flowering",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    }
+  ]
+}

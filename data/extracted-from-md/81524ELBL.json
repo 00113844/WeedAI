@@ -1,0 +1,122 @@
+{
+  "product_name": "Bronx M Herbicide",
+  "apvma_number": "81524/147383",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": null,
+  "identified_crops": [
+    "Black Bindweed\\* (Climbing Buckwheat) (Fallopia convolvulus), Common Peppercress (Lepidium africanum), Mustards (Sisymbrium spp.), Purple Calandrinia (Calandrinia menziesii).",
+    "Plants up to the 6 leaf stage but not more than 50mm in diameter",
+    "Plants up to the 8 leaf stages but not more than 75mm in diameter",
+    "Wheat, Barley, Cereal Rye, Oats and Triticale, Linseed, Grass Pastures"
+  ],
+  "identified_weeds": [
+    "Amsinckia (Amsinckia spp.)",
+    "C.pycnocephalus)",
+    "Capeweed (Arctotheca calendula)",
+    "Chamomile (Matricaria matricarioides)",
+    "Charlock (Sinapis arvensis)",
+    "Corn Gromwell (Ironweed",
+    "Fat Hen (Chenopodium album)",
+    "Field Madder (Sherardia arvensis)",
+    "Hexham Scent (King Island Melilot) (Melilotus indica)",
+    "Horned Poppy (Glaucium flavum)",
+    "Indian Hedge Mustard (Sisymbrium orientale)",
+    "Lesser Swinecress (Coronopus didymus)",
+    "Mexican Poppy (Argemone ochroleuca)",
+    "Mintweed (Salvia reflexa)",
+    "Paterson\u2019s Curse (Salvation Jane) (Echium plantagineum)",
+    "Plants up to the 4 leaf stage but not more than 35mm in diameter",
+    "Rough Poppy (Papaver hybridum)",
+    "Saffron Thistle (Carthamus lanatus)",
+    "Sheepweed) (Buglossoides arvensis)",
+    "Shepherd\u2019s Purse (Capsella bursa-pastoris)",
+    "Slender Thistles (Carduus tenuiflorus",
+    "Tree Hogweed (Polygonum patulum)",
+    "Turnip Weed (Giant Mustard) (Rapistrum rugosum)",
+    "Wild Radish (Raphanus raphanistrum)",
+    "Wild Turnip (Brassica tournefortii)."
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Wheat, Barley, Cereal Rye, Oats and Triticale, Linseed, Grass Pastures",
+      "weed_common_name": "Amsinckia (Amsinckia spp.)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "WA only",
+      "rate_full_text": "WA only",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "750 mL"
+        }
+      ]
+    },
+    {
+      "crop": "Black Bindweed\\* (Climbing Buckwheat) (Fallopia convolvulus), Common Peppercress (Lepidium africanum), Mustards (Sisymbrium spp.), Purple Calandrinia (Calandrinia menziesii).",
+      "weed_common_name": "Plants up to the 4 leaf stage but not more than 35mm in diameter",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_value": 1.0,
+      "rate_unit": "1.0 L",
+      "rate_full_text": "1.0 L",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Avoid application when maximum daily temperatures above 20\u00b0C occur, or are likely to occur for a few days after application. DO NOT apply to crops or pastures undersown with lucerne, clover or medics unless some damage is acceptable."
+        }
+      ]
+    },
+    {
+      "crop": "Plants up to the 6 leaf stage but not more than 50mm in diameter",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_value": 1.4,
+      "rate_unit": "1.4 L",
+      "rate_full_text": "1.4 L",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Plants up to the 8 leaf stages but not more than 75mm in diameter",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 2.0,
+      "rate_unit": "2.0 L",
+      "rate_full_text": "2.0 L",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    }
+  ]
+}

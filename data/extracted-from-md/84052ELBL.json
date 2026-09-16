@@ -1,0 +1,253 @@
+{
+  "product_name": "Oxstar 20G Herbicide",
+  "apvma_number": "84052/127308",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "G",
+  "identified_crops": [
+    "10.2 cm (4 in)",
+    "15.2 cm (6 in)",
+    "25.4 cm (10 in)",
+    "40.6 cm (16 in)",
+    "50.8 cm (20 in)",
+    "Avoid contact with flowers and shrubs except as directed elsewhere in this label. Owing to the varying cultivation practices used, it is not recommended to apply this product on putting greens and bowling greens. Refer to the General Instructions for more details on application and plant back periods.",
+    "Bahia Grass (Paspalum notatum), Buffalo grass (Stenotaphrum secundatum), Common Couch (Cynodon dactylon), Hybrid Couch (Cynodon dactylon C. transvaalensis), Kikuyu (Pennisetum clandestinium), Queensland Blue Couch (Digitaria didactyla), Saltwater Couch (Paspalum vaginatum), Zoysia (Zoysia matrella)",
+    "Container Size",
+    "Container-grown woody ornamental shrubs, trees and vines:",
+    "Field-grown ornamental crops Transplants only:",
+    "Rates for Individual Container Sizes",
+    "Recreational Turf:",
+    "Warm season turfgrass species only:"
+  ],
+  "identified_weeds": [
+    "0.16 g",
+    "0.4 g",
+    "1.0 g",
+    "2.6 g",
+    "4.1 g",
+    "Aster",
+    "Bittercress (Flickweed) (Cardamine hirsuta)",
+    "Carnation",
+    "Chrysanthemum Seed and Transplant Gypsophila.",
+    "Creeping Oxalis (Yellow Wood Sorrel) (Oxalis corniculata)",
+    "Crowsfoot Grass (Eleusine indica)",
+    "Petty Spurge (Euphorbia peplus)",
+    "Round Container",
+    "Sorrel (Rumex acetosella)",
+    "Sowthistle (Sonchus spp.)",
+    "Summer Grass (Digitaria ciliaris)"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Container-grown woody ornamental shrubs, trees and vines:",
+      "weed_common_name": "Bittercress (Flickweed) (Cardamine hirsuta)",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_value": 200.0,
+      "rate_unit": "200 kg per ha",
+      "rate_full_text": "200 kg per ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply to soil surface of newly potted or freshly weeded containers. Repeat applications may be made at 10 week intervals."
+        }
+      ]
+    },
+    {
+      "crop": "Rates for Individual Container Sizes",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Container Size",
+      "weed_common_name": "Round Container",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "10.2 cm (4 in)",
+      "weed_common_name": "0.16 g",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "15.2 cm (6 in)",
+      "weed_common_name": "0.4 g",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "25.4 cm (10 in)",
+      "weed_common_name": "1.0 g",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "40.6 cm (16 in)",
+      "weed_common_name": "2.6 g",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "50.8 cm (20 in)",
+      "weed_common_name": "4.1 g",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Field-grown ornamental crops Transplants only:",
+      "weed_common_name": "Aster",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply to freshly weeded flowerbeds. Repeat applications at 10-week intervals. DO NOT apply to Zinnia or annual Helichrysum seed or transplants."
+        }
+      ]
+    },
+    {
+      "crop": "Recreational Turf:",
+      "weed_common_name": "Crowsfoot Grass (Eleusine indica)",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_value": 150.0,
+      "rate_unit": "150 kg per ha",
+      "rate_full_text": "150 kg per ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply prior to germination of the weeds (usually from late winter to early Spring, late August to early September)."
+        }
+      ]
+    },
+    {
+      "crop": "Warm season turfgrass species only:",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Bahia Grass (Paspalum notatum), Buffalo grass (Stenotaphrum secundatum), Common Couch (Cynodon dactylon), Hybrid Couch (Cynodon dactylon C. transvaalensis), Kikuyu (Pennisetum clandestinium), Queensland Blue Couch (Digitaria didactyla), Saltwater Couch (Paspalum vaginatum), Zoysia (Zoysia matrella)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 100.0,
+      "rate_unit": "per 100 m\u00b2",
+      "rate_full_text": "per 100 m\u00b2",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Avoid contact with flowers and shrubs except as directed elsewhere in this label. Owing to the varying cultivation practices used, it is not recommended to apply this product on putting greens and bowling greens. Refer to the General Instructions for more details on application and plant back periods.",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    }
+  ]
+}

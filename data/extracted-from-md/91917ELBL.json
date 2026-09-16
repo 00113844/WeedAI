@@ -1,0 +1,170 @@
+{
+  "product_name": "Chipper 400 Herbicide",
+  "apvma_number": "91917/133950",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "14",
+  "identified_crops": [
+    "",
+    "Prior to sowing winter and summer broadacre and horticultural crops; starting a fallow; and prior to establishment of forestry plantations.",
+    "Wild radish Raphanus raphanistrum"
+  ],
+  "identified_weeds": [
+    "Australian Crassula",
+    "Capeweed Arctotheca calendula",
+    "Chickweed Stellaria media",
+    "Common storks bill (max. 4 leaves) Erodium cicutarium",
+    "Doublegee",
+    "Marshmallow Malva parviflora",
+    "Paterson\u2019s curse Echium plantagineum",
+    "Spiny emex",
+    "Stonecrop Crassula sp.",
+    "Sub. Clover Trifolium subterraneum",
+    "Three cornered jack Emex australis"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Prior to sowing winter and summer broadacre and horticultural crops; starting a fallow; and prior to establishment of forestry plantations.",
+      "weed_common_name": "Australian Crassula",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "Apply as a tank mix with glyphosate or paraquat products (i.e. knockdown herbicides).",
+      "rate_full_text": "Apply as a tank mix with glyphosate or paraquat products (i.e. knockdown herbicides).",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "15 - 45mL/ha"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Capeweed Arctotheca calendula",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Chickweed Stellaria media",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Common storks bill (max. 4 leaves) Erodium cicutarium",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Doublegee",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Marshmallow Malva parviflora",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Spot spray"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Paterson\u2019s curse Echium plantagineum",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Sub. Clover Trifolium subterraneum",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Wild radish Raphanus raphanistrum",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    }
+  ]
+}

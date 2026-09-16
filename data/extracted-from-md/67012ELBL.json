@@ -1,0 +1,114 @@
+{
+  "product_name": "Kenso Agcare THREE-WAY Selective Herbicide",
+  "apvma_number": "67012/RV2024",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": null,
+  "identified_crops": [
+    "",
+    "Recreational Turf, Established Couch (including Queensland Blue), Kikuyu, Paspalum, Fescue, Bent and Rye Lawns",
+    "Wheat, Barley, Oats, Triticale, Commercial Rye"
+  ],
+  "identified_weeds": [
+    "3 leaf to fully tillered from Zadocks (13 to 30)",
+    "3 leaf to fully tillered from Zadocks (15 to 30)",
+    "5 leaf to fully tillered from Zadocks (15 to 30)"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Recreational Turf, Established Couch (including Queensland Blue), Kikuyu, Paspalum, Fescue, Bent and Rye Lawns",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "NSW, Qld, SA, Vic, WA, ACT only",
+      "rate_full_text": "NSW, Qld, SA, Vic, WA, ACT only",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "4-5L in 150L of water per hectare"
+        }
+      ]
+    },
+    {
+      "crop": "Wheat, Barley, Oats, Triticale, Commercial Rye",
+      "weed_common_name": "3 leaf to fully tillered from Zadocks (13 to 30)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "NSW, ACT, VIC, SA, WA only",
+      "rate_full_text": "NSW, ACT, VIC, SA, WA only",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "750mL/ha"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "5 leaf to fully tillered from Zadocks (15 to 30)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "WA only",
+      "rate_full_text": "WA only",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "1.4 L/ha"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "3 leaf to fully tillered from Zadocks (15 to 30)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "NSW, ACT, VIC, SA, WA only",
+      "rate_full_text": "NSW, ACT, VIC, SA, WA only",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "1L/ha"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "5 leaf to fully tillered from Zadocks (15 to 30)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "Tas only",
+      "rate_full_text": "Tas only",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "1.4L/ha"
+        }
+      ]
+    }
+  ]
+}

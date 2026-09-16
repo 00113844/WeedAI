@@ -1,0 +1,81 @@
+{
+  "product_name": "CAUTION",
+  "apvma_number": null,
+  "active_constituents": [
+    "186 g/L SETHOXYDIM"
+  ],
+  "moa_number": null,
+  "moa_legacy_letter": "A",
+  "identified_crops": [
+    "Canola, chickpeas, faba beans, field peas, green (freezer) peas (not Qld, NT), lentils, linseed (not Qld), lupins, soybeans, Clover and medic pastures and seed crops\\*",
+    "Cotton (Qld, NSW, WA, NT only)"
+  ],
+  "identified_weeds": [
+    "Annual prairie grass (seedling)",
+    "Awnless barnyard grass",
+    "Bracheria windersii (Qld",
+    "Dinebra retroflexa (Qld",
+    "Johnson grass (seedling)",
+    "NSW",
+    "NT only)",
+    "NT)",
+    "Tas)",
+    "Wimmera ryegrass",
+    "barnyard grass",
+    "crowsfoot grass",
+    "green summer grass (Qld",
+    "lesser canary grass (Phalaris minor)",
+    "liverseed grass",
+    "paradoxa grass (Phalaris paradoxa) (Qld",
+    "pigeon grass (foxtail grass",
+    "ryegrasses (not Qld",
+    "stink grass",
+    "summer grass",
+    "volunteer oats",
+    "volunteer sorghum",
+    "volunteer wheat",
+    "wild oats"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Canola, chickpeas, faba beans, field peas, green (freezer) peas (not Qld, NT), lentils, linseed (not Qld), lupins, soybeans, Clover and medic pastures and seed crops\\*",
+      "weed_common_name": "Annual prairie grass (seedling)",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_value": 2.0,
+      "rate_unit": "1 L plus 1 or 2 L of a crop oil such as D-C-Trate\u00ae or Ulvapron",
+      "rate_full_text": "1 L plus 1 or 2 L of a crop oil such as D-C-Trate\u00ae or Ulvapron",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "21 days (G)"
+        }
+      ]
+    },
+    {
+      "crop": "Cotton (Qld, NSW, WA, NT only)",
+      "weed_common_name": "Wimmera ryegrass",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "Refer to WHP statement",
+      "rate_full_text": "Refer to WHP statement",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    }
+  ]
+}

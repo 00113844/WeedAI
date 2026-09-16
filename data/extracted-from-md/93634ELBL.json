@@ -1,0 +1,72 @@
+{
+  "product_name": "CropSure Sparrowhawk 700WG Herbicide",
+  "apvma_number": "93634/142775",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "2",
+  "identified_crops": [
+    "Field peas",
+    "Legume based pastures"
+  ],
+  "identified_weeds": [
+    "As for field peas above.",
+    "Barley grass (Hordeum leporinum)",
+    "Brome grass (Bromus spp.)",
+    "Deadnettle (Lamium amplexicaule)",
+    "Indian hedge mustard (Sisymbrium orientale)",
+    "Storksbill (Erodium spp.)",
+    "Turnip weed (Rapistrum rugosum)",
+    "Volunteer barley (Hordeum vulgare)",
+    "Volunteer lupins (Lupinus spp.)",
+    "Volunteer oats (Avena sativa)",
+    "Volunteer triticale (Triticosecale spp.)",
+    "Volunteer wheat (Triticum aestivum)",
+    "Wild oats (Avena spp.)",
+    "Wild turnip (Brassica tournefortii)",
+    "Wireweed (Polygonum aviculare)",
+    "\\*Doublegee (Emex australis)",
+    "\\*Shepherds purse (Capsella bursa-pastoris)",
+    "\\*Threehorn bedstraw (Galium tricornutum)",
+    "\\*Wild radish (Raphanus raphanistrum)"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Field peas",
+      "weed_common_name": "Barley grass (Hordeum leporinum)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 6.0,
+      "rate_unit": "6 weeks (grazing)",
+      "rate_full_text": "6 weeks (grazing)",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "DO NOT apply to field peas beyond the 4 node stage. DO NOT use adjuvants other than BS 1000 or equivalent. Apply to actively growing broadleaved weeds in the cotyledon to 3 leaf stage. Apply to grass weeds up to the 2 tiller stage. Good crop growth will aid weed control. Weeds may not be totally controlled but populations will be significantly reduced and surviving plants will generally be severely retarded. \\*Control will not be 100% but surviving plants will generally be retarded and will not compete with good crop growth. Ensure that crop agronomy is correct, to provide competition to such weeds. Leaf yellowing and height suppression may occur, especially under adverse growing conditions such as moisture stress. Flowering may be delayed. IMPORTANT: Refer to CROP SAFETY section of label regarding use on field peas. Refer to FOLLOW CROPS section of this label regarding follow crops."
+        }
+      ]
+    },
+    {
+      "crop": "Legume based pastures",
+      "weed_common_name": "As for field peas above.",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 7.0,
+      "rate_unit": "7 days (grazing)",
+      "rate_full_text": "7 days (grazing)",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply to legumes after full emergence of the third trifoliate leaf but well before commencement of flowering. Established: Apply before commencement of flowering. Apply to actively growing broadleaved weeds in the cotyledon to 3 leaf stage. Apply to grass weeds up to the 2 tiller stage. Good pasture growth will aid weed control. Weeds may not be totally controlled but populations will be significantly reduced and surviving plants will generally be severely retarded. Where pasture stand is poor, weed control may be inadequate due to lack of competition. Ensure sufficient spray coverage of weeds particularly in dense pastures. \\*Control will not be 100% but surviving plants will generally be retarded and will not compete with good crop growth. Very high populations may not be efficiently controlled. Good spray coverage is essential. Ensure that crop agronomy is correct, to provide competition to such weeds. Refer to CROP SAFETY section of this label regarding varieties of clovers and medics and other pasture species."
+        }
+      ]
+    }
+  ]
+}

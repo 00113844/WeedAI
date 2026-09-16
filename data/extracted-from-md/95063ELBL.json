@@ -1,0 +1,258 @@
+{
+  "product_name": "FSA TRIFLURALIN MAX 480 HERBICIDE",
+  "apvma_number": "95063/144573",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "3",
+  "identified_crops": [
+    "",
+    "- Annual Medics - Clover (Berseem, Red, Strawberry Sub & White) - Lucerne",
+    "Adzuki Beans, Cowpeas, Lablab, Mung Beans, Borlotti Beans, Red Kidney Beans Amaranthus, Annual Ryegrass, Barnyard Grass, Caltrop, Crab Grass, Paradoxa Grass (Canary Grass), Pigweed, soil surface Wild Oats, Winter Grass, Wireweed, Suppression of Fumitory",
+    "Chickpeas Annual Ryegrass, Paradoxa Grass (Canary Grass), Wireweed(Hogweed), Black Pigweed, Suppression of Climbing Buckwheat (Black Bindweed), soil surface Wild Oats",
+    "Cotton Annual Ryegrass, Barnyard Grass, Canary Grass, Caltrop (Bullhead / Yellow Vine), Crab Grass, Mossman River Grass (Innocent Weed), Pigweed, Redroot (Amaranthus)",
+    "Faba Beans Annual Ryegrass, Barley Grass, Capeweed, Corn Gromwell (Sheepweed), Fumitories, Geranium, Ivy Leaf Speedwell, Mustards, Turnips, Wireweed, Suppression of Brome Grass, Soursob and soil surface Wild Oats",
+    "Fumitory \u2013 Red and White, Rough Poppy, Wireweed, Barley Grass, Canary Grass, Annual Ryegrass, Sand Fescue",
+    "Legume Seed Crop Establishment Redshank (Prince of Wales Feather), Summer Grass, soil surface Wild Oats, Winter Grass, Wireweed (Hogweed)",
+    "Lentils Annual Phalaris, Annual Ryegrass, soil surface Wild Oats, Wireweed",
+    "Pigeon Peas Amaranthus, Barnyard Grass, Canary Grass, Crowsfoot Grass, Pigweed, Spiny Burrgrass, Summer Grass, soil surface Wild Oats, Wireweed (Hogweed), Suppression of Yellow Vine (Caltrop)",
+    "Vetch Annual Ryegrass, Deadnettle, Wireweed, soil surface Wild Oats, suppression of Brome Grass, Rough Poppy, Speedwell, Three Cornered Jack, Yellow Burr Weed, Sheepweed"
+  ],
+  "identified_weeds": [
+    "ACT",
+    "NSW",
+    "Qld",
+    "SA",
+    "Vic",
+    "WA"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Chickpeas Annual Ryegrass, Paradoxa Grass (Canary Grass), Wireweed(Hogweed), Black Pigweed, Suppression of Climbing Buckwheat (Black Bindweed), soil surface Wild Oats",
+      "weed_common_name": "Qld",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "Light",
+      "rate_full_text": "Light",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Use 1.25L/ha when applying immediately prior to sowing. Use 1.7L/ha when applying to dry soil before the planting rain."
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Vic",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "Medium",
+      "rate_full_text": "Medium",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Incorporate as per recommendations for wheat, barley and triticale."
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "SA",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "Heavy",
+      "rate_full_text": "Heavy",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply to level seedbed 0 to 4 weeks before sowing. Incorporate as per Incorporation Table 6."
+        }
+      ]
+    },
+    {
+      "crop": "Adzuki Beans, Cowpeas, Lablab, Mung Beans, Borlotti Beans, Red Kidney Beans Amaranthus, Annual Ryegrass, Barnyard Grass, Caltrop, Crab Grass, Paradoxa Grass (Canary Grass), Pigweed, soil surface Wild Oats, Winter Grass, Wireweed, Suppression of Fumitory",
+      "weed_common_name": "NSW",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply from 4 weeks up to just prior to sowing. Refer Incorporation Table 3, 4 or 5 for suitable method of incorporation."
+        }
+      ]
+    },
+    {
+      "crop": "Faba Beans Annual Ryegrass, Barley Grass, Capeweed, Corn Gromwell (Sheepweed), Fumitories, Geranium, Ivy Leaf Speedwell, Mustards, Turnips, Wireweed, Suppression of Brome Grass, Soursob and soil surface Wild Oats",
+      "weed_common_name": "SA",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply to bare moist soil and grate to a depth of 5cm just prior to sowing. Incorporation should be made within 4 hours of application. Application should not be made to ridged or excessively cloddy soil. For full reliable results, significant rainfall (20-30mm) is necessary within 2-3 weeks of application."
+        }
+      ]
+    },
+    {
+      "crop": "Pigeon Peas Amaranthus, Barnyard Grass, Canary Grass, Crowsfoot Grass, Pigweed, Spiny Burrgrass, Summer Grass, soil surface Wild Oats, Wireweed (Hogweed), Suppression of Yellow Vine (Caltrop)",
+      "weed_common_name": "NSW",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply between 4 weeks and just before sowing. Refer to Incorporation Table 3, 4 or 6 for suitable method of incorporation."
+        }
+      ]
+    },
+    {
+      "crop": "Lentils Annual Phalaris, Annual Ryegrass, soil surface Wild Oats, Wireweed",
+      "weed_common_name": "NSW",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply 1 to 4 weeks before sowing."
+        }
+      ]
+    },
+    {
+      "crop": "Fumitory \u2013 Red and White, Rough Poppy, Wireweed, Barley Grass, Canary Grass, Annual Ryegrass, Sand Fescue",
+      "weed_common_name": "SA",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply 1 to 4 weeks before sowing."
+        }
+      ]
+    },
+    {
+      "crop": "Vetch Annual Ryegrass, Deadnettle, Wireweed, soil surface Wild Oats, suppression of Brome Grass, Rough Poppy, Speedwell, Three Cornered Jack, Yellow Burr Weed, Sheepweed",
+      "weed_common_name": "SA",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply to level seedbed 0 to 4 weeks before sowing. Refer to Incorporation Table 6 for method of incorporation."
+        }
+      ]
+    },
+    {
+      "crop": "Cotton Annual Ryegrass, Barnyard Grass, Canary Grass, Caltrop (Bullhead / Yellow Vine), Crab Grass, Mossman River Grass (Innocent Weed), Pigweed, Redroot (Amaranthus)",
+      "weed_common_name": "Qld",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "Light",
+      "rate_full_text": "Light",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Spray between 6 weeks and just before sowing takes place. Refer Incorporation Table 1 & 2 for method of incorporation."
+        }
+      ]
+    },
+    {
+      "crop": "Legume Seed Crop Establishment Redshank (Prince of Wales Feather), Summer Grass, soil surface Wild Oats, Winter Grass, Wireweed (Hogweed)",
+      "weed_common_name": "NSW",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Autumn Sowing \u2013 Apply from 4 weeks to 7 days before sowing takes place. Refer Incorporation Table 6 for method of incorporation."
+        }
+      ]
+    },
+    {
+      "crop": "- Annual Medics - Clover (Berseem, Red, Strawberry Sub & White) - Lucerne",
+      "weed_common_name": "Vic",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Spring Sowing \u2013 Apply between 4 weeks and 3 days before sowing takes place. Refer Incorporation Table 6 for method of incorporation. In both cases seedling disease, cold weather, excessive moisture, high salt concentrations and drought could weaken crop seedlings and damage could occur from the use of this product. Temporary crop suppression could result."
+        }
+      ]
+    }
+  ]
+}

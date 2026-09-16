@@ -1,0 +1,63 @@
+{
+  "product_number": "63316",
+  "product_name": "COLT HERBICIDE",
+  "active_constituent": "250 g/L BROMOXYNIL Present as the OCTANOATE, 25 g/L DIFLUFENICAN",
+  "chemical_group": null,
+  "mode_of_action_group": "6,12",
+  "registered_crops": [
+    "Winter Cereals",
+    "Pasture"
+  ],
+  "registered_weeds": [
+    "Broadleaf weeds"
+  ],
+  "weed_control_entries": [
+    {
+      "crop": "Winter Cereals",
+      "application_timing": null,
+      "weed_common_name": "Broadleaf weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": "DO NOT apply with crop oils (cereals only).",
+      "control_level": "control"
+    },
+    {
+      "crop": "Pasture",
+      "application_timing": null,
+      "weed_common_name": "Broadleaf weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": null,
+      "control_level": "control"
+    }
+  ],
+  "application_methods": [],
+  "state_restrictions": [],
+  "withholding_period": "Harvest: CEREALS, GRAPES – NOT REQUIRED WHEN USED AS DIRECTED. Grazing: PASTURE, CEREALS – DO NOT GRAZE OR CUT FOR STOCK FOOD WITHIN 8 WEEKS AFTER APPLICATION.",
+  "compatible_products": [],
+  "_metadata": {
+    "source_file": "63316ELBL.md",
+    "extracted_at": "2026-01-08T13:48:42.629784",
+    "model": "gemini-2.5-flash-lite"
+  }
+}

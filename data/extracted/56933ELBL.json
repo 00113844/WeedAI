@@ -1,0 +1,19 @@
+{
+  "product_number": "56933",
+  "product_name": "Kenso Agcare MCPA 250 S.",
+  "active_constituent": "250 g/L MCPA present as the sodium salt",
+  "chemical_group": null,
+  "mode_of_action_group": "I",
+  "registered_crops": [],
+  "registered_weeds": [],
+  "weed_control_entries": [],
+  "application_methods": [],
+  "state_restrictions": [],
+  "withholding_period": null,
+  "compatible_products": [],
+  "_metadata": {
+    "source_file": "56933ELBL.md",
+    "extracted_at": "2026-01-08T13:46:16.629691",
+    "model": "gemini-2.5-flash-lite"
+  }
+}

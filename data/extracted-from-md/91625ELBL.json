@@ -1,0 +1,136 @@
+{
+  "product_name": "Label Name: Colex-D Herbicide",
+  "apvma_number": "91625/143716",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "4",
+  "identified_crops": [
+    "New South Wales & ACT",
+    "Queensland & NT",
+    "South Australia",
+    "Tasmania",
+    "Victoria",
+    "Western Australia"
+  ],
+  "identified_weeds": [
+    "0.77",
+    "1.54",
+    "2.30"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Queensland & NT",
+      "weed_common_name": "2.30",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 2.3,
+      "rate_unit": "2.30",
+      "rate_full_text": "2.30",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "2.30"
+        }
+      ]
+    },
+    {
+      "crop": "New South Wales & ACT",
+      "weed_common_name": "2.30",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 2.3,
+      "rate_unit": "2.30",
+      "rate_full_text": "2.30",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "2.30"
+        }
+      ]
+    },
+    {
+      "crop": "Victoria",
+      "weed_common_name": "0.77",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 2.3,
+      "rate_unit": "2.30",
+      "rate_full_text": "2.30",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "2.30"
+        }
+      ]
+    },
+    {
+      "crop": "Tasmania",
+      "weed_common_name": "0.77",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 2.3,
+      "rate_unit": "2.30",
+      "rate_full_text": "2.30",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "2.30"
+        }
+      ]
+    },
+    {
+      "crop": "South Australia",
+      "weed_common_name": "1.54",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 2.3,
+      "rate_unit": "2.30",
+      "rate_full_text": "2.30",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "2.30"
+        }
+      ]
+    },
+    {
+      "crop": "Western Australia",
+      "weed_common_name": "2.30",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 2.3,
+      "rate_unit": "2.30",
+      "rate_full_text": "2.30",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "2.30"
+        }
+      ]
+    }
+  ]
+}

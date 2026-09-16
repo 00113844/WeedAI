@@ -1,0 +1,137 @@
+{
+  "product_name": "Weed Force Dart Broadleaf Herbicide",
+  "apvma_number": "85505/RV2024",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": null,
+  "identified_crops": [
+    "Avoid application when maximum daily temperatures above 20\u02daC occur, or are likely to occur for a few days after application. DO NOT apply to crops or pastures undersown with lucerne, clover or medics unless some damage is acceptable.",
+    "Black Bindweed (Climbing Buckwheat) (Fallopia convolvulus)",
+    "Capeweed (Arctotheca calendula)",
+    "Chamomile (Matricaria matricarioides), Charlock (Sinapis arvensis), Corn Gromwell (Ironweed, Sheepweed) (Buglossoides arvensis), Fat Hen (Chenopodium album), Field Madder (Sherardia arvensis), Hexham Scent (King Island Melilot) (Melilotus indica), Horned Poppy (Glaucium flavum), Indian Hedge Mustard (Sisymbrium orientale), Lesser Swinecress (Coronopus didymus), Mexican Poppy (Argemone ochroleuca), Mintweed (Salvia reflexa), Paterson\u2019s Curse (Salvation Jane) (Echium plantagineum), Rough Poppy (Papaver hybridum), Saffron Thistle (Carthamus lanatus), Shepherd\u2019s Purse (Capsella bursa-pastoris), Slender Thistle (Carduus tenuiflorus, C. pycnocephalus), Tree Hogweed (Polygonum patulum), Turnip Weed (Giant Mustard) (Rapistrum rugosum), Wild Radish (Raphanus raphanistrum), Wild Turnip (Brassica tournefortii)",
+    "Mustards (Sisymbrium spp.)",
+    "Plants up to the 8 leaf stage but not more than 75 mm in diameter",
+    "Wheat, Barley, Cereal Rye, Oats and Triticale; Linseed; Grass Pastures"
+  ],
+  "identified_weeds": [
+    "Amsinckia (Amsinckia spp.)",
+    "Common Peppercress (Lepidium africanum)",
+    "Plants up to the 6 leaf stage but not more than 50 mm in diameter",
+    "Plants up to the 8 leaf stage but not more than 75 mm in diameter"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Wheat, Barley, Cereal Rye, Oats and Triticale; Linseed; Grass Pastures",
+      "weed_common_name": "Amsinckia (Amsinckia spp.)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "WA only",
+      "rate_full_text": "WA only",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "750 mL/ha"
+        }
+      ]
+    },
+    {
+      "crop": "Capeweed (Arctotheca calendula)",
+      "weed_common_name": "Plants up to the 8 leaf stage but not more than 75 mm in diameter",
+      "weed_scientific_name": null,
+      "states": [
+        "WA"
+      ],
+      "rate_value": 1.4,
+      "rate_unit": "L/ha",
+      "rate_full_text": "1.4 L/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Chamomile (Matricaria matricarioides), Charlock (Sinapis arvensis), Corn Gromwell (Ironweed, Sheepweed) (Buglossoides arvensis), Fat Hen (Chenopodium album), Field Madder (Sherardia arvensis), Hexham Scent (King Island Melilot) (Melilotus indica), Horned Poppy (Glaucium flavum), Indian Hedge Mustard (Sisymbrium orientale), Lesser Swinecress (Coronopus didymus), Mexican Poppy (Argemone ochroleuca), Mintweed (Salvia reflexa), Paterson\u2019s Curse (Salvation Jane) (Echium plantagineum), Rough Poppy (Papaver hybridum), Saffron Thistle (Carthamus lanatus), Shepherd\u2019s Purse (Capsella bursa-pastoris), Slender Thistle (Carduus tenuiflorus, C. pycnocephalus), Tree Hogweed (Polygonum patulum), Turnip Weed (Giant Mustard) (Rapistrum rugosum), Wild Radish (Raphanus raphanistrum), Wild Turnip (Brassica tournefortii)",
+      "weed_common_name": "Plants up to the 8 leaf stage but not more than 75 mm in diameter",
+      "weed_scientific_name": null,
+      "states": [
+        "WA"
+      ],
+      "rate_value": 2.0,
+      "rate_unit": "L/ha",
+      "rate_full_text": "2.0 L/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "If spraying Black Bindweed when wheat, barley, cereal rye, oats, triticale or linseed is more than 300 mm high, increase spray volume to 200 L/ha. For optimal control, apply only when the weeds are actively growing."
+        }
+      ]
+    },
+    {
+      "crop": "Black Bindweed (Climbing Buckwheat) (Fallopia convolvulus)",
+      "weed_common_name": "Common Peppercress (Lepidium africanum)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "All States",
+      "rate_full_text": "All States",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "1.0 L/ha"
+        }
+      ]
+    },
+    {
+      "crop": "Mustards (Sisymbrium spp.)",
+      "weed_common_name": "Plants up to the 6 leaf stage but not more than 50 mm in diameter",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 1.4,
+      "rate_unit": "L/ha",
+      "rate_full_text": "1.4 L/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Plants up to the 8 leaf stage but not more than 75 mm in diameter",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "Refer to the General Instructions.",
+      "rate_full_text": "Refer to the General Instructions.",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Avoid application when maximum daily temperatures above 20\u02daC occur, or are likely to occur for a few days after application. DO NOT apply to crops or pastures undersown with lucerne, clover or medics unless some damage is acceptable.",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    }
+  ]
+}

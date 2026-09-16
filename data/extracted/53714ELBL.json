@@ -1,0 +1,46 @@
+{
+  "product_number": "53714",
+  "product_name": "TUPERSAN WP TURF HERBICIDE",
+  "active_constituent": "500g/kg SIDURON",
+  "chemical_group": "Ureas",
+  "mode_of_action_group": "C",
+  "registered_crops": [
+    "Bent Grass Turf"
+  ],
+  "registered_weeds": [
+    "Certain Grasses"
+  ],
+  "weed_control_entries": [
+    {
+      "crop": "Bent Grass Turf",
+      "application_timing": null,
+      "weed_common_name": "Certain Grasses",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not Specified",
+      "critical_comments": "As there is an ever increasing number of different Couch grass varieties growing in Australia and as there effectiveness of this product against all varieties cannot therefore be known as assured, it is recommended that a small test area be sprayed with this product to determine its effectiveness against your variety/varieties on Couch grass, before embarking on a large scale treatment. The effectiveness on golf course greens may vary with turf management practices and environmental conditions.",
+      "control_level": "control"
+    }
+  ],
+  "application_methods": [
+    "Power Sprayers",
+    "Tank-type Hand Sprayer"
+  ],
+  "state_restrictions": [],
+  "withholding_period": null,
+  "compatible_products": [],
+  "_metadata": {
+    "source_file": "53714ELBL.md",
+    "extracted_at": "2026-01-08T13:45:23.730473",
+    "model": "gemini-2.5-flash-lite"
+  }
+}

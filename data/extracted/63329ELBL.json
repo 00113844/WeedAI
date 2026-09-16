@@ -1,0 +1,299 @@
+{
+  "product_number": "67900",
+  "product_name": "ZOLIAR 800 DF HERBICIDE",
+  "active_constituent": "800 g/kg NORFLURAZON",
+  "chemical_group": null,
+  "mode_of_action_group": "F",
+  "registered_crops": [
+    "Asparagus",
+    "Citrus",
+    "Grapes",
+    "Nuts",
+    "Pome Fruit",
+    "Stone Fruit",
+    "Almond orchards"
+  ],
+  "registered_weeds": [
+    "Nutgrass",
+    "grass and broadleaf weed"
+  ],
+  "weed_control_entries": [
+    {
+      "crop": "Asparagus",
+      "application_timing": "Pre-emergence",
+      "weed_common_name": "Nutgrass",
+      "weed_scientific_name": "Cyperus spp",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": "To avoid crop damage it is advisable to only treat a small number of plants to ascertain their reaction before treating the whole crop.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Asparagus",
+      "application_timing": "Pre-emergence",
+      "weed_common_name": "grass and broadleaf weed",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": "To avoid crop damage it is advisable to only treat a small number of plants to ascertain their reaction before treating the whole crop.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Citrus",
+      "application_timing": "Pre-emergence",
+      "weed_common_name": "Nutgrass",
+      "weed_scientific_name": "Cyperus spp",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": "Zoliar 800 DF is a surface applied residual pre-emergence herbicide. Residual weed control can be expected for up to 6 months, dependent on rate applied and soil conditions. The 2.5 kg/ha rate is most effective on coarse or light loamy soils when harder to control weeds are not important. Extended period of weed control can be achieved by using rates higher than 2.5 kg. The period of control will then be determined by soil type, irrigation/rainfall patterns, time of treatment and other soil and management factors. Rainfall or irrigation within 2 or 3 weeks after application is necessary for activation. Areas to be treated should be free of weeds and excessive mulch. Where weeds are already growing in the area to be treated, an appropriate “knockdown herbicide” must be applied either before or, if compatible, combined as a tank mix with this product. This product should be applied strategically at mid spring for full summer weed control, and early autumn when winter control is required. Where strip treatment is applied, the recommended rate per hectare must relate only to the area of the treated strip. If residual or “knockdown herbicides” are added, consider all label recommendations and adhere to the crop recommendations and directions that are most restrictive.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Citrus",
+      "application_timing": "Pre-emergence",
+      "weed_common_name": "grass and broadleaf weed",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": "Zoliar 800 DF is a surface applied residual pre-emergence herbicide. Residual weed control can be expected for up to 6 months, dependent on rate applied and soil conditions. The 2.5 kg/ha rate is most effective on coarse or light loamy soils when harder to control weeds are not important. Extended period of weed control can be achieved by using rates higher than 2.5 kg. The period of control will then be determined by soil type, irrigation/rainfall patterns, time of treatment and other soil and management factors. Rainfall or irrigation within 2 or 3 weeks after application is necessary for activation. Areas to be treated should be free of weeds and excessive mulch. Where weeds are already growing in the area to be treated, an appropriate “knockdown herbicide” must be applied either before or, if compatible, combined as a tank mix with this product. This product should be applied strategically at mid spring for full summer weed control, and early autumn when winter control is required. Where strip treatment is applied, the recommended rate per hectare must relate only to the area of the treated strip. If residual or “knockdown herbicides” are added, consider all label recommendations and adhere to the crop recommendations and directions that are most restrictive.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Grapes",
+      "application_timing": "Pre-emergence",
+      "weed_common_name": "Nutgrass",
+      "weed_scientific_name": "Cyperus spp",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": "Zoliar 800 DF is a surface applied residual pre-emergence herbicide. Residual weed control can be expected for up to 6 months, dependent on rate applied and soil conditions. The 2.5 kg/ha rate is most effective on coarse or light loamy soils when harder to control weeds are not important. Extended period of weed control can be achieved by using rates higher than 2.5 kg. The period of control will then be determined by soil type, irrigation/rainfall patterns, time of treatment and other soil and management factors. Rainfall or irrigation within 2 or 3 weeks after application is necessary for activation. Areas to be treated should be free of weeds and excessive mulch. Where weeds are already growing in the area to be treated, an appropriate “knockdown herbicide” must be applied either before or, if compatible, combined as a tank mix with this product. This product should be applied strategically at mid spring for full summer weed control, and early autumn when winter control is required. Where strip treatment is applied, the recommended rate per hectare must relate only to the area of the treated strip. If residual or “knockdown herbicides” are added, consider all label recommendations and adhere to the crop recommendations and directions that are most restrictive.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Grapes",
+      "application_timing": "Pre-emergence",
+      "weed_common_name": "grass and broadleaf weed",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": "Zoliar 800 DF is a surface applied residual pre-emergence herbicide. Residual weed control can be expected for up to 6 months, dependent on rate applied and soil conditions. The 2.5 kg/ha rate is most effective on coarse or light loamy soils when harder to control weeds are not important. Extended period of weed control can be achieved by using rates higher than 2.5 kg. The period of control will then be determined by soil type, irrigation/rainfall patterns, time of treatment and other soil and management factors. Rainfall or irrigation within 2 or 3 weeks after application is necessary for activation. Areas to be treated should be free of weeds and excessive mulch. Where weeds are already growing in the area to be treated, an appropriate “knockdown herbicide” must be applied either before or, if compatible, combined as a tank mix with this product. This product should be applied strategically at mid spring for full summer weed control, and early autumn when winter control is required. Where strip treatment is applied, the recommended rate per hectare must relate only to the area of the treated strip. If residual or “knockdown herbicides” are added, consider all label recommendations and adhere to the crop recommendations and directions that are most restrictive.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Nuts",
+      "application_timing": "Pre-emergence",
+      "weed_common_name": "Nutgrass",
+      "weed_scientific_name": "Cyperus spp",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": "Zoliar 800 DF is a surface applied residual pre-emergence herbicide. Residual weed control can be expected for up to 6 months, dependent on rate applied and soil conditions. The 2.5 kg/ha rate is most effective on coarse or light loamy soils when harder to control weeds are not important. Extended period of weed control can be achieved by using rates higher than 2.5 kg. The period of control will then be determined by soil type, irrigation/rainfall patterns, time of treatment and other soil and management factors. Rainfall or irrigation within 2 or 3 weeks after application is necessary for activation. Areas to be treated should be free of weeds and excessive mulch. Where weeds are already growing in the area to be treated, an appropriate “knockdown herbicide” must be applied either before or, if compatible, combined as a tank mix with this product. This product should be applied strategically at mid spring for full summer weed control, and early autumn when winter control is required. Where strip treatment is applied, the recommended rate per hectare must relate only to the area of the treated strip. If residual or “knockdown herbicides” are added, consider all label recommendations and adhere to the crop recommendations and directions that are most restrictive.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Nuts",
+      "application_timing": "Pre-emergence",
+      "weed_common_name": "grass and broadleaf weed",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": "Zoliar 800 DF is a surface applied residual pre-emergence herbicide. Residual weed control can be expected for up to 6 months, dependent on rate applied and soil conditions. The 2.5 kg/ha rate is most effective on coarse or light loamy soils when harder to control weeds are not important. Extended period of weed control can be achieved by using rates higher than 2.5 kg. The period of control will then be determined by soil type, irrigation/rainfall patterns, time of treatment and other soil and management factors. Rainfall or irrigation within 2 or 3 weeks after application is necessary for activation. Areas to be treated should be free of weeds and excessive mulch. Where weeds are already growing in the area to be treated, an appropriate “knockdown herbicide” must be applied either before or, if compatible, combined as a tank mix with this product. This product should be applied strategically at mid spring for full summer weed control, and early autumn when winter control is required. Where strip treatment is applied, the recommended rate per hectare must relate only to the area of the treated strip. If residual or “knockdown herbicides” are added, consider all label recommendations and adhere to the crop recommendations and directions that are most restrictive.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Pome Fruit",
+      "application_timing": "Pre-emergence",
+      "weed_common_name": "Nutgrass",
+      "weed_scientific_name": "Cyperus spp",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": "Zoliar 800 DF is a surface applied residual pre-emergence herbicide. Residual weed control can be expected for up to 6 months, dependent on rate applied and soil conditions. The 2.5 kg/ha rate is most effective on coarse or light loamy soils when harder to control weeds are not important. Extended period of weed control can be achieved by using rates higher than 2.5 kg. The period of control will then be determined by soil type, irrigation/rainfall patterns, time of treatment and other soil and management factors. Rainfall or irrigation within 2 or 3 weeks after application is necessary for activation. Areas to be treated should be free of weeds and excessive mulch. Where weeds are already growing in the area to be treated, an appropriate “knockdown herbicide” must be applied either before or, if compatible, combined as a tank mix with this product. This product should be applied strategically at mid spring for full summer weed control, and early autumn when winter control is required. Where strip treatment is applied, the recommended rate per hectare must relate only to the area of the treated strip. If residual or “knockdown herbicides” are added, consider all label recommendations and adhere to the crop recommendations and directions that are most restrictive.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Pome Fruit",
+      "application_timing": "Pre-emergence",
+      "weed_common_name": "grass and broadleaf weed",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": "Zoliar 800 DF is a surface applied residual pre-emergence herbicide. Residual weed control can be expected for up to 6 months, dependent on rate applied and soil conditions. The 2.5 kg/ha rate is most effective on coarse or light loamy soils when harder to control weeds are not important. Extended period of weed control can be achieved by using rates higher than 2.5 kg. The period of control will then be determined by soil type, irrigation/rainfall patterns, time of treatment and other soil and management factors. Rainfall or irrigation within 2 or 3 weeks after application is necessary for activation. Areas to be treated should be free of weeds and excessive mulch. Where weeds are already growing in the area to be treated, an appropriate “knockdown herbicide” must be applied either before or, if compatible, combined as a tank mix with this product. This product should be applied strategically at mid spring for full summer weed control, and early autumn when winter control is required. Where strip treatment is applied, the recommended rate per hectare must relate only to the area of the treated strip. If residual or “knockdown herbicides” are added, consider all label recommendations and adhere to the crop recommendations and directions that are most restrictive.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Stone Fruit",
+      "application_timing": "Pre-emergence",
+      "weed_common_name": "Nutgrass",
+      "weed_scientific_name": "Cyperus spp",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": "Zoliar 800 DF is a surface applied residual pre-emergence herbicide. Residual weed control can be expected for up to 6 months, dependent on rate applied and soil conditions. The 2.5 kg/ha rate is most effective on coarse or light loamy soils when harder to control weeds are not important. Extended period of weed control can be achieved by using rates higher than 2.5 kg. The period of control will then be determined by soil type, irrigation/rainfall patterns, time of treatment and other soil and management factors. Rainfall or irrigation within 2 or 3 weeks after application is necessary for activation. Areas to be treated should be free of weeds and excessive mulch. Where weeds are already growing in the area to be treated, an appropriate “knockdown herbicide” must be applied either before or, if compatible, combined as a tank mix with this product. This product should be applied strategically at mid spring for full summer weed control, and early autumn when winter control is required. Where strip treatment is applied, the recommended rate per hectare must relate only to the area of the treated strip. If residual or “knockdown herbicides” are added, consider all label recommendations and adhere to the crop recommendations and directions that are most restrictive.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Stone Fruit",
+      "application_timing": "Pre-emergence",
+      "weed_common_name": "grass and broadleaf weed",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": "Zoliar 800 DF is a surface applied residual pre-emergence herbicide. Residual weed control can be expected for up to 6 months, dependent on rate applied and soil conditions. The 2.5 kg/ha rate is most effective on coarse or light loamy soils when harder to control weeds are not important. Extended period of weed control can be achieved by using rates higher than 2.5 kg. The period of control will then be determined by soil type, irrigation/rainfall patterns, time of treatment and other soil and management factors. Rainfall or irrigation within 2 or 3 weeks after application is necessary for activation. Areas to be treated should be free of weeds and excessive mulch. Where weeds are already growing in the area to be treated, an appropriate “knockdown herbicide” must be applied either before or, if compatible, combined as a tank mix with this product. This product should be applied strategically at mid spring for full summer weed control, and early autumn when winter control is required. Where strip treatment is applied, the recommended rate per hectare must relate only to the area of the treated strip. If residual or “knockdown herbicides” are added, consider all label recommendations and adhere to the crop recommendations and directions that are most restrictive.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Almond orchards",
+      "application_timing": "Pre-emergence",
+      "weed_common_name": "Nutgrass",
+      "weed_scientific_name": "Cyperus spp",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": "Zoliar 800 DF is a surface applied residual pre-emergence herbicide. Residual weed control can be expected for up to 6 months, dependent on rate applied and soil conditions. The 2.5 kg/ha rate is most effective on coarse or light loamy soils when harder to control weeds are not important. Extended period of weed control can be achieved by using rates higher than 2.5 kg. The period of control will then be determined by soil type, irrigation/rainfall patterns, time of treatment and other soil and management factors. Rainfall or irrigation within 2 or 3 weeks after application is necessary for activation. Areas to be treated should be free of weeds and excessive mulch. Where weeds are already growing in the area to be treated, an appropriate “knockdown herbicide” must be applied either before or, if compatible, combined as a tank mix with this product. This product should be applied strategically at mid spring for full summer weed control, and early autumn when winter control is required. Where strip treatment is applied, the recommended rate per hectare must relate only to the area of the treated strip. If residual or “knockdown herbicides” are added, consider all label recommendations and adhere to the crop recommendations and directions that are most restrictive.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Almond orchards",
+      "application_timing": "Pre-emergence",
+      "weed_common_name": "grass and broadleaf weed",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": "Zoliar 800 DF is a surface applied residual pre-emergence herbicide. Residual weed control can be expected for up to 6 months, dependent on rate applied and soil conditions. The 2.5 kg/ha rate is most effective on coarse or light loamy soils when harder to control weeds are not important. Extended period of weed control can be achieved by using rates higher than 2.5 kg. The period of control will then be determined by soil type, irrigation/rainfall patterns, time of treatment and other soil and management factors. Rainfall or irrigation within 2 or 3 weeks after application is necessary for activation. Areas to be treated should be free of weeds and excessive mulch. Where weeds are already growing in the area to be treated, an appropriate “knockdown herbicide” must be applied either before or, if compatible, combined as a tank mix with this product. This product should be applied strategically at mid spring for full summer weed control, and early autumn when winter control is required. Where strip treatment is applied, the recommended rate per hectare must relate only to the area of the treated strip. If residual or “knockdown herbicides” are added, consider all label recommendations and adhere to the crop recommendations and directions that are most restrictive.",
+      "control_level": "control"
+    }
+  ],
+  "application_methods": [
+    "Directed spray"
+  ],
+  "state_restrictions": [],
+  "withholding_period": "Asparagus: 14 days. Other Crops: Not Required.",
+  "compatible_products": [],
+  "_metadata": {
+    "source_file": "63329ELBL.md",
+    "extracted_at": "2026-01-08T13:59:01.214667",
+    "model": "gemini-2.5-flash-lite"
+  }
+}

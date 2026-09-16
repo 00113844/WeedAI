@@ -1,0 +1,135 @@
+{
+  "product_name": "Double Time",
+  "apvma_number": "65012/52630",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": null,
+  "identified_crops": [
+    "Barley, Commercial Rye, Oats, Triticale, Wheat"
+  ],
+  "identified_weeds": [
+    "(Three-cornered Jack",
+    "Capeweed",
+    "Charlock",
+    "Chickweed",
+    "Climbing Buckwheat (Black Bindweed)",
+    "Clover",
+    "Common Ice-Plant",
+    "Cotton Thistle to bud formation",
+    "Doublegee",
+    "Doublegee (Three-cornered Jack",
+    "Fat Hen",
+    "Fat-Hen",
+    "Hexham Scent (Melilotus)",
+    "Mintweed",
+    "Mouse-eared Chickweed",
+    "Mustards",
+    "Narrow-leaved Plantain",
+    "New Zealand Spinach",
+    "Saffron Thistle",
+    "Soldier Thistle",
+    "Sorrel seedlings",
+    "Spiny Emex)",
+    "Spurry",
+    "Swinecress",
+    "Tares",
+    "Tree Hogweed",
+    "Turnip Weed (Rapistrum rugosum)",
+    "Variegated Thistle",
+    "Vetch",
+    "Vetches",
+    "Ward's Weed",
+    "Wild Radish",
+    "Wild Turnip (Brassica tourneforti)",
+    "Wireweed (Hogweed)",
+    "seedling Docks",
+    "seedling Hoary Cress"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Barley, Commercial Rye, Oats, Triticale, Wheat",
+      "weed_common_name": "Capeweed",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_value": 1.0,
+      "rate_unit": "L/ha",
+      "rate_full_text": "1 L/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Spray when most weeds are in the 2 to 4 leaf stage. In some instances suppression only of wireweed (hogweed), capeweed and wild radish will occur."
+        }
+      ]
+    },
+    {
+      "crop": "Barley, Commercial Rye, Oats, Triticale, Wheat",
+      "weed_common_name": "Fat Hen",
+      "weed_scientific_name": null,
+      "states": [
+        "TAS"
+      ],
+      "rate_value": 1.7,
+      "rate_unit": "L/ha",
+      "rate_full_text": "1.7 L/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Spray when most weeds are still in the rosette or seedling stage."
+        }
+      ]
+    },
+    {
+      "crop": "Barley, Commercial Rye, Oats, Triticale, Wheat",
+      "weed_common_name": "Mintweed",
+      "weed_scientific_name": null,
+      "states": [
+        "QLD",
+        "NSW",
+        "ACT"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "N.B. Wild radish may need to be resprayed (with 2,4-D or MCPA) if future germinations occur after spraying. In some instances, suppression only of wireweed (hogweed), hoary cress and climbing buckwheat will be obtained."
+        }
+      ]
+    },
+    {
+      "crop": "Barley, Commercial Rye, Oats, Triticale, Wheat",
+      "weed_common_name": "Capeweed",
+      "weed_scientific_name": null,
+      "states": [
+        "SA"
+      ],
+      "rate_value": 1.4,
+      "rate_unit": "L/ha",
+      "rate_full_text": "1.4 L/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "From early tillering stage (Zadoks 21) until the fully tillered stage and before jointing occurs (Zadoks 30)."
+        }
+      ]
+    }
+  ]
+}

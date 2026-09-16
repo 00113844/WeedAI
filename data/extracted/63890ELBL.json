@@ -1,0 +1,365 @@
+{
+  "product_number": "63890",
+  "product_name": "Casper Turf Herbicide",
+  "active_constituent": "500 g/kg DICAMBA, 50 g/kg PROSULFURON",
+  "chemical_group": null,
+  "mode_of_action_group": "B",
+  "registered_crops": [
+    "Established fine and amenity turf"
+  ],
+  "registered_weeds": [
+    "Blackberry Nightshade",
+    "Catsear",
+    "Chickweed",
+    "Creeping Oxalis",
+    "Curled Dock",
+    "Khaki Weed",
+    "Milk Thistle",
+    "Bindii",
+    "Burr Medic",
+    "Cotula",
+    "Dandelion",
+    "Fleabane",
+    "Lambs Tongue/ Plantain",
+    "Subterranean Clover",
+    "Wireweed",
+    "Pennywort",
+    "White Clover"
+  ],
+  "weed_control_entries": [
+    {
+      "crop": "Established fine and amenity turf",
+      "application_timing": "post-emergence",
+      "weed_common_name": "Blackberry Nightshade",
+      "weed_scientific_name": "Solanum nigrum",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "600 to 800 g/ha",
+      "critical_comments": "Apply to weeds after emergence from autumn to early spring. Use the higher rates during cooler months of the year or if weed pressure is high.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Established fine and amenity turf",
+      "application_timing": "post-emergence",
+      "weed_common_name": "Catsear",
+      "weed_scientific_name": "Hypochoeris radicata",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "600 to 800 g/ha",
+      "critical_comments": "Apply to weeds after emergence from autumn to early spring. Use the higher rates during cooler months of the year or if weed pressure is high.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Established fine and amenity turf",
+      "application_timing": "post-emergence",
+      "weed_common_name": "Chickweed",
+      "weed_scientific_name": "Stellaria media",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "600 to 800 g/ha",
+      "critical_comments": "Apply to weeds after emergence from autumn to early spring. Use the higher rates during cooler months of the year or if weed pressure is high.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Established fine and amenity turf",
+      "application_timing": "post-emergence",
+      "weed_common_name": "Creeping Oxalis",
+      "weed_scientific_name": "Oxalis corniculata",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "600 to 800 g/ha",
+      "critical_comments": "Apply to weeds after emergence from autumn to early spring. Use the higher rates during cooler months of the year or if weed pressure is high.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Established fine and amenity turf",
+      "application_timing": "post-emergence",
+      "weed_common_name": "Curled Dock",
+      "weed_scientific_name": "Rumex crispus",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "600 to 800 g/ha",
+      "critical_comments": "Apply to weeds after emergence from autumn to early spring. Use the higher rates during cooler months of the year or if weed pressure is high.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Established fine and amenity turf",
+      "application_timing": "post-emergence",
+      "weed_common_name": "Khaki Weed",
+      "weed_scientific_name": "Alternanthera pungens",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "600 to 800 g/ha",
+      "critical_comments": "Apply to weeds after emergence from autumn to early spring. Use the higher rates during cooler months of the year or if weed pressure is high.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Established fine and amenity turf",
+      "application_timing": "post-emergence",
+      "weed_common_name": "Milk Thistle",
+      "weed_scientific_name": "Sonchus oleraceus",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "600 to 800 g/ha",
+      "critical_comments": "Apply to weeds after emergence from autumn to early spring. Use the higher rates during cooler months of the year or if weed pressure is high.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Established fine and amenity turf",
+      "application_timing": "post-emergence",
+      "weed_common_name": "Bindii",
+      "weed_scientific_name": "Soliva sessilis",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "800 g to 1 kg/ha",
+      "critical_comments": "Complete control may take 4 to 6 weeks depending on weed growth stage at application and also soil and air temperature. Weed death will generally take longer when an application is made during winter (May to August).",
+      "control_level": "control"
+    },
+    {
+      "crop": "Established fine and amenity turf",
+      "application_timing": "post-emergence",
+      "weed_common_name": "Burr Medic",
+      "weed_scientific_name": "Medicago polymorpha",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "800 g to 1 kg/ha",
+      "critical_comments": "Complete control may take 4 to 6 weeks depending on weed growth stage at application and also soil and air temperature. Weed death will generally take longer when an application is made during winter (May to August).",
+      "control_level": "control"
+    },
+    {
+      "crop": "Established fine and amenity turf",
+      "application_timing": "post-emergence",
+      "weed_common_name": "Cotula",
+      "weed_scientific_name": "Cotula australis",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "800 g to 1 kg/ha",
+      "critical_comments": "Complete control may take 4 to 6 weeks depending on weed growth stage at application and also soil and air temperature. Weed death will generally take longer when an application is made during winter (May to August).",
+      "control_level": "control"
+    },
+    {
+      "crop": "Established fine and amenity turf",
+      "application_timing": "post-emergence",
+      "weed_common_name": "Dandelion",
+      "weed_scientific_name": "Taraxacum officinale",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "800 g to 1 kg/ha",
+      "critical_comments": "Complete control may take 4 to 6 weeks depending on weed growth stage at application and also soil and air temperature. Weed death will generally take longer when an application is made during winter (May to August).",
+      "control_level": "control"
+    },
+    {
+      "crop": "Established fine and amenity turf",
+      "application_timing": "post-emergence",
+      "weed_common_name": "Fleabane",
+      "weed_scientific_name": "Conyza bonariensis",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "800 g to 1 kg/ha",
+      "critical_comments": "Complete control may take 4 to 6 weeks depending on weed growth stage at application and also soil and air temperature. Weed death will generally take longer when an application is made during winter (May to August).",
+      "control_level": "control"
+    },
+    {
+      "crop": "Established fine and amenity turf",
+      "application_timing": "post-emergence",
+      "weed_common_name": "Lambs Tongue/ Plantain",
+      "weed_scientific_name": "Plantago lanceolata",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "800 g to 1 kg/ha",
+      "critical_comments": "Complete control may take 4 to 6 weeks depending on weed growth stage at application and also soil and air temperature. Weed death will generally take longer when an application is made during winter (May to August).",
+      "control_level": "control"
+    },
+    {
+      "crop": "Established fine and amenity turf",
+      "application_timing": "post-emergence",
+      "weed_common_name": "Subterranean Clover",
+      "weed_scientific_name": "Trifolium subterraneum",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "800 g to 1 kg/ha",
+      "critical_comments": "Complete control may take 4 to 6 weeks depending on weed growth stage at application and also soil and air temperature. Weed death will generally take longer when an application is made during winter (May to August).",
+      "control_level": "control"
+    },
+    {
+      "crop": "Established fine and amenity turf",
+      "application_timing": "post-emergence",
+      "weed_common_name": "Wireweed",
+      "weed_scientific_name": "Polygonum aviculare",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "800 g to 1 kg/ha",
+      "critical_comments": "Complete control may take 4 to 6 weeks depending on weed growth stage at application and also soil and air temperature. Weed death will generally take longer when an application is made during winter (May to August).",
+      "control_level": "control"
+    },
+    {
+      "crop": "Established fine and amenity turf",
+      "application_timing": "post-emergence",
+      "weed_common_name": "Pennywort",
+      "weed_scientific_name": "Hydrocotyle bonariensis",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "1 to 1.2 kg/ha",
+      "critical_comments": "Add a non-ionic surfactant to the spray solution at a ratio of 0.25 to 0.5% v/v.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Established fine and amenity turf",
+      "application_timing": "post-emergence",
+      "weed_common_name": "White Clover",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Refer to Application section for detailed information.",
+      "critical_comments": "Refer to Application section for detailed information.",
+      "control_level": "control"
+    }
+  ],
+  "application_methods": [
+    "Ground Application"
+  ],
+  "state_restrictions": [],
+  "withholding_period": "DO NOT GRAZE TREATED TURF/LAWN OR FEED TURF/LAWN CLIPPINGS FROM ANY TREATED AREA TO POULTRY OR LIVESTOCK",
+  "compatible_products": [],
+  "_metadata": {
+    "source_file": "63890ELBL.md",
+    "extracted_at": "2026-01-08T13:59:11.547393",
+    "model": "gemini-2.5-flash-lite"
+  }
+}

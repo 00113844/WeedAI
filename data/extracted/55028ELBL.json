@@ -1,0 +1,19 @@
+{
+  "product_number": "0",
+  "product_name": "Pantera",
+  "active_constituent": "120 g/L QUIZALOFOP-P-TEFURYL",
+  "chemical_group": null,
+  "mode_of_action_group": "0",
+  "registered_crops": [],
+  "registered_weeds": [],
+  "weed_control_entries": [],
+  "application_methods": [],
+  "state_restrictions": [],
+  "withholding_period": null,
+  "compatible_products": [],
+  "_metadata": {
+    "source_file": "55028ELBL.md",
+    "extracted_at": "2026-01-08T13:45:28.364979",
+    "model": "gemini-2.5-flash-lite"
+  }
+}

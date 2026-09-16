@@ -1,0 +1,59 @@
+{
+  "product_number": "31464",
+  "product_name": "NUFARM BROMICIDE MA HERBICIDE",
+  "active_constituent": "200 g/L BROMOXYNIL present as the octanoate, 200 g/L MCPA present as the ethyl hexyl ester",
+  "chemical_group": "nitriles and phenoxys",
+  "mode_of_action_group": "4",
+  "registered_crops": [
+    "wheat",
+    "oats",
+    "barley",
+    "cereal rye",
+    "triticale",
+    "linseed",
+    "grass pastures",
+    "turf"
+  ],
+  "registered_weeds": [
+    "black bindweed"
+  ],
+  "weed_control_entries": [
+    {
+      "crop": "cereals",
+      "application_timing": null,
+      "weed_common_name": "black bindweed",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "50 - 150 L of water per hectare (Note, 200 L/ha may be necessary for black bindweed control)",
+      "critical_comments": "Use higher water volume (min. 100 L/ha) where the weed infestation is heavy, or the crop cover is dense. Complete coverage of weeds is essential.",
+      "control_level": "control"
+    }
+  ],
+  "application_methods": [
+    "Boom Sprayer",
+    "Aerial Application"
+  ],
+  "state_restrictions": [],
+  "withholding_period": "8 WEEKS",
+  "compatible_products": [
+    "Nufarm Associate",
+    "Nufarm Kamba 750",
+    "Nufarm Galaxy",
+    "Nufarm Archer",
+    "Nufarm Saracen"
+  ],
+  "_metadata": {
+    "source_file": "31464ELBL.md",
+    "extracted_at": "2026-01-08T13:43:30.489952",
+    "model": "gemini-2.5-flash-lite"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "product_name": "TRIATHLON HERBICIDE",
+  "apvma_number": "68602/142314",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": null,
+  "identified_crops": [
+    "Balansa",
+    "Berseem#",
+    "Persian#",
+    "Red#",
+    "Subterranean Clover",
+    "White"
+  ],
+  "identified_weeds": [
+    "Astrid",
+    "Bolta",
+    "Esperance",
+    "Haifa",
+    "Kyambro",
+    "Sacromonte"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Balansa",
+      "weed_common_name": "Bolta",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Berseem#",
+      "weed_common_name": "Sacromonte",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Persian#",
+      "weed_common_name": "Kyambro",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "Lupers",
+      "rate_full_text": "Lupers",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Maral"
+        }
+      ]
+    },
+    {
+      "crop": "Red#",
+      "weed_common_name": "Astrid",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "White",
+      "weed_common_name": "Haifa",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Subterranean Clover",
+      "weed_common_name": "Esperance",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "Larissa",
+      "rate_full_text": "Larissa",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Napier"
+        }
+      ]
+    }
+  ]
+}

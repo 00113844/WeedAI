@@ -1,0 +1,56 @@
+{
+  "product_number": "53671",
+  "product_name": "Nuturf Exporsan Selective Turf Herbicide",
+  "active_constituent": "500 g/L BENSULIDE",
+  "chemical_group": "Organophosphorus",
+  "mode_of_action_group": "E",
+  "registered_crops": [
+    "Qld Blue Couch",
+    "Bent grass (including Penncross)"
+  ],
+  "registered_weeds": [
+    "Winter grass (Poa annua)"
+  ],
+  "weed_control_entries": [
+    {
+      "crop": "Qld Blue Couch",
+      "application_timing": null,
+      "weed_common_name": "Winter grass (Poa annua)",
+      "weed_scientific_name": "Poa annua",
+      "states": [
+        "QLD"
+      ],
+      "rate_per_ha": "300mL in 150L water/100m2",
+      "critical_comments": "Apply to Qld Blue Couch in Jan/Feb. Water in immediately after application an equal quantity of water.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Bent grass (including Penncross)",
+      "application_timing": null,
+      "weed_common_name": "Winter grass (Poa annua)",
+      "weed_scientific_name": "Poa annua",
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "300mL in 150L water/100m2",
+      "critical_comments": "Apply to Bent in Jan/Feb, if spring sown, or July/Aug if autumn sown. DO NOT re-seed with desirable grasses within 4 months of treatment.",
+      "control_level": "control"
+    }
+  ],
+  "application_methods": [],
+  "state_restrictions": [],
+  "withholding_period": null,
+  "compatible_products": [],
+  "_metadata": {
+    "source_file": "53671ELBL.md",
+    "extracted_at": "2026-01-08T13:45:20.557314",
+    "model": "gemini-2.5-flash-lite"
+  }
+}

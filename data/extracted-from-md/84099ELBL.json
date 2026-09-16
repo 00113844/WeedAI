@@ -1,0 +1,368 @@
+{
+  "product_name": "ACIFEN HERBICIDE",
+  "apvma_number": "84099/109701",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "G",
+  "identified_crops": [
+    "",
+    "Adzuki Beans (Vigna angularis) (All States)",
+    "Green Beans (All States)",
+    "Mung Beans (NSW only)",
+    "Mung Beans (Qld, NSW only)",
+    "Mung beans (Qld only)",
+    "Peanuts (Qld only)",
+    "Peanuts (Qld, WA only)",
+    "Seed crops of Siratro and Common Fine Stem Stylo (Stylosanthes gulanenis only) (Qld only)",
+    "Soybeans (Qld, NSW, WA only)"
+  ],
+  "identified_weeds": [
+    "Annual Ground Cherry",
+    "Apple of Peru",
+    "Bellvine",
+    "Billy goat weed",
+    "Blackberry nightshade",
+    "Bladder ketmia",
+    "Capeweed",
+    "Feather",
+    "Feather (Amaranthus powellii)",
+    "Five-leaved cassia",
+    "Fumitory",
+    "Gambia pea",
+    "Giant Pigweed",
+    "Glycine",
+    "Greenleaved Desmodium",
+    "Jute",
+    "Noogoora burr",
+    "Pigweed",
+    "Prince of Wales",
+    "Redshank",
+    "See weeds above",
+    "Thornapple",
+    "Turnip Weed",
+    "Wild Gooseberry",
+    "Wild Radish"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Adzuki Beans (Vigna angularis) (All States)",
+      "weed_common_name": "Apple of Peru",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 1.0,
+      "rate_unit": "L/ha",
+      "rate_full_text": "1.0L/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply thorough coverage to young actively growing weeds."
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 1.5,
+      "rate_unit": "L/ha",
+      "rate_full_text": "1.5L/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Mung beans (Qld only)",
+      "weed_common_name": "Prince of Wales",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 2.0,
+      "rate_unit": "L/ha",
+      "rate_full_text": "2.0L/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 1.5,
+      "rate_unit": "L/ha",
+      "rate_full_text": "1.5L/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Peanuts (Qld, WA only)",
+      "weed_common_name": "Annual Ground Cherry",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 1.0,
+      "rate_unit": "L/ha",
+      "rate_full_text": "1.0L/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Soybeans (Qld, NSW, WA only)",
+      "weed_common_name": "Wild Gooseberry",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 1.5,
+      "rate_unit": "L/ha",
+      "rate_full_text": "1.5L/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 2.0,
+      "rate_unit": "L/ha",
+      "rate_full_text": "2.0L/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Bellvine",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 1.5,
+      "rate_unit": "L/ha",
+      "rate_full_text": "1.5L/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 2.0,
+      "rate_unit": "L/ha",
+      "rate_full_text": "2.0L/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Giant Pigweed",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 1.5,
+      "rate_unit": "L/ha",
+      "rate_full_text": "1.5L/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 2.0,
+      "rate_unit": "L/ha",
+      "rate_full_text": "2.0L/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Mung Beans (NSW only)",
+      "weed_common_name": "Bladder ketmia",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Mung Beans (Qld, NSW only)",
+      "weed_common_name": "See weeds above",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 100.0,
+      "rate_unit": "L/ha",
+      "rate_full_text": "1.0L/ha + Hasten at 1L/100L water (1% v/v)",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "DO NOT exceed 1L/ha Acifen Herbicide with this mixture."
+        }
+      ]
+    },
+    {
+      "crop": "Green Beans (All States)",
+      "weed_common_name": "Prince of Wales",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 500.0,
+      "rate_unit": "mL/ha",
+      "rate_full_text": "250 to 500mL/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Do not exceed 2L of product per hectare per season. Apply up to 3 times by boomspray."
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "\u2022 After the fully expanded unifoliate leaf stage of the crop."
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "\u2022 When crop is at 6 to 7 leaf stage and/or when the crop is at early flowering stage."
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "See application section below."
+        }
+      ]
+    },
+    {
+      "crop": "Peanuts (Qld only)",
+      "weed_common_name": "Bellvine",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 400.0,
+      "rate_unit": "L/ha",
+      "rate_full_text": "1 L/ha Acifen Herbicide plus 400 g/L formulation of 2,4-DB/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply with thorough coverage as a tank mix to young actively growing weeds. Use the higher rate of 2,4-DB where larger weeds are present. The mixture will give additional control of larger weeds than given by Acifen Herbicide alone."
+        }
+      ]
+    },
+    {
+      "crop": "Seed crops of Siratro and Common Fine Stem Stylo (Stylosanthes gulanenis only) (Qld only)",
+      "weed_common_name": "Billy goat weed",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 2.0,
+      "rate_unit": "L/ha",
+      "rate_full_text": "2.0L/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply with thorough coverage to young actively growing weeds. DO NOT use on other stylos."
+        }
+      ]
+    }
+  ]
+}

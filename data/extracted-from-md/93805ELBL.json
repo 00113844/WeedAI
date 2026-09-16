@@ -1,0 +1,208 @@
+{
+  "product_name": "ALBAUGH ROMETSOL 600 WG Herbicide",
+  "apvma_number": null,
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "2",
+  "identified_crops": [
+    "",
+    "Chickpeas (Volunteer) (Cicer arietinum)",
+    "Chickweed (Stellaria media)",
+    "Chicory (Cichorium intybus)",
+    "Clover (Subterranean) (Trifolium subterraneum)",
+    "Wheat, Barley, Triticale & Cereal Rye"
+  ],
+  "identified_weeds": [
+    "African Turnip Weed (Sisymbrium thellungii)",
+    "Amsinckia",
+    "Ball Mustard (Neslia paniculata)",
+    "Boggabri Weed",
+    "Cape Tulip (Homeria spp.)",
+    "Charlock (Sinapsis arvensis)",
+    "Colomba Daisy (Pentzia suffruticosa)",
+    "Dwarf Amaranth (Amaranthus macrocarpus)",
+    "Yellow Burweed (Amsinckia spp.)"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Wheat, Barley, Triticale & Cereal Rye",
+      "weed_common_name": "African Turnip Weed (Sisymbrium thellungii)",
+      "weed_scientific_name": null,
+      "states": [
+        "QLD"
+      ],
+      "rate_value": 5.0,
+      "rate_unit": "5",
+      "rate_full_text": "5",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply before the 6 leaf stage."
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Amsinckia",
+      "weed_scientific_name": null,
+      "states": [
+        "WA"
+      ],
+      "rate_value": 5.0,
+      "rate_unit": "5",
+      "rate_full_text": "5",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Ball Mustard (Neslia paniculata)",
+      "weed_scientific_name": null,
+      "states": [
+        "SA"
+      ],
+      "rate_value": 5.0,
+      "rate_unit": "5",
+      "rate_full_text": "5",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply at cotyledon to 10cm height or diameter."
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Boggabri Weed",
+      "weed_scientific_name": null,
+      "states": [
+        "QLD"
+      ],
+      "rate_value": 7.0,
+      "rate_unit": "7",
+      "rate_full_text": "7",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Colomba Daisy (Pentzia suffruticosa)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 5.0,
+      "rate_unit": "5",
+      "rate_full_text": "5",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Cape Tulip (Homeria spp.)",
+      "weed_scientific_name": null,
+      "states": [
+        "WA"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Charlock (Sinapsis arvensis)",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "TAS",
+        "SA"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Chickpeas (Volunteer) (Cicer arietinum)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "QLD",
+        "NSW",
+        "VIC",
+        "SA"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Chickweed (Stellaria media)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "TAS",
+        "SA"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Chicory (Cichorium intybus)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "QLD"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Clover (Subterranean) (Trifolium subterraneum)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    }
+  ]
+}

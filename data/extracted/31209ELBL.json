@@ -1,0 +1,76 @@
+{
+  "product_number": "31209",
+  "product_name": "NUFARM ESTERCIDE 800 HERBICIDE",
+  "active_constituent": "800 g/L 2,4-D present as the ethyl ester",
+  "chemical_group": "Phenoxy",
+  "mode_of_action_group": "I",
+  "registered_crops": [
+    "Wheat",
+    "Barley",
+    "Fallow"
+  ],
+  "registered_weeds": [
+    "Broadleaf weeds"
+  ],
+  "weed_control_entries": [
+    {
+      "crop": "Wheat",
+      "application_timing": null,
+      "weed_common_name": "Broadleaf weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "",
+      "critical_comments": null,
+      "control_level": "control"
+    },
+    {
+      "crop": "Barley",
+      "application_timing": null,
+      "weed_common_name": "Broadleaf weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "",
+      "critical_comments": null,
+      "control_level": "control"
+    },
+    {
+      "crop": "Fallow",
+      "application_timing": null,
+      "weed_common_name": "Broadleaf weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "WA"
+      ],
+      "rate_per_ha": "",
+      "critical_comments": "before direct drilling or sowing of cereals, grain legumes, canola and pastures",
+      "control_level": "control"
+    }
+  ],
+  "application_methods": [],
+  "state_restrictions": [],
+  "withholding_period": "7 days",
+  "compatible_products": [],
+  "_metadata": {
+    "source_file": "31209ELBL.md",
+    "extracted_at": "2026-01-08T13:43:23.966319",
+    "model": "gemini-2.5-flash-lite"
+  }
+}

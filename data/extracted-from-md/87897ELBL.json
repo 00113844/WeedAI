@@ -1,0 +1,184 @@
+{
+  "product_name": "Spalding MCPA Picolinafen",
+  "apvma_number": "Herbicide87897/119736",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": null,
+  "identified_crops": [
+    "",
+    "Canola (Brassica napus)",
+    "Common Sowthistle (Sonchus oleraceus), Doublegee (Emex australis), Deadnettle (Lamium amplexicaule), Fumitory (Fumaria spp.), Volunteer Lupins (Lupinus angustifolius), Volunteer Canola (Brassica napus) including Roundup Ready\u00ae varieties",
+    "Corn Gromwell (Buglossoides arvense), Saffron Thistle (Carthamus lanatus), Toad Rush (Juncus bufonius)",
+    "Crassula (Crassula spp.)",
+    "Dense-flower Fumitory (Fumaria densiflora)",
+    "Wheat, Barley, Oats, Triticale, Cereal rye"
+  ],
+  "identified_weeds": [
+    "Charlock (Sinapis arvensis)",
+    "Hedge Mustard (Sisimbryium officinale)",
+    "Indian Hedge Mustard (Sisimbryium orientale)",
+    "Mustard (Sisimbryium spp.)",
+    "Prickly Lettuce (Lactuca serriola)",
+    "Shepherd\u2019s Purse (Capsella bursa-pastoris)",
+    "Turnip Weed (Rapistrum rugosum)",
+    "Up to the 2 leaf stage",
+    "Up to the 4 leaf stage",
+    "Up to the 4 leaf stage and not more than 120 mm in diameter",
+    "Up to the 6 leaf stage and not more than 150 mm in diameter",
+    "Up to the 8 leaf stage and not more than 180 mm in diameter",
+    "Wild Turnip (Brassica tournefortii)",
+    "Wild radish (Raphanus raphanistrum)"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Wheat, Barley, Oats, Triticale, Cereal rye",
+      "weed_common_name": "Wild radish (Raphanus raphanistrum)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 125.0,
+      "rate_unit": "125",
+      "rate_full_text": "125",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply to actively growing weeds, free from stress. See \u2018Restraints\u2019."
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Up to the 4 leaf stage and not more than 120 mm in diameter",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 500.0,
+      "rate_unit": "mL/ha",
+      "rate_full_text": "Apply to crops in the 3-5 leaf (Z13-15) stage prior to late tillering. DO NOT use the 500mL/ha rate on crops younger than 5 leaf.",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Up to the 6 leaf stage and not more than 150 mm in diameter",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 250.0,
+      "rate_unit": "mL/ha",
+      "rate_full_text": "DO NOT apply rates higher than 250mL/ha to crops in the 3 leaf stage, especially long season varieties.",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Up to the 8 leaf stage and not more than 180 mm in diameter",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "Spalding MCPA Picolinafen Herbicide may cause transient yellowing of cereals, with oats being potentially most sensitive.",
+      "rate_full_text": "Spalding MCPA Picolinafen Herbicide may cause transient yellowing of cereals, with oats being potentially most sensitive.",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Charlock (Sinapis arvensis)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 250.0,
+      "rate_unit": "250",
+      "rate_full_text": "250",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Residual control can be impaired by dry soil conditions and by inadequate soil surface coverage. Good soil moisture before and after application will assist performance. Good spray coverage of weeds is essential. Spray before crop canopy begins to close. Increase spray volume when weed or crop density is high."
+        }
+      ]
+    },
+    {
+      "crop": "Canola (Brassica napus)",
+      "weed_common_name": "Up to the 4 leaf stage",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "Transplanted weeds will not be adequately controlled.",
+      "rate_full_text": "Transplanted weeds will not be adequately controlled.",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Crassula (Crassula spp.)",
+      "weed_common_name": "Up to the 2 leaf stage",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "Weed diameter does not apply to Prickly Lettuce.",
+      "rate_full_text": "Weed diameter does not apply to Prickly Lettuce.",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Corn Gromwell (Buglossoides arvense), Saffron Thistle (Carthamus lanatus), Toad Rush (Juncus bufonius)",
+      "weed_common_name": "Up to the 2 leaf stage",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "Suppression only. These species are not consistently controlled by Spalding MCPA Picolinafen Herbicide but are usually significantly affected.",
+      "rate_full_text": "Suppression only. These species are not consistently controlled by Spalding MCPA Picolinafen Herbicide but are usually significantly affected.",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Dense-flower Fumitory (Fumaria densiflora)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Common Sowthistle (Sonchus oleraceus), Doublegee (Emex australis), Deadnettle (Lamium amplexicaule), Fumitory (Fumaria spp.), Volunteer Lupins (Lupinus angustifolius), Volunteer Canola (Brassica napus) including Roundup Ready\u00ae varieties",
+      "weed_common_name": "Up to the 4 leaf stage",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    }
+  ]
+}

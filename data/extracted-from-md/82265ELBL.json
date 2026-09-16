@@ -1,0 +1,135 @@
+{
+  "product_name": "Fairway Selective Herbicide",
+  "apvma_number": "82265/RV2024",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": null,
+  "identified_crops": [
+    "5 leaf to fully tillered (Zadoks 13-30)",
+    "Recreational turf",
+    "Wheat, Barley, Oats, Triticale, Cereal Rye"
+  ],
+  "identified_weeds": [
+    "3 leaf to fully tillered (Zadoks 13-30)",
+    "Bent and Rye Lawns",
+    "Charlock (Sinapis arvensis)",
+    "Corn Gromwell) (Buglossoides arvensis)",
+    "Dense Flower Fumitory (Red) (Fumaria densiflora)",
+    "Established Couch (including Queensland Blue)",
+    "Fat Hen (Chenopodium album)",
+    "Fescue",
+    "Hoary Cress (Cardaria draba)",
+    "Kikuyu",
+    "Lesser Swinecress (Bittercress) (Coronopus didymus)",
+    "Paspalum",
+    "Rough Poppy (Papaver hybridum)",
+    "Saffron Thistle (Carthamus lantus)",
+    "Slender Thistle (Carduss spp.)",
+    "Small Flowered Fumitory (White) (Fumaria parviflora)",
+    "Spear Thistle (Cirslum vulgare)",
+    "Tree Hogweed (Polygonum patulum)",
+    "Turnip Weed (Rapistrum rugosum)",
+    "Variegated Thistle (Silybum marianum)",
+    "Vetch (Vicia spp.)",
+    "Wall Fumitory (Pink Weed) (Fumaria murallis)",
+    "White Iron Weed (Sheepweed"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Wheat, Barley, Oats, Triticale, Cereal Rye",
+      "weed_common_name": "3 leaf to fully tillered (Zadoks 13-30)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "QLD, NSW, VIC, SA, WA only",
+      "rate_full_text": "QLD, NSW, VIC, SA, WA only",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "750mL/ha"
+        }
+      ]
+    },
+    {
+      "crop": "5 leaf to fully tillered (Zadoks 13-30)",
+      "weed_common_name": "Turnip Weed (Rapistrum rugosum)",
+      "weed_scientific_name": null,
+      "states": [
+        "VIC",
+        "TAS"
+      ],
+      "rate_value": 1.0,
+      "rate_unit": "L/ha",
+      "rate_full_text": "1 L/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "4 to 6 leaf stage but not more than 5 cm in diameter."
+        }
+      ]
+    },
+    {
+      "crop": "Wheat, Barley, Oats, Triticale, Cereal Rye",
+      "weed_common_name": "3 leaf to fully tillered (Zadoks 13-30)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "QLD, NSW, VIC, SA, WA only",
+      "rate_full_text": "QLD, NSW, VIC, SA, WA only",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "1 L/ha"
+        }
+      ]
+    },
+    {
+      "crop": "5 leaf to fully tillered (Zadoks 13-30)",
+      "weed_common_name": "Dense Flower Fumitory (Red) (Fumaria densiflora)",
+      "weed_scientific_name": null,
+      "states": [
+        "TAS"
+      ],
+      "rate_value": 1.4,
+      "rate_unit": "L/ha",
+      "rate_full_text": "1.4 L/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "4 to 6 leaf stage but not more than 10-12 cm in diameter. Wall Fumitory is severely stunted by 1.4 L/ha"
+        }
+      ]
+    },
+    {
+      "crop": "Recreational turf",
+      "weed_common_name": "Established Couch (including Queensland Blue)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "All States",
+      "rate_full_text": "All States",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "4-5 L in 150 L water/ha"
+        }
+      ]
+    }
+  ]
+}

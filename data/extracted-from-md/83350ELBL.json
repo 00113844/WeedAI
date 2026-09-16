@@ -1,0 +1,152 @@
+{
+  "product_name": "Weed Force Broad Sweep Broadleaf Herbicide",
+  "apvma_number": "83350/116058",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "I",
+  "identified_crops": [
+    "Barley, Commercial Rye, Oats, Triticale, Wheat",
+    "Barley, Commercial Rye, Triticale",
+    "Oats, Wheat"
+  ],
+  "identified_weeds": [
+    "Capeweed",
+    "Charlock",
+    "Chickweed",
+    "Climbing Buckwheat (Black Bindweed)",
+    "Clover",
+    "Common Ice-Plant",
+    "Doublegee (Threecornered Jack",
+    "Fat-Hen",
+    "Hexham Scent (Melilotus)",
+    "Mouse-eared Chickweed",
+    "Mustards",
+    "Narrow-leaved Plaintain",
+    "Saffron Thistle",
+    "Seedling Cotton Thistle",
+    "Soldier Thistle",
+    "Sorrel seedlings",
+    "Spiny Emex)",
+    "Spurry",
+    "Swinecress",
+    "Tares",
+    "Tree Hogweed",
+    "Turnip Weed (Rapistrum rugosum)",
+    "Variegated Thistle",
+    "Vetch",
+    "Vetches",
+    "Volunteer Peas",
+    "Ward's Weed",
+    "Wild Radish",
+    "Wild Turnip (Brassica tournefortii)",
+    "Wireweed (Hogweed)",
+    "seedling Docks",
+    "seedling Hoary Cress"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Barley, Commercial Rye, Oats, Triticale, Wheat",
+      "weed_common_name": "Capeweed",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_value": 1.0,
+      "rate_unit": "L/ha",
+      "rate_full_text": "1L/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Spray when most weeds are in the 2 to 4 leaf stage. In some instances suppression only of wireweed (hogweed), capeweed and wild radish will occur."
+        }
+      ]
+    },
+    {
+      "crop": "Barley, Commercial Rye, Oats, Triticale, Wheat",
+      "weed_common_name": "Seedling Cotton Thistle",
+      "weed_scientific_name": null,
+      "states": [
+        "TAS"
+      ],
+      "rate_value": 1.7,
+      "rate_unit": "L/ha",
+      "rate_full_text": "1.7L/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Spray when most weeds are still in the rosette or seedling stage. N.B. Wild radish may need to be resprayed (with 2,4-D or MCPA) if future germinations occur after spraying. In some instances, suppression only of wireweed (hogweed), hoary cress and climbing buckwheat will be obtained."
+        }
+      ]
+    },
+    {
+      "crop": "Barley, Commercial Rye, Oats, Triticale, Wheat",
+      "weed_common_name": "Capeweed",
+      "weed_scientific_name": null,
+      "states": [
+        "QLD",
+        "NSW",
+        "ACT"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "From early tillering stage (Zadoks 21) until the fully tillered stage and before jointing occurs (Zadoks 30)"
+        }
+      ]
+    },
+    {
+      "crop": "Barley, Commercial Rye, Triticale",
+      "weed_common_name": "Volunteer Peas",
+      "weed_scientific_name": null,
+      "states": [
+        "SA"
+      ],
+      "rate_value": 500.0,
+      "rate_unit": "L/ha",
+      "rate_full_text": "1L/ha plus 60mL/ha Dicamba 500",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply when most peas are 5-7 cm high."
+        }
+      ]
+    },
+    {
+      "crop": "Oats, Wheat",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 500.0,
+      "rate_unit": "L/ha",
+      "rate_full_text": "1L/ha plus 120mL/ha Dicamba 500",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "From early tillering stage (Zadoks 21) until the fully tillered stage and before jointing occurs (Zadoks 30)"
+        }
+      ]
+    }
+  ]
+}

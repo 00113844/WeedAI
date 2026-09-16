@@ -1,0 +1,55 @@
+{
+  "product_name": "4Farmers 2,4-D IB Ester 800 Herbicide",
+  "apvma_number": "83795/127857",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "I",
+  "identified_crops": [
+    "Fallow spray prior to Direct Drilling or Sowing Winter cereals, Grain legumes, Pastures - non-legume, Canola",
+    "Wheat, Barley"
+  ],
+  "identified_weeds": [
+    "Refer to Weed Table 2",
+    "Refer to weed table 1"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Fallow spray prior to Direct Drilling or Sowing Winter cereals, Grain legumes, Pastures - non-legume, Canola",
+      "weed_common_name": "Refer to weed table 1",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 7.0,
+      "rate_unit": "7 DAYS",
+      "rate_full_text": "7 DAYS",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "DO NOT exceed 700 ml of product/ha. DO NOT apply by air or ground-based misters. Apply ONLY by ground boom-spray (or knapsack if spot spraying). To reduce spray drift, keep the ground-boom as low as practicable. Night Spraying - Extra care is required to ensure that inversion conditions are not present. Low level temperature inversions will generally occur most evenings and are strongest around sunrise. Use smoke generator to determine wind direction and presence of inversion conditions. Observe the plant back periods given in the table in this leaflet. Must be tank mixed with a knockdown herbicide such as glyphosate, paraquat/diquat. Select appropriate rate from the Weed Tale. For skeleton weed, spraying should only be done 6-8 weeks before anticipated sowing date and subsequent cultivation limited to a minimum."
+        }
+      ]
+    },
+    {
+      "crop": "Wheat, Barley",
+      "weed_common_name": "Refer to Weed Table 2",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply from first node stage (Z31) until the start of booting (when the head can be felt at the base of the stem)"
+        }
+      ]
+    }
+  ]
+}

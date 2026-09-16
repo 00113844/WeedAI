@@ -1,0 +1,19 @@
+{
+  "product_number": "0",
+  "product_name": "GENFARM OXYFLUORFEN 240EC HERBICIDE",
+  "active_constituent": "240 g/L OXYFLUORFEN",
+  "chemical_group": null,
+  "mode_of_action_group": "14",
+  "registered_crops": [],
+  "registered_weeds": [],
+  "weed_control_entries": [],
+  "application_methods": [],
+  "state_restrictions": [],
+  "withholding_period": "GRAZING: DO NOT GRAZE TREATED WEEDS. HARVEST: NOT REQUIRED WHEN USED AS DIRECTED.",
+  "compatible_products": [],
+  "_metadata": {
+    "source_file": "61576ELBL.md",
+    "extracted_at": "2026-01-08T13:47:49.447780",
+    "model": "gemini-2.5-flash-lite"
+  }
+}

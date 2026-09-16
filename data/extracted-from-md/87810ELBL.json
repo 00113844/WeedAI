@@ -1,0 +1,173 @@
+{
+  "product_name": "Daredevil 520 Herbicide",
+  "apvma_number": "87810/119465",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "A",
+  "identified_crops": [
+    "",
+    "Annual Ryegrass",
+    "Barley grass",
+    "Brome grass",
+    "Paradoxa grass",
+    "Volunteer cereals",
+    "Wild Oats"
+  ],
+  "identified_weeds": [
+    "2 to 4 leaf",
+    "early tillering",
+    "northern NSW & QLD"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Annual Ryegrass",
+      "weed_common_name": "2 to 4 leaf",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 750.0,
+      "rate_unit": "FIELD PEAS AND CANOLA: The only oil recommended for use with Daredevil 520 Herbicide is Uptake\\* Spraying Oil. Daredevil 520 Herbicide + Lontrel 750 SG + Uptake\\* Spraying Oil are compatible and selective to canola. This tank-mix is also compatible with atrazine and selective to triazine tolerant canola.",
+      "rate_full_text": "FIELD PEAS AND CANOLA: The only oil recommended for use with Daredevil 520 Herbicide is Uptake\\* Spraying Oil. Daredevil 520 Herbicide + Lontrel 750 SG + Uptake\\* Spraying Oil are compatible and selective to canola. This tank-mix is also compatible with atrazine and selective to triazine tolerant canola.",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "early tillering",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Barley grass",
+      "weed_common_name": "2 to 4 leaf",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "LUPINS AND FIELD PEAS: Mixtures with Brodal or simazine may cause crop yellowing and separate applications are recommended.",
+      "rate_full_text": "LUPINS AND FIELD PEAS: Mixtures with Brodal or simazine may cause crop yellowing and separate applications are recommended.",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Brome grass",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Paradoxa grass",
+      "weed_common_name": "early tillering",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 520.0,
+      "rate_unit": "CHICKPEAS, FABA BEANS, LENTILS AND VETCH, LINOLA, LINSEED: Broadleaf herbicides should not be added to Daredevil 520 Herbicide. Apply Daredevil 520 Herbicide and broadleaf herbicides at least a week apart.",
+      "rate_full_text": "CHICKPEAS, FABA BEANS, LENTILS AND VETCH, LINOLA, LINSEED: Broadleaf herbicides should not be added to Daredevil 520 Herbicide. Apply Daredevil 520 Herbicide and broadleaf herbicides at least a week apart.",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Volunteer cereals",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 100.0,
+      "rate_unit": "100",
+      "rate_full_text": "100",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Wild Oats",
+      "weed_common_name": "2 to 4 leaf",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Wild Oats",
+      "weed_common_name": "early tillering",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 50.0,
+      "rate_unit": "50",
+      "rate_full_text": "50",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "LUCERNE, CLOVER OR MEDIC PASTURES: If grazed or cut for hay immediately prior to treatment delay application until all grasses have fully expanded leaves. Use 75 mL + spraying oil or 100 mL + wetter/ha. (See GENERAL INSTRUCTIONS, Spraying Oils/wetters section)."
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "northern NSW & QLD",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 100.0,
+      "rate_unit": "100",
+      "rate_full_text": "100",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "If silver grass (Vulpia spp.) is present in pasture, simazine should be tank mixed with the higher rate of Daredevil 520 Herbicide plus a non-ionic wetter."
+        }
+      ]
+    }
+  ]
+}

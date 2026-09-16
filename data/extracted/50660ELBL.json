@@ -1,0 +1,39 @@
+{
+  "product_number": "20",
+  "product_name": "TAIPAN",
+  "active_constituent": "null",
+  "chemical_group": null,
+  "mode_of_action_group": "null",
+  "registered_crops": [
+    "CR"
+  ],
+  "registered_weeds": [
+    "Weeds",
+    "starfruit"
+  ],
+  "weed_control_entries": [
+    {
+      "crop": "CR",
+      "application_timing": null,
+      "weed_common_name": "Weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW"
+      ],
+      "rate_per_ha": "2.0 L/ha",
+      "critical_comments": "Aerial application may be applied by air (from a boom). Ensure the correct droplet size.",
+      "control_level": "control"
+    }
+  ],
+  "application_methods": [
+    "Aerial"
+  ],
+  "state_restrictions": [],
+  "withholding_period": "7 weeks",
+  "compatible_products": [],
+  "_metadata": {
+    "source_file": "50660ELBL.md",
+    "extracted_at": "2026-01-08T13:45:00.690772",
+    "model": "gemini-2.5-flash-lite"
+  }
+}

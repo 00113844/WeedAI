@@ -1,0 +1,145 @@
+{
+  "product_number": "64917",
+  "product_name": "Forest Mix Special Blend",
+  "active_constituent": "Not specified",
+  "chemical_group": "Triazines and triazinones",
+  "mode_of_action_group": "C",
+  "registered_crops": [
+    "Pinus radiata"
+  ],
+  "registered_weeds": [
+    "Flatweeds",
+    "ryegrasses",
+    "clovers",
+    "Wallaby Grass",
+    "Serrated tussock",
+    "Sorrel",
+    "Dandelion",
+    "Kangaroo grass"
+  ],
+  "weed_control_entries": [
+    {
+      "crop": "Pinus radiata",
+      "application_timing": "POST PLANTING",
+      "weed_common_name": "Flatweeds",
+      "weed_scientific_name": null,
+      "states": [
+        "VIC"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": "Allow 4 weeks after transplanting before application.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Pinus radiata",
+      "application_timing": "POST PLANTING",
+      "weed_common_name": "ryegrasses",
+      "weed_scientific_name": null,
+      "states": [
+        "VIC"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": "Allow 4 weeks after transplanting before application.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Pinus radiata",
+      "application_timing": "POST PLANTING",
+      "weed_common_name": "clovers",
+      "weed_scientific_name": null,
+      "states": [
+        "VIC"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": "Allow 4 weeks after transplanting before application.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Pinus radiata",
+      "application_timing": "POST PLANTING",
+      "weed_common_name": "Wallaby Grass",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "SA",
+        "TAS",
+        "WA"
+      ],
+      "rate_per_ha": "3g/m²",
+      "critical_comments": "Use 3g trigger to apply 3g/m².",
+      "control_level": "suppression"
+    },
+    {
+      "crop": "Pinus radiata",
+      "application_timing": "POST PLANTING",
+      "weed_common_name": "Serrated tussock",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "SA",
+        "TAS",
+        "WA"
+      ],
+      "rate_per_ha": "3g/m²",
+      "critical_comments": "Use 3g trigger to apply 3g/m².",
+      "control_level": "suppression"
+    },
+    {
+      "crop": "Pinus radiata",
+      "application_timing": "POST PLANTING",
+      "weed_common_name": "Sorrel",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "SA",
+        "TAS",
+        "WA"
+      ],
+      "rate_per_ha": "3g/m²",
+      "critical_comments": "Use 3g trigger to apply 3g/m².",
+      "control_level": "suppression"
+    },
+    {
+      "crop": "Pinus radiata",
+      "application_timing": "POST PLANTING",
+      "weed_common_name": "Dandelion",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "SA",
+        "TAS",
+        "WA"
+      ],
+      "rate_per_ha": "3g/m²",
+      "critical_comments": "Use 3g trigger to apply 3g/m².",
+      "control_level": "suppression"
+    },
+    {
+      "crop": "Pinus radiata",
+      "application_timing": "POST PLANTING",
+      "weed_common_name": "Kangaroo grass",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "SA",
+        "TAS",
+        "WA"
+      ],
+      "rate_per_ha": "3g/m²",
+      "critical_comments": "Use 3g trigger to apply 3g/m².",
+      "control_level": "suppression"
+    }
+  ],
+  "application_methods": [
+    "GROUND",
+    "AIR"
+  ],
+  "state_restrictions": [],
+  "withholding_period": "GRAZING: DO NOT APPLY TO AREAS THAT WILL OR MAY BE GRAZED OR CUT FOR STOCKFOOD WITHIN 28 DAYS AFTER APPLICATION.",
+  "compatible_products": [],
+  "_metadata": {
+    "source_file": "51538ELBL.md",
+    "extracted_at": "2026-01-08T13:45:10.889261",
+    "model": "gemini-2.5-flash-lite"
+  }
+}

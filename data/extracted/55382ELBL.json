@@ -1,0 +1,512 @@
+{
+  "product_number": "67909",
+  "product_name": "Arvesta Motsa™ Herbicide",
+  "active_constituent": "200g/L CLETHODIM and 48 g/L HALOXYFOP present as the haloxyfop-R methyl ester",
+  "chemical_group": null,
+  "mode_of_action_group": "A",
+  "registered_crops": [
+    "Canola",
+    "Chickpeas",
+    "Faba beans",
+    "Field peas",
+    "Lentils",
+    "Lupins",
+    "Volunteer wheat",
+    "Volunteer barley",
+    "Volunteer oats",
+    "Paradoxa grass",
+    "Lesser Canary grass",
+    "Brome grass",
+    "Annual ryegrass"
+  ],
+  "registered_weeds": [
+    "Wild oats",
+    "Barley grass",
+    "Volunteer wheat",
+    "Volunteer barley",
+    "Volunteer oats",
+    "Paradoxa grass",
+    "Lesser Canary grass",
+    "Brome grass",
+    "Annual ryegrass"
+  ],
+  "weed_control_entries": [
+    {
+      "crop": "Canola",
+      "application_timing": "2 leaf to early tillering",
+      "weed_common_name": "Wild oats",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "150-200ml",
+      "critical_comments": "The lower doses will provide effective control if applied under ideal conditions to weeds that are smaller, actively growing and free from stress.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Canola",
+      "application_timing": "2 leaf to early tillering",
+      "weed_common_name": "Barley grass",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "150-200ml",
+      "critical_comments": "The lower doses will provide effective control if applied under ideal conditions to weeds that are smaller, actively growing and free from stress.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Lupins",
+      "application_timing": null,
+      "weed_common_name": "Wild oats",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "150-200ml",
+      "critical_comments": "The lower doses will provide effective control if applied under ideal conditions to weeds that are smaller, actively growing and free from stress.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Lupins",
+      "application_timing": null,
+      "weed_common_name": "Barley grass",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "150-200ml",
+      "critical_comments": "The lower doses will provide effective control if applied under ideal conditions to weeds that are smaller, actively growing and free from stress.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Faba beans",
+      "application_timing": null,
+      "weed_common_name": "Wild oats",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "150-200ml",
+      "critical_comments": "The lower doses will provide effective control if applied under ideal conditions to weeds that are smaller, actively growing and free from stress.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Faba beans",
+      "application_timing": null,
+      "weed_common_name": "Barley grass",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "150-200ml",
+      "critical_comments": "The lower doses will provide effective control if applied under ideal conditions to weeds that are smaller, actively growing and free from stress.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Field peas",
+      "application_timing": null,
+      "weed_common_name": "Wild oats",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "150-200ml",
+      "critical_comments": "The lower doses will provide effective control if applied under ideal conditions to weeds that are smaller, actively growing and free from stress.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Field peas",
+      "application_timing": null,
+      "weed_common_name": "Barley grass",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "150-200ml",
+      "critical_comments": "The lower doses will provide effective control if applied under ideal conditions to weeds that are smaller, actively growing and free from stress.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Chick peas",
+      "application_timing": null,
+      "weed_common_name": "Wild oats",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "150-200ml",
+      "critical_comments": "The lower doses will provide effective control if applied under ideal conditions to weeds that are smaller, actively growing and free from stress.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Chick peas",
+      "application_timing": null,
+      "weed_common_name": "Barley grass",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "150-200ml",
+      "critical_comments": "The lower doses will provide effective control if applied under ideal conditions to weeds that are smaller, actively growing and free from stress.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Lentils",
+      "application_timing": null,
+      "weed_common_name": "Wild oats",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "150-200ml",
+      "critical_comments": "The lower doses will provide effective control if applied under ideal conditions to weeds that are smaller, actively growing and free from stress.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Lentils",
+      "application_timing": null,
+      "weed_common_name": "Barley grass",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "150-200ml",
+      "critical_comments": "The lower doses will provide effective control if applied under ideal conditions to weeds that are smaller, actively growing and free from stress.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Volunteer wheat",
+      "application_timing": null,
+      "weed_common_name": "Wild oats",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "150-200ml",
+      "critical_comments": "The lower doses will provide effective control if applied under ideal conditions to weeds that are smaller, actively growing and free from stress.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Volunteer wheat",
+      "application_timing": null,
+      "weed_common_name": "Barley grass",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "150-200ml",
+      "critical_comments": "The lower doses will provide effective control if applied under ideal conditions to weeds that are smaller, actively growing and free from stress.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Volunteer barley",
+      "application_timing": null,
+      "weed_common_name": "Wild oats",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "150-200ml",
+      "critical_comments": "The lower doses will provide effective control if applied under ideal conditions to weeds that are smaller, actively growing and free from stress.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Volunteer barley",
+      "application_timing": null,
+      "weed_common_name": "Barley grass",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "150-200ml",
+      "critical_comments": "The lower doses will provide effective control if applied under ideal conditions to weeds that are smaller, actively growing and free from stress.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Volunteer oats",
+      "application_timing": null,
+      "weed_common_name": "Wild oats",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "150-200ml",
+      "critical_comments": "The lower doses will provide effective control if applied under ideal conditions to weeds that are smaller, actively growing and free from stress.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Volunteer oats",
+      "application_timing": null,
+      "weed_common_name": "Barley grass",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "150-200ml",
+      "critical_comments": "The lower doses will provide effective control if applied under ideal conditions to weeds that are smaller, actively growing and free from stress.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Paradoxa grass",
+      "application_timing": null,
+      "weed_common_name": "Wild oats",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "150-200ml",
+      "critical_comments": "The lower doses will provide effective control if applied under ideal conditions to weeds that are smaller, actively growing and free from stress.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Paradoxa grass",
+      "application_timing": null,
+      "weed_common_name": "Barley grass",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "150-200ml",
+      "critical_comments": "The lower doses will provide effective control if applied under ideal conditions to weeds that are smaller, actively growing and free from stress.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Lesser Canary grass (Phalaris minor)",
+      "application_timing": null,
+      "weed_common_name": "Wild oats",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "150-200ml",
+      "critical_comments": "The lower doses will provide effective control if applied under ideal conditions to weeds that are smaller, actively growing and free from stress.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Lesser Canary grass (Phalaris minor)",
+      "application_timing": null,
+      "weed_common_name": "Barley grass",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "150-200ml",
+      "critical_comments": "The lower doses will provide effective control if applied under ideal conditions to weeds that are smaller, actively growing and free from stress.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Canola",
+      "application_timing": "2 leaf to early tillering",
+      "weed_common_name": "Brome grass",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "150-200ml",
+      "critical_comments": "The lower doses will provide effective control if applied under ideal conditions to weeds that are smaller, actively growing and free from stress.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Canola",
+      "application_timing": "2 leaf to early tillering",
+      "weed_common_name": "Annual ryegrass",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "200-300ml",
+      "critical_comments": "The lower doses will provide effective control if applied under ideal conditions to weeds that are smaller, actively growing and free from stress. Always apply with Hasten, Kwickin or Uptake at 1L/100L of spray volume.",
+      "control_level": "control"
+    }
+  ],
+  "application_methods": [
+    "Ground Application",
+    "Aerial Application"
+  ],
+  "state_restrictions": [],
+  "withholding_period": "Chickpeas, faba beans, field peas, lentils and lupins: Not required when used as directed. Canola: DO NOT harvest for 8 weeks after application. All crops: DO NOT graze or cut for stock food for 8 weeks after application.",
+  "compatible_products": [
+    "Targa*",
+    "Fusilade*",
+    "Sertin*",
+    "Correct*",
+    "Sumi-Alpha¹ 50 EC",
+    "Sumi-Alpha¹ Dual",
+    "Fastac* 100",
+    "Le-Mat*"
+  ],
+  "_metadata": {
+    "source_file": "55382ELBL.md",
+    "extracted_at": "2026-01-08T13:45:52.439599",
+    "model": "gemini-2.5-flash-lite"
+  }
+}

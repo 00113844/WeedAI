@@ -1,0 +1,203 @@
+{
+  "product_number": "N/A",
+  "product_name": "PRECEPT SELECTIVE HERBICIDE",
+  "active_constituent": "125 g/L MCPA PRESENT AS THE 2-ETHYL HEXYL ESTER, 25 g/L PYRASULFOTOLE, 6.25 g/L MEFENPYR-DIETHYL",
+  "chemical_group": null,
+  "mode_of_action_group": "4",
+  "registered_crops": [
+    "wheat",
+    "barley",
+    "oats",
+    "cereal rye",
+    "triticale",
+    "Maize",
+    "sorghum",
+    "Cotton",
+    "soybean",
+    "sunflower",
+    "Mung bean"
+  ],
+  "registered_weeds": [],
+  "weed_control_entries": [
+    {
+      "crop": "Maize",
+      "application_timing": "post-emergent",
+      "weed_common_name": "N/A",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "up to 2 L/ha",
+      "critical_comments": "Recropping areas that receive double rates (boom overlaps) may show increased symptoms of damage. This is generally restricted to discolouration (bleaching) of the crop but may also result in biomass reduction in some situations.",
+      "control_level": "control"
+    },
+    {
+      "crop": "sorghum",
+      "application_timing": "post-emergent",
+      "weed_common_name": "N/A",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "up to 2 L/ha",
+      "critical_comments": "Recropping areas that receive double rates (boom overlaps) may show increased symptoms of damage. This is generally restricted to discolouration (bleaching) of the crop but may also result in biomass reduction in some situations.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Cotton",
+      "application_timing": "post-emergent",
+      "weed_common_name": "N/A",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "up to 1 L/ha",
+      "critical_comments": null,
+      "control_level": "control"
+    },
+    {
+      "crop": "soybean",
+      "application_timing": "post-emergent",
+      "weed_common_name": "N/A",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "up to 1 L/ha",
+      "critical_comments": null,
+      "control_level": "control"
+    },
+    {
+      "crop": "sunflower",
+      "application_timing": "post-emergent",
+      "weed_common_name": "N/A",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "up to 1 L/ha",
+      "critical_comments": null,
+      "control_level": "control"
+    },
+    {
+      "crop": "Mung bean",
+      "application_timing": "post-emergent",
+      "weed_common_name": "N/A",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "up to 2 L/ha",
+      "critical_comments": "Recropping areas that receive double rates (boom overlaps) may show increased symptoms of damage. This is generally restricted to discolouration (bleaching) of the crop but may also result in biomass reduction in some situations.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Cotton",
+      "application_timing": "post-emergent",
+      "weed_common_name": "N/A",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "up to 2 L/ha",
+      "critical_comments": "Recropping areas that receive double rates (boom overlaps) may show increased symptoms of damage. This is generally restricted to discolouration (bleaching) of the crop but may also result in biomass reduction in some situations.",
+      "control_level": "control"
+    },
+    {
+      "crop": "soybean",
+      "application_timing": "post-emergent",
+      "weed_common_name": "N/A",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "up to 2 L/ha",
+      "critical_comments": "Recropping areas that receive double rates (boom overlaps) may show increased symptoms of damage. This is generally restricted to discolouration (bleaching) of the crop but may also result in biomass reduction in some situations.",
+      "control_level": "control"
+    },
+    {
+      "crop": "sunflower",
+      "application_timing": "post-emergent",
+      "weed_common_name": "N/A",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "up to 2 L/ha",
+      "critical_comments": "Recropping areas that receive double rates (boom overlaps) may show increased symptoms of damage. This is generally restricted to discolouration (bleaching) of the crop but may also result in biomass reduction in some situations.",
+      "control_level": "control"
+    }
+  ],
+  "application_methods": [],
+  "state_restrictions": [],
+  "withholding_period": "Harvest NOT REQUIRED WHEN USED AS DIRECTED",
+  "compatible_products": [],
+  "_metadata": {
+    "source_file": "60897ELBL.md",
+    "extracted_at": "2026-01-08T13:46:47.292626",
+    "model": "gemini-2.5-flash-lite"
+  }
+}

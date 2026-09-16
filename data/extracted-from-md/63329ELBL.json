@@ -1,0 +1,156 @@
+{
+  "product_name": "Product Name: ZOLIAR 800 DF HERBICIDE",
+  "apvma_number": "63329/118437",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "F",
+  "identified_crops": [
+    "Asparagus",
+    "Citrus",
+    "Grapefruit, Lemons, Mandarins, Oranges (Navel and Valencia)",
+    "Grapes",
+    "Pome Fruit",
+    "Stone Fruit"
+  ],
+  "identified_weeds": [
+    "Annual Ryegrass",
+    "Barley",
+    "Curled Dock seedlings",
+    "False Caper seedlings",
+    "Fat-Hen\u207a",
+    "Great Brome (Ripgut Brome)",
+    "Hedge Mustards",
+    "Indian Hedge Mustard",
+    "Innocent Weed (Spiny Burgrass)",
+    "Johnson Grass",
+    "Medic",
+    "Nutgrass",
+    "Paspalum",
+    "Pigweed (Portulaca)",
+    "Plantain seedlings",
+    "Prairie Grass",
+    "Prickly Lettuce",
+    "Salvation Jane",
+    "Scarlet Pimpernel",
+    "Shepherd\u2019s Purse",
+    "Silver Grass",
+    "Skeleton Weed seedlings",
+    "Sorrel seedlings",
+    "Soursob\u207a",
+    "Spiny Emex)",
+    "Stinkgrass",
+    "Stinking Roger",
+    "Subterranean Clover",
+    "Summer Grass (Crabgrass)",
+    "Three-cornered Jack (Doublegee",
+    "Variegated Thistle",
+    "Wild",
+    "Wild Oats"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Asparagus",
+      "weed_common_name": "Johnson Grass",
+      "weed_scientific_name": null,
+      "states": [
+        "QLD"
+      ],
+      "rate_value": 2.5,
+      "rate_unit": "2.5 kg",
+      "rate_full_text": "2.5 kg",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "14 days"
+        }
+      ]
+    },
+    {
+      "crop": "Citrus",
+      "weed_common_name": "Annual Ryegrass",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Grapefruit, Lemons, Mandarins, Oranges (Navel and Valencia)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "For asparagus only: Allow newly planted fields (direct seeded, seedlings, or crowns) to become established for one year before application of ZOLIAR 800 DF. DO NOT apply within 14 days of harvest and before fern emerges. DO NOT spray on young ferns. DO NOT apply more than 2 applications per year. ZOLIAR 800 DF should not be applied if crop rotation is expected within 24 months."
+        }
+      ]
+    },
+    {
+      "crop": "Grapes",
+      "weed_common_name": "Curled Dock seedlings",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "For grapes only: Not recommended for grapes grown in sand or loamy sand soils with less than 1% organic matter and pH greater than 7.5 as veinal chlorosis may occur."
+        }
+      ]
+    },
+    {
+      "crop": "Pome Fruit",
+      "weed_common_name": "Hedge Mustards",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "For almonds and cherries only: DO NOT use on coarse textured soil such as sand, loamy sand, gravelly sand and fine sand as veinal chlorosis may occur."
+        }
+      ]
+    },
+    {
+      "crop": "Stone Fruit",
+      "weed_common_name": "Prickly Lettuce",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    }
+  ]
+}

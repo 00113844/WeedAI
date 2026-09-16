@@ -1,0 +1,68 @@
+{
+  "product_number": "63103",
+  "product_name": "SILVERADO HERBICIDE",
+  "active_constituent": "60 g/kg CARFENTRAZONE-ETHYL, 375 g/kg MCPA present as the sodium salt",
+  "chemical_group": null,
+  "mode_of_action_group": "G",
+  "registered_crops": [
+    "Turf"
+  ],
+  "registered_weeds": [
+    "Moss",
+    "Broadleaf Weeds"
+  ],
+  "weed_control_entries": [
+    {
+      "crop": "Turf",
+      "application_timing": null,
+      "weed_common_name": "Moss",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "800 L of water per hectare",
+      "critical_comments": null,
+      "control_level": "control"
+    },
+    {
+      "crop": "Turf",
+      "application_timing": null,
+      "weed_common_name": "Broadleaf Weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "800 L of water per hectare",
+      "critical_comments": null,
+      "control_level": "control"
+    }
+  ],
+  "application_methods": [
+    "Garden sprayer",
+    "Backpack sprayer",
+    "Power sprayer",
+    "Boom sprayer"
+  ],
+  "state_restrictions": [],
+  "withholding_period": "DO NOT feed grass clippings from treated areas to poultry or other livestock.",
+  "compatible_products": [],
+  "_metadata": {
+    "source_file": "63103ELBL.md",
+    "extracted_at": "2026-01-08T13:48:32.451162",
+    "model": "gemini-2.5-flash-lite"
+  }
+}

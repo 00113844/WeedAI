@@ -1,0 +1,233 @@
+{
+  "product_name": "Product Name: Sunrise Carnage 300 Herbicide",
+  "apvma_number": "89314/124389",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "I",
+  "identified_crops": [
+    "",
+    "Barley",
+    "Wheat"
+  ],
+  "identified_weeds": [
+    "4 to 5 leaf onwards",
+    "Early post-emergence (2 leaf to jointing)",
+    "Post-sowing pre-emergence through to 3 leaf",
+    "Pre-sowing"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Barley",
+      "weed_common_name": "Pre-sowing",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 10.0,
+      "rate_unit": "Up to 8 leaf and maximum 10 cm diameter",
+      "rate_full_text": "Up to 8 leaf and maximum 10 cm diameter",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "150 plus knockdown"
+        }
+      ]
+    },
+    {
+      "crop": "Wheat",
+      "weed_common_name": "Post-sowing pre-emergence through to 3 leaf",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "150 plus diuron at labeled rates"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Early post-emergence (2 leaf to jointing)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 6.0,
+      "rate_unit": "Cotyledons to 6 leaf and maximum 5cm diameter",
+      "rate_full_text": "Cotyledons to 6 leaf and maximum 5cm diameter",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "150"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "4 to 5 leaf onwards",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 10.0,
+      "rate_unit": "Up to 10cm diameter (4 to 8 leaf)",
+      "rate_full_text": "Up to 10cm diameter (4 to 8 leaf)",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "300"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 6.0,
+      "rate_unit": "Up to 6 leaf",
+      "rate_full_text": "Up to 6 leaf",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "250"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 4.0,
+      "rate_unit": "Up to 4 leaf",
+      "rate_full_text": "Up to 4 leaf",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 10.0,
+      "rate_unit": "Maximum 10cm high or 6 nodes",
+      "rate_full_text": "Maximum 10cm high or 6 nodes",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "75 plus 700mL/ha MCPA LVE"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 8.0,
+      "rate_unit": "Up to 8 leaf",
+      "rate_full_text": "Up to 8 leaf",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "150"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 6.0,
+      "rate_unit": "Up to 6 leaf",
+      "rate_full_text": "Up to 6 leaf",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 16.0,
+      "rate_unit": "Runners up to 10cm maximum 16 leaf",
+      "rate_full_text": "Runners up to 10cm maximum 16 leaf",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "75 plus 700mL/ha MCPA LVE"
+        }
+      ]
+    },
+    {
+      "crop": "Barley",
+      "weed_common_name": "4 to 5 leaf onwards",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 8.0,
+      "rate_unit": "4 to 6 leaf and maximum 8cm diameter",
+      "rate_full_text": "4 to 6 leaf and maximum 8cm diameter",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "150 plus 700mL/ha MCPA LVE"
+        }
+      ]
+    }
+  ]
+}

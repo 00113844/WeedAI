@@ -1,0 +1,208 @@
+{
+  "product_number": "67978",
+  "product_name": "GALLERY 750 DRY FLOWABLE HERBICIDE",
+  "active_constituent": "750 g/kg ISOXABEN",
+  "chemical_group": "amide",
+  "mode_of_action_group": "O",
+  "registered_crops": [
+    "Cereals",
+    "Forests",
+    "Industrial situations",
+    "Non-bearing tree fruit and nut orchards",
+    "Bearing tree fruit and nut orchards",
+    "Vineyards",
+    "Nursery and amenity tree plantings",
+    "Pyrethrum crops",
+    "Tree fruit",
+    "Nut orchards",
+    "Grapevines"
+  ],
+  "registered_weeds": [
+    "broadleaf weeds"
+  ],
+  "weed_control_entries": [
+    {
+      "crop": "Cereals",
+      "application_timing": "pre-emergence",
+      "weed_common_name": "broadleaf weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": "Apply Gallery 750 Dry Flowable and tankmixes in sufficient water to obtain good coverage. It should be applied by an accurately calibrated ground rig using a water volume of 80-100L/ha. Sprayers should aim to apply coarse to very coarse spray quality in accordance with ASAE standard S-572. DO NOT apply later than 1st node of cereals. DO NOT do more than 1 application in each cereal crop. DO NOT apply by air.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Forests",
+      "application_timing": "pre-emergence",
+      "weed_common_name": "broadleaf weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": null,
+      "control_level": "control"
+    },
+    {
+      "crop": "Industrial situations",
+      "application_timing": "pre-emergence",
+      "weed_common_name": "broadleaf weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": null,
+      "control_level": "control"
+    },
+    {
+      "crop": "Non-bearing tree fruit and nut orchards",
+      "application_timing": "pre-emergence",
+      "weed_common_name": "broadleaf weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": "Apply Gallery 750 Dry Flowable and tank-mixes in 200 to 450 litres of water per hectare (higher spray volumes may give better soil coverage in some soil types). Filter screens should be 50 mesh or larger. Use a medium quality spray as defined by the International BCPC Spray Classification System or the ASAE S572 definitions and apply uniformly, especially within the drip line of trees and vines, so that application above label rates does not occur. Use high enough spray volume to ensure thorough coverage of bare soil for best weed control results. Where tank-mixes are used, apply as a directed spray to the base of grapevines or tree crops.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Bearing tree fruit and nut orchards",
+      "application_timing": "pre-emergence",
+      "weed_common_name": "broadleaf weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": "Apply Gallery 750 Dry Flowable and tank-mixes in 200 to 450 litres of water per hectare (higher spray volumes may give better soil coverage in some soil types). Filter screens should be 50 mesh or larger. Use a medium quality spray as defined by the International BCPC Spray Classification System or the ASAE S572 definitions and apply uniformly, especially within the drip line of trees and vines, so that application above label rates does not occur. Use high enough spray volume to ensure thorough coverage of bare soil for best weed control results. Where tank-mixes are used, apply as a directed spray to the base of grapevines or tree crops.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Vineyards",
+      "application_timing": "pre-emergence",
+      "weed_common_name": "broadleaf weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": "Apply Gallery 750 Dry Flowable and tank-mixes in 200 to 450 litres of water per hectare (higher spray volumes may give better soil coverage in some soil types). Filter screens should be 50 mesh or larger. Use a medium quality spray as defined by the International BCPC Spray Classification System or the ASAE S572 definitions and apply uniformly, especially within the drip line of trees and vines, so that application above label rates does not occur. Use high enough spray volume to ensure thorough coverage of bare soil for best weed control results. Where tank-mixes are used, apply as a directed spray to the base of grapevines or tree crops.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Nursery and amenity tree plantings",
+      "application_timing": "pre-emergence",
+      "weed_common_name": "broadleaf weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": "Apply Gallery 750 Dry Flowable and tank-mixes in 200 to 450 litres of water per hectare (higher spray volumes may give better soil coverage in some soil types). Filter screens should be 50 mesh or larger. Use a medium quality spray as defined by the International BCPC Spray Classification System or the ASAE S572 definitions and apply uniformly, especially within the drip line of trees and vines, so that application above label rates does not occur. Use high enough spray volume to ensure thorough coverage of bare soil for best weed control results. Where tank-mixes are used, apply as a directed spray to the base of grapevines or tree crops.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Pyrethrum crops",
+      "application_timing": "pre-emergence",
+      "weed_common_name": "broadleaf weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": "Apply Gallery 750 Dry Flowable and tank-mixes in 200 to 450 litres of water per hectare (higher spray volumes may give better soil coverage in some soil types). Filter screens should be 50 mesh or larger. Use a medium quality spray as defined by the International BCPC Spray Classification System or the ASAE S572 definitions and apply uniformly, especially within the drip line of trees and vines, so that application above label rates does not occur. Use high enough spray volume to ensure thorough coverage of bare soil for best weed control results. Where tank-mixes are used, apply as a directed spray to the base of grapevines or tree crops.",
+      "control_level": "control"
+    }
+  ],
+  "application_methods": [
+    "Ground rig"
+  ],
+  "state_restrictions": [],
+  "withholding_period": "NOT REQUIRED WHEN USED AS DIRECTED (Harvest for all crops except Pyrethrum and Cereals). Pyrethrum Crops: DO NOT GRAZE OR CUT FOR STOCK FOOD FOR 12 MONTHS AFTER APPLICATION. Cereal Crops: DO NOT GRAZE OR CUT FOR STOCK FOOD FOR 6 WEEKS AFTER APPLICATION.",
+  "compatible_products": [
+    "Affinity Force",
+    "Bromoxynil/MCPA",
+    "diflufenican",
+    "Ecopar Herbicide",
+    "glyphosate",
+    "Logran",
+    "LVE 600 MCPA",
+    "Paradigm Herbicide",
+    "Paragon Herbicide",
+    "Pendimethalin",
+    "Trifluralin",
+    "Tigrex",
+    "Paraquat",
+    "Precept Herbicide",
+    "Velocity Herbicide",
+    "Hexazinone",
+    "oryzalin",
+    "pendimethalin",
+    "sulfometuron"
+  ],
+  "_metadata": {
+    "source_file": "47333ELBL.md",
+    "extracted_at": "2026-01-08T13:44:49.655025",
+    "model": "gemini-2.5-flash-lite"
+  }
+}

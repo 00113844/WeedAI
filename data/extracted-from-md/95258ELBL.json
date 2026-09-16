@@ -1,0 +1,188 @@
+{
+  "product_name": "Cropnosys Dicamba 500 Herbicide",
+  "apvma_number": "95258/145124v",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "4",
+  "identified_crops": [
+    "Chickweed, Sorrel, Wireweed",
+    "Common Ice-Plant",
+    "Mintweed",
+    "Wheat, Oats, Barley, Triticale, Commercial Rye",
+    "Wild Turnip (Brassica tournefortii), Radish, Mustards, Tares, Charlock, Capeweed, Sorrel, Saffron Thistle, Chickweed, Turnip Weed (Rapistrum rugosum)",
+    "Wild Turnip (Brassica tournefortii), Radish, Mustards, Tares, Charlock, Capeweed, Sorrel, Saffron thistle, Chickweed, Clover, Common ice-plant, Hoary Cress, Ward\u2019s Weed, Turnip weed (Rapistrum rugosum)"
+  ],
+  "identified_weeds": [
+    "Capeweed",
+    "Charlock",
+    "Climbing Buckwheat (Black Bindweed)",
+    "Clover",
+    "Common Ice-Plant",
+    "Docks",
+    "Doublegee (Three Cornered Jack",
+    "Hexham Scent (Melilotus)",
+    "Hexham scent (Melilotus)",
+    "Mustards",
+    "Seedling Docks",
+    "Soldier Thistle",
+    "Spiny Emex)",
+    "Sunflower",
+    "Tares",
+    "Turnip Weed (Rapistrum rugosum)",
+    "Variegated Thistle",
+    "Vetch",
+    "Ward\u2019s Weed",
+    "Wild Radish",
+    "Wild Turnip (Brassica tournefortii)",
+    "Wireweed",
+    "Wireweed (Hogweed)"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Wheat, Oats, Barley, Triticale, Commercial Rye",
+      "weed_common_name": "Doublegee (Three Cornered Jack",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 700.0,
+      "rate_unit": "mL/ha",
+      "rate_full_text": "160mL/ha plus 700mL/ha of MCPA 500 HERBICIDE",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Spray when most weeds have germinated and are in the 2-4 leaf stage. In some instances suppression only of Wireweed (Hogweed) and Capeweed will occur."
+        }
+      ]
+    },
+    {
+      "crop": "Wheat, Oats, Barley, Triticale, Commercial Rye",
+      "weed_common_name": "Doublegee (Three Cornered Jack",
+      "weed_scientific_name": null,
+      "states": [
+        "SA"
+      ],
+      "rate_value": 280.0,
+      "rate_unit": "mL/ha",
+      "rate_full_text": "280mL/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Spray when most weeds have germinated and are still in the young rosette stage."
+        }
+      ]
+    },
+    {
+      "crop": "Wheat, Oats, Barley, Triticale, Commercial Rye",
+      "weed_common_name": "Doublegee (Three Cornered Jack",
+      "weed_scientific_name": null,
+      "states": [
+        "WA"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "When weeds do not form a rosette, spray when they have not more than 8 true leaves. In some instances suppression only of Wireweed (Hogweed) and Climbing Buckwheat (Black Bindweed) will occur."
+        }
+      ]
+    },
+    {
+      "crop": "Wild Turnip (Brassica tournefortii), Radish, Mustards, Tares, Charlock, Capeweed, Sorrel, Saffron thistle, Chickweed, Clover, Common ice-plant, Hoary Cress, Ward\u2019s Weed, Turnip weed (Rapistrum rugosum)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "SA"
+      ],
+      "rate_value": 500.0,
+      "rate_unit": "mL/ha",
+      "rate_full_text": "280mL/ha plus 1L/ha of MCPA 500 HERBICIDE",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Do not use Cropnosys Dicamba 500 HERBICIDE or 560mL/ha of 2,4-D Herbicide plus 2,4-D in Oats in SA. If any of these weeds are found in these cereal crops as well as the above weeds, the addition of MCPA OR 2,4-D is essential."
+        }
+      ]
+    },
+    {
+      "crop": "Common Ice-Plant",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "WA"
+      ],
+      "rate_value": 640.0,
+      "rate_unit": "mL/ha",
+      "rate_full_text": "320mL/ha plus 640mL/ha of 2,4-D 625 SELECTIVE HERBICIDE",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Spray when most weeds have germinated and are still in the young rosette stage."
+        }
+      ]
+    },
+    {
+      "crop": "Chickweed, Sorrel, Wireweed",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "WA"
+      ],
+      "rate_value": 640.0,
+      "rate_unit": "mL/ha",
+      "rate_full_text": "400mL/ha or 280mL/ha plus 640mL/ha of 2,4-D 625 SELECTIVE HERBICIDE or 280mL/ha plus 1.2L/ha of MCPA 500 HERBICIDE",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "A mixture with 2,4-D must not be used in Tasmania. In some instances, suppression only of Wireweed (Hogweed), Capeweed and Hoary Cress will occur."
+        }
+      ]
+    },
+    {
+      "crop": "Mintweed",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "QLD"
+      ],
+      "rate_value": 625.0,
+      "rate_unit": "mL/ha",
+      "rate_full_text": "280mL/ha plus 1.2L/ha of MCPA 500 SELECTIVE HERBICIDE or 280mL/ha plus 560mL/ha of 2,4-D 625 SELECTIVE HERBICIDE",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Wild Turnip (Brassica tournefortii), Radish, Mustards, Tares, Charlock, Capeweed, Sorrel, Saffron Thistle, Chickweed, Turnip Weed (Rapistrum rugosum)",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "QLD",
+        "VIC",
+        "NSW",
+        "TAS"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    }
+  ]
+}

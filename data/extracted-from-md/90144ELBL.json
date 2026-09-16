@@ -1,0 +1,99 @@
+{
+  "product_name": "Label Name: CropSure Hallotop 520EC Herbicide",
+  "apvma_number": null,
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "A",
+  "identified_crops": [
+    "",
+    "Annual Ryegrass",
+    "Barley grass, Brome grass, Paradoxa grass, Volunteer cereals",
+    "Wild Oats"
+  ],
+  "identified_weeds": [
+    "2 to 4 leaf",
+    "early tillering"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Annual Ryegrass",
+      "weed_common_name": "2 to 4 leaf",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 100.0,
+      "rate_unit": "100",
+      "rate_full_text": "100",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Barley grass, Brome grass, Paradoxa grass, Volunteer cereals",
+      "weed_common_name": "2 to 4 leaf",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 75.0,
+      "rate_unit": "75",
+      "rate_full_text": "75",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Wild Oats",
+      "weed_common_name": "2 to 4 leaf",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 50.0,
+      "rate_unit": "50",
+      "rate_full_text": "50",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Wild Oats",
+      "weed_common_name": "early tillering",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "75"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "early tillering",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "100"
+        }
+      ]
+    }
+  ]
+}

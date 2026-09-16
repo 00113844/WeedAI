@@ -1,0 +1,247 @@
+{
+  "product_name": "Engenia Herbicide",
+  "apvma_number": "90067/127289v",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "4",
+  "identified_crops": [
+    "",
+    "Amsinckia (Yellow Burrweed), Capeweed\u0394",
+    "Barley, Oats, Triticale, Wheat",
+    "Barley, Triticale, Wheat",
+    "Climbing Buckwheat (Black Bindweed)",
+    "Indian Hedge Mustard, Turnip Weed, Wild Turnip, Wild Radish",
+    "Indian Hedge Mustard, Turnipweed, Wild Turnip",
+    "Prickly Lettuce, Tree Hogweed, Spiny Emex (Doublegee, Three-Cornered Jack), Wireweed",
+    "Wheat, Barley, Oats, Triticale",
+    "Wild Radish"
+  ],
+  "identified_weeds": [
+    "Amsinckia (Yellow Burrweed)",
+    "Doublegee (Spiny Emex",
+    "Medic)",
+    "NSW",
+    "NSW only",
+    "Peas",
+    "Qld",
+    "SA",
+    "Sorrel",
+    "Sub-Clover",
+    "Tares",
+    "Tas",
+    "Three-Cornered Jack)",
+    "Vetch",
+    "Vic",
+    "Volunteer Legumes (Chickpeas",
+    "WA only"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Barley, Oats, Triticale, Wheat",
+      "weed_common_name": "Volunteer Legumes (Chickpeas",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "All States",
+      "rate_full_text": "All States",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "135 mL"
+        }
+      ]
+    },
+    {
+      "crop": "Barley, Triticale, Wheat",
+      "weed_common_name": "Amsinckia (Yellow Burrweed)",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "TAS",
+        "SA",
+        "WA"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "135 mL"
+        }
+      ]
+    },
+    {
+      "crop": "Climbing Buckwheat (Black Bindweed)",
+      "weed_common_name": "Qld",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "135 mL"
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "All States",
+      "rate_full_text": "All States",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Indian Hedge Mustard, Turnipweed, Wild Turnip",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "Qld only",
+      "rate_full_text": "Qld only",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Prickly Lettuce, Tree Hogweed, Spiny Emex (Doublegee, Three-Cornered Jack), Wireweed",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "All States",
+      "rate_full_text": "All States",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "Qld, NSW, Vic, Tas only",
+      "rate_full_text": "Qld, NSW, Vic, Tas only",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Wheat, Barley, Oats, Triticale",
+      "weed_common_name": "Doublegee (Spiny Emex",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "All States",
+      "rate_full_text": "All States",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "135 mL"
+        }
+      ]
+    },
+    {
+      "crop": "Indian Hedge Mustard, Turnip Weed, Wild Turnip, Wild Radish",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Up to 8 leaf or young rosette stage and up to 15 cm height or diameter"
+        }
+      ]
+    },
+    {
+      "crop": "Amsinckia (Yellow Burrweed), Capeweed\u0394",
+      "weed_common_name": "NSW",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "135 mL"
+        }
+      ]
+    },
+    {
+      "crop": "Climbing Buckwheat (Black Bindweed)",
+      "weed_common_name": "Qld",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "135 mL"
+        }
+      ]
+    },
+    {
+      "crop": "Wild Radish",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "WA"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    }
+  ]
+}

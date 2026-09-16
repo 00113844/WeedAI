@@ -1,0 +1,45 @@
+{
+  "product_number": "45654",
+  "product_name": "MAGNACIDE H HERBICIDE",
+  "active_constituent": "950 g/kg ACROLEIN",
+  "chemical_group": "aldehyde",
+  "mode_of_action_group": "I",
+  "registered_crops": [
+    "irrigation channels"
+  ],
+  "registered_weeds": [
+    "submersed weeds"
+  ],
+  "weed_control_entries": [
+    {
+      "crop": "irrigation channels",
+      "application_timing": "post-emergence",
+      "weed_common_name": "submersed weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "Not specified",
+      "critical_comments": "Restricted Chemical Product – Only to be supplied to or used by an authorised person. Do not use water from treated channels for domestic or recreational purposes within 48 hours after the injection of MAGNACIDE H Herbicide has ceased. Notification to all persons, who may use water treated with this product for stock or domestic purposes, must be carried out at least 2 days prior to treatment and be in accordance with any local authority specifications.",
+      "control_level": "control"
+    }
+  ],
+  "application_methods": [
+    "injection"
+  ],
+  "state_restrictions": [],
+  "withholding_period": "48 hours",
+  "compatible_products": [],
+  "_metadata": {
+    "source_file": "45654ELBL.md",
+    "extracted_at": "2026-01-08T13:44:28.229393",
+    "model": "gemini-2.5-flash-lite"
+  }
+}

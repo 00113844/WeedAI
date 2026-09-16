@@ -1,0 +1,141 @@
+{
+  "product_name": "Product Name: GENFARM BROMOXYNIL 400 EC HERBICIDE",
+  "apvma_number": "93969/RV2024",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "6",
+  "identified_crops": [
+    "",
+    "Fireweed (Senecio spp.)",
+    "Mexican Poppy (Argemone ochroleuca), Three-cornered Jack (Doublegee, Spiny Emex) (Emex australis), Turnip Weed (Giant mustard) (Rapistrum rugosum), Wild Radish (Raphanus raphanistrum), Wild Mustard (Sisymbrium spp.), Wild Turnip (Brassica tournefortii), Wireweed## (Polygonum aviculare), Paterson\u2019s Curse# (Salvation Jane) (Echium plantagineum), Fumitories# (Fumaria spp.)",
+    "Pheasant\u2019s Eye (Adonis microcarpa), Birds Eye (Carrot Weed) (Cotula australis)",
+    "Wheat, Barley, Cereal rye, Oats and Triticale: including those undersown with Clover, Lucerne or Medic (Vic only)"
+  ],
+  "identified_weeds": [
+    "Amsinckia (Amsinckia spp.)",
+    "Black Bindweed (Climbing buckwheat) (Fallopia convolvulus)",
+    "Capeweed (Arctotheca calendula)",
+    "Chamomile (Matricaria matricarioides)",
+    "Common Peppercress (Lepidium africanum)",
+    "Corn Gromwell (Ironweed",
+    "Fat Hen (Chenopodium album)",
+    "Field Madder (Sherardia arvensis)",
+    "Greater than the 4 true leaf stage",
+    "Lesser Swinecress (Coronopus didymus)",
+    "Mountain Sorrel (Oxalis acetosella)",
+    "Purple calandrinia (Calandrinia menziesii)",
+    "Saffron Thistle (Carthamus lanatus)",
+    "Seedlings Early flowering stage",
+    "Sheepweed) (Buglossoides arvensis)",
+    "Shepherd\u2019s Purse (Capsella bursa-pastoris)",
+    "Three-Horned Bedstraw (Gallium tricornutum)",
+    "Tree Hogweed (Polygonum patulum)",
+    "Up to the 4 leaf stage or when plants are no more than 50mm in diameter",
+    "Up to the 4 true leaf stage",
+    "Variegated Thistle (Silybum marianum)"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Wheat, Barley, Cereal rye, Oats and Triticale: including those undersown with Clover, Lucerne or Medic (Vic only)",
+      "weed_common_name": "Amsinckia (Amsinckia spp.)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "All States",
+      "rate_full_text": "All States",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "700 mL"
+        }
+      ]
+    },
+    {
+      "crop": "Mexican Poppy (Argemone ochroleuca), Three-cornered Jack (Doublegee, Spiny Emex) (Emex australis), Turnip Weed (Giant mustard) (Rapistrum rugosum), Wild Radish (Raphanus raphanistrum), Wild Mustard (Sisymbrium spp.), Wild Turnip (Brassica tournefortii), Wireweed## (Polygonum aviculare), Paterson\u2019s Curse# (Salvation Jane) (Echium plantagineum), Fumitories# (Fumaria spp.)",
+      "weed_common_name": "Up to the 4 leaf stage or when plants are no more than 50mm in diameter",
+      "weed_scientific_name": null,
+      "states": [
+        "QLD",
+        "NSW",
+        "VIC",
+        "SA",
+        "WA",
+        "ACT"
+      ],
+      "rate_value": 1.0,
+      "rate_unit": "1.0 L",
+      "rate_full_text": "1.0 L",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "APPLICATION: Refer to General Instructions. Avoid application when maximum daily temperatures above 20\u00b0C occur, or are likely to occur for a few days after application, as seedling mortality may occur and established plants may be damaged. Good coverage of the spray on the weed is essential. Apply only in the Autumn and Winter (mid-April to end of August). For optimum control, apply only when the weeds are actively growing and before the weeds are shielded by the crop. CAUTION: Lucerne and Clover: This product will cause slight leaf burning of undersown lucerne and clover. DO NOT apply to Persian clover or Berseem clover. Linseed: DO NOT spray linseed by aerial application. Lotus: Some initial scorching of leaves may occur in some cases. Medics: Application to some cultivars of Medics may result in unacceptable crop damage in some situations. #Effective control of Paterson\u2019s Curse and Fumitories will only be obtained under good growing conditions. ##Where Wireweed is growing under stress, it has been found to be less susceptible."
+        }
+      ]
+    },
+    {
+      "crop": "Pheasant\u2019s Eye (Adonis microcarpa), Birds Eye (Carrot Weed) (Cotula australis)",
+      "weed_common_name": "Up to the 4 true leaf stage",
+      "weed_scientific_name": null,
+      "states": [
+        "SA"
+      ],
+      "rate_value": 350.0,
+      "rate_unit": "350 mL",
+      "rate_full_text": "350 mL",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "DO NOT use where undersown medics occur."
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Greater than the 4 true leaf stage",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "700 mL"
+        }
+      ]
+    },
+    {
+      "crop": "Fireweed (Senecio spp.)",
+      "weed_common_name": "Seedlings Early flowering stage",
+      "weed_scientific_name": null,
+      "states": [
+        "QLD",
+        "NSW",
+        "ACT"
+      ],
+      "rate_value": 1.4,
+      "rate_unit": "1.4 L",
+      "rate_full_text": "1.4 L",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply during the Autumn-Winter period when weeds are young and actively growing. Not effective on mature plants."
+        }
+      ]
+    }
+  ]
+}

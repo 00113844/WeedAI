@@ -1,0 +1,73 @@
+{
+  "product_name": "CAMPBELL METHAR TRI-KOMBI HERBICIDE",
+  "apvma_number": "31536/127849",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "I",
+  "identified_crops": [
+    "Golf Fairways, Parks, Ovals",
+    "Golf and bowling greens and lawns",
+    "Newly sown turf"
+  ],
+  "identified_weeds": [
+    "Clovers",
+    "bindii",
+    "catsear",
+    "chickweed",
+    "cobblers peg",
+    "creeping oxalis",
+    "dandelion",
+    "fat hen",
+    "fumitory",
+    "lambs tongue",
+    "mallow",
+    "mouse-eared chickweed",
+    "pearlwort",
+    "staggerweeds",
+    "wireweed"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Golf Fairways, Parks, Ovals",
+      "weed_common_name": "Clovers",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "DO NOT use on buffalo grass.",
+      "rate_full_text": "DO NOT use on buffalo grass.",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Golf and bowling greens and lawns",
+      "weed_common_name": "chickweed",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "Newly sown turf",
+      "weed_common_name": "lambs tongue",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 4.0,
+      "rate_unit": "Do not apply until 4 weeks after first mowing.",
+      "rate_full_text": "Do not apply until 4 weeks after first mowing.",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    }
+  ]
+}

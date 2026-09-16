@@ -1,0 +1,166 @@
+{
+  "product_name": "Product Name: BETANAL FLOW HERBICIDE",
+  "apvma_number": "64522/107415",
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "C",
+  "identified_crops": [
+    "Beetroot",
+    "Fodder beet",
+    "Silverbeet"
+  ],
+  "identified_weeds": [
+    "Fat hen",
+    "Weeds listed above plus: Barley grass",
+    "\\*bindweed",
+    "\\*blackberry nightshade.",
+    "\\*green amaranth",
+    "\\*persicaria (Tas. redshank)",
+    "\\*winter grass",
+    "alkanet",
+    "bellvine",
+    "bitter cress (Tas. Lesser swine cress)",
+    "charlock",
+    "chickweed",
+    "cleavers",
+    "common fumitory",
+    "common groundsel",
+    "common sowthistle",
+    "common thornapple",
+    "corn",
+    "dead nettle",
+    "dwarf nettle",
+    "penny cress",
+    "pigweed",
+    "potato weed",
+    "prairie grass",
+    "redshank (Tas. amaranthus)",
+    "shepherd\u2019s purse",
+    "spurry",
+    "summer grass",
+    "wild radish",
+    "wireweed and winter grass."
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Beetroot",
+      "weed_common_name": "Fat hen",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_value": 5.5,
+      "rate_unit": "L/ha",
+      "rate_full_text": "5.5 L/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "8 weeks"
+        }
+      ]
+    },
+    {
+      "crop": "Fodder beet",
+      "weed_common_name": "spurry",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_value": 12.0,
+      "rate_unit": "L/ha",
+      "rate_full_text": "12 L/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "12 weeks"
+        }
+      ]
+    },
+    {
+      "crop": "Silverbeet",
+      "weed_common_name": "\\*persicaria (Tas. redshank)",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_value": 4.0,
+      "rate_unit": "4 weeks",
+      "rate_full_text": "4 weeks",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "4 weeks"
+        }
+      ]
+    },
+    {
+      "crop": "Beetroot",
+      "weed_common_name": "Weeds listed above plus: Barley grass",
+      "weed_scientific_name": null,
+      "states": [
+        "QLD",
+        "NSW",
+        "VIC",
+        "TAS",
+        "SA"
+      ],
+      "rate_value": 5.0,
+      "rate_unit": "L/ha",
+      "rate_full_text": "5 L/ha",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "8 weeks"
+        }
+      ]
+    },
+    {
+      "crop": "Fodder beet",
+      "weed_common_name": "",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "12 weeks"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "product_name": "Farmalinx Oxa-Thoxam Herbicide and Insecticide Fertiliser",
+  "apvma_number": null,
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": "14",
+  "identified_crops": [
+    "",
+    "Warm season turfgrass areas, including fairways, golf tees, municipal sports fields, industrial and commercial lawns"
+  ],
+  "identified_weeds": [
+    "Crowsfoot Grass (Eleusine indica)",
+    "First and second instar larvae of Argentinian Scarab (Cyclocephala signaticollis)",
+    "First instar larvae of African Black Beetle (Heteronychus arator)",
+    "Larvae of Billbug (Sphenophorus brunnipennis)",
+    "Pre-emergent Control of Winter Grass (Poa annua)",
+    "Pre-emergent control of Summer Grass (Digitaria ciliaris)"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Warm season turfgrass areas, including fairways, golf tees, municipal sports fields, industrial and commercial lawns",
+      "weed_common_name": "Pre-emergent control of Summer Grass (Digitaria ciliaris)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 300.0,
+      "rate_unit": "kg/ha",
+      "rate_full_text": "300 kg/ha (3 kg/100 m\u00b2)",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "The product is ready to apply. No mixing or dilution is required. Apply product evenly to dry foliage and bare areas using a granular spreader able to give even coverage. Application must be made before weeds have begun to germinate. Established weeds will not be controlled."
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Pre-emergent Control of Winter Grass (Poa annua)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 400.0,
+      "rate_unit": "kg/ha",
+      "rate_full_text": "400 kg/ha (4 kg/100 m\u00b2)",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "After application water in with at least 10 mm of sprinkler irrigation. Control of germinating weed seedlings can be expected for up to 10 weeks after application depending upon temperature, rainfall, soil type and other factors. If longer control is required a repeat application should be made 7-10 weeks after initial application. DO NOT mow treated area until product has been watered in and turf foliage has dried. Avoid application when daytime temperatures are consistently above 32\u00b0C. This product is not recommended for use on putting greens, low cut tees or bowling greens. DO NOT apply on turf containing Carpet Grass (Axonopus spp.), Centipede Grass (Eremochloa ophiuroides) and Dichondra unless some damage is acceptable."
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "First instar larvae of African Black Beetle (Heteronychus arator)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 300.0,
+      "rate_unit": "kg/ha",
+      "rate_full_text": "300 kg/ha (3 kg/100 m\u00b2)",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Apply prior to or at peak egg hatch, mid spring to early summer, or when small larvae are present. Irrigate with 6 to 12 mm of water commencing within 1 hour of application."
+        }
+      ]
+    },
+    {
+      "crop": "",
+      "weed_common_name": "First and second instar larvae of Argentinian Scarab (Cyclocephala signaticollis)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": []
+    },
+    {
+      "crop": "",
+      "weed_common_name": "Larvae of Billbug (Sphenophorus brunnipennis)",
+      "weed_scientific_name": null,
+      "states": [
+        "All States"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Monitor adult activity through late spring and early summer. Spray when numbers peak or when small larvae (4 mm) are found in the thatch or surface soil. Early application is essential to minimise grass damage due to feeding. Irrigate with 6 to 12 mm of water commencing within 1 hour of application."
+        }
+      ]
+    }
+  ]
+}

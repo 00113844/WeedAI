@@ -1,0 +1,36 @@
+{
+  "product_name": "DIRECTIONS FOR USE",
+  "apvma_number": null,
+  "active_constituents": [],
+  "moa_number": null,
+  "moa_legacy_letter": null,
+  "identified_crops": [
+    "Pinus radiata POST PLANTING"
+  ],
+  "identified_weeds": [
+    "ANNUALS: Flatweeds",
+    "clovers.",
+    "ryegrasses"
+  ],
+  "usage_scenarios": [
+    {
+      "crop": "Pinus radiata POST PLANTING",
+      "weed_common_name": "ANNUALS: Flatweeds",
+      "weed_scientific_name": null,
+      "states": [
+        "VIC"
+      ],
+      "rate_value": 0.0,
+      "rate_unit": "",
+      "rate_full_text": "",
+      "growth_stage_weed": null,
+      "growth_stage_crop": null,
+      "constraints": [
+        {
+          "type": "Timing",
+          "description": "Allow 4 weeks after transplanting before application."
+        }
+      ]
+    }
+  ]
+}

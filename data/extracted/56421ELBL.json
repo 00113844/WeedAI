@@ -1,0 +1,304 @@
+{
+  "product_number": "NA",
+  "product_name": "NUFARM TRIFLURX HERBICIDE",
+  "active_constituent": "480 g/L TRIFLURALIN",
+  "chemical_group": "Dinitroniline",
+  "mode_of_action_group": "3",
+  "registered_crops": [
+    "Wheat",
+    "Oats",
+    "Barley",
+    "Tea tree",
+    "Swedes",
+    "Turnips",
+    "Industrial hemp"
+  ],
+  "registered_weeds": [
+    "Annual grasses",
+    "Annual broadleaf weeds"
+  ],
+  "weed_control_entries": [
+    {
+      "crop": "Wheat",
+      "application_timing": "Pre-emergence",
+      "weed_common_name": "Annual grasses",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "NA",
+      "critical_comments": "DO NOT plant sensitive grasses such as oats, sorghum, millets, phalaris spp., ryegrass or wheat for 12 months following the use of this product except where wheat follows wheat or other winter crops or where oats follow use of less than 2 L/ha. Reduced germination of wheat, barley and oat may occur due to combination of following circumstances and the use of this product: Short coleoptile cultivars, Use of seed treatments (except Vitavax*), Shallow or uneven seeding depth.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Wheat",
+      "application_timing": "Pre-emergence",
+      "weed_common_name": "Annual broadleaf weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "NA",
+      "critical_comments": "DO NOT plant sensitive grasses such as oats, sorghum, millets, phalaris spp., ryegrass or wheat for 12 months following the use of this product except where wheat follows wheat or other winter crops or where oats follow use of less than 2 L/ha. Reduced germination of wheat, barley and oat may occur due to combination of following circumstances and the use of this product: Short coleoptile cultivars, Use of seed treatments (except Vitavax*), Shallow or uneven seeding depth.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Oats",
+      "application_timing": "Pre-emergence",
+      "weed_common_name": "Annual grasses",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "NA",
+      "critical_comments": "DO NOT plant sensitive grasses such as oats, sorghum, millets, phalaris spp., ryegrass or wheat for 12 months following the use of this product except where wheat follows wheat or other winter crops or where oats follow use of less than 2 L/ha. Reduced germination of wheat, barley and oat may occur due to combination of following circumstances and the use of this product: Short coleoptile cultivars, Use of seed treatments (except Vitavax*), Shallow or uneven seeding depth.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Oats",
+      "application_timing": "Pre-emergence",
+      "weed_common_name": "Annual broadleaf weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "NA",
+      "critical_comments": "DO NOT plant sensitive grasses such as oats, sorghum, millets, phalaris spp., ryegrass or wheat for 12 months following the use of this product except where wheat follows wheat or other winter crops or where oats follow use of less than 2 L/ha. Reduced germination of wheat, barley and oat may occur due to combination of following circumstances and the use of this product: Short coleoptile cultivars, Use of seed treatments (except Vitavax*), Shallow or uneven seeding depth.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Barley",
+      "application_timing": "Pre-emergence",
+      "weed_common_name": "Annual grasses",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "NA",
+      "critical_comments": "Reduced germination of wheat, barley and oat may occur due to combination of following circumstances and the use of this product: Short coleoptile cultivars, Use of seed treatments (except Vitavax*), Shallow or uneven seeding depth.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Barley",
+      "application_timing": "Pre-emergence",
+      "weed_common_name": "Annual broadleaf weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "NA",
+      "critical_comments": "Reduced germination of wheat, barley and oat may occur due to combination of following circumstances and the use of this product: Short coleoptile cultivars, Use of seed treatments (except Vitavax*), Shallow or uneven seeding depth.",
+      "control_level": "control"
+    },
+    {
+      "crop": "Tea tree",
+      "application_timing": "Pre-emergence",
+      "weed_common_name": "Annual grasses",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "NA",
+      "critical_comments": null,
+      "control_level": "control"
+    },
+    {
+      "crop": "Tea tree",
+      "application_timing": "Pre-emergence",
+      "weed_common_name": "Annual broadleaf weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "NA",
+      "critical_comments": null,
+      "control_level": "control"
+    },
+    {
+      "crop": "Swedes",
+      "application_timing": "Pre-emergence",
+      "weed_common_name": "Annual grasses",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "NA",
+      "critical_comments": null,
+      "control_level": "control"
+    },
+    {
+      "crop": "Swedes",
+      "application_timing": "Pre-emergence",
+      "weed_common_name": "Annual broadleaf weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "NA",
+      "critical_comments": null,
+      "control_level": "control"
+    },
+    {
+      "crop": "Turnips",
+      "application_timing": "Pre-emergence",
+      "weed_common_name": "Annual grasses",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "NA",
+      "critical_comments": null,
+      "control_level": "control"
+    },
+    {
+      "crop": "Turnips",
+      "application_timing": "Pre-emergence",
+      "weed_common_name": "Annual broadleaf weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "NA",
+      "critical_comments": null,
+      "control_level": "control"
+    },
+    {
+      "crop": "Industrial hemp",
+      "application_timing": "Pre-emergence",
+      "weed_common_name": "Annual grasses",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "NA",
+      "critical_comments": null,
+      "control_level": "control"
+    },
+    {
+      "crop": "Industrial hemp",
+      "application_timing": "Pre-emergence",
+      "weed_common_name": "Annual broadleaf weeds",
+      "weed_scientific_name": null,
+      "states": [
+        "NSW",
+        "VIC",
+        "QLD",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "rate_per_ha": "NA",
+      "critical_comments": null,
+      "control_level": "control"
+    }
+  ],
+  "application_methods": [],
+  "state_restrictions": [],
+  "withholding_period": "NA",
+  "compatible_products": [
+    "Nufarm Avadex® Xtra",
+    "Nufarm Terrain® Flow",
+    "Nufarm Terrain® Flow/Valor Eze 480 SC",
+    "Nufarm Avadex® Xtra and Nufarm Terrain® Flow/Valor Eze 480 SC",
+    "Nufarm Avadex® Xtra and Nufarm Terrain® Flow",
+    "Nufarm Avadex® Xtra and Nufarm Terrain® Flow or Valor Eze 480 SC"
+  ],
+  "_metadata": {
+    "source_file": "56421ELBL.md",
+    "extracted_at": "2026-01-08T13:46:05.344238",
+    "model": "gemini-2.5-flash-lite"
+  }
+}
