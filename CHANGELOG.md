@@ -6,6 +6,29 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+### 2026-09-16 - Data versioned, docs reconciled, agentic setup
+
+#### Added
+- `data/parsed-clean/` (386 cleaned markdown), `data/extracted/` (51 `HerbicideLabel` JSON) and `data/extracted-from-md/` (160 `usage_scenarios` JSON) are now tracked in git.
+- `data/README.md` — table of every `data/` subdirectory: producer, count, tracked or not, schema.
+- `CLAUDE.md` § "Working in this repo (agentic sessions)" — repo root, which venv, git/push conventions, which docs to update each session.
+- `roadmap.md` § "Known repo debt" — tracked PDFs, duplicate venvs, missing workspace root, unavailable `nemo-guardrails` pin, macOS-only test script, wiki duplication.
+- Claude Code project memory (outside the repo, under `~/.claude/projects/`) capturing the above so future sessions start warm.
+
+#### Changed
+- `.gitignore`: `data/` → `data/*` with explicit allow-list for the three tracked subdirectories. PDFs, `parsed/`, `docling/` remain untracked.
+- `origin` remote switched from SSH to HTTPS (`https://github.com/00113844/WeedAI.git`) with `gh` as credential helper — SSH keys are not configured on this Windows machine.
+- `roadmap.md`: refreshed counts (parsed-clean 386 not 388; extraction 51 + 160 not 22), removed the phantom `pyproject.toml` workspace root, marked guardrails as a stub, replaced Immediate Next Steps with a list that starts at the real blocker (schema decision), added a 2026-09-16 diary entry.
+- `TODOS.md`: extraction items rewritten around the schema decision; "302 remaining" corrected to 335 / 226 depending on path; duplicate-directory item closed.
+
+#### Fixed
+- `CLAUDE.md` no longer references files that do not exist (`packages/guardrails/guardrail.py`, `config/`, `actions/`, root `pyproject.toml`) and now lists every real module and CLI entry point (`chunk-docling`, `load-chunks`, `scripts/markdown_to_graph.py`, …).
+
+#### Notes
+- The two extraction outputs use **incompatible schemas**; `graph.loader` only reads `HerbicideLabel`. Choosing the canonical schema is now Immediate Next Step #1.
+- Working Python environment is `../.venv` (3.12, has `ingestion`, `graph`, `docling`, all entry points). `packages/ingestion/.venv` (3.11) is stale.
+- Pushed straight to `main` per project owner's decision on 2026-09-16.
+
 ### 2026-01-12 - Environment Setup & Subsample Test Preparation
 
 #### Environment State Discovered

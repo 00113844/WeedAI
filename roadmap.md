@@ -1,7 +1,7 @@
 # WeedAI Project Roadmap
 
-> **Last Updated:** 2026-01-09  
-> **Status:** Phase 3 In Progress - Schema Redesign Required
+> **Last Updated:** 2026-09-16  
+> **Status:** Phase 3 schema redesign still open; pipeline data now versioned in git. This file is the source of truth for project status — keep the Daily Diary and Immediate Next Steps current, and keep `TODOS.md` in agreement.
 
 ## 1. Project Overview
 **WeedAI** is an agronomic AI system (reactive agents) designed to assist agronomists with decision making on integrated weed management (herbicide) management. It leverages a multi-agent architecture with domain-specific guardrails, a knowledge graph (GraphRAG), and a legacy simulation weed seed ecological model. 
@@ -12,11 +12,11 @@
 | Component | Technology | Status |
 |-----------|-----------|--------|
 | **Language** | Python 3.11+ | ✅ Active |
-| **Package Manager** | `uv` (Workspace mode) | ✅ Active |
+| **Package Manager** | `uv` (per-package installs; no workspace root yet) | ✅ Active |
 | **Vector DB** | Neo4j AuraDB (768d embeddings) | ✅ Connected |
 | **Embeddings** | sentence-transformers/all-mpnet-base-v2 | ✅ Working |
 | **PDF Parsing** | PyMuPDF4LLM + Docling | ✅ 386 labels parsed |
-| **LLM Extraction** | Gemini 2.5 Flash | ⚠️ Limited (API quota) |
+| **LLM Extraction** | Gemini 2.5 Flash | ⚠️ Split across two incompatible schemas (51 + 160 files) |
 
 ### Planned Stack Updates
 | Component | Current → Target | Rationale |
@@ -36,16 +36,19 @@ WeedAI/
 │   ├── api/                    # FastAPI Gateway (Phase 6)
 │   └── simulation-sidecar/     # Legacy Java Wrapper (Phase 6)
 ├── packages/
-│   ├── core/                   # Shared Utilities & DB Connections
+│   ├── core/                   # Shared Utilities & DB Connections (not started)
 │   ├── graph/                  # Neo4j Schema, Loaders, RAG Queries ✅
 │   ├── ingestion/              # PDF Parsing, Cleaning, Extraction ✅
-│   └── guardrails/             # NeMo Guardrails Config (Phase 5)
-├── data/
-│   ├── labels/                 # Source PDFs (386 files)
-│   ├── docling/                # Docling JSON outputs (386 files) ✅
-│   ├── parsed-clean/           # Cleaned markdown (388 files) ✅
-│   └── extracted/              # Structured JSON (22 files) ⚠️
-└── pyproject.toml              # Workspace Root
+│   └── guardrails/             # Stub: pyproject + design docs only (Phase 7)
+├── data/                       # see data/README.md for the full table
+│   ├── labels/                 # Source PDFs (386, tracked — legacy)
+│   ├── parsed/                 # Raw markdown (386, untracked)
+│   ├── docling/                # Docling JSON outputs (386, untracked) ✅
+│   ├── parsed-clean/           # Cleaned markdown (386, tracked) ✅
+│   ├── extracted/              # HerbicideLabel JSON (51, tracked) — what load-graph reads
+│   └── extracted-from-md/      # usage_scenarios JSON (160, tracked) — no loader yet
+├── CLAUDE.md                   # Agent instructions (AGENTS.md / GEMINI.md point here)
+└── (no workspace pyproject.toml yet — packages install individually)
 ```
 
 ## 4. Development Roadmap
@@ -55,7 +58,7 @@ WeedAI/
 | Phase | Name | Status | Blocker |
 |-------|------|--------|---------|
 | 1 | Infrastructure | ✅ Done | - |
-| 2 | Data Pipeline | ⚠️ 90% | API quota for extraction |
+| 2 | Data Pipeline | ⚠️ 90% | Extraction split across two incompatible schemas — pick one, then finish |
 | 3 | Schema Design | 🔴 **CRITICAL** | Flat schema doesn't support agronomic queries |
 | 4 | Entity Extraction | ⏸️ Blocked | Waiting for schema redesign |
 | 5 | Retrieval Layer | ⚠️ Basic | Needs HybridCypherRetriever upgrade |
@@ -66,13 +69,14 @@ WeedAI/
 ---
 
 ### Daily Diary
+- **2026-09-16:** Resumed after 8 months. Committed `data/parsed-clean` (386), `data/extracted` (51) and `data/extracted-from-md` (160) to git with an allow-list `.gitignore` and `data/README.md`. Fixed push (origin → HTTPS via `gh`). Reconciled `CLAUDE.md`, this roadmap, `TODOS.md` and `CHANGELOG.md` with the actual repo state (guardrails is a stub; no workspace root; two extraction schemas). Established Claude Code project memory. Next blocker: choose the canonical extraction schema.
 - **2026-01-09:** Implemented basic GraphRAG (chunker, chunk_loader, vector search). Identified schema limitation - flat Chunk model doesn't support agronomic queries. Created schema redesign TODO with RegisteredUse pattern.
 - **2026-01-08:** Restarted Gemini markdown extraction in 50-file batches and began reverse-engineering the Apparent compatibility matrix.
 
 ---
 
 ### Phase 1: Infrastructure ✅ COMPLETE
-- [x] Initialize `uv` Workspace with workspace members
+- [x] Per-package `pyproject.toml` (Hatchling) installable with `uv pip install -e` — a root uv workspace was planned but never created (see Known repo debt)
 - [x] Environment Setup: `.env` with Neo4j AuraDB credentials
 - [x] Neo4j AuraDB connection established (instance: `81fbf7d8`)
 - [x] Pydantic settings for configuration
@@ -85,9 +89,12 @@ WeedAI/
 - [x] **PDF Parsing (Docling):** All labels → JSON with table extraction
 - [x] **Document Cleaning:** `cleaner.py` removes noise (12.3% size reduction)
 - [x] **Chunk Generation:** `chunker.py` creates structure-aware chunks from Docling JSON
-- [ ] **Entity Extraction:** 22/386 files extracted (Gemini quota limited)
-  - **Option A:** Wait for quota reset, run in batches
-  - **Option B:** Use `neo4j-graphrag-python` SimpleKGPipeline (recommended)
+- [ ] **Entity Extraction:** two partial runs with **incompatible schemas** — must converge on one
+  - `data/extracted/` — 51/386 via `ingestion.extractor` (`HerbicideLabel`; the only schema `load-graph` reads)
+  - `data/extracted-from-md/` — 160/386 via `scripts/markdown_to_graph.py` (`usage_scenarios`, HRAC numeric MoA; no loader)
+  - **Option A:** Standardise on `HerbicideLabel`, resume `extractor` for the remaining 335 (`--limit 50 --delay 1.0`)
+  - **Option B:** Standardise on `usage_scenarios`, write a loader, resume for the remaining 226
+  - **Option C:** Skip both; extract straight into the Phase 3 `RegisteredUse` schema with `neo4j-graphrag-python` SimpleKGPipeline (recommended — avoids a second migration)
 
 ---
 
@@ -309,14 +316,24 @@ def validate_recommendation(state):
 
 | # | Task | Owner | Est. Time |
 |---|------|-------|-----------|
-| 1 | Finalize `agronomic_schema.yaml` | - | 2h |
-| 2 | Install `neo4j-graphrag-python` | - | 30m |
-| 3 | Create SimpleKGPipeline extraction script | - | 4h |
-| 4 | Run extraction on 10 test files | - | 1h |
-| 5 | Validate entity resolution quality | - | 2h |
-| 6 | Scale extraction to all 386 files | - | 4h |
-| 7 | Implement HybridCypherRetriever | - | 3h |
-| 8 | Create LangGraph workflow skeleton | - | 4h |
+| 1 | **Decide the canonical extraction schema** (Phase 2 options A/B/C above). Recommendation: C — extract directly into the `RegisteredUse` schema so the 51/160 partial runs are not migrated twice. Record the decision here and in `TODOS.md`. | - | 1h |
+| 2 | Finalize `agronomic_schema.yaml` (Phase 3.2) with node/relationship properties | - | 2h |
+| 3 | Install `neo4j-graphrag-python` into `../.venv` (`uv pip install neo4j-graphrag`) | - | 30m |
+| 4 | Create SimpleKGPipeline extraction script reading `data/parsed-clean` (or Docling chunks) | - | 4h |
+| 5 | Run extraction on the 30-file subsample (`test_subsample_30.txt`) | - | 1h |
+| 6 | Validate entity resolution quality; spot-check against source PDFs | - | 2h |
+| 7 | Scale extraction to all 386 files; commit outputs under `data/` | - | 4h |
+| 8 | Implement HybridCypherRetriever + fulltext index (Phase 5.3) | - | 3h |
+| 9 | Create LangGraph workflow skeleton (Phase 6.2) | - | 4h |
+
+### Known repo debt (not blocking, fix opportunistically)
+- `data/labels/*.pdf` (386 files, 169 MB) are tracked despite `*.pdf` in `.gitignore` — every clone pulls them. Untracking (`git rm --cached`) would shrink future clones; history keeps them either way.
+- Two virtualenvs: `../.venv` (3.12, working, has everything) and `packages/ingestion/.venv` (3.11, stale). Delete the stale one.
+- No root `pyproject.toml` — the "uv workspace" in this doc was never created; packages install individually.
+- `packages/guardrails` pins `nemo-guardrails==0.10.0`, which is not on PyPI; the package has no source yet.
+- `test_subsample.sh` / `SUBSAMPLE_TEST.md` hard-code macOS paths (`/Users/dpird-mac/...`) and `brew`; they need a Windows/cross-platform pass before reuse.
+- `_wiki_temp/` is a git submodule pointer to the GitHub wiki clone; `wiki/` duplicates its pages. Pick one.
+- `packages/ingestion/search-results.csv` is tracked; unclear if it is still needed.
 
 ---
 

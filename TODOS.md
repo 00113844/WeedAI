@@ -67,9 +67,14 @@ Product ─[HAS_LABEL]→ LabelDocument {source_file, version, effective_date}
 ---
 
 ## Extraction Pipeline
-- [ ] Resume Gemini extraction for remaining 302 markdown files in `data/parsed-clean`, running batches within daily quota (`--limit 50 --delay 1.0`).
-- [ ] Investigate the 34 markdown files with insufficient content (see `_extraction_summary.json`) and decide whether to re-parse their source PDFs or drop them.
-- [ ] Remove or archive the duplicate `data/parsed-clean` directory created outside the repo root if it is no longer needed.
+- [ ] **Decide the canonical extraction schema first** (see `roadmap.md` § Immediate Next Steps #1). The two existing runs are incompatible:
+  - `data/extracted/` — 51/386 in `HerbicideLabel` schema (`ingestion.extractor`); remaining 335. This is the only schema `load-graph` reads.
+  - `data/extracted-from-md/` — 160/386 in `usage_scenarios` schema (`scripts/markdown_to_graph.py`); remaining 226. No loader.
+  - Recommended: skip both and extract straight into the Phase 3 `RegisteredUse` schema with `neo4j-graphrag` SimpleKGPipeline.
+- [ ] Once decided, resume extraction in batches within Gemini quota (`--limit 50 --delay 1.0`) and commit outputs under `data/`.
+- [ ] Investigate markdown files with insufficient content and decide whether to re-parse their source PDFs or drop them (no `_extraction_summary.json` exists on disk any more — regenerate it from the chosen extractor's run).
+- [x] Remove the empty duplicate `data/parsed-clean` directory outside the repo root (done 2026-09-16).
+- [x] Commit `data/parsed-clean`, `data/extracted`, `data/extracted-from-md` to git (done 2026-09-16; `data/README.md` documents each dir).
 
 ## Data Quality
 - [ ] Spot-check newly generated JSON in `data/extracted` to confirm crop/weed coverage and rate fidelity before bulk loading.
