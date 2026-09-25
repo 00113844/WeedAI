@@ -6,7 +6,7 @@ WeedAI is an agronomic AI copilot for integrated weed management. It ingests Aus
 ## What's here
 - End-to-end ingestion pipeline (PDF -> Markdown -> cleaned Markdown -> Gemini JSON)
 - Neo4j graph schema + loader
-- Roadmap for API, UI, LangGraph orchestration, guardrails, and simulation sidecar
+- Roadmap for API, UI, LangGraph orchestration, guardrails, and the WeedSeedWizard-py simulation adapter
 
 ## Quick start
 1) Install Python 3.11 and `uv`.

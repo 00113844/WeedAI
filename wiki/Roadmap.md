@@ -15,5 +15,5 @@
 - Load Neo4j graph and wire GraphRAG queries
 
 ## Planned delivery
-- API gateway (FastAPI), Next.js UI, LangGraph orchestration, simulation sidecar
+- API gateway (FastAPI), Next.js UI, LangGraph orchestration, WeedSeedWizard-py simulation adapter
 - Hybrid retrieval: semantic + Cypher over Neo4j

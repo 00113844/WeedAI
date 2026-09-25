@@ -1,7 +1,7 @@
 # WeedAI Project Roadmap
 
-> **Last Updated:** 2026-09-16  
-> **Status:** Phase 3 schema redesign still open; pipeline data now versioned in git. This file is the source of truth for project status — keep the Daily Diary and Immediate Next Steps current, and keep `TODOS.md` in agreement.
+> **Last Updated:** 2026-09-25
+> **Status:** Phase 3 schema redesign still open; pipeline data now versioned in git. A revised direction is proposed on branch `pdf-inspector` and awaits agreement: `docs/ALIGNMENT_2026-09.md`. This file is the source of truth for project status — keep the Daily Diary and Immediate Next Steps current, and keep `TODOS.md` in agreement.
 
 ## 1. Project Overview
 **WeedAI** is an agronomic AI system (reactive agents) designed to assist agronomists with decision making on integrated weed management (herbicide) management. It leverages a multi-agent architecture with domain-specific guardrails, a knowledge graph (GraphRAG), and a legacy simulation weed seed ecological model. 
@@ -16,7 +16,8 @@
 | **Vector DB** | Neo4j AuraDB (768d embeddings) | ✅ Connected |
 | **Embeddings** | sentence-transformers/all-mpnet-base-v2 | ✅ Working |
 | **PDF Parsing** | PyMuPDF4LLM + Docling | ✅ 386 labels parsed |
-| **LLM Extraction** | Gemini 2.5 Flash | ⚠️ Split across two incompatible schemas (51 + 160 files) |
+| **LLM Extraction** | Gemini 2.5 Flash | ⚠️ Split across two incompatible schemas (51 + 160 files); neither carries citations, so re-extraction is proposed |
+| **Simulation** | `WeedSeedWizard-py` (Python port, `DPIRD-FSI/WeedSeedWizard-py`) | ✅ `main` at `16d06ba`, Java parity across four regions; replaces the Java sidecar |
 
 ### Planned Stack Updates
 | Component | Current → Target | Rationale |
@@ -34,7 +35,7 @@ WeedAI/
 ├── apps/
 │   ├── web/                    # Next.js Frontend (Phase 7)
 │   ├── api/                    # FastAPI Gateway (Phase 6)
-│   └── simulation-sidecar/     # Legacy Java Wrapper (Phase 6)
+│   └── simulation-sidecar/     # SUPERSEDED: simulation goes through a WeedSeedWizard-py adapter (plan §4.3)
 ├── packages/
 │   ├── core/                   # Shared Utilities & DB Connections (not started)
 │   ├── graph/                  # Neo4j Schema, Loaders, RAG Queries ✅
@@ -69,6 +70,9 @@ WeedAI/
 ---
 
 ### Daily Diary
+- **2026-09-25 (Rodrigo, branch `pdf-inspector`):** Brought `AGENTIC_WEED_MANAGEMENT_DEVELOPMENT_PLAN.md` into the repo verbatim, with Gustavo's 2026-09-21 roadmap and TODOS lines. Added `docs/ALIGNMENT_2026-09.md` (what is stale, WeedSeedWizard-py state, proposed direction, eight decision points), `docs/REPO_CLEANUP_PROPOSAL.md` (for decision, nothing moved yet) and the `experiments/2026-09-pdf-inspector-trial/` scaffold. Marked the Java sidecar references superseded. WeedSeedWizard-py `dev` was merged to `main` the same day. Proposed, not agreed: labels as cited agent context, optimiser deferred, extraction route chosen by the trial.
+- **2026-09-21:** Refined the development plan to make Weed Seed Wizard the sole primary simulation engine. RIM is now an optional future economic comparator and is removed from the MVP critical path. No implementation work was started.
+- **2026-09-21:** Audited the current WeedAI, `DPIRD-FSI/WeedSeedWizard-py`, and `00113844/RIM-Online` boundaries and added `AGENTIC_WEED_MANAGEMENT_DEVELOPMENT_PLAN.md`. The plan defines a local-first modular architecture, versioned Pydantic contracts, canonical `RegisteredUse` knowledge model, framework-neutral WSW/RIM adapters, deterministic multi-objective recommendation pipeline, agent safety boundary, and phased path to an online service. Key integration gates: WSW remains parity/integration incomplete; RIM's public CLI currently targets the older engine rather than the evidence-backed `rim.calcs` path.
 - **2026-09-16:** Resumed after 8 months. Committed `data/parsed-clean` (386), `data/extracted` (51) and `data/extracted-from-md` (160) to git with an allow-list `.gitignore` and `data/README.md`. Fixed push (origin → HTTPS via `gh`). Reconciled `CLAUDE.md`, this roadmap, `TODOS.md` and `CHANGELOG.md` with the actual repo state (guardrails is a stub; no workspace root; two extraction schemas). Established Claude Code project memory. Next blocker: choose the canonical extraction schema.
 - **2026-01-09:** Implemented basic GraphRAG (chunker, chunk_loader, vector search). Identified schema limitation - flat Chunk model doesn't support agronomic queries. Created schema redesign TODO with RegisteredUse pattern.
 - **2026-01-08:** Restarted Gemini markdown extraction in 50-file batches and began reverse-engineering the Apparent compatibility matrix.
@@ -239,7 +243,7 @@ User Query
     ↓
 ┌───────────────────────┬─────────────────────────┬──────────────────────┐
 │   Factual Query       │   Recommendation        │   Simulation         │
-│   (RAG retrieval)     │   (Multi-hop graph)     │   (Java sidecar)     │
+│   (RAG retrieval)     │   (Multi-hop graph)     │   (WSW-py adapter)   │
 │                       │                         │                      │
 │   HybridRetriever     │   Graph traversal +     │   Subprocess call    │
 │   → LLM synthesis     │   MOA rotation logic    │   → result parsing   │
@@ -313,6 +317,15 @@ def validate_recommendation(state):
 ---
 
 ## 5. Immediate Next Steps (Priority Order)
+
+> **Under review (2026-09-25).** The plan orders the work contracts, then deterministic core, then agent, and the table below predates it. Proposed replacement, pending agreement (`docs/ALIGNMENT_2026-09.md` §4):
+> 1. Agree scope and the decision points in `docs/ALIGNMENT_2026-09.md`.
+> 2. Run the extraction trial on the WA wheat and annual ryegrass labels (`experiments/2026-09-pdf-inspector-trial/`) and pick the text layer by measurement.
+> 3. Agree one citable use-record schema (trial `schema_draft.py` is a starting point) and re-extract the pilot set; check it against the PDFs.
+> 4. Scale re-extraction; retire `data/extracted/` and `data/extracted-from-md/`.
+> 5. Retrieval with citations, then the agent loop, per the plan's phases.
+>
+> Rows 1, 4 and 5 below (SimpleKGPipeline, `test_subsample_30.txt`) are on hold until the trial reports.
 
 | # | Task | Owner | Est. Time |
 |---|------|-------|-----------|

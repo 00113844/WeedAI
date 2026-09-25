@@ -1,0 +1,14 @@
+# Labels pdf2md could not convert (exit 2 = scanned or image-only; needs OCR).
+31525ELBL	# pdf2md exit 2
+31538ELBL	# pdf2md exit 2
+55028ELBL	# pdf2md exit 2
+56509ELBL	# pdf2md exit 2
+64687ELBL	# pdf2md exit 2
+65012ELBL	# pdf2md exit 2
+65708ELBL	# pdf2md exit 2
+66285ELBL	# pdf2md exit 2
+66949ELBL	# pdf2md exit 2
+67095ELBL	# pdf2md exit 2
+67169ELBL	# pdf2md exit 2
+68208ELBL	# pdf2md exit 2
+68592ELBL	# pdf2md exit 2
