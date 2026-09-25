@@ -4,7 +4,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-WeedAI is an agronomic AI system for integrated weed management, specifically processing Australian herbicide label PDFs into a Neo4j knowledge graph for GraphRAG. The pipeline: PDFs → Markdown → Cleaned Markdown → Structured JSON → Neo4j graph. Target architecture (not yet built): LangGraph orchestration + NeMo guardrails + a legacy Java "Weed Seed Wizard" simulation sidecar. See `roadmap.md` for phase status.
+WeedAI is an agronomic AI system for integrated weed management, specifically processing Australian herbicide label PDFs into a Neo4j knowledge graph for GraphRAG. The pipeline: PDFs → Markdown → Cleaned Markdown → Structured JSON → Neo4j graph. Target architecture (not yet built): see `AGENTIC_WEED_MANAGEMENT_DEVELOPMENT_PLAN.md`. Simulation goes through an adapter over the Python port `WeedSeedWizard-py` (`DPIRD-FSI/WeedSeedWizard-py`), pinned to a commit; the Java "sidecar" in older docs is superseded. See `roadmap.md` for phase status.
+
+**Proposed direction, not yet agreed (2026-09-25):** `docs/ALIGNMENT_2026-09.md`. Label content is cited context for the agent, not a recommender; the extraction route is being chosen by the trial in `experiments/2026-09-pdf-inspector-trial/`. Do not start SimpleKGPipeline extraction or the LangGraph skeleton until that is settled.
 
 ## Working in this repo (agentic sessions)
 
@@ -142,7 +144,7 @@ LLAMA_CLOUD_API_KEY=...   # only for integration tests
 
 - **apps/api/**: FastAPI gateway for orchestration
 - **apps/web/**: Next.js + TailwindCSS frontend
-- **apps/simulation-sidecar/**: Python wrapper for legacy Java weed seed ecology model
+- ~~**apps/simulation-sidecar/**: Python wrapper for legacy Java weed seed ecology model~~ Superseded: a WeedSeedWizard-py adapter (plan §4.3)
 - **packages/core/**: Shared utilities & DB connections
 - Hybrid retrieval: `neo4j-graphrag-python` HybridCypherRetriever over vector + fulltext + Cypher
 

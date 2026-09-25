@@ -10,7 +10,7 @@
 - Frontend (Next.js + Tailwind) for operators and agronomists.
 - LangGraph orchestration for tool-using agents over graph + vector store.
 - Guardrails (NeMo) to enforce domain scope and safety.
-- Simulation sidecar: Python wrapper around legacy Java weed-seed ecology model.
+- Simulation adapter over `WeedSeedWizard-py`, the Python port of the weed-seed ecology model (replaces the earlier Java sidecar idea).
 
 ## Retrieval pattern (target)
 1) Semantic/vector retrieval over chunks for recall.

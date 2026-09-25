@@ -1,0 +1,268 @@
+# /// script
+# requires-python = ">=3.11"
+# dependencies = []
+# ///
+"""pdf-inspector extraction trial: select the pilot, convert it, measure it against parsed-clean.
+
+    uv run experiments/2026-09-pdf-inspector-trial/trial.py select
+    uv run experiments/2026-09-pdf-inspector-trial/trial.py run
+
+`select` converts every label with pdf2md, keeps those whose text names annual ryegrass, wheat and
+WA (or all states), and draws a fixed-seed sample for the pilot. `run` converts the pilot, records
+detect-pdf's classification, and compares each conversion with the tracked `data/parsed-clean`
+text. Outputs under `outputs/` are regenerated and not tracked; `pilot.txt`, `candidates.txt`
+and `results/` are tracked.
+
+Needs the pdf-inspector binaries (`cargo install pdf-inspector`): pdf2md and detect-pdf, on PATH
+or in ~/.cargo/bin.
+"""
+
+from __future__ import annotations
+
+import argparse
+import csv
+import json
+import random
+import re
+import shutil
+import subprocess
+import sys
+from pathlib import Path
+
+HERE = Path(__file__).resolve().parent
+REPO = HERE.parents[1]
+LABELS = REPO / "data" / "labels"
+PARSED_CLEAN = REPO / "data" / "parsed-clean"
+OUTPUTS = HERE / "outputs"
+RESULTS = HERE / "results"
+
+PILOT_SIZE = 30
+SEED = 20260925
+
+# Selection terms. Matching is on converted text, so a label that names a term only to exclude it
+# still qualifies; the manual check catches that.
+REQUIRED_TERMS = {
+    "annual_ryegrass": re.compile(r"annual\s+ryegrass", re.IGNORECASE),
+    "wheat": re.compile(r"\bwheat\b", re.IGNORECASE),
+    "wa_or_all_states": re.compile(
+        r"\bWA\b|Western Australia|\ball states\b", re.IGNORECASE
+    ),
+}
+# Sections a citable use record draws on. Presence only: the manual check judges content.
+SECTIONS = {
+    "directions_for_use": re.compile(r"directions\s+for\s+use", re.IGNORECASE),
+    "withholding": re.compile(r"withholding", re.IGNORECASE),
+    "plant_back": re.compile(r"plant[\s-]?back|re-?cropping|replant", re.IGNORECASE),
+    "critical_comments": re.compile(r"critical\s+comments", re.IGNORECASE),
+}
+PAGE_MARKER = re.compile(r"<!--\s*Page\s+(\d+)\s*-->")
+
+
+def tool(name: str) -> str:
+    found = shutil.which(name) or str(Path.home() / ".cargo" / "bin" / name)
+    if not Path(found).exists():
+        sys.exit(
+            f"error: {name} not found on PATH or in ~/.cargo/bin; install pdf-inspector"
+        )
+    return found
+
+
+def convert(label: str, out_dir: Path) -> tuple[Path | None, int]:
+    """pdf2md with page markers. Returns the markdown path (None on failure) and the exit code.
+
+    pdf2md exits 2 on a scanned or image-only PDF, which has no text layer to convert.
+    """
+    out_dir.mkdir(parents=True, exist_ok=True)
+    target = out_dir / f"{label}.md"
+    proc = subprocess.run(
+        [tool("pdf2md"), str(LABELS / f"{label}.pdf"), str(target), "--pages"],
+        capture_output=True,
+        text=True,
+        check=False,
+    )
+    return (
+        target if proc.returncode == 0 and target.exists() else None
+    ), proc.returncode
+
+
+def detect(label: str) -> dict:
+    proc = subprocess.run(
+        [tool("detect-pdf"), str(LABELS / f"{label}.pdf"), "--analyze", "--json"],
+        capture_output=True,
+        text=True,
+        check=False,
+    )
+    if proc.returncode != 0:
+        return {"error": proc.stderr.strip() or f"exit {proc.returncode}"}
+    return json.loads(proc.stdout)
+
+
+def table_rows(text: str) -> int:
+    return sum(1 for line in text.splitlines() if line.lstrip().startswith("|"))
+
+
+def section_body_chars(text: str, heading: re.Pattern[str]) -> int:
+    """Characters between the first heading matching `heading` and the next heading. 0 if absent."""
+    lines = text.splitlines()
+    for i, line in enumerate(lines):
+        if line.startswith("#") and heading.search(line):
+            body = []
+            for following in lines[i + 1 :]:
+                if following.startswith("#"):
+                    break
+                body.append(following)
+            return len("".join(body).strip())
+    return 0
+
+
+def labels_from(path: Path) -> list[str]:
+    return [
+        line.strip()
+        for line in path.read_text().splitlines()
+        if line.strip() and not line.startswith("#")
+    ]
+
+
+def cmd_select(_: argparse.Namespace) -> None:
+    labels = sorted(p.stem for p in LABELS.glob("*.pdf"))
+    if not labels:
+        sys.exit(f"error: no PDFs in {LABELS}")
+    candidates, scanned = [], []
+    for label in labels:
+        md, code = convert(label, OUTPUTS / "all")
+        if md is None:
+            scanned.append(f"{label}\t# pdf2md exit {code}")
+            continue
+        text = md.read_text(errors="replace")
+        if all(pattern.search(text) for pattern in REQUIRED_TERMS.values()):
+            candidates.append(label)
+    pilot = sorted(
+        random.Random(SEED).sample(candidates, min(PILOT_SIZE, len(candidates)))
+    )
+
+    header = (
+        f"# Generated by trial.py select. Terms: {', '.join(REQUIRED_TERMS)}. "
+        f"{len(labels)} labels converted, {len(scanned)} without a text layer.\n"
+    )
+    (HERE / "candidates.txt").write_text(header + "\n".join(candidates) + "\n")
+    (HERE / "pilot.txt").write_text(
+        f"# {len(pilot)} of {len(candidates)} candidates, random.Random({SEED}).sample, sorted.\n"
+        + "\n".join(pilot)
+        + "\n"
+    )
+    RESULTS.mkdir(exist_ok=True)
+    (RESULTS / "no_text_layer.txt").write_text(
+        "# Labels pdf2md could not convert (exit 2 = scanned or image-only; needs OCR).\n"
+        + "\n".join(scanned)
+        + "\n"
+    )
+    print(
+        f"{len(labels)} labels, {len(candidates)} candidates, {len(pilot)} in pilot, {len(scanned)} no text layer"
+    )
+
+
+def cmd_run(_: argparse.Namespace) -> None:
+    pilot = labels_from(HERE / "pilot.txt")
+    rows = []
+    for label in pilot:
+        info = detect(label)
+        md, code = convert(label, OUTPUTS / "pilot")
+        new = md.read_text(errors="replace") if md else ""
+        old_path = PARSED_CLEAN / f"{label}.md"
+        old = old_path.read_text(errors="replace") if old_path.exists() else ""
+        row = {
+            "label": label,
+            "pdf_type": info.get("pdf_type", info.get("error", "")),
+            "pages": info.get("page_count", ""),
+            "pages_with_tables": len(info.get("pages_with_tables", []) or []),
+            "ocr_recommended": info.get("ocr_recommended", ""),
+            "pdf2md_exit": code,
+            "pdf2md_chars": len(new),
+            "pdf2md_page_markers": len(PAGE_MARKER.findall(new)),
+            "pdf2md_table_rows": table_rows(new),
+            "clean_chars": len(old),
+            "clean_page_markers": len(PAGE_MARKER.findall(old)),
+            "clean_table_rows": table_rows(old),
+            "clean_directions_body_chars": section_body_chars(
+                old, SECTIONS["directions_for_use"]
+            ),
+        }
+        for name, pattern in SECTIONS.items():
+            row[f"pdf2md_has_{name}"] = bool(pattern.search(new))
+            row[f"clean_has_{name}"] = bool(pattern.search(old))
+        rows.append(row)
+
+    RESULTS.mkdir(exist_ok=True)
+    with (RESULTS / "metrics.csv").open("w", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=list(rows[0]))
+        writer.writeheader()
+        writer.writerows(rows)
+    (RESULTS / "summary.md").write_text(summarise(rows))
+    print((RESULTS / "summary.md").read_text())
+
+
+def summarise(rows: list[dict]) -> str:
+    n = len(rows)
+
+    def count(predicate) -> str:
+        return f"{sum(1 for row in rows if predicate(row))}/{n}"
+
+    lines = [
+        "# Trial summary (generated by `trial.py run`)",
+        "",
+        "Structural measures only. They say whether text and tables came out, not whether they are",
+        "correct. Correctness comes from the manual check (`manual_check.csv`).",
+        "",
+        "| Measure | pdf2md | parsed-clean |",
+        "|---|---|---|",
+        f"| Converted | {count(lambda r: r['pdf2md_exit'] == 0)} | {count(lambda r: r['clean_chars'] > 0)} |",
+        f"| Any table rows | {count(lambda r: r['pdf2md_table_rows'] > 0)} | {count(lambda r: r['clean_table_rows'] > 0)} |",
+        f"| Median table rows | {median([r['pdf2md_table_rows'] for r in rows])} | {median([r['clean_table_rows'] for r in rows])} |",
+        (
+            f"| `<!-- Page N -->` markers (citable page) | {count(lambda r: r['pdf2md_page_markers'] > 0)} "
+            f"| {count(lambda r: r['clean_page_markers'] > 0)} |"
+        ),
+    ]
+    for name in SECTIONS:
+        lines.append(
+            f"| Mentions {name.replace('_', ' ')} | {count(lambda r, k=name: r[f'pdf2md_has_{k}'])} "
+            f"| {count(lambda r, k=name: r[f'clean_has_{k}'])} |"
+        )
+    lines += [
+        "",
+        (
+            "parsed-clean labels whose 'Directions for Use' heading has an empty body: "
+            f"{count(lambda r: r['clean_has_directions_for_use'] and r['clean_directions_body_chars'] == 0)}."
+        ),
+        (
+            f"detect-pdf: {count(lambda r: r['pdf_type'] == 'text_based')} text-based, "
+            f"{count(lambda r: r['ocr_recommended'] is True)} with OCR recommended."
+        ),
+        "",
+    ]
+    return "\n".join(lines)
+
+
+def median(values: list[int]) -> float:
+    ordered = sorted(values)
+    if not ordered:
+        return 0
+    mid = len(ordered) // 2
+    return ordered[mid] if len(ordered) % 2 else (ordered[mid - 1] + ordered[mid]) / 2
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
+    sub = parser.add_subparsers(dest="command", required=True)
+    sub.add_parser("select", help="Convert all labels and draw the pilot").set_defaults(
+        func=cmd_select
+    )
+    sub.add_parser("run", help="Convert and measure the pilot").set_defaults(
+        func=cmd_run
+    )
+    args = parser.parse_args()
+    args.func(args)
+
+
+if __name__ == "__main__":
+    main()

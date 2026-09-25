@@ -6,6 +6,19 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+### 2026-09-25 - Development plan in repo, alignment notes, extraction trial scaffold (branch `pdf-inspector`)
+
+#### Added
+- `AGENTIC_WEED_MANAGEMENT_DEVELOPMENT_PLAN.md` (Gustavo, 2026-09-21), verbatim, with his 2026-09-21 roadmap diary lines and TODOS "Agentic Decision-Support Foundation" section.
+- `docs/ALIGNMENT_2026-09.md` — how the plan, docs and code line up; WeedSeedWizard-py state against plan §4.3; measurements of the tracked extraction data; proposed direction; eight decision points. Proposed, not agreed.
+- `docs/REPO_CLEANUP_PROPOSAL.md` — clean-up and layout options for decision. Nothing moved.
+- `experiments/2026-09-pdf-inspector-trial/` — trial comparing `pdf-inspector` (`pdf2md`, `detect-pdf`) with the tracked `parsed-clean` text on the WA wheat and annual ryegrass labels, plus a draft citable use-record schema.
+
+#### Changed
+- Java simulation "sidecar" references in `CLAUDE.md`, `roadmap.md`, `Brainstorming.md` and `wiki/` marked superseded by a WeedSeedWizard-py adapter.
+- `roadmap.md` Immediate Next Steps and `TODOS.md`: SimpleKGPipeline extraction on hold until the trial reports; proposed replacement order recorded.
+- `README.md`: pointers to the plan, alignment notes and trial; corrected the `data/labels/` line (the PDFs are tracked).
+
 ### 2026-09-16 - Data versioned, docs reconciled, agentic setup
 
 #### Added

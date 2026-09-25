@@ -64,6 +64,8 @@ Here is the detailed development roadmap and the architectural diagram.
 
 #### **Phase 4: Simulation Wrapper (The "Sidecar")**
 
+> **Superseded (2026-09-25).** Simulation now goes through an adapter over the Python port `WeedSeedWizard-py`, as `AGENTIC_WEED_MANAGEMENT_DEVELOPMENT_PLAN.md` §4.3 sets out. No Java runtime, Docker JRE or task queue is needed for it. Kept below as the original brainstorm.
+
 *Objective: Make the legacy "Weed Seed Wizard" accessible via API.*
 
   * **Sub-Tasks:**

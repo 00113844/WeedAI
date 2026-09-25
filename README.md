@@ -2,6 +2,10 @@
 
 Domain-specific GraphRAG pipeline for Australian herbicide labels. Processes PDFs → Markdown → Cleaned Markdown → Structured JSON → Neo4j graph.
 
+- Target architecture: `AGENTIC_WEED_MANAGEMENT_DEVELOPMENT_PLAN.md`. Status: `roadmap.md`.
+- Proposed direction and open decisions (2026-09-25): `docs/ALIGNMENT_2026-09.md`.
+- Extraction trial in progress: `experiments/2026-09-pdf-inspector-trial/`.
+
 ## Repository Layout
 - `packages/ingestion/`: PDF parsing, cleaning, and Gemini-based extraction.
   - Parsing to Markdown: [`ingestion.parser`](packages/ingestion/src/ingestion/parser.py)
@@ -16,7 +20,7 @@ Domain-specific GraphRAG pipeline for Australian herbicide labels. Processes PDF
   - Loader: [`graph.loader`](packages/graph/src/graph/loader.py)
   - Queries: [`graph.queries`](packages/graph/src/graph/queries.py)
   - Package export: [`graph.__init__`](packages/graph/src/graph/__init__.py)
-- `data/labels/`: Source PDFs (not committed here).
+- `data/labels/`: Source PDFs (386, tracked for legacy reasons; new PDFs are ignored). Full table: `data/README.md`.
 - `data/parsed/`: Parsed Markdown outputs.
 - `data/extracted/`: Extracted JSON outputs (after Gemini).
 
